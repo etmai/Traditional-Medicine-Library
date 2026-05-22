@@ -1943,3 +1943,113 @@
     transform: translateY(0);
   }
 }
+
+/* --- Premium Admin Login (Glassmorphism & Dark Mode) --- */
+.login-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.login-bg::before {
+  content: "";
+  position: absolute;
+  top: -20%; left: -10%;
+  width: 50%; height: 50%;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.login-bg::after {
+  content: "";
+  position: absolute;
+  bottom: -20%; right: -10%;
+  width: 50%; height: 50%;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.glassmorphism {
+  background: rgba(30, 41, 59, 0.6) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+  color: #f1f5f9;
+  border-radius: 16px !important;
+  padding: 3rem !important;
+  z-index: 10;
+}
+
+.glassmorphism .login-header h1 {
+  color: #fff;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.glassmorphism .login-header p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.glassmorphism label {
+  color: #cbd5e1;
+}
+
+.glassmorphism input {
+  background: rgba(15, 23, 42, 0.6) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
+  transition: all 0.2s ease;
+}
+
+.glassmorphism input:focus {
+  border-color: rgba(99, 102, 241, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15) !important;
+}
+
+.glass-btn {
+  background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39) !important;
+  transition: all 0.3s ease !important;
+}
+
+.glass-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5) !important;
+}
+
+.login-error-msg {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #fca5a5;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Shake Animation for wrong password */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.shake-error {
+  animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+  border-color: rgba(239, 68, 68, 0.5) !important;
+}

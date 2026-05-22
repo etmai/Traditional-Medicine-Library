@@ -476,49 +476,44 @@ export const herbs = [
     "id": 10,
     "slug": "hoang-ky",
     "name_vn": "Hoàng kỳ",
-    "name_han": "黃芪",
-    "scientific_name": "Astragalus membranaceus",
-    "family": "Đậu (Fabaceae)",
+    "name_han": "黃耆",
+    "scientific_name": "Astragalus membranaceus (Fisch.) Bunge",
+    "family": "Fabaceae (Đậu)",
     "category": "Thuốc bổ khí",
-    "part_used": "Rễ",
-    "properties": "Hơi ôn",
+    "part_used": "Rễ phơi khô",
+    "properties": "Ấm",
     "taste": "Ngọt",
     "meridians": "Phế, Tỳ",
     "use_cases": [
       "tonic",
-      "recovery",
-      "sweat"
+      "fever",
+      "detox"
     ],
-    "usage_summary": "Bổ khí thăng dương, cố biểu chỉ hãn, lợi thủy tiêu thũng.",
-    "basic_summary": "Vị thuốc bổ khí thường phối với Đương quy hoặc Nhân sâm trong các bài phục hồi thể lực.",
-    "detailed_usage": "Dùng cho tỳ phế khí hư, mệt mỏi, tự hãn, khí hư hạ hãm, phù nhẹ do khí hư theo biện chứng Đông y.",
-    "preparation": "Rửa sạch, thái lát, phơi/sấy khô. Sinh hoàng kỳ thiên về cố biểu, sao mật thiên về bổ trung ích khí.",
-    "dosage": "Tham khảo cổ phương thường 9-30g/ngày.",
-    "warnings": "Không tự dùng khi đang sốt cao, thực tà còn mạnh, bệnh tự miễn hoặc đang dùng thuốc ức chế miễn dịch nếu chưa hỏi chuyên môn.",
-    "safety_level": "caution",
+    "usage_summary": "Bổ khí thăng dương, ích vệ cố biểu, thác độc bài nùng, lợi thủy tiêu thũng.",
+    "basic_summary": "Vị thuốc 'Đại bổ nguyên khí' giúp tăng cường đề kháng, bồi bổ cơ thể suy nhược và làm vết thương mau lành.",
+    "detailed_usage": "Trị suy nhược cơ thể, mệt mỏi, sa dạ dày, sa tử cung, mồ hôi trộm, mụn nhọt khó vỡ hoặc lâu lành, phù thũng.",
+    "preparation": "Dùng sống để cố biểu, thác độc; tẩm mật sao (Tâm hoàng kỳ) để bổ trung ích khí mạnh hơn.",
+    "dosage": "12 - 30g",
+    "warnings": "Người có nhiệt độc đang thịnh, âm hư hỏa vượng không nên dùng.",
+    "safety_level": "normal",
     "is_toxic": false,
     "image": "/images/hoang-ky.png",
     "tags": [
-      "bổ khí",
-      "tự hãn",
-      "phục hồi"
+      "đại bổ khí",
+      "tăng đề kháng",
+      "hoàng kỳ"
     ],
     "source_refs": [
       {
-        "label": "Cổ phương - Bổ Trung Ích Khí Thang",
+        "label": "PDF - Chi Tiet Ten-p1",
         "url": ""
       }
     ],
     "combinations": [
       {
-        "name": "Đương quy",
+        "name": "Phòng phong",
         "type": "Tương tu",
-        "note": "Bổ khí sinh huyết trong Đương Quy Bổ Huyết Thang."
-      },
-      {
-        "name": "Nhân sâm",
-        "type": "Tương tu",
-        "note": "Tăng hướng bổ khí."
+        "note": "Bộ đôi Ngọc bình phong tán giúp tăng cường đề kháng chống cảm cúm cực mạnh."
       }
     ]
   },
@@ -1761,29 +1756,28 @@ export const herbs = [
     "name_han": "巴豆",
     "scientific_name": "Croton tiglium L.",
     "family": "Euphorbiaceae (Thầu dầu)",
-    "category": "Thuốc hạ, tiêu tích",
-    "part_used": "Hạt",
-    "properties": "Nhiệt",
+    "category": "Thuốc tẩy xổ mạnh (Tả hạ)",
+    "part_used": "Hạt phơi khô",
+    "properties": "Rất nóng (Đại nhiệt)",
     "taste": "Cay",
     "meridians": "Vị, Đại trường",
     "use_cases": [
       "emergency",
-      "constipation",
-      "phlegm"
+      "digestion"
     ],
-    "usage_summary": "Công tích trục thủy, hóa đàm.",
-    "basic_summary": "Vị thuốc tẩy hạ mãnh liệt nhất Đông y. Cực độc, chỉ dùng trong trường hợp cấp bách.",
-    "detailed_usage": "Trị táo bón do lạnh tích, thủy thũng, đờm ách tắc. Dễ gây tiêu chảy máu nếu dùng sai.",
-    "preparation": "Ép bỏ dầu, rang chín kỹ hoặc chế thành Ba đậu sương.",
-    "dosage": "0.01 - 0.03g (Rất nhỏ)",
-    "warnings": "ĐỘC TÍNH BẢNG A. Phụ nữ có thai tuyệt đối cấm dùng.",
-    "safety_level": "toxic",
+    "usage_summary": "Tuấn hạ nhiệt kết, trục đàm, hành thủy.",
+    "basic_summary": "Vị thuốc tẩy xổ cực mạnh và CỰC ĐỘC. Chỉ dùng trong các trường hợp táo bón cấp tính, tắc ruột nghiêm trọng dưới sự giám sát chặt chẽ.",
+    "detailed_usage": "Trị táo bón do tích trệ nặng, phù thũng cổ trướng, ho hen do đờm tắc nghẽn cổ họng, đau bụng cấp.",
+    "preparation": "PHẢI ÉP BỚT DẦU (Ba đậu sương) để giảm độc tính trước khi dùng.",
+    "dosage": "0.1 - 0.3g (Rất nhỏ).",
+    "warnings": "CỰC ĐỘC (Danger). PHẢN Khiên ngưu tử. Phụ nữ có thai, người cơ thể hư nhược cấm dùng.",
+    "safety_level": "danger",
     "is_toxic": true,
     "image": "/images/ba-dau.png",
     "tags": [
-      "tẩy hạ",
-      "công tích",
-      "độc tính cao"
+      "tẩy xổ mạnh",
+      "cực độc",
+      "ba đậu"
     ],
     "source_refs": [
       {
@@ -1791,13 +1785,7 @@ export const herbs = [
         "url": ""
       }
     ],
-    "combinations": [
-      {
-        "name": "Hậu phác",
-        "type": "Tương sử",
-        "note": "Tháo kết tích trệ (rất cẩn thận)."
-      }
-    ]
+    "combinations": []
   },
   {
     "id": 38,
@@ -2600,29 +2588,29 @@ export const herbs = [
     "name_han": "石斛",
     "scientific_name": "Dendrobium nobile Lindl.",
     "family": "Orchidaceae (Lan)",
-    "category": "Thuốc dưỡng âm, thanh nhiệt, sinh tân",
-    "part_used": "Thân cây (giả hành)",
-    "properties": "Vi hàn",
-    "taste": "Ngọt, nhạt",
+    "category": "Thuốc bổ âm",
+    "part_used": "Thân cây phơi khô",
+    "properties": "Hơi hàn",
+    "taste": "Ngọt, hơi nhạt",
     "meridians": "Vị, Thận",
     "use_cases": [
       "tonic",
-      "fever",
-      "stomach"
+      "eye",
+      "fever"
     ],
-    "usage_summary": "Dưỡng âm thanh nhiệt, ích vị sinh tân, chỉ khát.",
-    "basic_summary": "Còn gọi là Bạch bối hoàng hoa nhị. Vị thuốc quý dưỡng vị âm, trị khô khát và đau lưng gối.",
-    "detailed_usage": "Trị nhiệt bệnh khát nước, nôn mửa, viêm dạ dày mạn, đau mỏi lưng gối.",
-    "preparation": "Rửa sạch, thái đoạn, phơi khô. Sao rượu để tăng lực bổ thận.",
-    "dosage": "6 - 12g",
-    "warnings": "Người tỳ vị hư hàn, thấp nhiệt chưa rõ cấm dùng.",
+    "usage_summary": "Dưỡng vị sinh tân, tư âm thanh nhiệt.",
+    "basic_summary": "Vị thuốc dưỡng âm quý giá giúp làm mát dạ dày, sáng mắt và bồi bổ thận âm.",
+    "detailed_usage": "Trị miệng khô khát sau sốt cao, đau dạ dày mạn tính do thiếu dịch, thị lực kém, đau lưng mỏi gối do âm hư.",
+    "preparation": "Rửa sạch phơi khô sắc uống lâu để chiết hết hoạt chất.",
+    "dosage": "6 - 15g",
+    "warnings": "Người mới bị cảm mạo, đờm thấp thịnh cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
     "image": "/images/thach-hoc.png",
     "tags": [
-      "dưỡng vị âm",
-      "sinh tân",
-      "quý hiếm"
+      "dưỡng âm",
+      "sáng mắt",
+      "thạch hộc"
     ],
     "source_refs": [
       {
@@ -2630,13 +2618,7 @@ export const herbs = [
         "url": ""
       }
     ],
-    "combinations": [
-      {
-        "name": "Mạch môn",
-        "type": "Tương sử",
-        "note": "Phối hợp Sinh địa trị nhiệt bệnh khát nước."
-      }
-    ]
+    "combinations": []
   },
   {
     "id": 57,
@@ -2685,34 +2667,34 @@ export const herbs = [
   },
   {
     "id": 58,
-    "slug": "bach-cuong-tam",
+    "slug": "cuong-tam",
     "name_vn": "Bạch cương tằm",
-    "name_han": "白僵蠶",
-    "scientific_name": "Bombyx batryticatus",
-    "family": "Bombycidae",
-    "category": "Thuốc tức phong, hóa đàm, tán kết",
-    "part_used": "Xác tằm con chết cứng do nấm",
+    "name_han": "白殭蠶",
+    "scientific_name": "Bombyx mori L. (Con tằm vôi)",
+    "family": "Bombycidae (Tằm)",
+    "category": "Thuốc bình can, tức phong",
+    "part_used": "Con tằm chết tự nhiên do nấm phơi khô",
     "properties": "Bình",
     "taste": "Mặn, cay",
     "meridians": "Can, Phế",
     "use_cases": [
-      "stroke",
-      "tumor",
-      "pain"
+      "emergency",
+      "skin",
+      "voice"
     ],
-    "usage_summary": "Nhuyễn kiên tán kết, hóa đàm tiêu hạch, trừ phong chỉ kinh.",
-    "basic_summary": "Xác tằm vôi. Vị thuốc quý trị trúng phong co giật, liệt mặt và tiêu trừ các khối u hạch.",
-    "detailed_usage": "Trị viêm hạch lao, u bướu lành tính, co giật, đau đầu, phong chẩn.",
-    "preparation": "Chọn xác tằm cứng, sao vàng hoặc sao cám. Tẩm nước gừng sao để giảm độc tính nấm.",
-    "dosage": "5 - 10g",
-    "warnings": "Phụ nữ có thai cấm dùng. Người huyết hư không có phong đàm cấm dùng.",
-    "safety_level": "caution",
+    "usage_summary": "Khư phong chỉ thống, giải độc tán kết, hóa đàm.",
+    "basic_summary": "Cương tằm. Vị thuốc quý trị động kinh, co giật ở trẻ em và làm đẹp da, mờ vết nám.",
+    "detailed_usage": "Trị kinh phong co giật, đau đầu, viêm họng mất tiếng, mụn nhọt, sạm da, tàn nhang.",
+    "preparation": "Sao vàng hoặc tẩm nước vo gạo sao khô.",
+    "dosage": "4 - 9g",
+    "warnings": "Người huyết hư không có phong cấm dùng.",
+    "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/bach-cuong-tam.png",
+    "image": "/images/cuong-tam.png",
     "tags": [
-      "tiêu hạch",
-      "trúng phong",
-      "tằm vôi"
+      "trị co giật",
+      "làm đẹp da",
+      "cương tằm"
     ],
     "source_refs": [
       {
@@ -2720,13 +2702,7 @@ export const herbs = [
         "url": ""
       }
     ],
-    "combinations": [
-      {
-        "name": "Hạ khô thảo",
-        "type": "Tương tu",
-        "note": "Phối hợp Tạo giác thích trị u hạch cổ."
-      }
-    ]
+    "combinations": []
   },
   {
     "id": 59,
@@ -3222,11 +3198,11 @@ export const herbs = [
     "slug": "ho-cot",
     "name_vn": "Hổ cốt",
     "name_han": "虎骨",
-    "scientific_name": "Os Tigris",
+    "scientific_name": "Os Tigris (Xương hổ)",
     "family": "Felidae (Họ Mèo)",
-    "category": "Thuốc khu phong thấp, cường gân cốt",
-    "part_used": "Xương hổ (chủ yếu xương chày)",
-    "properties": "Ôn",
+    "category": "Thuốc khư phong thấp, mạnh xương cốt",
+    "part_used": "Xương của con hổ",
+    "properties": "Ấm",
     "taste": "Cay, mặn",
     "meridians": "Can, Thận",
     "use_cases": [
@@ -3234,19 +3210,19 @@ export const herbs = [
       "pain",
       "tonic"
     ],
-    "usage_summary": "Khư phong trừ thấp, kiện cốt trấn thống.",
-    "basic_summary": "Xương hổ (Bạch hổ). Vị thuốc cực quý trong điều trị đau nhức xương khớp và suy nhược gân cốt.",
-    "detailed_usage": "Trị phong thấp tê bại, đau lưng mỏi gối, gãy xương mau liền, trẻ em chậm biết đi.",
-    "preparation": "Làm sạch thịt, tủy, nướng vàng hoặc nấu cao (Cao hổ cốt).",
-    "dosage": "3 - 6g (Sắc); 1 - 2g (Bột)",
-    "warnings": "Huyết hư hỏa vượng cấm dùng. Hiện nay là động vật quý hiếm cần bảo vệ, hạn chế sử dụng.",
-    "safety_level": "caution",
+    "usage_summary": "Khư phong thấp, cường cân cốt, trấn kinh chỉ thống.",
+    "basic_summary": "Xương hổ. Vị thuốc 'thần dược' cho xương khớp, giúp mạnh gân cốt và trị phong thấp nặng.",
+    "detailed_usage": "Trị phong thấp lâu ngày, đau lưng mỏi gối, chân tay yếu mỏi, trẻ em chậm biết đi.",
+    "preparation": "Rửa sạch, sao với cát, ngâm rượu hoặc nấu cao (Cao Hổ cốt).",
+    "dosage": "3 - 9g",
+    "warnings": "QUAN TRỌNG: Hổ là động vật cực kỳ quý hiếm, bị cấm săn bắn và mua bán theo luật pháp quốc tế (CITES) và Việt Nam. Khuyến cáo sử dụng các vị thuốc thảo dược thay thế.",
+    "safety_level": "danger",
     "is_toxic": false,
     "image": "/images/ho-cot.png",
     "tags": [
+      "mạnh xương khớp",
       "cao hổ cốt",
-      "trị đau khớp",
-      "quý hiếm"
+      "bảo tồn"
     ],
     "source_refs": [
       {
@@ -3254,13 +3230,7 @@ export const herbs = [
         "url": ""
       }
     ],
-    "combinations": [
-      {
-        "name": "Ngũ gia bì",
-        "type": "Tương tu",
-        "note": "Phối hợp Đỗ trọng trị phong thấp đau nhức xương."
-      }
-    ]
+    "combinations": []
   },
   {
     "id": 71,
@@ -3360,28 +3330,28 @@ export const herbs = [
     "scientific_name": "Forsythia suspensa (Thunb.) Vahl",
     "family": "Oleaceae (Nhài)",
     "category": "Thuốc thanh nhiệt giải độc",
-    "part_used": "Quả khô",
-    "properties": "Vi hàn",
-    "taste": "Đắng",
-    "meridians": "Tâm, Phế, Đởm, Tam tiêu",
+    "part_used": "Quả chín phơi khô",
+    "properties": "Hơi hàn",
+    "taste": "Đắng, hơi cay",
+    "meridians": "Tâm, Đởm, Tiểu trường",
     "use_cases": [
       "detox",
-      "cold",
-      "skin"
+      "fever",
+      "tumor"
     ],
     "usage_summary": "Thanh nhiệt giải độc, tiêu thũng tán kết.",
-    "basic_summary": "Còn gọi là Bạch kiều. Được ví như 'kháng sinh thực vật' trị mụn nhọt, viêm họng và cảm sốt.",
-    "detailed_usage": "Trị mụn nhọt sưng độc, lao hạch, viêm họng, cảm mạo phong nhiệt, bí tiểu.",
-    "preparation": "Hái quả lúc chưa chín (Thanh kiều) hoặc đã chín vàng (Lão kiều) phơi khô.",
+    "basic_summary": "Vị thuốc 'kháng sinh thực vật' chuyên trị mụn nhọt, sưng hạch và cảm sốt phong nhiệt.",
+    "detailed_usage": "Trị mụn nhọt, nhọt vú, sưng hạch cổ (loa lịch), cảm mạo phong nhiệt, sốt cao mê sảng, bí tiểu.",
+    "preparation": "Rửa sạch phơi khô sắc uống.",
     "dosage": "6 - 15g",
-    "warnings": "Người tỳ vị hư hàn, mụn nhọt đã vỡ mủ lâu ngày cấm dùng.",
+    "warnings": "Người tỳ vị hư hàn tiêu chảy không có thực nhiệt cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
     "image": "/images/lien-kieu.png",
     "tags": [
       "kháng sinh tự nhiên",
-      "trị mụn",
-      "thanh nhiệt"
+      "trị mụn nhọt",
+      "liên kiều"
     ],
     "source_refs": [
       {
@@ -3393,7 +3363,7 @@ export const herbs = [
       {
         "name": "Kim ngân hoa",
         "type": "Tương tu",
-        "note": "Bộ đôi kinh điển thanh nhiệt giải độc."
+        "note": "Bộ đôi thanh nhiệt giải độc 'số 1' đặc trị mụn nhọt và cảm cúm phong nhiệt."
       }
     ]
   },
@@ -3876,56 +3846,6 @@ export const herbs = [
   },
   {
     "id": 85,
-    "slug": "bach-thuoc",
-    "name_vn": "Bạch thược",
-    "name_han": "白芍",
-    "scientific_name": "Paeonia lactiflora Pall.",
-    "family": "Ranunculaceae (Mao lương)",
-    "category": "Thuốc bổ huyết, dưỡng âm, nhu can",
-    "part_used": "Rễ đã cạo vỏ ngoài",
-    "properties": "Vi hàn",
-    "taste": "Chua, đắng",
-    "meridians": "Can, Tỳ",
-    "use_cases": [
-      "women",
-      "liver",
-      "pain"
-    ],
-    "usage_summary": "Dưỡng huyết điều kinh, nhu can chỉ thống, liễm âm chỉ hãn.",
-    "basic_summary": "Vị thuốc dưỡng huyết 'quốc dân'. Chuyên trị đau bụng, kinh nguyệt không đều và nhức đầu.",
-    "detailed_usage": "Trị huyết hư da vàng, kinh nguyệt không đều, đau bụng co thắt, chóng mặt.",
-    "preparation": "Ngâm nước cho mềm, thái phiến. Sao dấm để tăng lực vào Can chỉ thống.",
-    "dosage": "6 - 15g",
-    "warnings": "Người tỳ vị hư hàn, tiêu chảy cấm dùng. PHẢN Lê lô.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/bach-thuoc.png",
-    "tags": [
-      "dưỡng huyết",
-      "trị đau bụng",
-      "điều kinh"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Sài hồ",
-        "type": "Tương tu",
-        "note": "Phối hợp Chỉ thực sơ can chỉ thống (Tứ Nghịch Tán)."
-      },
-      {
-        "name": "Cam thảo",
-        "type": "Tương tu",
-        "note": "Trị co thắt cơ, đau bụng cấp."
-      }
-    ]
-  },
-  {
-    "id": 86,
     "slug": "bach-tien",
     "name_vn": "Bạch tiền",
     "name_han": "白前",
@@ -3970,52 +3890,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 87,
-    "slug": "bach-truat",
-    "name_vn": "Bạch truật",
-    "name_han": "白朮",
-    "scientific_name": "Atractylodes macrocephala Koidz.",
-    "family": "Asteraceae (Cúc)",
-    "category": "Thuốc bổ khí, kiện tỳ",
-    "part_used": "Thân rễ (Củ)",
-    "properties": "Ôn",
-    "taste": "Ngọt, đắng",
-    "meridians": "Tỳ, Vị",
-    "use_cases": [
-      "digestion",
-      "tonic",
-      "pregnancy"
-    ],
-    "usage_summary": "Kiện tỳ ích khí, táo thấp lợi thủy, chỉ hãn, an thai.",
-    "basic_summary": "Vị thuốc 'đầu bảng' về kiện tỳ. Chuyên trị ăn kém, tiêu chảy mãn tính và bồi bổ sức khỏe cho phụ nữ mang thai.",
-    "detailed_usage": "Trị tỳ vị hư nhược, ăn uống kém, tiêu chảy, phù thũng, mồ hôi trộm, động thai.",
-    "preparation": "Rửa sạch, thái phiến. Dùng kiện tỳ thì sao vàng; dùng cầm tiêu chảy thì sao cháy cạnh.",
-    "dosage": "6 - 12g",
-    "warnings": "Người âm hư hỏa vượng, táo bón nặng cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/bach-truat.png",
-    "tags": [
-      "kiện tỳ",
-      "bổ khí",
-      "an thai"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Đảng sâm",
-        "type": "Tương tu",
-        "note": "Phối hợp Phục linh kiện tỳ ích khí (Tứ Quân Tử Thang)."
-      }
-    ]
-  },
-  {
-    "id": 88,
+    "id": 86,
     "slug": "bach-tra",
     "name_vn": "Bạch trà",
     "name_han": "白茶",
@@ -4054,7 +3929,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 89,
+    "id": 87,
     "slug": "bach-trap",
     "name_vn": "Bạch tráp",
     "name_han": "白榼",
@@ -4093,7 +3968,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 90,
+    "id": 88,
     "slug": "bach-tung",
     "name_vn": "Bạch tùng",
     "name_han": "白松",
@@ -4132,7 +4007,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 91,
+    "id": 89,
     "slug": "bach-tu",
     "name_vn": "Bạch tử",
     "name_han": "白子",
@@ -4171,7 +4046,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 92,
+    "id": 90,
     "slug": "bach-vi",
     "name_vn": "Bạch vi",
     "name_han": "白薇",
@@ -4216,7 +4091,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 93,
+    "id": 91,
     "slug": "bach-xa",
     "name_vn": "Bạch xà",
     "name_han": "白蛇",
@@ -4255,7 +4130,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 94,
+    "id": 92,
     "slug": "ca-gai-leo",
     "name_vn": "Cà gai leo",
     "name_han": "白蛇草",
@@ -4300,7 +4175,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 95,
+    "id": 93,
     "slug": "ban-chi-lien",
     "name_vn": "Bán chi liên",
     "name_han": "半枝蓮",
@@ -4345,7 +4220,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 96,
+    "id": 94,
     "slug": "bai-co",
     "name_vn": "Bài cỏ",
     "name_han": "排草",
@@ -4390,7 +4265,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 97,
+    "id": 95,
     "slug": "ban-ha",
     "name_vn": "Bán hạ",
     "name_han": "半夏",
@@ -4440,7 +4315,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 98,
+    "id": 96,
     "slug": "ban-tay-ma",
     "name_vn": "Bàn tay ma",
     "name_han": "魔手草",
@@ -4479,7 +4354,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 99,
+    "id": 97,
     "slug": "bang-dai-hai",
     "name_vn": "Bàng đại hải",
     "name_han": "胖大海",
@@ -4524,7 +4399,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 100,
+    "id": 98,
     "slug": "bang-sa",
     "name_vn": "Bằng sa",
     "name_han": "硼砂",
@@ -4563,7 +4438,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 101,
+    "id": 99,
     "slug": "bao-thap",
     "name_vn": "Bao tháp",
     "name_han": "包塔",
@@ -4602,7 +4477,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 102,
+    "id": 100,
     "slug": "dai-hoi",
     "name_vn": "Đại hồi",
     "name_han": "大茴",
@@ -4647,7 +4522,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 103,
+    "id": 101,
     "slug": "bat-tu",
     "name_vn": "Bát tử",
     "name_han": "八子",
@@ -4686,7 +4561,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 104,
+    "id": 102,
     "slug": "bap-cai",
     "name_vn": "Bắp cải",
     "name_han": "甘藍",
@@ -4725,7 +4600,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 105,
+    "id": 103,
     "slug": "bau",
     "name_vn": "Bầu",
     "name_han": "瓠",
@@ -4764,7 +4639,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 106,
+    "id": 104,
     "slug": "bau-bi",
     "name_vn": "Bàu bí",
     "name_han": "葫蘆",
@@ -4803,7 +4678,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 107,
+    "id": 105,
     "slug": "bau-dat",
     "name_vn": "Bầu đất",
     "name_han": "土三七",
@@ -4842,7 +4717,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 108,
+    "id": 106,
     "slug": "bay-la-mot-hoa",
     "name_vn": "Bảy lá một hoa",
     "name_han": "七葉一枝花",
@@ -4881,7 +4756,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 109,
+    "id": 107,
     "slug": "beo-cai",
     "name_vn": "Bèo cái",
     "name_han": "浮萍",
@@ -4920,7 +4795,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 110,
+    "id": 108,
     "slug": "beo-tai-tuong",
     "name_vn": "Bèo tai tượng",
     "name_han": "大浮萍",
@@ -4959,7 +4834,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 111,
+    "id": 109,
     "slug": "bach-bien-dau",
     "name_vn": "Biển đậu",
     "name_han": "白扁豆",
@@ -5004,7 +4879,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 112,
+    "id": 110,
     "slug": "bien-suc",
     "name_vn": "Biển súc",
     "name_han": "萹蓄",
@@ -5043,7 +4918,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 113,
+    "id": 111,
     "slug": "khien-nguu-tu",
     "name_vn": "Bìm bìm",
     "name_han": "牽牛子",
@@ -5082,15 +4957,15 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 114,
+    "id": 112,
     "slug": "binh-voi",
     "name_vn": "Bình vôi",
     "name_han": "地不容",
     "scientific_name": "Stephania glabra (Roxb.) Miers",
     "family": "Menispermaceae (Tiết dê)",
-    "category": "Thuốc an thần, chỉ thống",
-    "part_used": "Củ (Thân rễ phình to)",
-    "properties": "Lương",
+    "category": "Thuốc an thần",
+    "part_used": "Củ (Thân rễ phình thành củ)",
+    "properties": "Mát",
     "taste": "Đắng, ngọt",
     "meridians": "Can, Tỳ",
     "use_cases": [
@@ -5098,19 +4973,19 @@ export const herbs = [
       "pain",
       "stomach"
     ],
-    "usage_summary": "An thần, chỉ thống, thanh nhiệt giải độc.",
-    "basic_summary": "Củ một. Vị thuốc nổi tiếng trị mất ngủ và giảm đau dạ dày rất hiệu quả.",
-    "detailed_usage": "Trị mất ngủ, hồi hộp, đau dạ dày, đau nhức xương khớp, ho lao.",
-    "preparation": "Thái miếng mỏng phơi khô hoặc chiết Rotundin.",
+    "usage_summary": "An thần, gây ngủ, hạ huyết áp, giảm đau.",
+    "basic_summary": "Vị thuốc chứa Rotundin tự nhiên, đặc trị mất ngủ, hồi hộp và đau dạ dày.",
+    "detailed_usage": "Trị mất ngủ mãn tính, suy nhược thần kinh, hồi hộp, đau dạ dày, viêm phế quản.",
+    "preparation": "Thái lát phơi khô sắc uống hoặc chiết xuất Rotundin.",
     "dosage": "3 - 6g",
-    "warnings": "Không nên dùng quá liều vì có thể gây say, nôn mửa.",
+    "warnings": "Không nên dùng liều quá cao có thể gây say, nôn mửa. Phụ nữ mang thai cẩn thận.",
     "safety_level": "caution",
     "is_toxic": false,
     "image": "/images/binh-voi.png",
     "tags": [
-      "trị mất ngủ",
-      "giảm đau dạ dày",
-      "rotundin"
+      "dễ ngủ",
+      "Rotundin",
+      "bình vôi"
     ],
     "source_refs": [
       {
@@ -5121,7 +4996,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 115,
+    "id": 113,
     "slug": "bo-cong-anh",
     "name_vn": "Bồ công anh",
     "name_han": "蒲公英",
@@ -5166,7 +5041,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 116,
+    "id": 114,
     "slug": "bo-ket",
     "name_vn": "Bồ kết",
     "name_han": "皂莢",
@@ -5205,35 +5080,35 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 117,
+    "id": 115,
     "slug": "bo-hoang",
     "name_vn": "Bồ hoàng",
     "name_han": "蒲黃",
-    "scientific_name": "Typha angustifolia L.",
+    "scientific_name": "Pollen Typhae (Phấn cỏ nến)",
     "family": "Typhaceae (Cỏ nến)",
     "category": "Thuốc chỉ huyết, hoạt huyết",
-    "part_used": "Phấn hoa phơi khô",
+    "part_used": "Phấn hoa của cây Cỏ nến",
     "properties": "Bình",
     "taste": "Ngọt",
-    "meridians": "Can, Tâm, Tỳ",
+    "meridians": "Can, Tâm bào",
     "use_cases": [
       "blood",
       "pain",
       "women"
     ],
-    "usage_summary": "Chỉ huyết (sao), hoạt huyết tiêu ứ (sống).",
-    "basic_summary": "Phấn hoa cỏ nến. Dùng sống để tan máu bầm, sao đen để cầm máu cực tốt.",
-    "detailed_usage": "Trị băng huyết, chảy máu cam, đau bụng kinh, đau thắt ngực do huyết ứ.",
-    "preparation": "Thu hái phấn hoa. Dùng sống hoặc sao đen (Bồ hoàng than).",
-    "dosage": "3 - 9g (Gói vào vải khi sắc)",
-    "warnings": "Phụ nữ có thai cấm dùng (kích thích co bóp tử cung).",
+    "usage_summary": "Chỉ huyết, tán ứ, thông lâm.",
+    "basic_summary": "Phấn cỏ nến. Vị thuốc quý giúp cầm máu (khi sao cháy) hoặc tan máu bầm (khi dùng sống).",
+    "detailed_usage": "Trị chảy máu cam, ho ra máu, đại tiểu tiện ra máu, băng huyết, đau bụng kinh, đau sau sinh do huyết ứ.",
+    "preparation": "Dùng sống để hoạt huyết, sao cháy để cầm máu. Khi sắc nên bọc vào túi vải.",
+    "dosage": "5 - 10g",
+    "warnings": "Phụ nữ có thai cấm dùng (gây co bóp tử cung).",
     "safety_level": "caution",
     "is_toxic": false,
     "image": "/images/bo-hoang.png",
     "tags": [
       "cầm máu",
       "tan máu bầm",
-      "phấn hoa"
+      "bồ hoàng"
     ],
     "source_refs": [
       {
@@ -5244,7 +5119,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 118,
+    "id": 116,
     "slug": "bo-hong",
     "name_vn": "Bồ hóng",
     "name_han": "百草霜",
@@ -5283,7 +5158,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 119,
+    "id": 117,
     "slug": "bo-luu",
     "name_vn": "Bồ lưu",
     "name_han": "蒲柳",
@@ -5322,7 +5197,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 120,
+    "id": 118,
     "slug": "coi-xay",
     "name_vn": "Bồ ma",
     "name_han": "磨盤草",
@@ -5361,7 +5236,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 121,
+    "id": 119,
     "slug": "bo-me",
     "name_vn": "Bồ mễ",
     "name_han": "菩提米",
@@ -5400,7 +5275,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 122,
+    "id": 120,
     "slug": "rau-ngot",
     "name_vn": "Bồ ngót",
     "name_han": "龍俐葉",
@@ -5439,7 +5314,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 123,
+    "id": 121,
     "slug": "bo-quan",
     "name_vn": "Bồ quân",
     "name_han": "大風子",
@@ -5478,7 +5353,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 124,
+    "id": 122,
     "slug": "bo-rong",
     "name_vn": "Bồ rộng",
     "name_han": "蒲絨",
@@ -5517,7 +5392,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 125,
+    "id": 123,
     "slug": "bo-tat",
     "name_vn": "Bồ tát",
     "name_han": "菩薩草",
@@ -5556,7 +5431,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 126,
+    "id": 124,
     "slug": "bo-cot-chi",
     "name_vn": "Bổ cốt chỉ",
     "name_han": "補骨脂",
@@ -5601,7 +5476,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 127,
+    "id": 125,
     "slug": "sam-bo-chinh",
     "name_vn": "Bố chính sâm",
     "name_han": "布政參",
@@ -5640,7 +5515,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 128,
+    "id": 126,
     "slug": "bong-bao",
     "name_vn": "Bông báo",
     "name_han": "報春花",
@@ -5679,7 +5554,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 129,
+    "id": 127,
     "slug": "rau-meo",
     "name_vn": "Bông bạc",
     "name_han": "猫鬚草",
@@ -5724,7 +5599,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 130,
+    "id": 128,
     "slug": "bong-bao-tu",
     "name_vn": "Bông báo tử",
     "name_han": "報子花",
@@ -5763,7 +5638,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 131,
+    "id": 129,
     "slug": "bong-bao-tu-bien",
     "name_vn": "Bông báo tử biển",
     "name_han": "海報子",
@@ -5802,7 +5677,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 132,
+    "id": 130,
     "slug": "bong-co",
     "name_vn": "Bông cò",
     "name_han": "白鶴花",
@@ -5841,7 +5716,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 133,
+    "id": 131,
     "slug": "bong-giay",
     "name_vn": "Bông giấy",
     "name_han": "葉子花",
@@ -5880,7 +5755,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 134,
+    "id": 132,
     "slug": "bong-ma-de",
     "name_vn": "Bông mã đề",
     "name_han": "車前草",
@@ -5925,7 +5800,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 135,
+    "id": 133,
     "slug": "bong-mong-tay",
     "name_vn": "Bông móng tay",
     "name_han": "鳳仙花",
@@ -5964,7 +5839,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 136,
+    "id": 134,
     "slug": "bong-sung",
     "name_vn": "Bông súng",
     "name_han": "睡蓮",
@@ -6003,7 +5878,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 137,
+    "id": 135,
     "slug": "bong-trang",
     "name_vn": "Bông trang",
     "name_han": "龍船花",
@@ -6042,7 +5917,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 138,
+    "id": 136,
     "slug": "bong-vang",
     "name_vn": "Bông vang",
     "name_han": "黃葵",
@@ -6081,7 +5956,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 139,
+    "id": 137,
     "slug": "bong-van-tho",
     "name_vn": "Bông vạn thọ",
     "name_han": "萬寿菊",
@@ -6120,7 +5995,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 140,
+    "id": 138,
     "slug": "cat-can",
     "name_vn": "Bột sắn",
     "name_han": "葛根",
@@ -6165,7 +6040,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 141,
+    "id": 139,
     "slug": "bo",
     "name_vn": "Bơ",
     "name_han": "牛油果",
@@ -6204,7 +6079,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 142,
+    "id": 140,
     "slug": "bom-ngua",
     "name_vn": "Bờm ngựa",
     "name_han": "馬鬃",
@@ -6243,7 +6118,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 143,
+    "id": 141,
     "slug": "bui-ram",
     "name_vn": "Bụi râm",
     "name_han": "朱槿",
@@ -6282,7 +6157,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 144,
+    "id": 142,
     "slug": "bung-buc",
     "name_vn": "Bùng bục",
     "name_han": "白背葉",
@@ -6321,7 +6196,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 145,
+    "id": 143,
     "slug": "buong-cau",
     "name_vn": "Buồng cau",
     "name_han": "檳榔穂",
@@ -6360,7 +6235,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 146,
+    "id": 144,
     "slug": "buom-bac",
     "name_vn": "Bướm bạc",
     "name_han": "玉葉金花",
@@ -6399,7 +6274,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 147,
+    "id": 145,
     "slug": "ca-doc-duoc",
     "name_vn": "Cà độc dược",
     "name_han": "曼陀羅",
@@ -6438,7 +6313,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 148,
+    "id": 146,
     "slug": "ca-hoi",
     "name_vn": "Cà hội",
     "name_han": "刺茄",
@@ -6477,7 +6352,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 149,
+    "id": 147,
     "slug": "ca-lot",
     "name_vn": "Cà lốt",
     "name_han": "青茄",
@@ -6516,7 +6391,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 150,
+    "id": 148,
     "slug": "ca-phao",
     "name_vn": "Cà pháo",
     "name_han": "白茄",
@@ -6555,7 +6430,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 151,
+    "id": 149,
     "slug": "ca-phe",
     "name_vn": "Cà phê",
     "name_han": "咖啡",
@@ -6594,7 +6469,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 152,
+    "id": 150,
     "slug": "ca-dai-hoa-trang",
     "name_vn": "Cà dại hoa trắng",
     "name_han": "水茄",
@@ -6633,7 +6508,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 153,
+    "id": 151,
     "slug": "ca-dai-hoa-tim",
     "name_vn": "Cà dại hoa tím",
     "name_han": "紫花茄",
@@ -6672,7 +6547,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 154,
+    "id": 152,
     "slug": "ca-rot",
     "name_vn": "Cà rốt",
     "name_han": "胡蘿蔔",
@@ -6711,7 +6586,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 155,
+    "id": 153,
     "slug": "ca-chua",
     "name_vn": "Cà chua",
     "name_han": "番茄",
@@ -6750,7 +6625,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 156,
+    "id": 154,
     "slug": "ca-dao",
     "name_vn": "Cá đao",
     "name_han": "劍魚",
@@ -6789,7 +6664,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 157,
+    "id": 155,
     "slug": "ca-diec",
     "name_vn": "Cá diếc",
     "name_han": "鯽魚",
@@ -6828,7 +6703,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 158,
+    "id": 156,
     "slug": "ca-ngua",
     "name_vn": "Cá ngựa",
     "name_han": "海馬",
@@ -6873,7 +6748,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 159,
+    "id": 157,
     "slug": "ca-qua",
     "name_vn": "Cá quả",
     "name_han": "鱧魚",
@@ -6912,7 +6787,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 160,
+    "id": 158,
     "slug": "ca-thu",
     "name_vn": "Cá thu",
     "name_han": "鯖魚",
@@ -6951,7 +6826,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 161,
+    "id": 159,
     "slug": "ca-tre",
     "name_vn": "Cá trê",
     "name_han": "胡子鯰",
@@ -6990,7 +6865,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 162,
+    "id": 160,
     "slug": "ca-tram",
     "name_vn": "Cá trắm",
     "name_han": "草魚",
@@ -7029,7 +6904,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 163,
+    "id": 161,
     "slug": "cai-be",
     "name_vn": "Cải bẹ",
     "name_han": "芥菜",
@@ -7068,7 +6943,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 164,
+    "id": 162,
     "slug": "cai-cuc",
     "name_vn": "Cải cúc",
     "name_han": "茼蒿",
@@ -7107,7 +6982,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 165,
+    "id": 163,
     "slug": "cai-troi",
     "name_vn": "Cải trời",
     "name_han": "見 độc",
@@ -7146,7 +7021,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 166,
+    "id": 164,
     "slug": "cam",
     "name_vn": "Cam",
     "name_han": "橘",
@@ -7185,52 +7060,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 167,
-    "slug": "cam-thao",
-    "name_vn": "Cam thảo",
-    "name_han": "甘草",
-    "scientific_name": "Glycyrrhiza uralensis Fisch.",
-    "family": "Fabaceae (Đậu)",
-    "category": "Thuốc bổ khí, giải độc, hòa hoãn",
-    "part_used": "Rễ và thân rễ phơi khô",
-    "properties": "Bình",
-    "taste": "Ngọt",
-    "meridians": "Tâm, Phế, Tỳ, Vị",
-    "use_cases": [
-      "tonic",
-      "detox",
-      "cough"
-    ],
-    "usage_summary": "Bổ tỳ ích khí, thanh nhiệt giải độc, khư đàm chỉ khái, hoãn cấp chỉ thống, điều hòa các vị thuốc.",
-    "basic_summary": "Vị thuốc 'Quốc lão' có mặt trong hầu hết các bài thuốc Đông y để điều hòa tính chất của các dược liệu khác.",
-    "detailed_usage": "Trị tỳ vị hư nhược, mệt mỏi, ho nhiều đờm, đau họng, ngộ độc thức ăn, đau bụng cấp.",
-    "preparation": "Thái lát phơi khô (Sinh cam thảo) hoặc tẩm mật sao (Chích cam thảo).",
-    "dosage": "2 - 10g",
-    "warnings": "THẬP BÁT PHẢN: Phản Cam toại, Đại kích, Nguyên hoa, Hải tảo. Không dùng lâu liều cao gây phù nề.",
-    "safety_level": "caution",
-    "is_toxic": false,
-    "image": "/images/cam-thao.png",
-    "tags": [
-      "điều hòa thuốc",
-      "bổ khí",
-      "quốc lão"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Mỗi vị thuốc",
-        "type": "Tương tu",
-        "note": "Đóng vai trò 'Sứ' để điều hòa và dẫn thuốc vào các kinh."
-      }
-    ]
-  },
-  {
-    "id": 168,
+    "id": 165,
     "slug": "cam-tung",
     "name_vn": "Cam tùng",
     "name_han": "甘松",
@@ -7269,7 +7099,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 169,
+    "id": 166,
     "slug": "choi-moi",
     "name_vn": "Cảm thảo",
     "name_han": "五月茶",
@@ -7308,7 +7138,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 170,
+    "id": 167,
     "slug": "can-tay",
     "name_vn": "Cần tây",
     "name_han": "旱芹",
@@ -7347,7 +7177,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 171,
+    "id": 168,
     "slug": "can-ta",
     "name_vn": "Cần ta",
     "name_han": "水芹",
@@ -7386,7 +7216,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 172,
+    "id": 169,
     "slug": "an-tuc-huong",
     "name_vn": "Cánh kiến trắng",
     "name_han": "安息香",
@@ -7425,7 +7255,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 173,
+    "id": 170,
     "slug": "canh-kien-do",
     "name_vn": "Cánh kiến đỏ",
     "name_han": "紫膠",
@@ -7464,7 +7294,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 174,
+    "id": 171,
     "slug": "canh-thien",
     "name_vn": "Cảnh thiên",
     "name_han": "景天",
@@ -7503,7 +7333,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 175,
+    "id": 172,
     "slug": "rieng",
     "name_vn": "Cao lương khương",
     "name_han": "高良姜",
@@ -7548,7 +7378,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 176,
+    "id": 173,
     "slug": "cao-ban",
     "name_vn": "Cảo bản",
     "name_han": "藁本",
@@ -7587,7 +7417,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 177,
+    "id": 174,
     "slug": "cat-canh",
     "name_vn": "Cát cánh",
     "name_han": "桔梗",
@@ -7632,7 +7462,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 178,
+    "id": 175,
     "slug": "cau",
     "name_vn": "Cau",
     "name_han": "檳榔",
@@ -7677,7 +7507,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 179,
+    "id": 176,
     "slug": "cay-bet",
     "name_vn": "Cây bét",
     "name_han": "山蒼子",
@@ -7716,7 +7546,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 180,
+    "id": 177,
     "slug": "cay-bet-trang",
     "name_vn": "Cây bét trắng",
     "name_han": "白葉木",
@@ -7755,7 +7585,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 181,
+    "id": 178,
     "slug": "cay-bi",
     "name_vn": "Cây bi",
     "name_han": "薜荔",
@@ -7794,7 +7624,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 182,
+    "id": 179,
     "slug": "cay-bo-may",
     "name_vn": "Cây bọ mẩy",
     "name_han": "大青葉",
@@ -7833,7 +7663,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 183,
+    "id": 180,
     "slug": "cay-buom",
     "name_vn": "Cây bướm",
     "name_han": "蝶豆",
@@ -7872,7 +7702,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 184,
+    "id": 181,
     "slug": "cay-cong-san",
     "name_vn": "Cây cộng sản",
     "name_han": "飛機草",
@@ -7911,7 +7741,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 185,
+    "id": 182,
     "slug": "cay-cut-lon",
     "name_vn": "Cây cứt lợn",
     "name_han": "藿香薊",
@@ -7950,7 +7780,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 186,
+    "id": 183,
     "slug": "cay-don-chau-chau",
     "name_vn": "Cây đơn châu chấu",
     "name_han": "楤木",
@@ -7989,7 +7819,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 187,
+    "id": 184,
     "slug": "cay-don-do",
     "name_vn": "Cây đơn đỏ",
     "name_han": "紅背桂",
@@ -8028,7 +7858,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 188,
+    "id": 185,
     "slug": "cay-gay",
     "name_vn": "Cây gậy",
     "name_han": "杖桿",
@@ -8067,7 +7897,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 189,
+    "id": 186,
     "slug": "cay-goi-hac",
     "name_vn": "Cây gối hạc",
     "name_han": "鵞掌草",
@@ -8106,7 +7936,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 190,
+    "id": 187,
     "slug": "cay-hoa-bia",
     "name_vn": "Cây hoa bia",
     "name_han": "啤酒花",
@@ -8145,7 +7975,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 191,
+    "id": 188,
     "slug": "cay-hue",
     "name_vn": "Cây huệ",
     "name_han": "晩香玉",
@@ -8184,7 +8014,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 192,
+    "id": 189,
     "slug": "cay-hy-thiem",
     "name_vn": "Cây hy thiêm",
     "name_han": "豨薟草",
@@ -8229,7 +8059,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 193,
+    "id": 190,
     "slug": "cay-ich-mau",
     "name_vn": "Cây ích mẫu",
     "name_han": "益母草",
@@ -8274,7 +8104,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 194,
+    "id": 191,
     "slug": "cay-ke-sua",
     "name_vn": "Cây kế sữa",
     "name_han": "水飛薊",
@@ -8313,7 +8143,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 195,
+    "id": 192,
     "slug": "cay-kim-suong",
     "name_vn": "Cây kim sương",
     "name_han": "茵芋",
@@ -8352,7 +8182,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 196,
+    "id": 193,
     "slug": "cay-kinh-gioi",
     "name_vn": "Cây kinh giới",
     "name_han": "荊芥",
@@ -8397,7 +8227,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 197,
+    "id": 194,
     "slug": "cay-la-bong",
     "name_vn": "Cây lá bỏng",
     "name_han": "落地生根",
@@ -8436,7 +8266,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 198,
+    "id": 195,
     "slug": "cay-la-gan",
     "name_vn": "Cây lá gan",
     "name_han": "肝葉草",
@@ -8475,7 +8305,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 199,
+    "id": 196,
     "slug": "cay-luoc-vang",
     "name_vn": "Cây lược vàng",
     "name_han": "香龍血樹",
@@ -8514,7 +8344,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 200,
+    "id": 197,
     "slug": "cay-man-tuoi",
     "name_vn": "Cây mần tưới",
     "name_han": "澤蘭",
@@ -8553,7 +8383,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 201,
+    "id": 198,
     "slug": "cay-mat-gau",
     "name_vn": "Cây mật gấu",
     "name_han": "十大功勞",
@@ -8592,7 +8422,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 202,
+    "id": 199,
     "slug": "cay-muong-trau",
     "name_vn": "Cây muồng trâu",
     "name_han": "翼柄決明",
@@ -8631,46 +8461,38 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 203,
-    "slug": "cay-no",
+    "id": 200,
+    "slug": "cy-n",
     "name_vn": "Cây nổ",
-    "name_han": "消渴草",
-    "scientific_name": "Ruellia tuberosa L.",
-    "family": "Acanthaceae (Ô rô)",
-    "category": "Thuốc lợi thủy, thanh nhiệt",
-    "part_used": "Rễ, Toàn cây",
-    "properties": "Mát",
-    "taste": "Ngọt, nhạt",
-    "meridians": "Thận, Bàng quang",
-    "use_cases": [
-      "kidney",
-      "urinary",
-      "detox"
-    ],
-    "usage_summary": "Lợi niệu tiêu thũng, thanh nhiệt giải độc.",
-    "basic_summary": "Cây tanh tách. Chuyên trị sỏi thận, phù thũng và các bệnh về đường tiết niệu.",
-    "detailed_usage": "Trị sỏi thận, viêm thận, phù thũng, tiểu đường, mụn nhọt.",
-    "preparation": "Rửa sạch phơi khô sắc uống.",
-    "dosage": "15 - 25g",
-    "warnings": "Người tỳ vị hư hàn cẩn thận khi dùng.",
+    "name_han": "",
+    "scientific_name": "Psidium guajava L.",
+    "family": "Myrtaceae (Sim)",
+    "category": "Thuốc thu liễm, chỉ tả, chỉ huyết",
+    "part_used": "Lá non, Quả xanh, Vỏ thân, Rễ",
+    "properties": "Bình",
+    "taste": "Ngọt, chát",
+    "meridians": "Tỳ, Vị, Đại trường",
+    "use_cases": [],
+    "usage_summary": "Thu liễm chỉ tả, kiện tỳ, chỉ huyết, tiêu thực.",
+    "basic_summary": "Còn gọi là: Bồng bồng / Lộc bi / Ngải bồng bồng.",
+    "detailed_usage": "Trị tiêu chảy cấp, kiết lỵ, nôn mửa, viêm loét dạ dày, ho kéo dài.",
+    "preparation": "Lá rửa sạch, phơi khô. Sao vàng hoặc sao cháy tồn tính để tăng tính thu liễm.",
+    "dosage": "10 - 15g.",
+    "warnings": "Người táo bón cấm dùng (do tính chát thu liễm mạnh).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-no.png",
-    "tags": [
-      "trị sỏi thận",
-      "lợi tiểu",
-      "cây nổ"
-    ],
+    "image": "/images/cy-n.png",
+    "tags": [],
     "source_refs": [
       {
-        "label": "PDF - Chi Tiet Ten-p1",
+        "label": "PDF - Chi Tiet Ten-p2",
         "url": ""
       }
     ],
     "combinations": []
   },
   {
-    "id": 204,
+    "id": 201,
     "slug": "cay-nho-noi",
     "name_vn": "Cây nhọ nồi",
     "name_han": "旱蓮草",
@@ -8715,7 +8537,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 205,
+    "id": 202,
     "slug": "tram-oi",
     "name_vn": "Cây ngũ sắc",
     "name_han": "馬纓丹",
@@ -8754,7 +8576,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 206,
+    "id": 203,
     "slug": "nhan-tran",
     "name_vn": "Cây nhân trần",
     "name_han": "茵陳",
@@ -8799,7 +8621,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 207,
+    "id": 204,
     "slug": "cay-nhot",
     "name_vn": "Cây nhót",
     "name_han": "胡頹子",
@@ -8838,7 +8660,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 208,
+    "id": 205,
     "slug": "cay-oi",
     "name_vn": "Cây ổi",
     "name_han": "番石榴",
@@ -8877,7 +8699,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 209,
+    "id": 206,
     "slug": "cay-phen-den",
     "name_vn": "Cây phèn đen",
     "name_han": "黑面神",
@@ -8916,7 +8738,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 210,
+    "id": 207,
     "slug": "thai-lai-trang",
     "name_vn": "Cây rau trai",
     "name_han": "鴨跖草",
@@ -8955,7 +8777,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 211,
+    "id": 208,
     "slug": "cay-sa",
     "name_vn": "Cây sả",
     "name_han": "香茅",
@@ -8994,7 +8816,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 212,
+    "id": 209,
     "slug": "cay-sim",
     "name_vn": "Cây sim",
     "name_han": "桃金娘",
@@ -9033,7 +8855,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 213,
+    "id": 210,
     "slug": "su-quan-tu",
     "name_vn": "Cây sử quân tử",
     "name_han": "使君子",
@@ -9078,7 +8900,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 214,
+    "id": 211,
     "slug": "cay-sung",
     "name_vn": "Cây sưng",
     "name_han": "黃力",
@@ -9117,46 +8939,38 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 215,
-    "slug": "cay-sung-an",
+    "id": 212,
+    "slug": "cy-sung",
     "name_vn": "Cây sung",
-    "name_han": "無花果",
+    "name_han": "",
     "scientific_name": "Ficus racemosa L.",
     "family": "Moraceae (Dâu tằm)",
-    "category": "Thuốc thanh nhiệt, giải độc",
-    "part_used": "Quả, Lá, Nhựa, Vỏ thân",
-    "properties": "Mát",
+    "category": "Thuốc tiêu thực, thanh nhiệt, giải độc",
+    "part_used": "Quả, Lá, Vỏ thân, Rễ",
+    "properties": "Bình",
     "taste": "Ngọt, chát",
-    "meridians": "Tỳ, Vị, Đại trường",
-    "use_cases": [
-      "digestion",
-      "skin",
-      "detox"
-    ],
-    "usage_summary": "Thanh nhiệt, kiện tỳ, thông tiện, giải độc.",
-    "basic_summary": "Giúp tiêu hóa tốt, trị táo bón và đặc biệt là nhựa sung trị mụn nhọt cực tốt.",
-    "detailed_usage": "Trị táo bón, kiết lỵ, trĩ, mụn nhọt sưng đau, tắc tia sữa.",
-    "preparation": "Quả ăn tươi hoặc muối; lá tươi giã đắp ngoài.",
-    "dosage": "20 - 30g",
-    "warnings": "Người tỳ vị hư hàn tiêu chảy không nên ăn nhiều quả sung tươi.",
+    "meridians": "Vị, Đại trường",
+    "use_cases": [],
+    "usage_summary": "Tiêu thực hóa trệ, thanh nhiệt giải độc, thu liễm chỉ tả, nhuận tràng thông tiện.",
+    "basic_summary": "Còn gọi là: Sung / Vả.",
+    "detailed_usage": "Trị ăn không tiêu, đầy bụng, kiết lỵ, mụn nhọt lở ngứa, ho gà, táo bón.",
+    "preparation": "Quả ăn tươi, ép nước hoặc sấy khô. Rễ, vỏ thân rửa sạch thái nhỏ phơi khô.",
+    "dosage": "10 - 15g rễ/vỏ khô sắc; Quả tươi tùy ý.",
+    "warnings": "Người tỳ hư tiêu chảy cấm dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-sung-an.png",
-    "tags": [
-      "trị táo bón",
-      "giải độc",
-      "sung"
-    ],
+    "image": "/images/cy-sung.png",
+    "tags": [],
     "source_refs": [
       {
-        "label": "PDF - Chi Tiet Ten-p1",
+        "label": "PDF - Chi Tiet Ten-p2",
         "url": ""
       }
     ],
     "combinations": []
   },
   {
-    "id": 216,
+    "id": 213,
     "slug": "tam-that",
     "name_vn": "Cây tam thất",
     "name_han": "三七",
@@ -9195,7 +9009,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 217,
+    "id": 214,
     "slug": "cay-thuoc-thuong",
     "name_vn": "Cây thuốc thượng",
     "name_han": "上藥草",
@@ -9234,7 +9048,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 218,
+    "id": 215,
     "slug": "thuong-luc",
     "name_vn": "Cây thương lục",
     "name_han": "商陸",
@@ -9273,7 +9087,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 219,
+    "id": 216,
     "slug": "diep-ha-chau",
     "name_vn": "Cây chó đẻ",
     "name_han": "珍珠草",
@@ -9312,7 +9126,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 220,
+    "id": 217,
     "slug": "cay-xau-ho",
     "name_vn": "Cây xấu hổ",
     "name_han": "含羞草",
@@ -9351,7 +9165,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 221,
+    "id": 218,
     "slug": "cay-xoan",
     "name_vn": "Cây xoan",
     "name_han": "苦楝",
@@ -9389,7 +9203,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 222,
+    "id": 219,
     "slug": "dang-tam-thao",
     "name_vn": "Cỏ bấc đen",
     "name_han": "燈心草",
@@ -9428,7 +9242,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 223,
+    "id": 220,
     "slug": "co-bac-dau",
     "name_vn": "Cỏ bạc đầu",
     "name_han": "水蜈蚣",
@@ -9467,7 +9281,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 224,
+    "id": 221,
     "slug": "co-chan-vit",
     "name_vn": "Cỏ chân vịt",
     "name_han": "鴨腳草",
@@ -9506,7 +9320,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 225,
+    "id": 222,
     "slug": "co-chi",
     "name_vn": "Cỏ chỉ",
     "name_han": "狗牙根",
@@ -9545,7 +9359,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 226,
+    "id": 223,
     "slug": "bach-mao-can",
     "name_vn": "Cỏ tranh",
     "name_han": "白茅根",
@@ -9590,7 +9404,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 227,
+    "id": 224,
     "slug": "co-xuoc",
     "name_vn": "Cỏ xước",
     "name_han": "牛膝",
@@ -9635,7 +9449,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 228,
+    "id": 225,
     "slug": "co",
     "name_vn": "Cọ",
     "name_han": "棕櫚",
@@ -9673,46 +9487,38 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 229,
-    "slug": "cu-cai",
+    "id": 226,
+    "slug": "c-ci",
     "name_vn": "Củ cải",
-    "name_han": "蘿蔔",
+    "name_han": "",
     "scientific_name": "Raphanus sativus L.",
-    "family": "Brassicaceae (Cải)",
-    "category": "Thuốc tiêu thực, hóa đàm",
-    "part_used": "Hạt chín (La bặc tử), Củ tươi",
-    "properties": "Bình",
-    "taste": "Ngọt, cay",
-    "meridians": "Phế, Vị, Đại trường",
-    "use_cases": [
-      "digestion",
-      "cough",
-      "detox"
-    ],
-    "usage_summary": "Tiêu thực trừ chướng, giáng khí hóa đàm.",
-    "basic_summary": "La bặc tử. Đặc trị đầy bụng khó tiêu và ho nhiều đờm ở người già.",
-    "detailed_usage": "Trị ăn uống không tiêu, bụng đầy chướng, ho hen nhiều đờm, khí nghịch lên gây khó thở.",
-    "preparation": "Hạt phơi khô, sao thơm (Sơn la bặc tử).",
-    "dosage": "6 - 12g (Hạt)",
-    "warnings": "Người cơ thể hư nhược, ho khan không nên dùng nhiều. TRÁNH dùng cùng Nhân sâm (làm mất tác dụng của sâm).",
-    "safety_level": "caution",
+    "family": "Brassicaceae (Thập tự)",
+    "category": "Thuốc tiêu thực, hóa đờm, hạ khí",
+    "part_used": "Củ, Hạt (La bạc tử)",
+    "properties": "Lương (Củ), Bình (Hạt)",
+    "taste": "Cay, ngọt",
+    "meridians": "Phế, Vị",
+    "use_cases": [],
+    "usage_summary": "Củ: Tiêu thực trệ, hóa đờm hạ khí. Hạt: Hạ khí định suyễn, hóa đờm tiêu thực.",
+    "basic_summary": "Còn gọi là: La bạc / Bạch la bạc.",
+    "detailed_usage": "Trị ho suyễn đờm nhiều, đầy bụng ăn không tiêu, táo bón.",
+    "preparation": "",
+    "dosage": "Củ tươi 30-60g ép nước; Hạt 6 - 12g sắc.",
+    "warnings": "Hạt Củ cải (La bạc tử) CHỐNG VỚI NHÂN SÂM (Thập bát phản). Người tỳ vị hư hàn cấm dùng hạt.",
+    "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-cai.png",
-    "tags": [
-      "tiêu hóa",
-      "trị ho",
-      "la bặc tử"
-    ],
+    "image": "/images/c-ci.png",
+    "tags": [],
     "source_refs": [
       {
-        "label": "PDF - Chi Tiet Ten-p1",
+        "label": "PDF - Chi Tiet Ten-p2",
         "url": ""
       }
     ],
     "combinations": []
   },
   {
-    "id": 230,
+    "id": 227,
     "slug": "cu-choc",
     "name_vn": "Củ chóc",
     "name_han": "半夏",
@@ -9751,7 +9557,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 231,
+    "id": 228,
     "slug": "cu-cot-khi",
     "name_vn": "Củ cốt khí",
     "name_han": "虎仗",
@@ -9790,7 +9596,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 232,
+    "id": 229,
     "slug": "cu-gau",
     "name_vn": "Củ gấu",
     "name_han": "香附",
@@ -9835,46 +9641,38 @@ export const herbs = [
     ]
   },
   {
-    "id": 233,
-    "slug": "cu-mai",
+    "id": 230,
+    "slug": "c-mi",
     "name_vn": "Củ mài",
-    "name_han": "山藥",
-    "scientific_name": "Dioscorea persimilis Prain et Burk.",
-    "family": "Dioscoreaceae (Củ mài)",
-    "category": "Thuốc bổ khí, bổ tỳ",
-    "part_used": "Thân rễ phơi khô (Hoài sơn)",
+    "name_han": "",
+    "scientific_name": "Dioscorea persimilis Prain et Burkill",
+    "family": "Dioscoreaceae (Củ nâu)",
+    "category": "Thuốc bổ khí, dưỡng âm, sáp trường",
+    "part_used": "Thân rễ (Củ)",
     "properties": "Bình",
     "taste": "Ngọt",
-    "meridians": "Tỳ, Vị, Phế, Thận",
-    "use_cases": [
-      "tonic",
-      "digestion",
-      "kidney"
-    ],
-    "usage_summary": "Ích khí dưỡng âm, bổ tỳ phế thận.",
-    "basic_summary": "Hoài sơn. Vị thuốc bổ 'tứ trụ' giúp kiện tỳ vị, bổ phế thận và bồi bổ cơ thể suy nhược.",
-    "detailed_usage": "Trị tỳ vị hư nhược, chán ăn, tiêu chảy mãn tính, ho hen lâu ngày, di tinh, đái tháo đường.",
-    "preparation": "Gọt vỏ, thái lát phơi khô hoặc sấy diêm sinh cho trắng.",
-    "dosage": "12 - 30g",
-    "warnings": "Người đang bị táo bón, thực tà tích trệ không nên dùng.",
+    "meridians": "Tỳ, Phế, Thận",
+    "use_cases": [],
+    "usage_summary": "Bổ tỳ dưỡng vị, sinh tân ích phế, bổ thận sáp tinh, chỉ khát.",
+    "basic_summary": "Còn gọi là: Hoài sơn / Sơn dược.",
+    "detailed_usage": "Trị tỳ hư tiêu chảy, phế hư ho suyễn, thận hư di tinh tiểu rắt, đái tháo đường.",
+    "preparation": "Gọt vỏ, ngâm nước phèn chua cho trắng, thái mỏng, phơi khô. Dùng sống (Sinh hoài sơn) dưỡng âm; Sao vàng (Hoài sơn sao) kiện tỳ chỉ tả.",
+    "dosage": "10 - 30g.",
+    "warnings": "Thực tích (đầy bụng táo bón do ăn quá no),湿trệ đầy bụng cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-mai.png",
-    "tags": [
-      "kiện tỳ",
-      "bổ thận",
-      "hoài sơn"
-    ],
+    "image": "/images/c-mi.png",
+    "tags": [],
     "source_refs": [
       {
-        "label": "PDF - Chi Tiet Ten-p1",
+        "label": "PDF - Chi Tiet Ten-p2",
         "url": ""
       }
     ],
     "combinations": []
   },
   {
-    "id": 234,
+    "id": 231,
     "slug": "cu-mo",
     "name_vn": "Củ mỡ",
     "name_han": "大薯",
@@ -9912,46 +9710,38 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 235,
-    "slug": "cu-sung",
+    "id": 232,
+    "slug": "c-sng",
     "name_vn": "Củ súng",
-    "name_han": "芡實",
-    "scientific_name": "Nymphaea stellata Willd.",
-    "family": "Nymphaeaceae (Súng)",
-    "category": "Thuốc thu sáp, bổ thận",
-    "part_used": "Thân rễ (Khiếm thực nam)",
-    "properties": "Mát",
-    "taste": "Ngọt, chát",
-    "meridians": "Tỳ, Thận",
-    "use_cases": [
-      "kidney",
-      "sex",
-      "digestion"
-    ],
-    "usage_summary": "Bổ tỳ thận, cố tinh, chỉ tả.",
-    "basic_summary": "Khiếm thực nam. Vị thuốc quý trị di tinh, mộng tinh và tiêu chảy mãn tính do tỳ hư.",
-    "detailed_usage": "Trị di tinh, liệt dương, bạch đới (khí hư), tiểu đêm nhiều lần, tiêu chảy mãn tính.",
-    "preparation": "Rửa sạch phơi khô thái lát.",
-    "dosage": "10 - 20g",
-    "warnings": "Người bị táo bón, tiểu tiện khó không nên dùng.",
+    "name_han": "",
+    "scientific_name": "Ipomoea digitata L. (hoặc Merremia hungaiensis)",
+    "family": "Convolvulaceae (Bìm bìm)",
+    "category": "Thuốc nhuận tràng, hóa đờm, tiêu thưong",
+    "part_used": "Rễ củ (Củ to có nhũ dịch trắng như sữa bò)",
+    "properties": "Lương",
+    "taste": "Ngọt, nhạt",
+    "meridians": "Phế, Đại trường",
+    "use_cases": [],
+    "usage_summary": "Nhuận tràng thông tiện, thanh nhiệt hóa đờm, tiêu thũng bài nùng.",
+    "basic_summary": "Còn gọi là: Rễ bèo súng / Củ sen đá.",
+    "detailed_usage": "Trị táo bón kinh niên do nhiệt, ho đờm đặc, viêm họng sưng đau, mụn nhọt lở loét, vết thương sưng đau.",
+    "preparation": "Đào củ rửa sạch đất cát, thái mỏng, phơi khô. Dùng sống hoặc sao vàng.",
+    "dosage": "6 - 12g.",
+    "warnings": "Tỳ vị hư hàn (hay lạnh bụng tiêu chảy), phụ nữ có thai cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-sung.png",
-    "tags": [
-      "bổ thận",
-      "cố tinh",
-      "khiếm thực"
-    ],
+    "image": "/images/c-sng.png",
+    "tags": [],
     "source_refs": [
       {
-        "label": "PDF - Chi Tiet Ten-p1",
+        "label": "PDF - Chi Tiet Ten-p2",
         "url": ""
       }
     ],
     "combinations": []
   },
   {
-    "id": 236,
+    "id": 233,
     "slug": "cuc-hoa",
     "name_vn": "Cúc hoa",
     "name_han": "菊花",
@@ -9996,7 +9786,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 237,
+    "id": 234,
     "slug": "cuc-tan",
     "name_vn": "Cúc tần",
     "name_han": "欒樨",
@@ -10035,46 +9825,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 238,
-    "slug": "binh-voi",
-    "name_vn": "Bình vôi",
-    "name_han": "地不容",
-    "scientific_name": "Stephania glabra (Roxb.) Miers",
-    "family": "Menispermaceae (Tiết dê)",
-    "category": "Thuốc an thần",
-    "part_used": "Củ (Thân rễ phình thành củ)",
-    "properties": "Mát",
-    "taste": "Đắng, ngọt",
-    "meridians": "Can, Tỳ",
-    "use_cases": [
-      "sleep",
-      "pain",
-      "stomach"
-    ],
-    "usage_summary": "An thần, gây ngủ, hạ huyết áp, giảm đau.",
-    "basic_summary": "Vị thuốc chứa Rotundin tự nhiên, đặc trị mất ngủ, hồi hộp và đau dạ dày.",
-    "detailed_usage": "Trị mất ngủ mãn tính, suy nhược thần kinh, hồi hộp, đau dạ dày, viêm phế quản.",
-    "preparation": "Thái lát phơi khô sắc uống hoặc chiết xuất Rotundin.",
-    "dosage": "3 - 6g",
-    "warnings": "Không nên dùng liều quá cao có thể gây say, nôn mửa. Phụ nữ mang thai cẩn thận.",
-    "safety_level": "caution",
-    "is_toxic": false,
-    "image": "/images/binh-voi.png",
-    "tags": [
-      "dễ ngủ",
-      "Rotundin",
-      "bình vôi"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 239,
+    "id": 235,
     "slug": "cu-tu",
     "name_vn": "Củ từ",
     "name_han": "甘薯",
@@ -10112,46 +9863,38 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 240,
-    "slug": "cuc-ao",
+    "id": 236,
+    "slug": "cc-o",
     "name_vn": "Cúc áo",
-    "name_han": "金鈕扣",
-    "scientific_name": "Acmella paniculata (Wall. ex DC.) R.K. Jansen",
+    "name_han": "",
+    "scientific_name": "Spilanthes acmella (L.) L. / Spilanthes paniculata Wall. ex DC.",
     "family": "Asteraceae (Cúc)",
-    "category": "Thuốc chỉ thống, tiêu viêm",
-    "part_used": "Toàn cây, đặc biệt là cụm hoa",
-    "properties": "Ấm",
-    "taste": "Cay, gây tê đầu lưỡi",
-    "meridians": "Vị, Can",
-    "use_cases": [
-      "pain",
-      "skin",
-      "cough"
-    ],
-    "usage_summary": "Giảm đau, tiêu viêm, sát trùng.",
-    "basic_summary": "Cỏ tê. Khắc tinh của chứng đau răng và viêm họng nhờ tác dụng gây tê tự nhiên.",
-    "detailed_usage": "Trị đau răng, viêm họng, viêm họng hạt, phong thấp đau nhức, nhọt độc ngoài da.",
-    "preparation": "Hoa tươi nhai ngậm hoặc ngâm rượu bôi đau răng.",
-    "dosage": "4 - 12g (Đường uống)",
-    "warnings": "Không dùng liều cao cho phụ nữ mang thai.",
+    "category": "Thuốc tán phong, thanh nhiệt, chỉ thống",
+    "part_used": "Toàn cây, Hoa",
+    "properties": "Ôn",
+    "taste": "Cay, đắng (Có vị tê cay đặc trưng khi nhai)",
+    "meridians": "Phế, Vị",
+    "use_cases": [],
+    "usage_summary": "Khu phong tán hàn, thanh nhiệt giải độc, tiêu viêm chỉ thống, lợi thấp.",
+    "basic_summary": "Còn gọi là: Ngô công thảo / Cúc vạn thọ dại.",
+    "detailed_usage": "Trị cảm mạo phong hàn, viêm họng sưng đau, đau răng, thấp khớp đau nhức, kiết lỵ, viêm da dị ứng mẩn ngứa.",
+    "preparation": "Rửa sạch, phơi khô. Dùng tươi hoặc sao vàng.",
+    "dosage": "10 - 16g khô sắc; Dùng ngoài tùy ý.",
+    "warnings": "Phụ nữ có thai cấm dùng (có tài liệu ghi gây co thắt tử cung).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cuc-ao.png",
-    "tags": [
-      "trị đau răng",
-      "gây tê",
-      "cúc áo"
-    ],
+    "image": "/images/cc-o.png",
+    "tags": [],
     "source_refs": [
       {
-        "label": "PDF - Chi Tiet Ten-p1",
+        "label": "PDF - Chi Tiet Ten-p2",
         "url": ""
       }
     ],
     "combinations": []
   },
   {
-    "id": 241,
+    "id": 237,
     "slug": "cuc-chi",
     "name_vn": "Cúc chỉ",
     "name_han": "野菊花",
@@ -10190,46 +9933,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 242,
-    "slug": "cuong-tam",
-    "name_vn": "Bạch cương tằm",
-    "name_han": "白殭蠶",
-    "scientific_name": "Bombyx mori L. (Con tằm vôi)",
-    "family": "Bombycidae (Tằm)",
-    "category": "Thuốc bình can, tức phong",
-    "part_used": "Con tằm chết tự nhiên do nấm phơi khô",
-    "properties": "Bình",
-    "taste": "Mặn, cay",
-    "meridians": "Can, Phế",
-    "use_cases": [
-      "emergency",
-      "skin",
-      "voice"
-    ],
-    "usage_summary": "Khư phong chỉ thống, giải độc tán kết, hóa đàm.",
-    "basic_summary": "Cương tằm. Vị thuốc quý trị động kinh, co giật ở trẻ em và làm đẹp da, mờ vết nám.",
-    "detailed_usage": "Trị kinh phong co giật, đau đầu, viêm họng mất tiếng, mụn nhọt, sạm da, tàn nhang.",
-    "preparation": "Sao vàng hoặc tẩm nước vo gạo sao khô.",
-    "dosage": "4 - 9g",
-    "warnings": "Người huyết hư không có phong cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/cuong-tam.png",
-    "tags": [
-      "trị co giật",
-      "làm đẹp da",
-      "cương tằm"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 243,
+    "id": 238,
     "slug": "chi-tu",
     "name_vn": "Chi tử",
     "name_han": "梔子",
@@ -10274,7 +9978,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 244,
+    "id": 239,
     "slug": "dau-tam",
     "name_vn": "Dâu tằm",
     "name_han": "桑",
@@ -10319,7 +10023,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 245,
+    "id": 240,
     "slug": "day-dau-xuong",
     "name_vn": "Dây đau xương",
     "name_han": "寬筋藤",
@@ -10357,7 +10061,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 246,
+    "id": 241,
     "slug": "day-don-ganh",
     "name_vn": "Dây đòn gánh",
     "name_han": "扁藤",
@@ -10396,7 +10100,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 247,
+    "id": 242,
     "slug": "day-gam",
     "name_vn": "Dây gắm",
     "name_han": "王孫",
@@ -10435,7 +10139,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 248,
+    "id": 243,
     "slug": "day-goi",
     "name_vn": "Dây gối",
     "name_han": "南蛇藤",
@@ -10474,7 +10178,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 249,
+    "id": 244,
     "slug": "day-ky-ninh",
     "name_vn": "Dây ký ninh",
     "name_han": "神農藤",
@@ -10513,7 +10217,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 250,
+    "id": 245,
     "slug": "day-ly",
     "name_vn": "Dây lý",
     "name_han": "李藤",
@@ -10552,7 +10256,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 251,
+    "id": 246,
     "slug": "day-mat",
     "name_vn": "Dây mật",
     "name_han": "密藤",
@@ -10590,7 +10294,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 252,
+    "id": 247,
     "slug": "day-chieu",
     "name_vn": "Dây chiều",
     "name_han": "錫葉藤",
@@ -10629,7 +10333,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 253,
+    "id": 248,
     "slug": "day-cao-su",
     "name_vn": "Dây cao su",
     "name_han": "橡膠藤",
@@ -10667,7 +10371,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 254,
+    "id": 249,
     "slug": "day-bat",
     "name_vn": "Dây bát",
     "name_han": "紅瓜",
@@ -10706,7 +10410,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 255,
+    "id": 250,
     "slug": "day-chia-voi",
     "name_vn": "Dây chìa vôi",
     "name_han": "白粉藤",
@@ -10751,7 +10455,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 256,
+    "id": 251,
     "slug": "day-cong",
     "name_vn": "Dây công",
     "name_han": "青藤",
@@ -10790,7 +10494,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 257,
+    "id": 252,
     "slug": "tho-ty-tu",
     "name_vn": "Dây tơ hồng",
     "name_han": "菟絲子",
@@ -10835,7 +10539,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 258,
+    "id": 253,
     "slug": "bach-bien-dau",
     "name_vn": "Đậu ván trắng",
     "name_han": "白扁豆",
@@ -10874,7 +10578,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 259,
+    "id": 254,
     "slug": "dia-hoang",
     "name_vn": "Địa hoàng",
     "name_han": "地黃",
@@ -10919,7 +10623,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 260,
+    "id": 255,
     "slug": "dia-lien",
     "name_vn": "Địa liền",
     "name_han": "山奈",
@@ -10958,7 +10662,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 261,
+    "id": 256,
     "slug": "dinh-lang",
     "name_vn": "Đinh lăng",
     "name_han": "南洋參",
@@ -10997,7 +10701,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 262,
+    "id": 257,
     "slug": "du-du",
     "name_vn": "Đu đủ",
     "name_han": "番木瓜",
@@ -11036,7 +10740,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 263,
+    "id": 258,
     "slug": "do-trong",
     "name_vn": "Đỗ trọng",
     "name_han": "杜仲",
@@ -11081,7 +10785,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 264,
+    "id": 259,
     "slug": "don-rang-cua",
     "name_vn": "Đơn răng cưa",
     "name_han": "齒葉單",
@@ -11119,7 +10823,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 265,
+    "id": 260,
     "slug": "don-tuong-quan",
     "name_vn": "Đơn tướng quân",
     "name_han": "單將軍",
@@ -11157,7 +10861,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 266,
+    "id": 261,
     "slug": "dai-bai",
     "name_vn": "Đại bái",
     "name_han": "大拜",
@@ -11196,7 +10900,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 267,
+    "id": 262,
     "slug": "dai-bi",
     "name_vn": "Đại bi",
     "name_han": "大艾",
@@ -11235,7 +10939,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 268,
+    "id": 263,
     "slug": "dai-hoang",
     "name_vn": "Đại hoàng",
     "name_han": "大黃",
@@ -11280,46 +10984,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 269,
-    "slug": "dai-hoi",
-    "name_vn": "Đại hồi",
-    "name_han": "大茴香",
-    "scientific_name": "Illicium verum Hook. f.",
-    "family": "Illiciaceae (Hồi)",
-    "category": "Thuốc ôn lý, trừ hàn",
-    "part_used": "Quả chín phơi khô (Bát giác hồi hương)",
-    "properties": "Ấm",
-    "taste": "Cay, ngọt, thơm",
-    "meridians": "Can, Thận, Tỳ, Vị",
-    "use_cases": [
-      "digestion",
-      "pain",
-      "fever"
-    ],
-    "usage_summary": "Ôn trung tán hàn, lý khí chỉ thống.",
-    "basic_summary": "Vị thuốc thơm nóng đặc trị đau bụng lạnh, nôn mửa và giúp tiêu hóa tốt.",
-    "detailed_usage": "Trị đau bụng lạnh, đầy hơi, nôn mửa, tiêu chảy, đau lưng do lạnh, thấp khớp.",
-    "preparation": "Rửa sạch phơi khô. Có thể tán bột hoặc ngâm rượu bôi.",
-    "dosage": "4 - 8g",
-    "warnings": "Người âm hư hỏa vượng cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dai-hoi.png",
-    "tags": [
-      "ấm bụng",
-      "hồi hương",
-      "đại hồi"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 270,
+    "id": 264,
     "slug": "dai-ke",
     "name_vn": "Đại kế",
     "name_han": "大薊",
@@ -11358,46 +11023,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 271,
-    "slug": "dai-tao",
-    "name_vn": "Đại táo",
-    "name_han": "大棗",
-    "scientific_name": "Ziziphus jujuba Mill.",
-    "family": "Rhamnaceae (Táo ta)",
-    "category": "Thuốc bổ khí, bổ tỳ",
-    "part_used": "Quả chín phơi khô (Hồng táo)",
-    "properties": "Ấm",
-    "taste": "Ngọt",
-    "meridians": "Tỳ, Vị",
-    "use_cases": [
-      "tonic",
-      "blood",
-      "sleep"
-    ],
-    "usage_summary": "Bổ trung ích khí, dưỡng huyết an thần, hòa hoãn tính dược.",
-    "basic_summary": "Hồng táo. Vị thuốc bổ tỳ vị, dưỡng huyết và làm 'chất dẫn' điều hòa các vị thuốc khác trong bài thuốc.",
-    "detailed_usage": "Trị tỳ vị hư nhược, mệt mỏi, thiếu máu, mất ngủ, hồi hộp, dùng phối hợp để giảm độc tính của thuốc mạnh.",
-    "preparation": "Rửa sạch, thái lát hoặc để nguyên quả sắc cùng thuốc.",
-    "dosage": "3 - 10 quả",
-    "warnings": "Người có thấp nhiệt, đầy bụng, sâu răng không nên dùng nhiều.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dai-tao.png",
-    "tags": [
-      "bổ tỳ",
-      "hồng táo",
-      "điều hòa thuốc"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 272,
+    "id": 265,
     "slug": "dan-sam",
     "name_vn": "Đan sâm",
     "name_han": "丹參",
@@ -11436,7 +11062,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 273,
+    "id": 266,
     "slug": "dao-nhan",
     "name_vn": "Đào nhân",
     "name_han": "桃仁",
@@ -11481,7 +11107,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 274,
+    "id": 267,
     "slug": "dat-do",
     "name_vn": "Đất đỏ",
     "name_han": "赤土",
@@ -11519,7 +11145,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 275,
+    "id": 268,
     "slug": "dat-set",
     "name_vn": "Đất sét",
     "name_han": "白墡土",
@@ -11558,7 +11184,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 276,
+    "id": 269,
     "slug": "dau-do",
     "name_vn": "Đậu đỏ",
     "name_han": "赤小豆",
@@ -11597,7 +11223,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 277,
+    "id": 270,
     "slug": "dau-den",
     "name_vn": "Đậu đen",
     "name_han": "黑大豆",
@@ -11642,7 +11268,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 278,
+    "id": 271,
     "slug": "dau-xanh",
     "name_vn": "Đậu xanh",
     "name_han": "綠豆",
@@ -11687,7 +11313,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 279,
+    "id": 272,
     "slug": "dia",
     "name_vn": "Đĩa",
     "name_han": "碟",
@@ -11726,7 +11352,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 280,
+    "id": 273,
     "slug": "dia-bi",
     "name_vn": "Địa bì",
     "name_han": "地皮",
@@ -11765,33 +11391,33 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 281,
+    "id": 274,
     "slug": "dia-du",
     "name_vn": "Địa du",
     "name_han": "地榆",
     "scientific_name": "Sanguisorba officinalis L.",
     "family": "Rosaceae (Hoa hồng)",
-    "category": "Thuốc chỉ huyết (Cầm máu)",
+    "category": "Thuốc chỉ huyết, lương huyết",
     "part_used": "Rễ phơi khô",
-    "properties": "Vi hàn",
-    "taste": "Đắng, chua, chát",
+    "properties": "Hơi hàn",
+    "taste": "Khổ (Đắng), Cam (Ngọt), Sáp (Chát)",
     "meridians": "Can, Đại trường",
     "use_cases": [
       "blood",
-      "skin",
-      "digestion"
+      "digestion",
+      "skin"
     ],
     "usage_summary": "Lương huyết chỉ huyết, giải độc liễm sang.",
-    "basic_summary": "Vị thuốc cầm máu 'hạng nhất' cho các chứng xuất huyết đường tiêu hóa và bỏng nặng.",
-    "detailed_usage": "Trị trĩ ra máu, đại tiện ra máu, băng huyết, bỏng lửa (đặc hiệu), mụn nhọt lở loét.",
-    "preparation": "Dùng sống để giải độc, sao cháy (Địa du than) để cầm máu.",
+    "basic_summary": "Vị thuốc cầm máu hàng đầu, đặc trị đại tiện ra máu (trĩ) và các vết bỏng ngoài da.",
+    "detailed_usage": "Trị trĩ ra máu, đại tiện ra máu, lỵ ra máu, băng lậu, bỏng do lửa/nước (dùng ngoài), mụn nhọt.",
+    "preparation": "Rửa sạch phơi khô sắc uống hoặc sao cháy để tăng tác dụng cầm máu.",
     "dosage": "9 - 15g",
-    "warnings": "Không dùng cho vết bỏng đã nhiễm trùng nặng trên diện rộng mà không có kháng sinh.",
+    "warnings": "Không dùng cho vết bỏng quá sâu và rộng trên diện tích lớn mà không có chỉ định y tế.",
     "safety_level": "normal",
     "is_toxic": false,
     "image": "/images/dia-du.png",
     "tags": [
-      "cầm máu",
+      "cầm máu trĩ",
       "trị bỏng",
       "địa du"
     ],
@@ -11804,7 +11430,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 282,
+    "id": 275,
     "slug": "dia-long",
     "name_vn": "Địa long",
     "name_han": "地龍",
@@ -11849,7 +11475,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 283,
+    "id": 276,
     "slug": "dia-cot-bi",
     "name_vn": "Địa cốt bì",
     "name_han": "地骨皮",
@@ -11888,7 +11514,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 284,
+    "id": 277,
     "slug": "dinh-huong",
     "name_vn": "Đinh hương",
     "name_han": "丁香",
@@ -11927,7 +11553,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 285,
+    "id": 278,
     "slug": "dinh-lich-tu",
     "name_vn": "Đình lịch tử",
     "name_han": "葶藶子",
@@ -11965,7 +11591,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 286,
+    "id": 279,
     "slug": "doc-hoat",
     "name_vn": "Độc hoạt",
     "name_han": "獨活",
@@ -12009,7 +11635,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 287,
+    "id": 280,
     "slug": "co-duoi-chuot",
     "name_vn": "Đuôi chuột",
     "name_han": "假馬鞭",
@@ -12048,7 +11674,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 288,
+    "id": 281,
     "slug": "duoi-chon",
     "name_vn": "Đuôi chồn",
     "name_han": "猫尾草",
@@ -12087,7 +11713,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 289,
+    "id": 282,
     "slug": "duoi-phung",
     "name_vn": "Đuôi phụng",
     "name_han": "鳳尾草",
@@ -12126,7 +11752,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 290,
+    "id": 283,
     "slug": "duoi-soc",
     "name_vn": "Đuôi sóc",
     "name_han": "兔尾草",
@@ -12164,7 +11790,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 291,
+    "id": 284,
     "slug": "duoi-voi",
     "name_vn": "Đuôi voi",
     "name_han": "大尾搖",
@@ -12203,7 +11829,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 292,
+    "id": 285,
     "slug": "gung",
     "name_vn": "Gừng",
     "name_han": "薑",
@@ -12248,7 +11874,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 293,
+    "id": 286,
     "slug": "gac",
     "name_vn": "Gấc",
     "name_han": "木鱉",
@@ -12287,7 +11913,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 294,
+    "id": 287,
     "slug": "gao",
     "name_vn": "Gạo",
     "name_han": "稻",
@@ -12325,7 +11951,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 295,
+    "id": 288,
     "slug": "tru-ma-can",
     "name_vn": "Gai",
     "name_han": "苧麻",
@@ -12364,7 +11990,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 296,
+    "id": 289,
     "slug": "gang",
     "name_vn": "Găng",
     "name_han": "山石榴",
@@ -12403,7 +12029,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 297,
+    "id": 290,
     "slug": "goi-hac",
     "name_vn": "Gối hạc",
     "name_han": "火筒樹",
@@ -12441,7 +12067,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 298,
+    "id": 291,
     "slug": "gop-noc",
     "name_vn": "Gộp nọc",
     "name_han": "蛇根草",
@@ -12480,7 +12106,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 299,
+    "id": 292,
     "slug": "ha-thu-o-do",
     "name_vn": "Hà thủ ô đỏ",
     "name_han": "何首烏",
@@ -12525,45 +12151,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 300,
-    "slug": "ha-thu-o-trang",
-    "name_vn": "Hà thủ ô trắng",
-    "name_han": "白何首烏",
-    "scientific_name": "Streptocaulon juventas (Lour.) Merr.",
-    "family": "Apocynaceae (La bố ma)",
-    "category": "Thuốc bổ huyết, giải độc",
-    "part_used": "Rễ củ",
-    "properties": "Mát",
-    "taste": "Đắng, chát",
-    "meridians": "Can, Thận",
-    "use_cases": [
-      "kidney",
-      "blood",
-      "skin"
-    ],
-    "usage_summary": "Bổ can thận, thanh nhiệt giải độc, tiêu viêm.",
-    "basic_summary": "Thường dùng thay thế hoặc phối hợp với Hà thủ ô đỏ để bồi bổ và trị mụn nhọt.",
-    "detailed_usage": "Trị suy nhược cơ thể, thiếu máu, đau lưng mỏi gối, mụn nhọt, lở ngứa.",
-    "preparation": "Rửa sạch thái lát phơi khô sắc uống.",
-    "dosage": "12 - 20g",
-    "warnings": "Không có tác dụng làm đen tóc mạnh như Hà thủ ô đỏ.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/ha-thu-o-trang.png",
-    "tags": [
-      "bổ dưỡng",
-      "hà thủ ô trắng"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 301,
+    "id": 293,
     "slug": "ha-kho-thao",
     "name_vn": "Hạ khô thảo",
     "name_han": "夏枯草",
@@ -12602,7 +12190,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 302,
+    "id": 294,
     "slug": "hat-sen",
     "name_vn": "Hạt sen",
     "name_han": "蓮肉",
@@ -12641,7 +12229,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 303,
+    "id": 295,
     "slug": "hai-duong",
     "name_vn": "Hải đường",
     "name_han": "海棠",
@@ -12680,7 +12268,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 304,
+    "id": 296,
     "slug": "hai-ma",
     "name_vn": "Hải mã",
     "name_han": "海馬",
@@ -12719,7 +12307,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 305,
+    "id": 297,
     "slug": "hai-kim-sa",
     "name_vn": "Hải kim sa",
     "name_han": "海金沙",
@@ -12764,7 +12352,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 306,
+    "id": 298,
     "slug": "hanh",
     "name_vn": "Hành",
     "name_han": "葱",
@@ -12803,7 +12391,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 307,
+    "id": 299,
     "slug": "hoa-hoe",
     "name_vn": "Hoa hòe",
     "name_han": "槐花",
@@ -12842,7 +12430,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 308,
+    "id": 300,
     "slug": "hoa-hong",
     "name_vn": "Hoa hồng",
     "name_han": "玫瑰花",
@@ -12881,7 +12469,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 309,
+    "id": 301,
     "slug": "hoa-nhai",
     "name_vn": "Hoa nhài",
     "name_han": "茉莉花",
@@ -12920,7 +12508,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 310,
+    "id": 302,
     "slug": "hoa-phan",
     "name_vn": "Hoa phấn",
     "name_han": "胭脂花",
@@ -12959,7 +12547,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 311,
+    "id": 303,
     "slug": "hoa-sung",
     "name_vn": "Hoa súng",
     "name_han": "睡蓮",
@@ -12998,7 +12586,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 312,
+    "id": 304,
     "slug": "hoang-ba",
     "name_vn": "Hoàng bá",
     "name_han": "黃柏",
@@ -13037,7 +12625,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 313,
+    "id": 305,
     "slug": "hoang-cam",
     "name_vn": "Hoàng cầm",
     "name_han": "黃芩",
@@ -13082,52 +12670,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 314,
-    "slug": "hoang-ky",
-    "name_vn": "Hoàng kỳ",
-    "name_han": "黃耆",
-    "scientific_name": "Astragalus membranaceus (Fisch.) Bunge",
-    "family": "Fabaceae (Đậu)",
-    "category": "Thuốc bổ khí",
-    "part_used": "Rễ phơi khô",
-    "properties": "Ấm",
-    "taste": "Ngọt",
-    "meridians": "Phế, Tỳ",
-    "use_cases": [
-      "tonic",
-      "fever",
-      "detox"
-    ],
-    "usage_summary": "Bổ khí thăng dương, ích vệ cố biểu, thác độc bài nùng, lợi thủy tiêu thũng.",
-    "basic_summary": "Vị thuốc 'Đại bổ nguyên khí' giúp tăng cường đề kháng, bồi bổ cơ thể suy nhược và làm vết thương mau lành.",
-    "detailed_usage": "Trị suy nhược cơ thể, mệt mỏi, sa dạ dày, sa tử cung, mồ hôi trộm, mụn nhọt khó vỡ hoặc lâu lành, phù thũng.",
-    "preparation": "Dùng sống để cố biểu, thác độc; tẩm mật sao (Tâm hoàng kỳ) để bổ trung ích khí mạnh hơn.",
-    "dosage": "12 - 30g",
-    "warnings": "Người có nhiệt độc đang thịnh, âm hư hỏa vượng không nên dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/hoang-ky.png",
-    "tags": [
-      "đại bổ khí",
-      "tăng đề kháng",
-      "hoàng kỳ"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Phòng phong",
-        "type": "Tương tu",
-        "note": "Bộ đôi Ngọc bình phong tán giúp tăng cường đề kháng chống cảm cúm cực mạnh."
-      }
-    ]
-  },
-  {
-    "id": 315,
+    "id": 306,
     "slug": "hoang-lien",
     "name_vn": "Hoàng liên",
     "name_han": "黃連",
@@ -13172,7 +12715,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 316,
+    "id": 307,
     "slug": "hoang-tinh",
     "name_vn": "Hoàng tinh",
     "name_han": "黃精",
@@ -13211,7 +12754,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 317,
+    "id": 308,
     "slug": "hoang-dang",
     "name_vn": "Hoàng đằng",
     "name_han": "黃藤",
@@ -13250,7 +12793,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 318,
+    "id": 309,
     "slug": "hop-hoan-bi",
     "name_vn": "Hợp hoan bì",
     "name_han": "合歡皮",
@@ -13289,7 +12832,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 319,
+    "id": 310,
     "slug": "hung-chanh",
     "name_vn": "Húng chanh",
     "name_han": "番荷葉",
@@ -13328,7 +12871,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 320,
+    "id": 311,
     "slug": "huong-nhu",
     "name_vn": "Hương nhu",
     "name_han": "香薷",
@@ -13367,7 +12910,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 321,
+    "id": 312,
     "slug": "huong-phu",
     "name_vn": "Hương phụ",
     "name_han": "香附",
@@ -13412,7 +12955,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 322,
+    "id": 313,
     "slug": "huyen-sam",
     "name_vn": "Huyền sâm",
     "name_han": "玄參",
@@ -13457,7 +13000,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 323,
+    "id": 314,
     "slug": "huyet-du",
     "name_vn": "Huyết dụ",
     "name_han": "青竹",
@@ -13494,7 +13037,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 324,
+    "id": 315,
     "slug": "huyet-giac",
     "name_vn": "Huyết giác",
     "name_han": "血角",
@@ -13532,7 +13075,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 325,
+    "id": 316,
     "slug": "ke-huyet-dang",
     "name_vn": "Huyết rồng",
     "name_han": "雞血藤",
@@ -13571,7 +13114,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 326,
+    "id": 317,
     "slug": "hy-thiem",
     "name_vn": "Hy thiêm",
     "name_han": "豨薟",
@@ -13616,7 +13159,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 327,
+    "id": 318,
     "slug": "ich-mau",
     "name_vn": "Ích mẫu",
     "name_han": "益母草",
@@ -13661,7 +13204,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 328,
+    "id": 319,
     "slug": "ich-tri-nhan",
     "name_vn": "Ích trí nhân",
     "name_han": "益智仁",
@@ -13700,7 +13243,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 329,
+    "id": 320,
     "slug": "ke-dau-ngua",
     "name_vn": "Ké đầu ngựa",
     "name_han": "蒼耳子",
@@ -13745,7 +13288,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 330,
+    "id": 321,
     "slug": "ke-noi-kim",
     "name_vn": "Kê nội kim",
     "name_han": "雞內金",
@@ -13784,7 +13327,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 331,
+    "id": 322,
     "slug": "kha-tu",
     "name_vn": "Kha tử",
     "name_han": "訶子",
@@ -13823,7 +13366,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 332,
+    "id": 323,
     "slug": "kho-sam",
     "name_vn": "Khổ sâm",
     "name_han": "苦參",
@@ -13862,7 +13405,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 333,
+    "id": 324,
     "slug": "khuong-hoat",
     "name_vn": "Khương hoạt",
     "name_han": "羌活",
@@ -13901,7 +13444,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 334,
+    "id": 325,
     "slug": "kinh-gioi",
     "name_vn": "Kinh giới",
     "name_han": "荊芥",
@@ -13947,7 +13490,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 335,
+    "id": 326,
     "slug": "kim-anh-tu",
     "name_vn": "Kim anh tử",
     "name_han": "金櫻子",
@@ -13986,52 +13529,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 336,
-    "slug": "kim-ngan-hoa",
-    "name_vn": "Kim ngân hoa",
-    "name_han": "金銀花",
-    "scientific_name": "Lonicera japonica Thunb.",
-    "family": "Caprifoliaceae (Kim ngân)",
-    "category": "Thuốc thanh nhiệt giải độc",
-    "part_used": "Hoa mới nở phơi khô",
-    "properties": "Hàn",
-    "taste": "Ngọt",
-    "meridians": "Phế, Vị, Tâm",
-    "use_cases": [
-      "detox",
-      "fever",
-      "skin"
-    ],
-    "usage_summary": "Thanh nhiệt giải độc, tán phong nhiệt.",
-    "basic_summary": "Vị thuốc 'kháng sinh thực vật' hàng đầu, chuyên trị mụn nhọt, sưng tấy, viêm họng và cảm cúm.",
-    "detailed_usage": "Trị mụn nhọt, lở ngứa, sưng tấy, viêm họng, viêm amidan, cảm mạo phong nhiệt, kiết lỵ.",
-    "preparation": "Thu hái hoa phơi khô sắc uống hoặc hãm trà.",
-    "dosage": "12 - 20g",
-    "warnings": "Người tỳ vị hư hàn tiêu chảy không nên dùng nhiều.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/kim-ngan-hoa.png",
-    "tags": [
-      "kháng sinh tự nhiên",
-      "trị mụn nhọt",
-      "kim ngân hoa"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Liên kiều",
-        "type": "Tương tu",
-        "note": "Bộ đôi thanh nhiệt giải độc 'số 1' đặc trị mụn nhọt và cảm cúm phong nhiệt."
-      }
-    ]
-  },
-  {
-    "id": 337,
+    "id": 327,
     "slug": "kim-tien-thao",
     "name_vn": "Kim tiền thảo",
     "name_han": "金錢草",
@@ -14076,7 +13574,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 338,
+    "id": 328,
     "slug": "la-lot",
     "name_vn": "Lá lốt",
     "name_han": "假蒟",
@@ -14115,7 +13613,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 339,
+    "id": 329,
     "slug": "la-mong-tay",
     "name_vn": "Lá móng tay",
     "name_han": "鳳仙花",
@@ -14154,7 +13652,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 340,
+    "id": 330,
     "slug": "la-tiet-de",
     "name_vn": "Lá tiết dê",
     "name_han": "錫生藤",
@@ -14193,7 +13691,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 341,
+    "id": 331,
     "slug": "lac-tien",
     "name_vn": "Lạc tiên",
     "name_han": "龍珠果",
@@ -14232,7 +13730,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 342,
+    "id": 332,
     "slug": "le",
     "name_vn": "Lê",
     "name_han": "梨",
@@ -14271,7 +13769,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 343,
+    "id": 333,
     "slug": "le-lo",
     "name_vn": "Lê lô",
     "name_han": "藜蘆",
@@ -14310,7 +13808,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 344,
+    "id": 334,
     "slug": "linh-chi",
     "name_vn": "Linh chi",
     "name_han": "靈芝",
@@ -14349,52 +13847,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 345,
-    "slug": "lien-kieu",
-    "name_vn": "Liên kiều",
-    "name_han": "連翹",
-    "scientific_name": "Forsythia suspensa (Thunb.) Vahl",
-    "family": "Oleaceae (Nhài)",
-    "category": "Thuốc thanh nhiệt giải độc",
-    "part_used": "Quả chín phơi khô",
-    "properties": "Hơi hàn",
-    "taste": "Đắng, hơi cay",
-    "meridians": "Tâm, Đởm, Tiểu trường",
-    "use_cases": [
-      "detox",
-      "fever",
-      "tumor"
-    ],
-    "usage_summary": "Thanh nhiệt giải độc, tiêu thũng tán kết.",
-    "basic_summary": "Vị thuốc 'kháng sinh thực vật' chuyên trị mụn nhọt, sưng hạch và cảm sốt phong nhiệt.",
-    "detailed_usage": "Trị mụn nhọt, nhọt vú, sưng hạch cổ (loa lịch), cảm mạo phong nhiệt, sốt cao mê sảng, bí tiểu.",
-    "preparation": "Rửa sạch phơi khô sắc uống.",
-    "dosage": "6 - 15g",
-    "warnings": "Người tỳ vị hư hàn tiêu chảy không có thực nhiệt cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/lien-kieu.png",
-    "tags": [
-      "kháng sinh tự nhiên",
-      "trị mụn nhọt",
-      "liên kiều"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Kim ngân hoa",
-        "type": "Tương tu",
-        "note": "Bộ đôi thanh nhiệt giải độc 'số 1' đặc trị mụn nhọt và cảm cúm phong nhiệt."
-      }
-    ]
-  },
-  {
-    "id": 346,
+    "id": 335,
     "slug": "long-nhan",
     "name_vn": "Long nhãn",
     "name_han": "龍眼肉",
@@ -14439,7 +13892,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 347,
+    "id": 336,
     "slug": "loc-nhung",
     "name_vn": "Lộc nhung",
     "name_han": "鹿茸",
@@ -14478,7 +13931,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 348,
+    "id": 337,
     "slug": "lo-hoi",
     "name_vn": "Lô hội",
     "name_han": "蘆薈",
@@ -14517,7 +13970,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 349,
+    "id": 338,
     "slug": "luu-huynh",
     "name_vn": "Lưu huỳnh",
     "name_han": "硫磺",
@@ -14555,7 +14008,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 350,
+    "id": 339,
     "slug": "ly-chua",
     "name_vn": "Lý chua",
     "name_han": "茶藨子",
@@ -14593,7 +14046,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 351,
+    "id": 340,
     "slug": "ma-de",
     "name_vn": "Mã đề",
     "name_han": "車前",
@@ -14632,7 +14085,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 352,
+    "id": 341,
     "slug": "ma-tien",
     "name_vn": "Mã tiền",
     "name_han": "馬錢",
@@ -14671,7 +14124,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 353,
+    "id": 342,
     "slug": "mach-mon",
     "name_vn": "Mạch môn",
     "name_han": "麥門冬",
@@ -14710,7 +14163,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 354,
+    "id": 343,
     "slug": "mach-nha",
     "name_vn": "Mạch nha",
     "name_han": "麥芽",
@@ -14749,7 +14202,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 355,
+    "id": 344,
     "slug": "mam-xoi",
     "name_vn": "Mâm xôi",
     "name_han": "覆盆子",
@@ -14788,7 +14241,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 356,
+    "id": 345,
     "slug": "man-tuoi",
     "name_vn": "Mần tưới",
     "name_han": "澤蘭",
@@ -14827,7 +14280,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 357,
+    "id": 346,
     "slug": "mat-ong",
     "name_vn": "Mật ong",
     "name_han": "蜂蜜",
@@ -14866,7 +14319,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 358,
+    "id": 347,
     "slug": "mau-don-bi",
     "name_vn": "Mẫu đơn bì",
     "name_han": "牡丹皮",
@@ -14905,7 +14358,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 359,
+    "id": 348,
     "slug": "mau-le",
     "name_vn": "Mẫu lệ",
     "name_han": "牡蠣",
@@ -14944,7 +14397,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 360,
+    "id": 349,
     "slug": "nam-tinh",
     "name_vn": "Nam tinh",
     "name_han": "天南星",
@@ -14983,7 +14436,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 361,
+    "id": 350,
     "slug": "ngai-cuu",
     "name_vn": "Ngải cứu",
     "name_han": "艾葉",
@@ -15028,7 +14481,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 362,
+    "id": 351,
     "slug": "ngo-thu-du",
     "name_vn": "Ngô thù du",
     "name_han": "吳茱萸",
@@ -15073,7 +14526,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 363,
+    "id": 352,
     "slug": "ngoc-truc",
     "name_vn": "Ngọc trúc",
     "name_han": "玉竹",
@@ -15112,7 +14565,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 364,
+    "id": 353,
     "slug": "ngu-gia-bi",
     "name_vn": "Ngũ gia bì",
     "name_han": "五加皮",
@@ -15150,7 +14603,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 365,
+    "id": 354,
     "slug": "ngu-vi-tu",
     "name_vn": "Ngũ vị tử",
     "name_han": "五味子",
@@ -15195,7 +14648,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 366,
+    "id": 355,
     "slug": "nguu-tat",
     "name_vn": "Ngưu tất",
     "name_han": "牛膝",
@@ -15240,52 +14693,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 367,
-    "slug": "nhan-sam",
-    "name_vn": "Nhân sâm",
-    "name_han": "人參",
-    "scientific_name": "Panax ginseng C. A. Mey.",
-    "family": "Araliaceae (Sâm)",
-    "category": "Thuốc đại bổ nguyên khí",
-    "part_used": "Rễ phơi khô",
-    "properties": "Vi ôn",
-    "taste": "Ngọt, hơi đắng",
-    "meridians": "Tỳ, Phế, Tâm",
-    "use_cases": [
-      "tonic",
-      "emergency",
-      "digestion"
-    ],
-    "usage_summary": "Đại bổ nguyên khí, phục mạch cố thoát, bổ tỳ ích phế, sinh tân, an thần.",
-    "basic_summary": "Vua của các vị thuốc. Giúp bồi bổ cơ thể suy nhược, hồi phục sức khỏe sau ốm và cứu nguy trong các trường hợp cấp cứu.",
-    "detailed_usage": "Trị suy nhược cơ thể trầm trọng, mất máu nhiều, chân tay lạnh, mạch yếu (cấp cứu), chán ăn, mệt mỏi, ho hen do phế hư, mất ngủ, hay quên, tiểu đường.",
-    "preparation": "Thái lát mỏng ngậm hoặc sắc uống, hầm với gà.",
-    "dosage": "3 - 9g (Cấp cứu có thể dùng tới 30g)",
-    "warnings": "PHẢN Lê lô. Người có thực nhiệt, cao huyết áp, đau bụng tiêu chảy không nên dùng. Không dùng cùng Lê lô.",
-    "safety_level": "caution",
-    "is_toxic": false,
-    "image": "/images/nhan-sam.png",
-    "tags": [
-      "đại bổ nguyên khí",
-      "vua vị thuốc",
-      "nhân sâm"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Phụ tử",
-        "type": "Tương tu",
-        "note": "Bộ đôi Sâm Phụ Thang giúp hồi dương cứu nghịch, cấp cứu trường hợp mạch sụp đổ."
-      }
-    ]
-  },
-  {
-    "id": 368,
+    "id": 356,
     "slug": "nhuc-dau-khau",
     "name_vn": "Nhục đậu khấu",
     "name_han": "肉豆蔻",
@@ -15323,7 +14731,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 369,
+    "id": 357,
     "slug": "nhuc-thung-dung",
     "name_vn": "Nhục thung dung",
     "name_han": "肉蓯蓉",
@@ -15362,7 +14770,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 370,
+    "id": 358,
     "slug": "o-duoc",
     "name_vn": "Ô dược",
     "name_han": "烏藥",
@@ -15401,7 +14809,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 371,
+    "id": 359,
     "slug": "o-mai",
     "name_vn": "Ô mai",
     "name_han": "烏梅",
@@ -15440,7 +14848,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 372,
+    "id": 360,
     "slug": "o-tac-cot",
     "name_vn": "Ô tặc cốt",
     "name_han": "烏賊骨",
@@ -15485,7 +14893,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 373,
+    "id": 361,
     "slug": "da-minh-sa",
     "name_vn": "Dạ minh sa",
     "name_han": "夜明砂",
@@ -15524,7 +14932,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 374,
+    "id": 362,
     "slug": "tam-sa",
     "name_vn": "Tằm sa",
     "name_han": "蠶沙",
@@ -15562,7 +14970,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 375,
+    "id": 363,
     "slug": "phien-hanh",
     "name_vn": "Phiên hạnh",
     "name_han": "番杏",
@@ -15601,7 +15009,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 376,
+    "id": 364,
     "slug": "phong-ky",
     "name_vn": "Phòng kỷ",
     "name_han": "防己",
@@ -15640,7 +15048,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 377,
+    "id": 365,
     "slug": "qua-lau",
     "name_vn": "Qua lâu",
     "name_han": "栝樓",
@@ -15679,7 +15087,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 378,
+    "id": 366,
     "slug": "rau-meo",
     "name_vn": "Râu mèo",
     "name_han": "猫须草",
@@ -15718,7 +15126,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 379,
+    "id": 367,
     "slug": "sa-sam",
     "name_vn": "Sa sâm",
     "name_han": "沙參",
@@ -15757,7 +15165,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 380,
+    "id": 368,
     "slug": "sam-bo-chinh",
     "name_vn": "Sâm bố chính",
     "name_han": "土人參",
@@ -15796,7 +15204,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 381,
+    "id": 369,
     "slug": "sam-cau",
     "name_vn": "Sâm cau",
     "name_han": "仙茅",
@@ -15835,52 +15243,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 382,
-    "slug": "son-thu-du",
-    "name_vn": "Sơn thù du",
-    "name_han": "山茱萸",
-    "scientific_name": "Cornus officinalis Siebold & Zucc.",
-    "family": "Cornaceae (Sơn thù du)",
-    "category": "Thuốc thu liễm, bổ thận",
-    "part_used": "Cùi quả phơi khô",
-    "properties": "Vi ôn",
-    "taste": "Chua, chát",
-    "meridians": "Can, Thận",
-    "use_cases": [
-      "kidney",
-      "sex",
-      "sweat"
-    ],
-    "usage_summary": "Bổ ích can thận, thu liễm cố sáp.",
-    "basic_summary": "Vị thuốc bổ thận âm hàng đầu, giúp cố tinh, trị di tinh, tiểu đêm và mồ hôi trộm.",
-    "detailed_usage": "Trị di tinh, liệt dương, tiểu đêm nhiều lần, đau lưng mỏi gối, hoa mắt chóng mặt, mồ hôi trộm, băng lậu.",
-    "preparation": "Bỏ hạt lấy cùi quả phơi khô sắc uống.",
-    "dosage": "6 - 12g",
-    "warnings": "Người có thực nhiệt, tiểu tiện đỏ sẻn cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/son-thu-du.png",
-    "tags": [
-      "bổ thận âm",
-      "trị di tinh",
-      "sơn thù du"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Thục địa",
-        "type": "Tương tu",
-        "note": "Bộ đôi phối hợp bồi bổ can thận âm cực mạnh trong bài Lục vị địa hoàng hoàn."
-      }
-    ]
-  },
-  {
-    "id": 383,
+    "id": 370,
     "slug": "su-quan-tu",
     "name_vn": "Sử quân tử",
     "name_han": "使君子",
@@ -15918,7 +15281,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 384,
+    "id": 371,
     "slug": "te-tan",
     "name_vn": "Tế tân",
     "name_han": "細辛",
@@ -15957,7 +15320,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 385,
+    "id": 372,
     "slug": "thach-cao",
     "name_vn": "Thạch cao",
     "name_han": "石膏",
@@ -16002,46 +15365,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 386,
-    "slug": "thach-hoc",
-    "name_vn": "Thạch hộc",
-    "name_han": "石斛",
-    "scientific_name": "Dendrobium nobile Lindl.",
-    "family": "Orchidaceae (Lan)",
-    "category": "Thuốc bổ âm",
-    "part_used": "Thân cây phơi khô",
-    "properties": "Hơi hàn",
-    "taste": "Ngọt, hơi nhạt",
-    "meridians": "Vị, Thận",
-    "use_cases": [
-      "tonic",
-      "eye",
-      "fever"
-    ],
-    "usage_summary": "Dưỡng vị sinh tân, tư âm thanh nhiệt.",
-    "basic_summary": "Vị thuốc dưỡng âm quý giá giúp làm mát dạ dày, sáng mắt và bồi bổ thận âm.",
-    "detailed_usage": "Trị miệng khô khát sau sốt cao, đau dạ dày mạn tính do thiếu dịch, thị lực kém, đau lưng mỏi gối do âm hư.",
-    "preparation": "Rửa sạch phơi khô sắc uống lâu để chiết hết hoạt chất.",
-    "dosage": "6 - 15g",
-    "warnings": "Người mới bị cảm mạo, đờm thấp thịnh cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/thach-hoc.png",
-    "tags": [
-      "dưỡng âm",
-      "sáng mắt",
-      "thạch hộc"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 387,
+    "id": 373,
     "slug": "thach-quyet-minh",
     "name_vn": "Thạch quyết minh",
     "name_han": "石決明",
@@ -16080,7 +15404,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 388,
+    "id": 374,
     "slug": "thang-ma",
     "name_vn": "Thăng ma",
     "name_han": "升麻",
@@ -16125,7 +15449,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 389,
+    "id": 375,
     "slug": "thao-qua",
     "name_vn": "Thảo quả",
     "name_han": "草果",
@@ -16164,7 +15488,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 390,
+    "id": 376,
     "slug": "thien-mon-dong",
     "name_vn": "Thiên môn đông",
     "name_han": "天門冬",
@@ -16209,7 +15533,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 391,
+    "id": 377,
     "slug": "thien-nien-kien",
     "name_vn": "Thiên niên kiện",
     "name_han": "千年健",
@@ -16248,7 +15572,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 392,
+    "id": 378,
     "slug": "tho-phuc-linh",
     "name_vn": "Thổ phục linh",
     "name_han": "土茯苓",
@@ -16287,7 +15611,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 393,
+    "id": 379,
     "slug": "thong-thao",
     "name_vn": "Thông thảo",
     "name_han": "通草",
@@ -16325,7 +15649,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 394,
+    "id": 380,
     "slug": "tho-ty-tu",
     "name_vn": "Thỏ ty tử",
     "name_han": "菟絲子",
@@ -16370,7 +15694,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 395,
+    "id": 381,
     "slug": "thuong-son",
     "name_vn": "Thường sơn",
     "name_han": "常山",
@@ -16408,7 +15732,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 396,
+    "id": 382,
     "slug": "ty-giai",
     "name_vn": "Tỳ giải",
     "name_han": "萆薢",
@@ -16447,7 +15771,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 397,
+    "id": 383,
     "slug": "tien-ho",
     "name_vn": "Tiền hồ",
     "name_han": "前胡",
@@ -16485,7 +15809,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 398,
+    "id": 384,
     "slug": "to-tu",
     "name_vn": "Tô tử",
     "name_han": "蘇子",
@@ -16523,7 +15847,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 399,
+    "id": 385,
     "slug": "toi",
     "name_vn": "Tỏi",
     "name_han": "大蒜",
@@ -16562,7 +15886,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 400,
+    "id": 386,
     "slug": "tri-mau",
     "name_vn": "Tri mẫu",
     "name_han": "知母",
@@ -16607,7 +15931,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 401,
+    "id": 387,
     "slug": "truc-diep",
     "name_vn": "Trúc diệp",
     "name_han": "竹葉",
@@ -16646,7 +15970,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 402,
+    "id": 388,
     "slug": "truc-nhu",
     "name_vn": "Trúc nhự",
     "name_han": "竹茹",
@@ -16685,7 +16009,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 403,
+    "id": 389,
     "slug": "tru-linh",
     "name_vn": "Trư linh",
     "name_han": "豬苓",
@@ -16722,7 +16046,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 404,
+    "id": 390,
     "slug": "tu-thao",
     "name_vn": "Tử thảo",
     "name_han": "紫草",
@@ -16761,7 +16085,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 405,
+    "id": 391,
     "slug": "tu-uyen",
     "name_vn": "Tử uyển",
     "name_han": "紫菀",
@@ -16804,7 +16128,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 406,
+    "id": 392,
     "slug": "uy-linh-tien",
     "name_vn": "Uy linh tiên",
     "name_han": "威靈仙",
@@ -16843,7 +16167,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 407,
+    "id": 393,
     "slug": "vien-chi",
     "name_vn": "Viễn chí",
     "name_han": "遠志",
@@ -16888,7 +16212,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 408,
+    "id": 394,
     "slug": "xa-sang-tu",
     "name_vn": "Xà sàng tử",
     "name_han": "蛇床子",
@@ -16927,7 +16251,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 409,
+    "id": 395,
     "slug": "xuyen-tam-lien",
     "name_vn": "Xuyên tâm liên",
     "name_han": "穿心蓮",
@@ -16966,7 +16290,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 410,
+    "id": 396,
     "slug": "thach-xuong-bo",
     "name_vn": "Thạch xương bồ",
     "name_han": "石菖蒲",
@@ -17005,7 +16329,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 411,
+    "id": 397,
     "slug": "xuyen-son-giap",
     "name_vn": "Xuyên sơn giáp",
     "name_han": "穿山甲",
@@ -17044,7 +16368,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 412,
+    "id": 398,
     "slug": "quy-ban",
     "name_vn": "Quy bản",
     "name_han": "龜板",
@@ -17083,52 +16407,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 413,
-    "slug": "dia-cot-bi",
-    "name_vn": "Địa cốt bì",
-    "name_han": "地骨皮",
-    "scientific_name": "Cortex Lycii (Vỏ rễ Câu kỷ)",
-    "family": "Solanaceae (Cà)",
-    "category": "Thuốc thanh nhiệt, lương huyết",
-    "part_used": "Vỏ rễ cây Câu kỷ phơi khô",
-    "properties": "Hàn",
-    "taste": "Ngọt, nhạt",
-    "meridians": "Phế, Can, Thận",
-    "use_cases": [
-      "fever",
-      "blood",
-      "respiratory"
-    ],
-    "usage_summary": "Lương huyết thoái nhiệt, thanh phế giáng hỏa.",
-    "basic_summary": "Vỏ rễ Câu kỷ. Đặc trị chứng nóng trong xương (cốt chưng), mồ hôi trộm và ho ra máu.",
-    "detailed_usage": "Trị sốt nóng âm ỉ trong xương, ra mồ hôi trộm, ho khan, ho ra máu, chảy máu cam, tiểu đường.",
-    "preparation": "Rửa sạch thái lát phơi khô sắc uống.",
-    "dosage": "6 - 12g",
-    "warnings": "Người ho do phong hàn, tỳ hư tiêu chảy cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dia-cot-bi.png",
-    "tags": [
-      "trị nóng trong xương",
-      "thanh nhiệt",
-      "địa cốt bì"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": [
-      {
-        "name": "Tang bạch bì",
-        "type": "Tương tu",
-        "note": "Bộ đôi Tả bạch tán đặc trị ho suyễn, sốt cao do phế nhiệt."
-      }
-    ]
-  },
-  {
-    "id": 414,
+    "id": 399,
     "slug": "thanh-hao",
     "name_vn": "Thanh hao",
     "name_han": "青蒿",
@@ -17166,46 +16445,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 415,
-    "slug": "dia-du",
-    "name_vn": "Địa du",
-    "name_han": "地榆",
-    "scientific_name": "Sanguisorba officinalis L.",
-    "family": "Rosaceae (Hoa hồng)",
-    "category": "Thuốc chỉ huyết, lương huyết",
-    "part_used": "Rễ phơi khô",
-    "properties": "Hơi hàn",
-    "taste": "Khổ (Đắng), Cam (Ngọt), Sáp (Chát)",
-    "meridians": "Can, Đại trường",
-    "use_cases": [
-      "blood",
-      "digestion",
-      "skin"
-    ],
-    "usage_summary": "Lương huyết chỉ huyết, giải độc liễm sang.",
-    "basic_summary": "Vị thuốc cầm máu hàng đầu, đặc trị đại tiện ra máu (trĩ) và các vết bỏng ngoài da.",
-    "detailed_usage": "Trị trĩ ra máu, đại tiện ra máu, lỵ ra máu, băng lậu, bỏng do lửa/nước (dùng ngoài), mụn nhọt.",
-    "preparation": "Rửa sạch phơi khô sắc uống hoặc sao cháy để tăng tác dụng cầm máu.",
-    "dosage": "9 - 15g",
-    "warnings": "Không dùng cho vết bỏng quá sâu và rộng trên diện tích lớn mà không có chỉ định y tế.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dia-du.png",
-    "tags": [
-      "cầm máu trĩ",
-      "trị bỏng",
-      "địa du"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 416,
+    "id": 400,
     "slug": "to-moc",
     "name_vn": "Tô mộc",
     "name_han": "蘇木",
@@ -17244,45 +16484,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 417,
-    "slug": "ba-dau",
-    "name_vn": "Ba đậu",
-    "name_han": "巴豆",
-    "scientific_name": "Croton tiglium L.",
-    "family": "Euphorbiaceae (Thầu dầu)",
-    "category": "Thuốc tẩy xổ mạnh (Tả hạ)",
-    "part_used": "Hạt phơi khô",
-    "properties": "Rất nóng (Đại nhiệt)",
-    "taste": "Cay",
-    "meridians": "Vị, Đại trường",
-    "use_cases": [
-      "emergency",
-      "digestion"
-    ],
-    "usage_summary": "Tuấn hạ nhiệt kết, trục đàm, hành thủy.",
-    "basic_summary": "Vị thuốc tẩy xổ cực mạnh và CỰC ĐỘC. Chỉ dùng trong các trường hợp táo bón cấp tính, tắc ruột nghiêm trọng dưới sự giám sát chặt chẽ.",
-    "detailed_usage": "Trị táo bón do tích trệ nặng, phù thũng cổ trướng, ho hen do đờm tắc nghẽn cổ họng, đau bụng cấp.",
-    "preparation": "PHẢI ÉP BỚT DẦU (Ba đậu sương) để giảm độc tính trước khi dùng.",
-    "dosage": "0.1 - 0.3g (Rất nhỏ).",
-    "warnings": "CỰC ĐỘC (Danger). PHẢN Khiên ngưu tử. Phụ nữ có thai, người cơ thể hư nhược cấm dùng.",
-    "safety_level": "danger",
-    "is_toxic": true,
-    "image": "/images/ba-dau.png",
-    "tags": [
-      "tẩy xổ mạnh",
-      "cực độc",
-      "ba đậu"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 418,
+    "id": 401,
     "slug": "truc-dao",
     "name_vn": "Trúc đào",
     "name_han": "夹竹桃",
@@ -17320,7 +16522,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 419,
+    "id": 402,
     "slug": "ban-lam-can",
     "name_vn": "Bản lam căn",
     "name_han": "板藍根",
@@ -17359,7 +16561,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 420,
+    "id": 403,
     "slug": "ta-huu",
     "name_vn": "Tả hưu",
     "name_han": "蚤休",
@@ -17398,7 +16600,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 421,
+    "id": 404,
     "slug": "phu-binh",
     "name_vn": "Phù bình",
     "name_han": "浮萍",
@@ -17437,7 +16639,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 422,
+    "id": 405,
     "slug": "khien-nguu-tu",
     "name_vn": "Khiên ngưu tử",
     "name_han": "牽牛子",
@@ -17476,46 +16678,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 423,
-    "slug": "bo-hoang",
-    "name_vn": "Bồ hoàng",
-    "name_han": "蒲黃",
-    "scientific_name": "Pollen Typhae (Phấn cỏ nến)",
-    "family": "Typhaceae (Cỏ nến)",
-    "category": "Thuốc chỉ huyết, hoạt huyết",
-    "part_used": "Phấn hoa của cây Cỏ nến",
-    "properties": "Bình",
-    "taste": "Ngọt",
-    "meridians": "Can, Tâm bào",
-    "use_cases": [
-      "blood",
-      "pain",
-      "women"
-    ],
-    "usage_summary": "Chỉ huyết, tán ứ, thông lâm.",
-    "basic_summary": "Phấn cỏ nến. Vị thuốc quý giúp cầm máu (khi sao cháy) hoặc tan máu bầm (khi dùng sống).",
-    "detailed_usage": "Trị chảy máu cam, ho ra máu, đại tiểu tiện ra máu, băng huyết, đau bụng kinh, đau sau sinh do huyết ứ.",
-    "preparation": "Dùng sống để hoạt huyết, sao cháy để cầm máu. Khi sắc nên bọc vào túi vải.",
-    "dosage": "5 - 10g",
-    "warnings": "Phụ nữ có thai cấm dùng (gây co bóp tử cung).",
-    "safety_level": "caution",
-    "is_toxic": false,
-    "image": "/images/bo-hoang.png",
-    "tags": [
-      "cầm máu",
-      "tan máu bầm",
-      "bồ hoàng"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 424,
+    "id": 406,
     "slug": "hoang-nan",
     "name_vn": "Hoàng nàn",
     "name_han": "黄屺",
@@ -17554,46 +16717,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 425,
-    "slug": "ho-cot",
-    "name_vn": "Hổ cốt",
-    "name_han": "虎骨",
-    "scientific_name": "Os Tigris (Xương hổ)",
-    "family": "Felidae (Họ Mèo)",
-    "category": "Thuốc khư phong thấp, mạnh xương cốt",
-    "part_used": "Xương của con hổ",
-    "properties": "Ấm",
-    "taste": "Cay, mặn",
-    "meridians": "Can, Thận",
-    "use_cases": [
-      "joint",
-      "pain",
-      "tonic"
-    ],
-    "usage_summary": "Khư phong thấp, cường cân cốt, trấn kinh chỉ thống.",
-    "basic_summary": "Xương hổ. Vị thuốc 'thần dược' cho xương khớp, giúp mạnh gân cốt và trị phong thấp nặng.",
-    "detailed_usage": "Trị phong thấp lâu ngày, đau lưng mỏi gối, chân tay yếu mỏi, trẻ em chậm biết đi.",
-    "preparation": "Rửa sạch, sao với cát, ngâm rượu hoặc nấu cao (Cao Hổ cốt).",
-    "dosage": "3 - 9g",
-    "warnings": "QUAN TRỌNG: Hổ là động vật cực kỳ quý hiếm, bị cấm săn bắn và mua bán theo luật pháp quốc tế (CITES) và Việt Nam. Khuyến cáo sử dụng các vị thuốc thảo dược thay thế.",
-    "safety_level": "danger",
-    "is_toxic": false,
-    "image": "/images/ho-cot.png",
-    "tags": [
-      "mạnh xương khớp",
-      "cao hổ cốt",
-      "bảo tồn"
-    ],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p1",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 426,
+    "id": 407,
     "slug": "hong-sam",
     "name_vn": "Hồng sâm",
     "name_han": "紅參",
@@ -17632,36 +16756,28 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 428,
-    "slug": "cu-kim-cang",
+    "id": 408,
+    "slug": "c-kim-cang",
     "name_vn": "Củ kim cang",
-    "name_han": "金剛",
+    "name_han": "",
     "scientific_name": "Tacca chantrieri André",
-    "family": "Kim cang (Taccaceae)",
-    "category": "Thuốc thanh nhiệt giải độc",
+    "family": "Taccaceae (Kim cang)",
+    "category": "Thuốc thanh nhiệt, lương huyết, giải độc",
     "part_used": "Thân rễ (Củ)",
     "properties": "Hàn",
     "taste": "Đắng",
     "meridians": "Can, Phế, Vị",
-    "use_cases": [
-      "fever",
-      "detox",
-      "bleeding"
-    ],
-    "usage_summary": "Thanh nhiệt lương huyết, giải độc tiêu viêm, chỉ huyết.",
-    "basic_summary": "Củ kim cang có tính hàn vị đắng, chuyên dùng để thanh nhiệt, giải độc và cầm máu hiệu quả.",
+    "use_cases": [],
+    "usage_summary": "Thanh nhiệt lương huyết, giải độc tiêu viêm, lợi thủy tiêu thủng, chỉ huyết.",
+    "basic_summary": "Còn gọi là: Kim cang nam / Cây củ mạch.",
     "detailed_usage": "Trị viêm loét dạ dày, kiết lỵ ra máu, ho ra máu, mụn nhọt sưng độc, viêm gan vàng da, phù thũng.",
     "preparation": "Đào rễ rửa sạch, thái mỏng, phơi khô. Dùng sống hoặc sao đen cầm máu.",
-    "dosage": "6 - 12g",
+    "dosage": "6 - 12g.",
     "warnings": "Tỳ vị hư hàn (hay lạnh bụng) cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-kim-cang.png",
-    "tags": [
-      "thanh nhiệt",
-      "cầm máu",
-      "viêm loét dạ dày"
-    ],
+    "image": "/images/c-kim-cang.png",
+    "tags": [],
     "source_refs": [
       {
         "label": "PDF - Chi Tiet Ten-p2",
@@ -17671,7 +16787,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 429,
+    "id": 409,
     "slug": "hoai-son",
     "name_vn": "Củ mài (Hoài sơn)",
     "name_han": "淮山",
@@ -17711,36 +16827,28 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 430,
-    "slug": "cu-nau",
+    "id": 410,
+    "slug": "c-nu",
     "name_vn": "Củ nâu",
-    "name_han": "薯莨",
-    "scientific_name": "Dioscorea cirrhosa",
-    "family": "Củ nâu (Dioscoreaceae)",
-    "category": "Thuốc thu liễm",
+    "name_han": "",
+    "scientific_name": "Dioscorea cirrhosa Lour.",
+    "family": "Dioscoreaceae (Củ nâu)",
+    "category": "Thuốc thu liễm, chỉ huyết, sáp trường",
     "part_used": "Thân rễ (Củ)",
     "properties": "Bình",
     "taste": "Đắng, chát",
     "meridians": "Can, Tỳ, Đại trường",
-    "use_cases": [
-      "bleeding",
-      "digestion",
-      "skin"
-    ],
-    "usage_summary": "Thu liễm chỉ huyết, sáp trường chỉ tả, thanh nhiệt giải độc.",
-    "basic_summary": "Dùng để nhuộm vải nhưng trong y học là vị thuốc cầm máu và chữa tiêu chảy tuyệt vời.",
-    "detailed_usage": "Trị ho ra máu, nôn máu, băng huyết, kiết lỵ, tiêu chảy mãn tính, vết thương chảy máu, eczema ngứa.",
-    "preparation": "Thái mỏng phơi khô. Sao tồn tính (củ nâu thán) để tăng tính cầm máu.",
-    "dosage": "6 - 12g",
-    "warnings": "Táo bón, lỵ ra máu do thực nhiệt cấm dùng.",
+    "use_cases": [],
+    "usage_summary": "Thu liễm chỉ huyết, sáp trường chỉ tả, thanh nhiệt giải độc, chỉ ngứa.",
+    "basic_summary": "Còn gọi là: Thứ định / Củ mài tía / Khoai từ tía.",
+    "detailed_usage": "Trị ho ra máu, nôn máu, chảy máu cam, băng huyết, kiết lỵ ra máu, tiêu chảy mãn tính, trĩ, vết thương chảy máu, bỏng lửa, eczema ngứa.",
+    "preparation": "Đào rễ rửa sạch, thái mỏng, phơi khô. Sao tồn tính (Củ nâu thán) để tăng tính cầm máu.",
+    "dosage": "6 - 12g.",
+    "warnings": "Táo bón, lỵ ra máu do湿热(thực nhiệt) cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-nau.png",
-    "tags": [
-      "cầm máu",
-      "củ nâu thán",
-      "tiêu chảy mãn"
-    ],
+    "image": "/images/c-nu.png",
+    "tags": [],
     "source_refs": [
       {
         "label": "PDF - Chi Tiet Ten-p2",
@@ -17750,7 +16858,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 431,
+    "id": 411,
     "slug": "cat-can",
     "name_vn": "Củ sắn dây (Cát căn)",
     "name_han": "葛根",
@@ -17790,7 +16898,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 432,
+    "id": 412,
     "slug": "cu-sung",
     "name_vn": "Củ súng (Rễ bèo súng)",
     "name_han": "睡蓮根",
@@ -17830,7 +16938,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 433,
+    "id": 413,
     "slug": "cuc-ao",
     "name_vn": "Cúc áo (Ngô công thảo)",
     "name_han": "金鈕扣",
@@ -17869,7 +16977,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 434,
+    "id": 414,
     "slug": "cuc-hoa-vang",
     "name_vn": "Cúc hoa vàng (Hoàng cúc)",
     "name_han": "野菊花",
@@ -17908,7 +17016,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 435,
+    "id": 415,
     "slug": "cuc-hoa-trang",
     "name_vn": "Cúc hoa trắng (Bạch cúc hoa)",
     "name_han": "白菊花",
@@ -17948,7 +17056,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 436,
+    "id": 416,
     "slug": "cuc-moc",
     "name_vn": "Cúc mốc (Mốc ri)",
     "name_han": "鼠麴草",
@@ -17987,7 +17095,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 437,
+    "id": 417,
     "slug": "cuc-tan",
     "name_vn": "Cúc tần (Răm bồ)",
     "name_han": "欒樨",
@@ -18026,35 +17134,28 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 438,
-    "slug": "cuc-tru-sau",
+    "id": 418,
+    "slug": "cc-tr-su",
     "name_vn": "Cúc trừ sâu",
-    "name_han": "除蟲菊",
-    "scientific_name": "Chrysanthemum cinerariifolium",
-    "family": "Cúc (Asteraceae)",
-    "category": "Thuốc sát trùng",
+    "name_han": "",
+    "scientific_name": "Chrysanthemum cinerariifolium (Trevir.) Vis.",
+    "family": "Asteraceae (Cúc)",
+    "category": "Thuốc sát trùng, diệt ký sinh trùng",
     "part_used": "Hoa, Thân lá",
-    "properties": "Ôn",
+    "properties": "Ôn (Độc)",
     "taste": "Cay, đắng",
-    "meridians": "Không có kinh cụ thể",
-    "use_cases": [
-      "skin",
-      "parasites"
-    ],
+    "meridians": "Không quy kinh cụ thể (Thường dùng ngoài)",
+    "use_cases": [],
     "usage_summary": "Sát trùng diệt ký sinh trùng ngoài da, chỉ dương.",
-    "basic_summary": "Cây cúc có chứa hoạt chất độc Pyrethrin tự nhiên, chuyên dùng ngoài da để diệt bọ chét, rận, ghẻ mạt.",
-    "detailed_usage": "Trị ghẻ lở, rận, chấy, mạt, nấm da. Tuyệt đối không dùng để uống.",
-    "preparation": "Hái hoa phơi khô tán bột, hoặc sắc lấy nước.",
-    "dosage": "Dùng ngoài tùy ý",
-    "warnings": "CÓ ĐỘC. Tuyệt đối không uống trong. Có thể gây ngộ độc thần kinh nếu nuốt phải lượng lớn.",
+    "basic_summary": "Còn gọi là: Trừ trùng cúc / Cúc diệt côn trùng.",
+    "detailed_usage": "Trị ghẻ lở, rận, chấy, bọ chét, mạt, nấm da. Dùng trong nông nghiệp làm thuốc trừ sâu sinh học.",
+    "preparation": "Hái hoa, thân phơi khô, tán bột hoặc sắc nước.",
+    "dosage": "Chỉ dùng ngoài da tùy ý (rắc bột hoặc nước sắc xông rửa).",
+    "warnings": "",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cuc-tru-sau.png",
-    "tags": [
-      "có độc",
-      "ghẻ lở",
-      "ký sinh trùng"
-    ],
+    "image": "/images/cc-tr-su.png",
+    "tags": [],
     "source_refs": [
       {
         "label": "PDF - Chi Tiet Ten-p2",
@@ -18064,7 +17165,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 439,
+    "id": 419,
     "slug": "la-bac-tu",
     "name_vn": "Củ cải (Hạt La bạc tử)",
     "name_han": "萊菔子",
@@ -18102,38 +17203,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 440,
-    "slug": "c-kim-cang",
-    "name_vn": "Củ kim cang",
-    "name_han": "",
-    "scientific_name": "Tacca chantrieri André",
-    "family": "Taccaceae (Kim cang)",
-    "category": "Thuốc thanh nhiệt, lương huyết, giải độc",
-    "part_used": "Thân rễ (Củ)",
-    "properties": "Hàn",
-    "taste": "Đắng",
-    "meridians": "Can, Phế, Vị",
-    "use_cases": [],
-    "usage_summary": "Thanh nhiệt lương huyết, giải độc tiêu viêm, lợi thủy tiêu thủng, chỉ huyết.",
-    "basic_summary": "Còn gọi là: Kim cang nam / Cây củ mạch.",
-    "detailed_usage": "Trị viêm loét dạ dày, kiết lỵ ra máu, ho ra máu, mụn nhọt sưng độc, viêm gan vàng da, phù thũng.",
-    "preparation": "Đào rễ rửa sạch, thái mỏng, phơi khô. Dùng sống hoặc sao đen cầm máu.",
-    "dosage": "6 - 12g.",
-    "warnings": "Tỳ vị hư hàn (hay lạnh bụng) cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/c-kim-cang.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 441,
+    "id": 420,
     "slug": "c-khc-khc",
     "name_vn": "Củ khúc khắc",
     "name_han": "",
@@ -18164,38 +17234,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 442,
-    "slug": "c-mi",
-    "name_vn": "Củ mài",
-    "name_han": "",
-    "scientific_name": "Dioscorea persimilis Prain et Burkill",
-    "family": "Dioscoreaceae (Củ nâu)",
-    "category": "Thuốc bổ khí, dưỡng âm, sáp trường",
-    "part_used": "Thân rễ (Củ)",
-    "properties": "Bình",
-    "taste": "Ngọt",
-    "meridians": "Tỳ, Phế, Thận",
-    "use_cases": [],
-    "usage_summary": "Bổ tỳ dưỡng vị, sinh tân ích phế, bổ thận sáp tinh, chỉ khát.",
-    "basic_summary": "Còn gọi là: Hoài sơn / Sơn dược.",
-    "detailed_usage": "Trị tỳ hư tiêu chảy, phế hư ho suyễn, thận hư di tinh tiểu rắt, đái tháo đường.",
-    "preparation": "Gọt vỏ, ngâm nước phèn chua cho trắng, thái mỏng, phơi khô. Dùng sống (Sinh hoài sơn) dưỡng âm; Sao vàng (Hoài sơn sao) kiện tỳ chỉ tả.",
-    "dosage": "10 - 30g.",
-    "warnings": "Thực tích (đầy bụng táo bón do ăn quá no),湿trệ đầy bụng cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/c-mi.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 443,
+    "id": 421,
     "slug": "c-nn",
     "name_vn": "Củ năn",
     "name_han": "",
@@ -18226,38 +17265,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 444,
-    "slug": "c-nu",
-    "name_vn": "Củ nâu",
-    "name_han": "",
-    "scientific_name": "Dioscorea cirrhosa Lour.",
-    "family": "Dioscoreaceae (Củ nâu)",
-    "category": "Thuốc thu liễm, chỉ huyết, sáp trường",
-    "part_used": "Thân rễ (Củ)",
-    "properties": "Bình",
-    "taste": "Đắng, chát",
-    "meridians": "Can, Tỳ, Đại trường",
-    "use_cases": [],
-    "usage_summary": "Thu liễm chỉ huyết, sáp trường chỉ tả, thanh nhiệt giải độc, chỉ ngứa.",
-    "basic_summary": "Còn gọi là: Thứ định / Củ mài tía / Khoai từ tía.",
-    "detailed_usage": "Trị ho ra máu, nôn máu, chảy máu cam, băng huyết, kiết lỵ ra máu, tiêu chảy mãn tính, trĩ, vết thương chảy máu, bỏng lửa, eczema ngứa.",
-    "preparation": "Đào rễ rửa sạch, thái mỏng, phơi khô. Sao tồn tính (Củ nâu thán) để tăng tính cầm máu.",
-    "dosage": "6 - 12g.",
-    "warnings": "Táo bón, lỵ ra máu do湿热(thực nhiệt) cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/c-nu.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 445,
+    "id": 422,
     "slug": "c-ning",
     "name_vn": "Củ niễng",
     "name_han": "",
@@ -18288,7 +17296,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 446,
+    "id": 423,
     "slug": "c-na",
     "name_vn": "Củ nưa",
     "name_han": "",
@@ -18319,38 +17327,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 447,
-    "slug": "c-sng",
-    "name_vn": "Củ súng",
-    "name_han": "",
-    "scientific_name": "Ipomoea digitata L. (hoặc Merremia hungaiensis)",
-    "family": "Convolvulaceae (Bìm bìm)",
-    "category": "Thuốc nhuận tràng, hóa đờm, tiêu thưong",
-    "part_used": "Rễ củ (Củ to có nhũ dịch trắng như sữa bò)",
-    "properties": "Lương",
-    "taste": "Ngọt, nhạt",
-    "meridians": "Phế, Đại trường",
-    "use_cases": [],
-    "usage_summary": "Nhuận tràng thông tiện, thanh nhiệt hóa đờm, tiêu thũng bài nùng.",
-    "basic_summary": "Còn gọi là: Rễ bèo súng / Củ sen đá.",
-    "detailed_usage": "Trị táo bón kinh niên do nhiệt, ho đờm đặc, viêm họng sưng đau, mụn nhọt lở loét, vết thương sưng đau.",
-    "preparation": "Đào củ rửa sạch đất cát, thái mỏng, phơi khô. Dùng sống hoặc sao vàng.",
-    "dosage": "6 - 12g.",
-    "warnings": "Tỳ vị hư hàn (hay lạnh bụng tiêu chảy), phụ nữ có thai cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/c-sng.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 448,
+    "id": 424,
     "slug": "c-cy-cm-np",
     "name_vn": "Củ cây cơm nếp",
     "name_han": "",
@@ -18381,38 +17358,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 449,
-    "slug": "cc-o",
-    "name_vn": "Cúc áo",
-    "name_han": "",
-    "scientific_name": "Spilanthes acmella (L.) L. / Spilanthes paniculata Wall. ex DC.",
-    "family": "Asteraceae (Cúc)",
-    "category": "Thuốc tán phong, thanh nhiệt, chỉ thống",
-    "part_used": "Toàn cây, Hoa",
-    "properties": "Ôn",
-    "taste": "Cay, đắng (Có vị tê cay đặc trưng khi nhai)",
-    "meridians": "Phế, Vị",
-    "use_cases": [],
-    "usage_summary": "Khu phong tán hàn, thanh nhiệt giải độc, tiêu viêm chỉ thống, lợi thấp.",
-    "basic_summary": "Còn gọi là: Ngô công thảo / Cúc vạn thọ dại.",
-    "detailed_usage": "Trị cảm mạo phong hàn, viêm họng sưng đau, đau răng, thấp khớp đau nhức, kiết lỵ, viêm da dị ứng mẩn ngứa.",
-    "preparation": "Rửa sạch, phơi khô. Dùng tươi hoặc sao vàng.",
-    "dosage": "10 - 16g khô sắc; Dùng ngoài tùy ý.",
-    "warnings": "Phụ nữ có thai cấm dùng (có tài liệu ghi gây co thắt tử cung).",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/cc-o.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 450,
+    "id": 425,
     "slug": "cc-bch-nht",
     "name_vn": "Cúc bách nhật",
     "name_han": "",
@@ -18443,7 +17389,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 451,
+    "id": 426,
     "slug": "cc-gip",
     "name_vn": "Cúc giáp",
     "name_han": "",
@@ -18474,7 +17420,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 452,
+    "id": 427,
     "slug": "cc-hoa-vng",
     "name_vn": "Cúc hoa vàng",
     "name_han": "",
@@ -18505,7 +17451,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 453,
+    "id": 428,
     "slug": "cc-hoa-trng",
     "name_vn": "Cúc hoa trắng",
     "name_han": "",
@@ -18536,7 +17482,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 454,
+    "id": 429,
     "slug": "cc-lin-chi-di",
     "name_vn": "Cúc liên chi dại",
     "name_han": "",
@@ -18567,7 +17513,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 455,
+    "id": 430,
     "slug": "cc-mn",
     "name_vn": "Cúc mắn",
     "name_han": "",
@@ -18598,7 +17544,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 456,
+    "id": 431,
     "slug": "cc-mc",
     "name_vn": "Cúc mốc",
     "name_han": "",
@@ -18629,7 +17575,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 457,
+    "id": 432,
     "slug": "cc-nhp",
     "name_vn": "Cúc nháp",
     "name_han": "",
@@ -18660,7 +17606,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 458,
+    "id": 433,
     "slug": "cc-nc",
     "name_vn": "Cúc nước",
     "name_han": "",
@@ -18691,100 +17637,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 459,
-    "slug": "cc-tn",
-    "name_vn": "Cúc tần",
-    "name_han": "",
-    "scientific_name": "Pluchea indica (L.) Less. • Họ: Asteraceae (Cúc)",
-    "family": "",
-    "category": "Thuốc khu phong, hoạt huyết, tiêu viêm",
-    "part_used": "Rễ, Lá, Thân cành",
-    "properties": "Bình",
-    "taste": "Cay, đắng, mặn",
-    "meridians": "Can, Thận, Tỳ",
-    "use_cases": [],
-    "usage_summary": "Khu phong trừ thấp, hoạt huyết thông lạc, tiêu viêm chỉ thống.",
-    "basic_summary": "Còn gọi là: Cúc tần ổi / Răm bồ / Bồng bồng.",
-    "detailed_usage": "Trị đau lưng nhức mỏi gối, viêm khớp, viêm xoang, mụn nhọt.",
-    "preparation": "Rễ, cành rửa sạch phơi khô. Tẩm rượu sao hoặc sao vàng.",
-    "dosage": "15 - 30g rễ khô sắc.",
-    "warnings": "Phụ nữ có thai cẩn thận.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/cc-tn.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 460,
-    "slug": "cc-tr-su",
-    "name_vn": "Cúc trừ sâu",
-    "name_han": "",
-    "scientific_name": "Chrysanthemum cinerariifolium (Trevir.) Vis.",
-    "family": "Asteraceae (Cúc)",
-    "category": "Thuốc sát trùng, diệt ký sinh trùng",
-    "part_used": "Hoa, Thân lá",
-    "properties": "Ôn (Độc)",
-    "taste": "Cay, đắng",
-    "meridians": "Không quy kinh cụ thể (Thường dùng ngoài)",
-    "use_cases": [],
-    "usage_summary": "Sát trùng diệt ký sinh trùng ngoài da, chỉ dương.",
-    "basic_summary": "Còn gọi là: Trừ trùng cúc / Cúc diệt côn trùng.",
-    "detailed_usage": "Trị ghẻ lở, rận, chấy, bọ chét, mạt, nấm da. Dùng trong nông nghiệp làm thuốc trừ sâu sinh học.",
-    "preparation": "Hái hoa, thân phơi khô, tán bột hoặc sắc nước.",
-    "dosage": "Chỉ dùng ngoài da tùy ý (rắc bột hoặc nước sắc xông rửa).",
-    "warnings": "",
-    "safety_level": "toxic",
-    "is_toxic": true,
-    "image": "/images/cc-tr-su.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 461,
-    "slug": "c-ci",
-    "name_vn": "Củ cải",
-    "name_han": "",
-    "scientific_name": "Raphanus sativus L.",
-    "family": "Brassicaceae (Thập tự)",
-    "category": "Thuốc tiêu thực, hóa đờm, hạ khí",
-    "part_used": "Củ, Hạt (La bạc tử)",
-    "properties": "Lương (Củ), Bình (Hạt)",
-    "taste": "Cay, ngọt",
-    "meridians": "Phế, Vị",
-    "use_cases": [],
-    "usage_summary": "Củ: Tiêu thực trệ, hóa đờm hạ khí. Hạt: Hạ khí định suyễn, hóa đờm tiêu thực.",
-    "basic_summary": "Còn gọi là: La bạc / Bạch la bạc.",
-    "detailed_usage": "Trị ho suyễn đờm nhiều, đầy bụng ăn không tiêu, táo bón.",
-    "preparation": "",
-    "dosage": "Củ tươi 30-60g ép nước; Hạt 6 - 12g sắc.",
-    "warnings": "Hạt Củ cải (La bạc tử) CHỐNG VỚI NHÂN SÂM (Thập bát phản). Người tỳ vị hư hàn cấm dùng hạt.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/c-ci.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 462,
+    "id": 434,
     "slug": "c-dn",
     "name_vn": "Cù đèn",
     "name_han": "",
@@ -18815,7 +17668,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 463,
+    "id": 435,
     "slug": "c-lc",
     "name_vn": "Cù lác",
     "name_han": "",
@@ -18846,7 +17699,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 464,
+    "id": 436,
     "slug": "cm-cm",
     "name_vn": "Cườm cườm",
     "name_han": "",
@@ -18877,7 +17730,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 465,
+    "id": 437,
     "slug": "cun-ch",
     "name_vn": "Cun chó",
     "name_han": "",
@@ -18908,7 +17761,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 466,
+    "id": 438,
     "slug": "c-sn",
     "name_vn": "Củ sắn",
     "name_han": "",
@@ -18939,7 +17792,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 467,
+    "id": 439,
     "slug": "cu-bo-cu-bo",
     "name_vn": "Cẩu báo -> Cẩu bão",
     "name_han": "",
@@ -18970,7 +17823,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 468,
+    "id": 440,
     "slug": "cu-nhc",
     "name_vn": "Cẩu nhục",
     "name_han": "",
@@ -19001,7 +17854,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 469,
+    "id": 441,
     "slug": "cu-kt-cu-kt",
     "name_vn": "Cấu kết -> Câu kết",
     "name_han": "",
@@ -19032,7 +17885,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 470,
+    "id": 442,
     "slug": "cu",
     "name_vn": "Cầu",
     "name_han": "",
@@ -19063,7 +17916,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 471,
+    "id": 443,
     "slug": "cu-thn-cu-thn",
     "name_vn": "Cầu thận -> Cẩu thận",
     "name_han": "",
@@ -19094,7 +17947,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 472,
+    "id": 444,
     "slug": "cu-tn-mao-cu-v-tho",
     "name_vn": "Cầu tồn mao -> Cẩu vĩ thảo",
     "name_han": "",
@@ -19125,7 +17978,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 473,
+    "id": 445,
     "slug": "cu-tch-cu-tch",
     "name_vn": "Cầu tích -> Cẩu tích",
     "name_han": "",
@@ -19156,7 +18009,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 474,
+    "id": 446,
     "slug": "cu-t-tho-cu-v-tho",
     "name_vn": "Cầu tử thảo -> Cẩu vĩ thảo",
     "name_han": "",
@@ -19187,7 +18040,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 475,
+    "id": 447,
     "slug": "cu-v-trng-cu-v-trng",
     "name_vn": "Cầu vĩ trùng -> Cẩu vĩ trùng",
     "name_han": "",
@@ -19218,7 +18071,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 476,
+    "id": 448,
     "slug": "cu-sao-mao-cu-v-mao",
     "name_vn": "Cưu sao mao -> Cẩu vĩ mao",
     "name_han": "",
@@ -19249,7 +18102,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 477,
+    "id": 449,
     "slug": "c-thng-t-n-thng-t",
     "name_vn": "Cư thăng tử -> Nữ thường tử",
     "name_han": "",
@@ -19280,7 +18133,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 478,
+    "id": 450,
     "slug": "cu-du-cu-tng",
     "name_vn": "Cửu du -> Cửu tằng",
     "name_han": "",
@@ -19311,7 +18164,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 479,
+    "id": 451,
     "slug": "cu-khng",
     "name_vn": "Cửu khổng",
     "name_han": "",
@@ -19342,7 +18195,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 480,
+    "id": 452,
     "slug": "cu-l-hng",
     "name_vn": "Cửu lý hương",
     "name_han": "",
@@ -19373,7 +18226,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 481,
+    "id": 453,
     "slug": "cu-ngu-dng-cu-ngu-to",
     "name_vn": "Cửu ngưu đống -> Cửu ngưu tạo",
     "name_han": "",
@@ -19404,7 +18257,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 482,
+    "id": 454,
     "slug": "cu-nhn-dc-hot",
     "name_vn": "Cửu nhãn độc hoạt",
     "name_han": "",
@@ -19435,7 +18288,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 483,
+    "id": 455,
     "slug": "cu-tit-lin",
     "name_vn": "Cửu tiết liên",
     "name_han": "",
@@ -19466,7 +18319,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 484,
+    "id": 456,
     "slug": "cu-tn-tho-cu-tn-tho",
     "name_vn": "Cửu tìn thảo -> Cửu tốn thảo",
     "name_han": "",
@@ -19497,7 +18350,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 485,
+    "id": 457,
     "slug": "cu-t",
     "name_vn": "Cửu tử",
     "name_han": "",
@@ -19528,7 +18381,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 486,
+    "id": 458,
     "slug": "cu-t-th",
     "name_vn": "Cửu tử thụ",
     "name_han": "",
@@ -19559,7 +18412,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 487,
+    "id": 459,
     "slug": "cy-actis",
     "name_vn": "Cây actisô",
     "name_han": "",
@@ -19590,7 +18443,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 488,
+    "id": 460,
     "slug": "cy-ba-gc",
     "name_vn": "Cây ba gạc",
     "name_han": "",
@@ -19621,7 +18474,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 489,
+    "id": 461,
     "slug": "cy-ba-kch",
     "name_vn": "Cây ba kích",
     "name_han": "",
@@ -19652,7 +18505,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 490,
+    "id": 462,
     "slug": "cy-bch-b",
     "name_vn": "Cây bách bộ",
     "name_han": "",
@@ -19683,7 +18536,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 491,
+    "id": 463,
     "slug": "cy-ban",
     "name_vn": "Cây ban",
     "name_han": "",
@@ -19714,7 +18567,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 492,
+    "id": 464,
     "slug": "cy-bnh-m",
     "name_vn": "Cây bánh mì",
     "name_han": "",
@@ -19745,7 +18598,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 493,
+    "id": 465,
     "slug": "cy-b-d",
     "name_vn": "Cây bồ đề",
     "name_han": "",
@@ -19776,7 +18629,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 494,
+    "id": 466,
     "slug": "cy-bng",
     "name_vn": "Cây bông",
     "name_han": "",
@@ -19807,7 +18660,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 495,
+    "id": 467,
     "slug": "cy-bng-phn",
     "name_vn": "Cây bông phấn",
     "name_han": "",
@@ -19838,7 +18691,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 496,
+    "id": 468,
     "slug": "cy-b-mm",
     "name_vn": "Cây bọ mắm",
     "name_han": "",
@@ -19869,7 +18722,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 497,
+    "id": 469,
     "slug": "cy-c-dc-dc",
     "name_vn": "Cây cà độc dược",
     "name_han": "",
@@ -19900,7 +18753,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 498,
+    "id": 470,
     "slug": "cy-cau",
     "name_vn": "Cây cau",
     "name_han": "",
@@ -19931,7 +18784,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 499,
+    "id": 471,
     "slug": "cy-cau-dng",
     "name_vn": "Cây cau đằng",
     "name_han": "",
@@ -19962,7 +18815,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 500,
+    "id": 472,
     "slug": "cy-cht",
     "name_vn": "Cây chít",
     "name_han": "",
@@ -19993,7 +18846,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 501,
+    "id": 473,
     "slug": "cy-cha-nha",
     "name_vn": "Cây chóa nha",
     "name_han": "",
@@ -20024,7 +18877,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 502,
+    "id": 474,
     "slug": "cy-chi-xu",
     "name_vn": "Cây chồi xuể",
     "name_han": "",
@@ -20055,7 +18908,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 503,
+    "id": 475,
     "slug": "cy-chng-bu-cy-dng-bu",
     "name_vn": "Cây chưng bầu -> Cây đăng bầu",
     "name_han": "",
@@ -20086,7 +18939,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 504,
+    "id": 476,
     "slug": "cy-c-nn",
     "name_vn": "Cây cỏ nến",
     "name_han": "",
@@ -20117,7 +18970,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 505,
+    "id": 477,
     "slug": "cy-ct-kh",
     "name_vn": "Cây cốt khí",
     "name_han": "",
@@ -20148,7 +19001,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 506,
+    "id": 478,
     "slug": "cy-ci-xay",
     "name_vn": "Cây cối xay",
     "name_han": "",
@@ -20179,7 +19032,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 507,
+    "id": 479,
     "slug": "cy-cm-np",
     "name_vn": "Cây cơm nếp",
     "name_han": "",
@@ -20210,7 +19063,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 508,
+    "id": 480,
     "slug": "cy-cm-ru",
     "name_vn": "Cây cơm rượu",
     "name_han": "",
@@ -20241,7 +19094,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 509,
+    "id": 481,
     "slug": "cy-c-du",
     "name_vn": "Cây củ đậu",
     "name_han": "",
@@ -20272,7 +19125,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 510,
+    "id": 482,
     "slug": "cy-c-khi",
     "name_vn": "Cây củ khởi",
     "name_han": "",
@@ -20303,7 +19156,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 511,
+    "id": 483,
     "slug": "cy-cc-bch-nht",
     "name_vn": "Cây cúc bách nhật",
     "name_han": "",
@@ -20334,7 +19187,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 512,
+    "id": 484,
     "slug": "cy-d-cm",
     "name_vn": "Cây dạ cẩm",
     "name_han": "",
@@ -20365,7 +19218,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 513,
+    "id": 485,
     "slug": "cy-d",
     "name_vn": "Cây dẻ",
     "name_han": "",
@@ -20396,7 +19249,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 514,
+    "id": 486,
     "slug": "cy-da-cn",
     "name_vn": "Cây dừa cạn",
     "name_han": "",
@@ -20427,7 +19280,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 515,
+    "id": 487,
     "slug": "cy-da-lng",
     "name_vn": "Cây đa lông",
     "name_han": "",
@@ -20458,7 +19311,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 516,
+    "id": 488,
     "slug": "cy-di",
     "name_vn": "Cây đại",
     "name_han": "",
@@ -20489,7 +19342,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 517,
+    "id": 489,
     "slug": "cy-dnh-dnh",
     "name_vn": "Cây dành dành",
     "name_han": "",
@@ -20520,7 +19373,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 518,
+    "id": 490,
     "slug": "cy-dn-gnh",
     "name_vn": "Cây đòn gánh",
     "name_han": "",
@@ -20551,7 +19404,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 519,
+    "id": 491,
     "slug": "cy-dui-cng",
     "name_vn": "Cây đuôi công",
     "name_han": "",
@@ -20582,7 +19435,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 520,
+    "id": 492,
     "slug": "cy-dui-phng",
     "name_vn": "Cây đuôi phượng",
     "name_han": "",
@@ -20613,7 +19466,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 521,
+    "id": 493,
     "slug": "cy-du-giun",
     "name_vn": "Cây dầu giun",
     "name_han": "",
@@ -20644,7 +19497,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 522,
+    "id": 494,
     "slug": "cy-da-thm",
     "name_vn": "Cây dứa thơm",
     "name_han": "",
@@ -20675,7 +19528,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 523,
+    "id": 495,
     "slug": "cy-gnh",
     "name_vn": "Cây gánh",
     "name_han": "",
@@ -20706,7 +19559,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 524,
+    "id": 496,
     "slug": "cy-gai-cua",
     "name_vn": "Cây gai cua",
     "name_han": "",
@@ -20737,7 +19590,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 525,
+    "id": 497,
     "slug": "cy-hm-ch",
     "name_vn": "Cây hàm ếch",
     "name_han": "",
@@ -20768,7 +19621,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 526,
+    "id": 498,
     "slug": "cy-hoa-di",
     "name_vn": "Cây hoa đại",
     "name_han": "",
@@ -20799,7 +19652,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 527,
+    "id": 499,
     "slug": "cy-hoa-he",
     "name_vn": "Cây hoa hòe",
     "name_han": "",
@@ -20830,7 +19683,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 528,
+    "id": 500,
     "slug": "cy-hoa-nhi",
     "name_vn": "Cây hoa nhài",
     "name_han": "",
@@ -20861,7 +19714,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 529,
+    "id": 501,
     "slug": "cy-hoa-thy-tin",
     "name_vn": "Cây hoa thủy tiên",
     "name_han": "",
@@ -20892,7 +19745,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 530,
+    "id": 502,
     "slug": "cy-huyt-d",
     "name_vn": "Cây huyết dụ",
     "name_han": "",
@@ -20923,7 +19776,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 531,
+    "id": 503,
     "slug": "cy-k-du-nga",
     "name_vn": "Cây kế đầu ngựa",
     "name_han": "",
@@ -20954,7 +19807,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 532,
+    "id": 504,
     "slug": "cy-keo-giu",
     "name_vn": "Cây keo giậu",
     "name_han": "",
@@ -20985,7 +19838,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 533,
+    "id": 505,
     "slug": "cy-khim",
     "name_vn": "Cây khiếm",
     "name_han": "",
@@ -21016,7 +19869,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 534,
+    "id": 506,
     "slug": "cy-kim-vng",
     "name_vn": "Cây kim vàng",
     "name_han": "",
@@ -21047,7 +19900,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 535,
+    "id": 507,
     "slug": "cy-k-ninh",
     "name_vn": "Cây ký ninh",
     "name_han": "",
@@ -21078,7 +19931,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 536,
+    "id": 508,
     "slug": "cy-l-da",
     "name_vn": "Cây lá dứa",
     "name_han": "",
@@ -21109,7 +19962,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 537,
+    "id": 509,
     "slug": "cy-l-men",
     "name_vn": "Cây lá men",
     "name_han": "",
@@ -21140,7 +19993,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 538,
+    "id": 510,
     "slug": "cy-l-mng-tay",
     "name_vn": "Cây lá móng tay",
     "name_han": "",
@@ -21171,7 +20024,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 539,
+    "id": 511,
     "slug": "cy-l-ngn",
     "name_vn": "Cây lá ngón",
     "name_han": "",
@@ -21202,7 +20055,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 540,
+    "id": 512,
     "slug": "cy-l-tit-d",
     "name_vn": "Cây lá tiết dê",
     "name_han": "",
@@ -21233,7 +20086,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 541,
+    "id": 513,
     "slug": "cy-la",
     "name_vn": "Cây la",
     "name_han": "",
@@ -21264,7 +20117,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 542,
+    "id": 514,
     "slug": "cy-lai",
     "name_vn": "Cây lai",
     "name_han": "",
@@ -21295,7 +20148,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 543,
+    "id": 515,
     "slug": "cy-lim",
     "name_vn": "Cây lim",
     "name_han": "",
@@ -21326,7 +20179,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 544,
+    "id": 516,
     "slug": "cy-lm",
     "name_vn": "Cây lôm",
     "name_han": "",
@@ -21357,7 +20210,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 545,
+    "id": 517,
     "slug": "cy-lng-khi",
     "name_vn": "Cây lông khi",
     "name_han": "",
@@ -21388,7 +20241,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 546,
+    "id": 518,
     "slug": "cy-mc-c",
     "name_vn": "Cây mắc cỡ",
     "name_han": "",
@@ -21419,7 +20272,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 547,
+    "id": 519,
     "slug": "cy-m-tin-tho",
     "name_vn": "Cây mã tiên thảo",
     "name_han": "",
@@ -21450,7 +20303,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 548,
+    "id": 520,
     "slug": "cy-mo-g-d",
     "name_vn": "Cây mào gà đỏ",
     "name_han": "",
@@ -21481,7 +20334,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 549,
+    "id": 521,
     "slug": "cy-mo-g-trng",
     "name_vn": "Cây mào gà trắng",
     "name_han": "",
@@ -21512,7 +20365,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 550,
+    "id": 522,
     "slug": "cy-me-rng",
     "name_vn": "Cây me rừng",
     "name_han": "",
@@ -21543,7 +20396,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 551,
+    "id": 523,
     "slug": "cy-m-qu",
     "name_vn": "Cây mỏ quạ",
     "name_han": "",
@@ -21574,7 +20427,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 552,
+    "id": 524,
     "slug": "cy-mt-l",
     "name_vn": "Cây một lá",
     "name_han": "",
@@ -21605,7 +20458,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 553,
+    "id": 525,
     "slug": "cy-mp-st",
     "name_vn": "Cây mướp sát",
     "name_han": "",
@@ -21636,7 +20489,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 554,
+    "id": 526,
     "slug": "cy-ngu-tt",
     "name_vn": "Cây ngưu tất",
     "name_han": "",
@@ -21667,7 +20520,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 555,
+    "id": 527,
     "slug": "cy-nht-ty",
     "name_vn": "Cây nhót tây",
     "name_han": "",
@@ -21698,7 +20551,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 556,
+    "id": 528,
     "slug": "cy-np-m",
     "name_vn": "Cây nắp ấm",
     "name_han": "",
@@ -21729,7 +20582,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 557,
+    "id": 529,
     "slug": "cy-nhu",
     "name_vn": "Cây nhầu",
     "name_han": "",
@@ -21760,38 +20613,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 558,
-    "slug": "cy-n",
-    "name_vn": "Cây nổ",
-    "name_han": "",
-    "scientific_name": "Psidium guajava L.",
-    "family": "Myrtaceae (Sim)",
-    "category": "Thuốc thu liễm, chỉ tả, chỉ huyết",
-    "part_used": "Lá non, Quả xanh, Vỏ thân, Rễ",
-    "properties": "Bình",
-    "taste": "Ngọt, chát",
-    "meridians": "Tỳ, Vị, Đại trường",
-    "use_cases": [],
-    "usage_summary": "Thu liễm chỉ tả, kiện tỳ, chỉ huyết, tiêu thực.",
-    "basic_summary": "Còn gọi là: Bồng bồng / Lộc bi / Ngải bồng bồng.",
-    "detailed_usage": "Trị tiêu chảy cấp, kiết lỵ, nôn mửa, viêm loét dạ dày, ho kéo dài.",
-    "preparation": "Lá rửa sạch, phơi khô. Sao vàng hoặc sao cháy tồn tính để tăng tính thu liễm.",
-    "dosage": "10 - 15g.",
-    "warnings": "Người táo bón cấm dùng (do tính chát thu liễm mạnh).",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/cy-n.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 559,
+    "id": 530,
     "slug": "cy-ong-bu",
     "name_vn": "Cây ong bầu",
     "name_han": "",
@@ -21822,7 +20644,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 560,
+    "id": 531,
     "slug": "cy-phng",
     "name_vn": "Cây phượng",
     "name_han": "",
@@ -21853,7 +20675,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 561,
+    "id": 532,
     "slug": "cy-qu",
     "name_vn": "Cây quế",
     "name_han": "",
@@ -21884,7 +20706,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 562,
+    "id": 533,
     "slug": "cy-rau-ci",
     "name_vn": "Cây rau cải",
     "name_han": "",
@@ -21915,7 +20737,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 563,
+    "id": 534,
     "slug": "cy-rau-m",
     "name_vn": "Cây rau má",
     "name_han": "",
@@ -21946,7 +20768,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 564,
+    "id": 535,
     "slug": "cy-rau-m-ng",
     "name_vn": "Cây rau má ngò",
     "name_han": "",
@@ -21977,7 +20799,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 565,
+    "id": 536,
     "slug": "cy-rau-ngt",
     "name_vn": "Cây rau ngót",
     "name_han": "",
@@ -22008,7 +20830,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 566,
+    "id": 537,
     "slug": "cy-ru-mo",
     "name_vn": "Cây râu mèo",
     "name_han": "",
@@ -22039,7 +20861,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 567,
+    "id": 538,
     "slug": "cy-rm-nao",
     "name_vn": "Cây rùm nao",
     "name_han": "",
@@ -22070,7 +20892,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 568,
+    "id": 539,
     "slug": "cy-sai",
     "name_vn": "Cây sai",
     "name_han": "",
@@ -22101,7 +20923,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 569,
+    "id": 540,
     "slug": "cy-sang",
     "name_vn": "Cây sang",
     "name_han": "",
@@ -22132,7 +20954,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 570,
+    "id": 541,
     "slug": "cy-si",
     "name_vn": "Cây si",
     "name_han": "",
@@ -22163,7 +20985,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 571,
+    "id": 542,
     "slug": "cy-sn",
     "name_vn": "Cây sơn",
     "name_han": "",
@@ -22194,38 +21016,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 572,
-    "slug": "cy-sung",
-    "name_vn": "Cây sung",
-    "name_han": "",
-    "scientific_name": "Ficus racemosa L.",
-    "family": "Moraceae (Dâu tằm)",
-    "category": "Thuốc tiêu thực, thanh nhiệt, giải độc",
-    "part_used": "Quả, Lá, Vỏ thân, Rễ",
-    "properties": "Bình",
-    "taste": "Ngọt, chát",
-    "meridians": "Vị, Đại trường",
-    "use_cases": [],
-    "usage_summary": "Tiêu thực hóa trệ, thanh nhiệt giải độc, thu liễm chỉ tả, nhuận tràng thông tiện.",
-    "basic_summary": "Còn gọi là: Sung / Vả.",
-    "detailed_usage": "Trị ăn không tiêu, đầy bụng, kiết lỵ, mụn nhọt lở ngứa, ho gà, táo bón.",
-    "preparation": "Quả ăn tươi, ép nước hoặc sấy khô. Rễ, vỏ thân rửa sạch thái nhỏ phơi khô.",
-    "dosage": "10 - 15g rễ/vỏ khô sắc; Quả tươi tùy ý.",
-    "warnings": "Người tỳ hư tiêu chảy cấm dùng nhiều.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/cy-sung.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 573,
+    "id": 543,
     "slug": "cy-sa",
     "name_vn": "Cây sữa",
     "name_han": "",
@@ -22256,7 +21047,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 574,
+    "id": 544,
     "slug": "cy-sng-b",
     "name_vn": "Cây sừng bò",
     "name_han": "",
@@ -22287,38 +21078,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 575,
-    "slug": "cy-tam-tht",
-    "name_vn": "Cây tam thất",
-    "name_han": "",
-    "scientific_name": "Panax notoginseng (Burkill) F .H.Chen",
-    "family": "Araliaceae (Nhân sâm)",
-    "category": "Thuốc chỉ huyết, hóa ứ, tiêu thủng, định thống",
-    "part_used": "Rễ củ (Tam thất), Hoa (Hoa tam thất), Lá • Công dụng: Hóa ứ chỉ huyết, hoạt huyết định thống, tiêu thủng sinh cơ. Trị chảy máu",
-    "properties": "Ôn",
-    "taste": "Ngọt, hơi đắng",
-    "meridians": "Can, Vị, Đại trường",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Tam thất / Kim bất hoán.",
-    "detailed_usage": "",
-    "preparation": "Rửa sạch, sấy khô tán bột (dùng sống hóa ứ chỉ huyết tốt nhất). Chưng chín tán bột (Thục tam thất) dùng bổ huyết an thần.",
-    "dosage": "1 - 3g bột uống; 3 - 9g sắc.",
-    "warnings": "Phụ nữ có thai cấm dùng (tính hoạt huyết mạnh). Cảm mạo phong hàn chưa hết cấm dùng.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/cy-tam-tht.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "PDF - Chi Tiet Ten-p2",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 576,
+    "id": 545,
     "slug": "cy-tha-l",
     "name_vn": "Cây thìa là",
     "name_han": "",
@@ -22349,7 +21109,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 577,
+    "id": 546,
     "slug": "cy-thch-den",
     "name_vn": "Cây thạch đen",
     "name_han": "",
@@ -22380,7 +21140,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 578,
+    "id": 547,
     "slug": "cy-thch-lu",
     "name_vn": "Cây thạch lựu",
     "name_han": "",
@@ -22411,7 +21171,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 579,
+    "id": 548,
     "slug": "cy-then",
     "name_vn": "Cây then",
     "name_han": "",
@@ -22442,7 +21202,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 580,
+    "id": 549,
     "slug": "cy-thng-thin",
     "name_vn": "Cây thông thiên",
     "name_han": "",
@@ -22473,7 +21233,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 581,
+    "id": 550,
     "slug": "cy-thi-rut",
     "name_vn": "Cây thối ruột",
     "name_han": "",
@@ -22504,7 +21264,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 582,
+    "id": 551,
     "slug": "cy-t-mc",
     "name_vn": "Cây tô mộc",
     "name_han": "",
@@ -22535,7 +21295,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 583,
+    "id": 552,
     "slug": "cy-t-hng",
     "name_vn": "Cây tơ hồng",
     "name_han": "",
@@ -22566,7 +21326,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 584,
+    "id": 553,
     "slug": "cy-trc-bch-dip",
     "name_vn": "Cây trắc bách diệp",
     "name_han": "",
@@ -22597,7 +21357,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 585,
+    "id": 554,
     "slug": "cy-trinh-n",
     "name_vn": "Cây trinh nữ",
     "name_han": "",
@@ -22628,7 +21388,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 586,
+    "id": 555,
     "slug": "cy-trc-do",
     "name_vn": "Cây trúc đào",
     "name_han": "",
@@ -22659,7 +21419,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 587,
+    "id": 556,
     "slug": "cy-trng-ch",
     "name_vn": "Cây trứng ếch",
     "name_han": "",
@@ -22690,7 +21450,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 588,
+    "id": 557,
     "slug": "cy-vi-voi",
     "name_vn": "Cây vòi voi",
     "name_han": "",
@@ -22721,7 +21481,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 589,
+    "id": 558,
     "slug": "da-voi",
     "name_vn": "Da voi",
     "name_han": "",
@@ -22752,7 +21512,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 590,
+    "id": 559,
     "slug": "d-cm",
     "name_vn": "Dạ cẩm",
     "name_han": "",
@@ -22783,7 +21543,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 591,
+    "id": 560,
     "slug": "d-hp",
     "name_vn": "Dạ hợp",
     "name_han": "",
@@ -22814,7 +21574,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 592,
+    "id": 561,
     "slug": "d-lai-hng",
     "name_vn": "Dạ lai hương",
     "name_han": "",
@@ -22845,38 +21605,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 593,
-    "slug": "d-minh-sa",
-    "name_vn": "Dạ minh sa",
-    "name_han": "",
-    "scientific_name": "Chiroptera feces (phân các loài dơi ăn côn trùng)Họ: Động vật họcNhóm: Thuốc minh mục, khứ 翳, hoạt huyết, tiêu thũngTính: HànVị: CayQuy kinh: CanBộ phận dùng: Phân dơi đã chế biến (rửa sạch, sao vàng)Công dụng: Minh mục khứ 翳, hoạt huyết tiêu thũng. Trị đau mắt đỏ, mờ mắt, màng mộng, quáng gà, chấn thương bầm tím, kinh nguyệt không đều, đau bụng kinh.Cách bào chế: ⚠️ Phải chế biến kỹ: Phân dơi thu về rửa sạch nhiều lần với nước, lọc bỏ tạp chất, phơi khô, sao vàng hoặc tẩm rượu sao. Tuyệt đối không dùng sống.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Phân dơi, Nightow droppings - động vật làm thuốc.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "⚠️ Phải chế biến sạch sẽ để tránh nhiễm khuẩn, ký sinh trùng. Người tỳ vị hư hàn, tiêu chảy không dùng. Phụ nữ có thai thận trọng. Chỉ mua từ nguồn uy tín, đã qua chế biến.Liều dùng: 3-10g/ngày dạng thuốc sắc hoặc hoàn tán. Dùng ngoài: lượng tùy ý.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/d-minh-sa.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 594,
+    "id": 562,
     "slug": "d-ngu-bang",
     "name_vn": "Dạ ngưu bang",
     "name_han": "",
@@ -22907,7 +21636,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 595,
+    "id": 563,
     "slug": "d-quan-mn",
     "name_vn": "Dạ quan môn",
     "name_han": "",
@@ -22938,7 +21667,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 596,
+    "id": 564,
     "slug": "dm-dng-hoc",
     "name_vn": "Dâm dương hoắc",
     "name_han": "",
@@ -22969,7 +21698,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 597,
+    "id": 565,
     "slug": "dm-bt",
     "name_vn": "Dâm bụt",
     "name_han": "",
@@ -23000,7 +21729,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 598,
+    "id": 566,
     "slug": "dm-trng",
     "name_vn": "Dấm trắng",
     "name_han": "",
@@ -23031,7 +21760,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 599,
+    "id": 567,
     "slug": "dnh-dnh",
     "name_vn": "Dành dành",
     "name_han": "",
@@ -23062,7 +21791,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 600,
+    "id": 568,
     "slug": "dnh-xay",
     "name_vn": "Dành xay",
     "name_han": "",
@@ -23093,7 +21822,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 601,
+    "id": 569,
     "slug": "du",
     "name_vn": "Dâu",
     "name_han": "",
@@ -23124,7 +21853,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 602,
+    "id": 570,
     "slug": "du-cang",
     "name_vn": "Dâu cang",
     "name_han": "",
@@ -23155,7 +21884,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 603,
+    "id": 571,
     "slug": "du-gia-xoan",
     "name_vn": "Dâu gia xoan",
     "name_han": "",
@@ -23186,7 +21915,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 604,
+    "id": 572,
     "slug": "du-ru",
     "name_vn": "Dâu rượu",
     "name_han": "",
@@ -23217,7 +21946,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 605,
+    "id": 573,
     "slug": "du-tim",
     "name_vn": "Dâu tim",
     "name_han": "",
@@ -23248,38 +21977,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 606,
-    "slug": "du-tm",
-    "name_vn": "Dâu tằm",
-    "name_han": "",
-    "scientific_name": "Morus alba L.Họ: Moraceae (Dâu tằm)Nhóm: Thuốc bổ âm, thanh nhiệt, nhuận phế, minh mụcTính: MátVị: NgọtQuy kinh: Can, Thận, PhếBộ phận dùng: Lá (Tang diệp), quả (Tang thầm), vỏ rễ (Tang bạch bì), cành (Tang chi)Công dụng:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Tang, Bạch dâu, Morus.",
-    "detailed_usage": "",
-    "preparation": "Lá phơi khô (có thể sao vàng). Quả chín phơi/sấy khô. Vỏ rễ cạo sạch, thái lát phơi khô. Cành chặt đoạn phơi khô.Phối hợp:",
-    "dosage": "",
-    "warnings": "Tính mát, người tỳ vị hư hàn, tiêu chảy không dùng quá liều. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng vỏ rễ.Liều dùng: Lá/vỏ rễ khô: 10-20g/ngày. Quả: 10-15g. Cành: 6-12g.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/du-tm.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 607,
+    "id": 574,
     "slug": "du-ch",
     "name_vn": "Dầu chè",
     "name_han": "",
@@ -23310,7 +22008,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 608,
+    "id": 575,
     "slug": "du-giun",
     "name_vn": "Dầu giun",
     "name_han": "",
@@ -23341,7 +22039,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 609,
+    "id": 576,
     "slug": "cy-du-du",
     "name_vn": "Cây dầu dầu",
     "name_han": "",
@@ -23372,7 +22070,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 610,
+    "id": 577,
     "slug": "cy-du-thu-du",
     "name_vn": "Cây dầu thầu đầu",
     "name_han": "",
@@ -23403,7 +22101,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 611,
+    "id": 578,
     "slug": "cy-du-dng",
     "name_vn": "Cây dầu đắng",
     "name_han": "",
@@ -23434,7 +22132,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 612,
+    "id": 579,
     "slug": "dy-a-giao",
     "name_vn": "Dây a giao",
     "name_han": "",
@@ -23465,7 +22163,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 613,
+    "id": 580,
     "slug": "dy-ba-mi",
     "name_vn": "Dây ba mươi",
     "name_han": "",
@@ -23496,38 +22194,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 614,
-    "slug": "dy-bt",
-    "name_vn": "Dây bát",
-    "name_han": "",
-    "scientific_name": "Chưa xác định chính thứcHọ: Dự đoán Fabaceae hoặc VitaceaeNhóm: Dự đoán: Thuốc khu phong, hoạt huyết, chỉ thốngTính: Dự đoán: Ôn/BìnhVị: Dự đoán: Ngọt, hơi chátQuy kinh: Dự đoán: Can, ThậnBộ phận dùng: Dây, lá, rễCông dụng: Theo kinh nghiệm dân gian: hỗ trợ trị đau nhức xương khớp, tê bì, chấn thương, đầy bụng.Cách bào chế: Dây/rễ thái lát phơi khô, lá dùng tươi hoặc phơi khô.",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "⚠️⚠️ KHÔNG TỰ Ý SỬ DỤNG khi chưa xác định chính xác loài. Có nguy cơ nhầm lẫn với loài có độc hoặc gây dị ứng. Luôn tham vấn thầy thuốc địa phương.Liều dùng: Chưa có khuyến cáo chính thức.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dy-bt.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 615,
+    "id": 581,
     "slug": "dy-chc-chu",
     "name_vn": "Dây chặc chìu",
     "name_han": "",
@@ -23558,7 +22225,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 616,
+    "id": 582,
     "slug": "dy-chi",
     "name_vn": "Dây chi",
     "name_han": "",
@@ -23589,7 +22256,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 617,
+    "id": 583,
     "slug": "dy-ch-ch",
     "name_vn": "Dây chỉ chủ",
     "name_han": "",
@@ -23620,7 +22287,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 618,
+    "id": 584,
     "slug": "dy-chua-l",
     "name_vn": "Dây chua lè",
     "name_han": "",
@@ -23651,7 +22318,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 619,
+    "id": 585,
     "slug": "dy-ct-kh",
     "name_vn": "Dây cốt khí",
     "name_han": "",
@@ -23682,7 +22349,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 620,
+    "id": 586,
     "slug": "dy-cc",
     "name_vn": "Dây cước",
     "name_han": "",
@@ -23713,7 +22380,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 621,
+    "id": 587,
     "slug": "dy-dc",
     "name_vn": "Dây dác",
     "name_han": "",
@@ -23744,7 +22411,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 622,
+    "id": 588,
     "slug": "dy-dm-trng",
     "name_vn": "Dây dâm trắng",
     "name_han": "",
@@ -23775,100 +22442,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 623,
-    "slug": "dy-dau-xng",
-    "name_vn": "Dây đau xương",
-    "name_han": "",
-    "scientific_name": "Tinospora crispa (L.) Hook.f. & ThomsonHọ: Menispermaceae (Bình vôi)Nhóm: Thuốc khu phong, trừ thấp, thông lạc, chỉ thốngTính: BìnhVị: ĐắngQuy kinh: Can, Thận, Bàng quangBộ phận dùng: Thân dây, láCông dụng: Khu phong trừ thấp, thư cân hoạt lạc, chỉ thống tiêu thũng. Trị phong thấp đau nhức xương khớp, tê bại, đau lưng mỏi gối, chấn thương bầm tím, mụn nhọt, sốt rét, vàng da.Cách bào chế: Thân dây thu hái quanh năm, cắt đoạn, phơi khô hoặc dùng tươi. Lá dùng tươi hoặc phơi khô. Có thể tẩm rượu sao để tăng tác dụng thông lạc.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Khoan cân đằng, Tinospora.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người khí hư không có phong thấp ứ trệ không dùng. Phụ nữ có thai thận trọng. Không dùng quá liều kéo dài.Liều dùng: Khô: 10-20g/ngày sắc uống. Tươi: 30-50g. Dùng ngoài: lượng tùy ý.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dy-dau-xng.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 624,
-    "slug": "dy-dn-gnh",
-    "name_vn": "Dây đòn gánh",
-    "name_han": "",
-    "scientific_name": "Celastrus hindsii Benth. hoặc Gymnema inodorum (Lour.) Decne.Họ: Celastraceae (Dây gối) hoặc ApocynaceaeNhóm: Thuốc bổ can thận, mạnh gân xương, khu phong thấpTính: ÔnVị: Đắng, hơi ngọtQuy kinh: Can, ThậnBộ phận dùng: Dây, lá, rễCông dụng: Bổ can thận, mạnh gân xương, khu phong trừ thấp, hoạt huyết chỉ thống. Trị đau lưng mỏi gối, phong thấp tê bại, chấn thương bầm tím, suy nhược, ăn uống kém tiêu.Cách bào chế: Dây/rễ thu hái mùa thu đông, rửa sạch, thái lát phơi khô. Lá dùng tươi hoặc phơi khô. Có thể ngâm rượu hoặc sắc uống.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Dây gối hạc, Dây gối.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người âm hư hỏa vượng không dùng. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng. Không dùng quá liều kéo dài.Liều dùng: Khô: 10-20g/ngày sắc uống. Ngâm rượu: 20-30ml/ngày.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dy-dn-gnh.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 625,
-    "slug": "dy-gm",
-    "name_vn": "Dây gắm",
-    "name_han": "",
-    "scientific_name": "Gnetum montanum Markgr.Họ: Gnetaceae (Gắm)Nhóm: Thuốc bổ huyết, hoạt huyết, thông lạc, chỉ thốngTính: BìnhVị: Ngọt, hơi đắngQuy kinh: Can, ThậnBộ phận dùng: Dây, lá, rễCông dụng: Bổ huyết hoạt huyết, thông lạc chỉ thống, khu phong trừ thấp. Trị phong thấp đau nhức xương khớp, tê bại, đau lưng mỏi gối, chấn thương bầm tím, kinh nguyệt không đều, thiếu máu.Cách bào chế: Dây/rễ thu hái quanh năm, rửa sạch, thái lát phơi khô. Lá dùng tươi hoặc phơi khô. Có thể tẩm rượu sao để tăng tác dụng hoạt huyết.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Gắm xanh, Gnetum.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người khí hư không có ứ trệ thận trọng. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng. Không dùng quá liều kéo dài.Liều dùng: Khô: 10-20g/ngày sắc uống. Dùng ngoài: lượng tùy ý nấu nước rửa hoặc giã đắp.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dy-gm.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 626,
+    "id": 589,
     "slug": "dy-gm-lt",
     "name_vn": "Dây gắm lót",
     "name_han": "",
@@ -23899,7 +22473,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 627,
+    "id": 590,
     "slug": "dy-gan",
     "name_vn": "Dây gan",
     "name_han": "",
@@ -23930,7 +22504,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 628,
+    "id": 591,
     "slug": "dy-hay-dy-hi",
     "name_vn": "Dây hay / Dây hải",
     "name_han": "",
@@ -23961,7 +22535,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 629,
+    "id": 592,
     "slug": "dy-khai",
     "name_vn": "Dây khai",
     "name_han": "",
@@ -23992,7 +22566,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 630,
+    "id": 593,
     "slug": "dy-kh-rch",
     "name_vn": "Dây khố rách",
     "name_han": "",
@@ -24023,38 +22597,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 631,
-    "slug": "dy-k-ninh",
-    "name_vn": "Dây ký ninh",
-    "name_han": "",
-    "scientific_name": "Cinchona succirubra Pav. ex Klotzsch hoặc loài cùng chiHọ: Rubiaceae (Cà phê)Nhóm: Thuốc thanh nhiệt, giải độc, sốt rét, kiện tỳTính: HànVị: Rất đắngQuy kinh: Can, Đởm, TỳBộ phận dùng: Vỏ thân, vỏ rễCông dụng: Thanh nhiệt giải độc, sốt rét, kiện tỳ khai vị, chỉ thống. Trị sốt rét, sốt cao, đau đầu, ăn uống kém tiêu, đau bụng, hỗ trợ hạ sốt. Vỏ chứa alkaloid quinin - hoạt chất chống sốt rét.Cách bào chế: Vỏ thân/rễ thu hái mùa xuân thu, cạo sạch lớp bần, thái lát phơi hoặc sấy khô. Khi dùng thường sắc kỹ hoặc ngâm rượu.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Canh ki na, Cinchona.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "⚠️ Vị rất đắng, dễ gây buồn nôn, ù tai, rối loạn thị giác nếu dùng quá liều. Không dùng thay thế thuốc sốt rét chính thống khi chưa có chỉ định. Phụ nữ có thai, người bệnh tim thận trọng.Liều dùng: Vỏ khô: 3-6g/ngày sắc uống. Chiết xuất: theo chỉ định chuyên môn.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dy-k-ninh.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 632,
+    "id": 594,
     "slug": "dy-mu",
     "name_vn": "Dây máu",
     "name_han": "",
@@ -24085,7 +22628,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 633,
+    "id": 595,
     "slug": "dy-m-lng",
     "name_vn": "Dây mơ lông",
     "name_han": "",
@@ -24116,7 +22659,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 634,
+    "id": 596,
     "slug": "dy-m-ln",
     "name_vn": "Dây mỡ lợn",
     "name_han": "",
@@ -24147,7 +22690,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 635,
+    "id": 597,
     "slug": "dy-mc",
     "name_vn": "Dây mốc",
     "name_han": "",
@@ -24178,7 +22721,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 636,
+    "id": 598,
     "slug": "dy-mt",
     "name_vn": "Dây một",
     "name_han": "",
@@ -24209,7 +22752,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 637,
+    "id": 599,
     "slug": "dy-quai-b",
     "name_vn": "Dây quai bị",
     "name_han": "",
@@ -24240,7 +22783,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 638,
+    "id": 600,
     "slug": "dy-quai-xanh",
     "name_vn": "Dây quai xanh",
     "name_han": "",
@@ -24271,7 +22814,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 639,
+    "id": 601,
     "slug": "dy-rut-g",
     "name_vn": "Dây ruột gà",
     "name_han": "",
@@ -24302,7 +22845,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 640,
+    "id": 602,
     "slug": "dy-sm",
     "name_vn": "Dây sâm",
     "name_han": "",
@@ -24333,7 +22876,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 641,
+    "id": 603,
     "slug": "dy-sn",
     "name_vn": "Dây sén",
     "name_han": "",
@@ -24364,7 +22907,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 642,
+    "id": 604,
     "slug": "dy-sng-rn",
     "name_vn": "Dây sống rắn",
     "name_han": "",
@@ -24395,7 +22938,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 643,
+    "id": 605,
     "slug": "dy-sa-b",
     "name_vn": "Dây sữa bò",
     "name_han": "",
@@ -24426,7 +22969,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 644,
+    "id": 606,
     "slug": "dy-thn-thng",
     "name_vn": "Dây thần thông",
     "name_han": "",
@@ -24457,7 +23000,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 645,
+    "id": 607,
     "slug": "dy-thp",
     "name_vn": "Dây thép",
     "name_han": "",
@@ -24488,7 +23031,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 646,
+    "id": 608,
     "slug": "dy-tc-tin",
     "name_vn": "Dây tóc tiên",
     "name_han": "",
@@ -24519,7 +23062,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 647,
+    "id": 609,
     "slug": "dy-vng",
     "name_vn": "Dây vắng",
     "name_han": "",
@@ -24550,7 +23093,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 648,
+    "id": 610,
     "slug": "dy-xanh",
     "name_vn": "Dây xanh",
     "name_han": "",
@@ -24581,38 +23124,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 649,
-    "slug": "dy-chiu",
-    "name_vn": "Dây chiều",
-    "name_han": "",
-    "scientific_name": "Chưa xác định chính thứcHọ: Chưa xác địnhNhóm: Dự đoán: Thuốc an thần, thanh nhiệt, giải độcTính: Dự đoán: MátVị: Dự đoán: Ngọt, thơmQuy kinh: Dự đoán: Tâm, CanBộ phận dùng: Dự đoán: Hoa, láCông dụng: Theo kinh nghiệm dân gian: hỗ trợ an thần, trị mất ngủ, trẻ khóc đêm, thanh nhiệt giải khát.",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "⚠️ THÔNG TIN CHƯA ĐƯỢC XÁC MINH - Không tự ý dùng nội phục khi chưa xác định chính xác loài. Luôn tham vấn thầy thuốc địa phương.Liều dùng: Theo kinh nghiệm: hoa/lá khô 10-20g/ngày hãm trà.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dy-chiu.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 650,
+    "id": 611,
     "slug": "d-gai",
     "name_vn": "Dẻ gai",
     "name_han": "",
@@ -24643,7 +23155,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 651,
+    "id": 612,
     "slug": "d-mn",
     "name_vn": "Dế mèn",
     "name_han": "",
@@ -24674,7 +23186,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 652,
+    "id": 613,
     "slug": "dn",
     "name_vn": "Dền",
     "name_han": "",
@@ -24705,7 +23217,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 653,
+    "id": 614,
     "slug": "d-than",
     "name_vn": "Dế than",
     "name_han": "",
@@ -24736,7 +23248,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 654,
+    "id": 615,
     "slug": "da-cn",
     "name_vn": "Dừa cạn",
     "name_han": "",
@@ -24767,7 +23279,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 655,
+    "id": 616,
     "slug": "da-nc",
     "name_vn": "Dừa nước",
     "name_han": "",
@@ -24798,7 +23310,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 656,
+    "id": 617,
     "slug": "dch-c",
     "name_vn": "Dịch cá",
     "name_han": "",
@@ -24829,7 +23341,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 657,
+    "id": 618,
     "slug": "dim-phu-mc",
     "name_vn": "Diêm phu mộc",
     "name_han": "",
@@ -24860,7 +23372,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 658,
+    "id": 619,
     "slug": "dim-ph",
     "name_vn": "Diêm phụ",
     "name_han": "",
@@ -24891,7 +23403,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 659,
+    "id": 620,
     "slug": "dim-sinh",
     "name_vn": "Diêm sinh",
     "name_han": "",
@@ -24922,7 +23434,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 660,
+    "id": 621,
     "slug": "dip-c",
     "name_vn": "Diếp cá",
     "name_han": "",
@@ -24953,7 +23465,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 661,
+    "id": 622,
     "slug": "dip-di",
     "name_vn": "Diếp dại",
     "name_han": "",
@@ -24984,7 +23496,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 662,
+    "id": 623,
     "slug": "dip-h-chu",
     "name_vn": "Diệp hạ châu",
     "name_han": "",
@@ -25015,7 +23527,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 663,
+    "id": 624,
     "slug": "dip-hoi-thi",
     "name_vn": "Diệp hoài thái",
     "name_han": "",
@@ -25046,7 +23558,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 664,
+    "id": 625,
     "slug": "dip-hong",
     "name_vn": "Diệp hoàng",
     "name_han": "",
@@ -25077,7 +23589,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 665,
+    "id": 626,
     "slug": "dip-sinh-cn",
     "name_vn": "Diệp sinh căn",
     "name_han": "",
@@ -25108,38 +23620,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 666,
-    "slug": "dan-sm",
-    "name_vn": "Đan sâm",
-    "name_han": "",
-    "scientific_name": "Salvia miltiorrhiza BungeHọ: Lamiaceae (Hoa môi)Nhóm: Thuốc hoạt huyết khứ ứ, lương huyết tiêu ung, trừ phiền an thầnTính: HànVị: ĐắngQuy kinh: Tâm, CanBộ phận dùng: RễCông dụng: Hoạt huyết khứ ứ, thông kinh chỉ thống, lương huyết tiêu ung, thanh tâm trừ phiền. Trị kinh nguyệt không đều, đau bụng kinh, bế kinh, đau ngực ứ huyết, chấn thương bầm tím, mụn nhọt, mất ngủ, hồi hộp, viêm gan xơ gan hỗ trợ.Cách bào chế: Rễ thu hái mùa xuân thu, rửa sạch, phơi/sấy khô. Tẩm rượu sao để tăng tác dụng hoạt huyết.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Đan sâm, Hồng căn.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người không có ứ huyết, phụ nữ có thai không dùng. Không dùng chung với Lê lô (theo thập cửu úy). Không dùng quá liều kéo dài.Liều dùng: 5-15g/ngày sắc uống hoặc làm hoàn tán.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dan-sm.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 667,
+    "id": 627,
     "slug": "dn-hng",
     "name_vn": "Đàn hương",
     "name_han": "",
@@ -25170,7 +23651,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 668,
+    "id": 628,
     "slug": "dng-sm",
     "name_vn": "Đảng sâm",
     "name_han": "",
@@ -25201,7 +23682,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 669,
+    "id": 629,
     "slug": "do",
     "name_vn": "Đào",
     "name_han": "",
@@ -25232,7 +23713,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 670,
+    "id": 630,
     "slug": "do-kim-nng",
     "name_vn": "Đào kim nương",
     "name_han": "",
@@ -25263,7 +23744,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 671,
+    "id": 631,
     "slug": "do-l",
     "name_vn": "Đào lê",
     "name_han": "",
@@ -25294,7 +23775,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 672,
+    "id": 632,
     "slug": "do-ln-ht",
     "name_vn": "Đào lộn hột",
     "name_han": "",
@@ -25325,38 +23806,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 673,
-    "slug": "do-nhn",
-    "name_vn": "Đào nhân",
-    "name_han": "",
-    "scientific_name": "Prunus persica (L.) BatschHọ: Rosaceae (Hoa hồng)Nhóm: Thuốc hoạt huyết, khứ ứ, nhuận tràng, chỉ kháiTính: BìnhVị: Đắng, ngọt, hơi cayQuy kinh: Tâm, Can, Đại trườngBộ phận dùng: Nhân hạt chín phơi/sấy khôCông dụng: Hoạt huyết khứ ứ, nhuận táo thông tiện, chỉ khái bình suyễn. Trị kinh nguyệt không đều, đau bụng kinh, bế kinh, ứ huyết sau sinh, chấn thương bầm tím, táo bón, ho suyễn, mụn nhọt.Cách bào chế: Hạt chín đập lấy nhân, bỏ vỏ, sao vàng hoặc tẩm nước sôi bóc vỏ, sấy khô. Khi dùng hoạt huyết thì dùng sống, khi dùng nhuận tràng thì sao vàng.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Hạt Đào, Semen Persicae.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "⚠️ Có tác dụng hoạt huyết mạnh - phụ nữ có thai tuyệt đối cấm. Người huyết hư không có ứ trệ, tiêu chảy do tỳ hư không dùng. Hạt sống chứa amygdalin - phải chế biến kỹ trước khi dùng.Liều dùng: Khô: 3-10g/ngày sắc uống hoặc làm hoàn tán.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/do-nhn.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 674,
+    "id": 633,
     "slug": "do-tin",
     "name_vn": "Đào tiên",
     "name_han": "",
@@ -25387,7 +23837,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 675,
+    "id": 634,
     "slug": "du-bch-bin",
     "name_vn": "Đậu bạch biển",
     "name_han": "",
@@ -25418,7 +23868,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 676,
+    "id": 635,
     "slug": "du-ban-thi",
     "name_vn": "Đậu ban thái",
     "name_han": "",
@@ -25449,7 +23899,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 677,
+    "id": 636,
     "slug": "du-chiu",
     "name_vn": "Đậu chiều",
     "name_han": "",
@@ -25480,7 +23930,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 678,
+    "id": 637,
     "slug": "du-cc-ro",
     "name_vn": "Đậu cọc rào",
     "name_han": "",
@@ -25511,7 +23961,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 679,
+    "id": 638,
     "slug": "du-dt",
     "name_vn": "Đậu dẹt",
     "name_han": "",
@@ -25542,38 +23992,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 680,
-    "slug": "du-den",
-    "name_vn": "Đậu đen",
-    "name_han": "",
-    "scientific_name": "Vigna unguiculata (L.) Walp. subsp. unguiculata hoặc Glycine max (L.) Merr. var. nigraHọ: Fabaceae (Đậu)Nhóm: Thuốc bổ thận, dưỡng âm, thanh nhiệt, giải độcTính: Bình, hơi hànVị: NgọtQuy kinh: Thận, Tâm, CanBộ phận dùng: Hạt chín phơi/sấy khôCông dụng: Bổ thận dưỡng âm, thanh nhiệt giải độc, lợi thủy tiêu thũng, hoạt huyết minh mục. Trị thận âm hư, lưng gối yếu đau, chóng mặt hoa mắt, tiểu đường, phù thũng, mụn nhọt, ngộ độc thuốc/thực phẩm, tóc bạc sớm.Cách bào chế: Hạt chín phơi hoặc sấy khô. Khi dùng bổ thận thì sao đen, khi dùng giải độc thì dùng sống hoặc nấu chín.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Hắc đại đậu, Ô đậu.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người tỳ vị hư hàn, tiêu chảy không dùng quá liều. Đậu đen sống khó tiêu - phải nấu chín kỹ. Không dùng chung với thuốc Tây chưa có hướng dẫn.Liều dùng: Khô: 10-30g/ngày sắc uống hoặc nấu cháo. Giải độc: 30-60g.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/du-den.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 681,
+    "id": 639,
     "slug": "du-d-nh",
     "name_vn": "Đậu đỏ nhỏ",
     "name_han": "",
@@ -25604,7 +24023,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 682,
+    "id": 640,
     "slug": "du-khu",
     "name_vn": "Đậu khấu",
     "name_han": "",
@@ -25635,7 +24054,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 683,
+    "id": 641,
     "slug": "du-kim",
     "name_vn": "Đậu kiếm",
     "name_han": "",
@@ -25666,7 +24085,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 684,
+    "id": 642,
     "slug": "du-me-leo",
     "name_vn": "Đậu me leo",
     "name_han": "",
@@ -25697,7 +24116,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 685,
+    "id": 643,
     "slug": "du-miu",
     "name_vn": "Đậu miếu",
     "name_han": "",
@@ -25728,7 +24147,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 686,
+    "id": 644,
     "slug": "du-nnh",
     "name_vn": "Đậu nành",
     "name_han": "",
@@ -25759,7 +24178,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 687,
+    "id": 645,
     "slug": "du-phng",
     "name_vn": "Đậu phộng",
     "name_han": "",
@@ -25790,7 +24209,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 688,
+    "id": 646,
     "slug": "du-ra",
     "name_vn": "Đậu rựa",
     "name_han": "",
@@ -25821,7 +24240,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 689,
+    "id": 647,
     "slug": "du-sng",
     "name_vn": "Đậu săng",
     "name_han": "",
@@ -25852,7 +24271,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 690,
+    "id": 648,
     "slug": "du-si",
     "name_vn": "Đậu si",
     "name_han": "",
@@ -25883,7 +24302,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 691,
+    "id": 649,
     "slug": "du-tng",
     "name_vn": "Đậu tương",
     "name_han": "",
@@ -25914,7 +24333,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 692,
+    "id": 650,
     "slug": "du-vn",
     "name_vn": "Đậu ván",
     "name_han": "",
@@ -25945,7 +24364,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 693,
+    "id": 651,
     "slug": "du-v",
     "name_vn": "Đấu vú",
     "name_han": "",
@@ -25976,38 +24395,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 694,
-    "slug": "du-xanh",
-    "name_vn": "Đậu xanh",
-    "name_han": "",
-    "scientific_name": "Vigna radiata (L.) R.WilczekHọ: Fabaceae (Đậu)Nhóm: Thuốc thanh nhiệt, giải độc, lợi niệu, chỉ thửTính: HànVị: NgọtQuy kinh: Tâm, VịBộ phận dùng: Hạt chín, vỏ hạt, giá đậuCông dụng: Thanh nhiệt giải độc, lợi niệu tiêu thũng, chỉ thử sinh tân. Trị sốt cao, say nắng, mụn nhọt ung độc, ngộ độc thuốc/thực phẩm, tiểu buốt, phù thũng, khát nước. Vỏ đậu xanh (Lục đậu y) thanh nhiệt mạnh hơn. Giá đậu xanh sinh tân, mát gan.Cách bào chế: Hạt chín phơi/sấy khô, dùng nguyên hạt hoặc xay bột. Khi dùng giải độc thì dùng sống giã lấy nước, khi dùng kiện tỳ thì nấu chín. Vỏ hạt tách riêng dùng làm thuốc.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Lục đậu, Mung bean.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Tính hàn, người tỳ vị hư hàn, tiêu chảy do lạnh không dùng quá liều. Hạt sống khó tiêu - phải nấu chín kỹ. Người đang dùng thuốc Tây nên uống cách 2 giờ.Liều dùng: Hạt khô: 10-30g/ngày sắc uống hoặc nấu cháo. Giải độc cấp: 30-60g giã lấy nước uống.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/du-xanh.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 695,
+    "id": 652,
     "slug": "di-hi",
     "name_vn": "Đài hái",
     "name_han": "",
@@ -26038,7 +24426,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 696,
+    "id": 653,
     "slug": "d-bt-t",
     "name_vn": "Đạ bát tử",
     "name_han": "",
@@ -26069,7 +24457,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 697,
+    "id": 654,
     "slug": "di-b",
     "name_vn": "Đại bì",
     "name_han": "",
@@ -26100,7 +24488,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 698,
+    "id": 655,
     "slug": "di-bch-h",
     "name_vn": "Đại bích hổ",
     "name_han": "",
@@ -26131,7 +24519,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 699,
+    "id": 656,
     "slug": "di-cao-lng-khng",
     "name_vn": "Đại cao lương khương",
     "name_han": "",
@@ -26162,7 +24550,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 700,
+    "id": 657,
     "slug": "di-di-hoa",
     "name_vn": "Đại đại hoa",
     "name_han": "",
@@ -26193,7 +24581,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 701,
+    "id": 658,
     "slug": "di-du",
     "name_vn": "Đại đậu",
     "name_han": "",
@@ -26224,7 +24612,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 702,
+    "id": 659,
     "slug": "di-dong-qu",
     "name_vn": "Đại dong quả",
     "name_han": "",
@@ -26255,7 +24643,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 703,
+    "id": 660,
     "slug": "di-hi-t",
     "name_vn": "Đại hải tử",
     "name_han": "",
@@ -26286,7 +24674,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 704,
+    "id": 661,
     "slug": "di-hoa-lo-nha-chy",
     "name_vn": "Đại hoa lão nha chủy",
     "name_han": "",
@@ -26317,38 +24705,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 705,
-    "slug": "di-hong",
-    "name_vn": "Đại hoàng",
-    "name_han": "",
-    "scientific_name": "Rheum palmatum L. hoặc R. officinale Baill.Họ: Polygonaceae (Rau răm)Nhóm: Thuốc tả hạ, công tích, thanh nhiệt, giải độcTính: HànVị: ĐắngQuy kinh: Tỳ, Vị, Đại trường, Can, Tâm bàoBộ phận dùng: Rễ và thân rễCông dụng: Tả hạ thông tiện, thanh nhiệt tả hỏa, lương huyết giải độc, hoạt huyết khứ ứ. Trị táo bón thực nhiệt, đầy bụng đau bụng, lỵ, viêm ruột, mụn nhọt ung độc, xuất huyết, hoàng đản, chấn thương bầm tím.Cách bào chế: Rễ thu hái mùa thu, rửa sạch, thái lát phơi/sấy khô. Chế biến: Sao vàng (giảm tả hạ), Sao đen (cầm máu), Tẩm rượu sao (hoạt huyết mạnh).Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Rhubarb, Thục quân.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "⚠️ Tả hạ mạnh - phụ nữ có thai, hành kinh, tỳ vị hư hàn tuyệt đối cấm. Không dùng kéo dài gây mất nước, rối loạn điện giải, phụ thuộc thuốc xổ. Không dùng chung với Cam thảo (theo thập bát phản).Liều dùng: 3-15g/ngày sắc uống (cho vào sau, đun 5-10 phút). Dùng ngoài: tán bột rắc.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/di-hong.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 706,
+    "id": 662,
     "slug": "di-hot-dng",
     "name_vn": "Đại hoạt đằng",
     "name_han": "",
@@ -26379,38 +24736,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 707,
-    "slug": "di-k",
-    "name_vn": "Đại kế",
-    "name_han": "",
-    "scientific_name": "Cirsium japonicum Fisch. ex DC.Họ: Asteraceae (Cúc)Nhóm: Thuốc lương huyết, chỉ huyết, tiêu viêm, giải độcTính: MátVị: Ngọt, đắngQuy kinh: Tâm, CanBộ phận dùng: Toàn cây, rễCông dụng: Lương huyết chỉ huyết, tiêu viêm giải độc, tán ứ tiêu thũng. Trị ho ra máu, chảy máu cam, đái ra máu, băng huyết, rong kinh, mụn nhọt ung độc, viêm gan, chấn thương bầm tím.Cách bào chế: Thu hái khi có hoa, phơi khô. Khi dùng cầm máu thì sao đen, khi dùng tiêu viêm thì dùng sống.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Cây kế lớn, Thìa ca tử, Thích kế.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người tỳ vị hư hàn, tiêu chảy không dùng. Không dùng quá liều kéo dài. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng.Liều dùng: 10-15g/ngày sắc uống. Dùng ngoài: giã đắp hoặc tán bột rắc.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/di-k.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 708,
+    "id": 663,
     "slug": "di-la-tn",
     "name_vn": "Đại la tản",
     "name_han": "",
@@ -26441,7 +24767,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 709,
+    "id": 664,
     "slug": "di-lc-t",
     "name_vn": "Đại lực tử",
     "name_han": "",
@@ -26472,7 +24798,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 710,
+    "id": 665,
     "slug": "di-ma",
     "name_vn": "Đại ma",
     "name_han": "",
@@ -26503,7 +24829,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 711,
+    "id": 666,
     "slug": "di-phiu",
     "name_vn": "Đại phiêu",
     "name_han": "",
@@ -26534,7 +24860,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 712,
+    "id": 667,
     "slug": "di-phong-t",
     "name_vn": "Đại phong tử",
     "name_han": "",
@@ -26565,7 +24891,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 713,
+    "id": 668,
     "slug": "di-ph-bnh",
     "name_vn": "Đại phù bình",
     "name_han": "",
@@ -26596,7 +24922,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 714,
+    "id": 669,
     "slug": "di-phc-b",
     "name_vn": "Đại phúc bì",
     "name_han": "",
@@ -26627,7 +24953,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 715,
+    "id": 670,
     "slug": "di-sn-yn-t",
     "name_vn": "Đại sơn yên tử",
     "name_han": "",
@@ -26658,38 +24984,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 716,
-    "slug": "di-to",
-    "name_vn": "Đại táo",
-    "name_han": "",
-    "scientific_name": "Ziziphus jujuba Mill.Họ: Rhamnaceae (Táo)Nhóm: Thuốc bổ trung ích khí, dưỡng huyết an thầnTính: ÔnVị: NgọtQuy kinh: Tỳ, Vị, TâmBộ phận dùng: Quả chín phơi/sấy khôCông dụng: Bổ trung ích khí, dưỡng huyết an thần, điều hòa các vị thuốc mạnh. Trị tỳ vị hư nhược, mệt mỏi đoản hơi, mất ngủ, hồi hộp, ho lâu ngày, phụ nữ tạng táo, hỗ trợ phục hồi sau ốm. Thường dùng làm thuốc dẫn, điều hòa hoàn tán/thang thuốc.Cách bào chế: Quả chín rửa sạch, phơi hoặc sấy khô. Có thể đồ chín bóc hạt, hoặc sao đen (Táo đen) để tăng tác dụng cầm máu, kiện tỳ.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Táo đỏ, Táo tàu.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người thấp nhiệt nội uẩn, đầy bụng, sâu răng, tiểu đường không dùng nhiều. Không ăn táo mốc (chứa độc tố).Liều dùng: 3-15g/ngày (khoảng 3-10 quả) sắc uống hoặc ăn trực tiếp.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/di-to.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 717,
+    "id": 671,
     "slug": "di-thch-cao",
     "name_vn": "Đại thạch cao",
     "name_han": "",
@@ -26720,7 +25015,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 718,
+    "id": 672,
     "slug": "di-thanh",
     "name_vn": "Đại thanh",
     "name_han": "",
@@ -26751,7 +25046,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 719,
+    "id": 673,
     "slug": "di-th-t-t",
     "name_vn": "Đại thỏ tỷ tử",
     "name_han": "",
@@ -26782,7 +25077,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 720,
+    "id": 674,
     "slug": "di-thng",
     "name_vn": "Đại thông",
     "name_han": "",
@@ -26813,7 +25108,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 721,
+    "id": 675,
     "slug": "di-tiu-k",
     "name_vn": "Đại tiểu kế",
     "name_han": "",
@@ -26844,7 +25139,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 722,
+    "id": 676,
     "slug": "di-tr-dng",
     "name_vn": "Đại trà đằng",
     "name_han": "",
@@ -26875,7 +25170,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 723,
+    "id": 677,
     "slug": "di-trng-ct",
     "name_vn": "Đại trùng cốt",
     "name_han": "",
@@ -26906,7 +25201,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 724,
+    "id": 678,
     "slug": "di-v-dao",
     "name_vn": "Đại vĩ đao",
     "name_han": "",
@@ -26937,7 +25232,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 725,
+    "id": 679,
     "slug": "dm-phn",
     "name_vn": "Đạm phàn",
     "name_han": "",
@@ -26968,7 +25263,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 726,
+    "id": 680,
     "slug": "dm-trc-dip",
     "name_vn": "Đạm trúc diệp",
     "name_han": "",
@@ -26999,7 +25294,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 727,
+    "id": 681,
     "slug": "dng-tm-tho",
     "name_vn": "Đăng tâm thảo",
     "name_han": "",
@@ -27030,7 +25325,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 728,
+    "id": 682,
     "slug": "da-b-d",
     "name_vn": "Đa bồ đề",
     "name_han": "",
@@ -27061,7 +25356,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 729,
+    "id": 683,
     "slug": "da-bp-d",
     "name_vn": "Đa búp đỏ",
     "name_han": "",
@@ -27092,7 +25387,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 730,
+    "id": 684,
     "slug": "da-lng",
     "name_vn": "Đa lông",
     "name_han": "",
@@ -27123,7 +25418,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 731,
+    "id": 685,
     "slug": "da-nhiu-r",
     "name_vn": "Đa nhiều rễ",
     "name_han": "",
@@ -27154,7 +25449,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 732,
+    "id": 686,
     "slug": "da-trn-l",
     "name_vn": "Đa tròn lá",
     "name_han": "",
@@ -27185,7 +25480,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 733,
+    "id": 687,
     "slug": "dng-hong",
     "name_vn": "Đẳng hoàng",
     "name_han": "",
@@ -27216,7 +25511,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 734,
+    "id": 688,
     "slug": "dt-lng-bp",
     "name_vn": "Đất lòng bếp",
     "name_han": "",
@@ -27247,7 +25542,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 735,
+    "id": 689,
     "slug": "dt-lt",
     "name_vn": "Đất lượt",
     "name_han": "",
@@ -27278,7 +25573,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 736,
+    "id": 690,
     "slug": "d-cung",
     "name_vn": "Đà cuống",
     "name_han": "",
@@ -27309,7 +25604,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 737,
+    "id": 691,
     "slug": "d-tang",
     "name_vn": "Đà tang",
     "name_han": "",
@@ -27340,7 +25635,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 738,
+    "id": 692,
     "slug": "du-pht",
     "name_vn": "Đầu phát",
     "name_han": "",
@@ -27371,7 +25666,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 739,
+    "id": 693,
     "slug": "dn-ba-l",
     "name_vn": "Đẹn ba lá",
     "name_han": "",
@@ -27402,7 +25697,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 740,
+    "id": 694,
     "slug": "dn-but",
     "name_vn": "Đơn buốt",
     "name_han": "",
@@ -27433,7 +25728,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 741,
+    "id": 695,
     "slug": "dn-chu-chu",
     "name_vn": "Đơn châu chấu",
     "name_han": "",
@@ -27464,7 +25759,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 742,
+    "id": 696,
     "slug": "dn-chim",
     "name_vn": "Đơn chim",
     "name_han": "",
@@ -27495,7 +25790,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 743,
+    "id": 697,
     "slug": "dn-dng",
     "name_vn": "Đơn đồng",
     "name_han": "",
@@ -27526,7 +25821,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 744,
+    "id": 698,
     "slug": "dn-l-d",
     "name_vn": "Đơn lá đỏ",
     "name_han": "",
@@ -27557,7 +25852,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 745,
+    "id": 699,
     "slug": "dn-li-cp",
     "name_vn": "Đơn lưỡi cọp",
     "name_han": "",
@@ -27588,7 +25883,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 746,
+    "id": 700,
     "slug": "dn-li-h",
     "name_vn": "Đơn lưỡi hồ",
     "name_han": "",
@@ -27619,7 +25914,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 747,
+    "id": 701,
     "slug": "dn-mt-qu",
     "name_vn": "Đơn mặt quỷ",
     "name_han": "",
@@ -27650,7 +25945,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 748,
+    "id": 702,
     "slug": "dn-ni",
     "name_vn": "Đơn núi",
     "name_han": "",
@@ -27681,7 +25976,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 749,
+    "id": 703,
     "slug": "dn-phn",
     "name_vn": "Đơn phần",
     "name_han": "",
@@ -27712,7 +26007,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 750,
+    "id": 704,
     "slug": "dn-rng-ca",
     "name_vn": "Đơn rừng cưa",
     "name_han": "",
@@ -27743,7 +26038,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 751,
+    "id": 705,
     "slug": "dn-ta",
     "name_vn": "Đơn tía",
     "name_han": "",
@@ -27774,7 +26069,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 752,
+    "id": 706,
     "slug": "dn-trng",
     "name_vn": "Đơn trắng",
     "name_han": "",
@@ -27805,7 +26100,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 753,
+    "id": 707,
     "slug": "dn-tru",
     "name_vn": "Đơn trâu",
     "name_han": "",
@@ -27836,38 +26131,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 754,
-    "slug": "dn-tng-qun",
-    "name_vn": "Đơn tướng quân",
-    "name_han": "",
-    "scientific_name": "Rheum palmatum L. hoặc R. officinale Baill.Họ: Polygonaceae (Rau răm)Nhóm: Thuốc tả hạ công tích, thanh nhiệt giải độc, hoạt huyết khứ ứTính: HànVị: ĐắngQuy kinh: Tỳ, Vị, Đại trường, Can, Tâm bàoBộ phận dùng: Rễ và thân rễCông dụng: Tả hạ thông tiện, thanh nhiệt tả hỏa, lương huyết giải độc, hoạt huyết khứ ứ. Trị táo bón thực nhiệt, đầy bụng đau bụng, lỵ, viêm ruột, mụn nhọt ung độc, xuất huyết, hoàng đản, chấn thương bầm tím.Cách bào chế: Rễ thu hái mùa thu, rửa sạch, thái lát phơi/sấy khô. Chế biến: Sao vàng (giảm tả hạ), Sao đen (cầm máu), Tẩm rượu sao (hoạt huyết mạnh).Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Đại hoàng, Rhubarb.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "⚠️ Tả hạ mạnh - phụ nữ có thai, hành kinh, tỳ vị hư hàn tuyệt đối cấm. Không dùng kéo dài gây mất nước, rối loạn điện giải, phụ thuộc thuốc xổ. Không dùng chung với Cam thảo (theo thập bát phản).Liều dùng: 3-15g/ngày sắc uống (cho vào sau, đun 5-10 phút). Dùng ngoài: tán bột rắc.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dn-tng-qun.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 755,
+    "id": 708,
     "slug": "da-bi-mu",
     "name_vn": "Địa bối mẫu",
     "name_han": "",
@@ -27898,7 +26162,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 756,
+    "id": 709,
     "slug": "da-bin",
     "name_vn": "Địa biển",
     "name_han": "",
@@ -27929,38 +26193,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 757,
-    "slug": "da-ct-b",
-    "name_vn": "Địa cốt bì",
-    "name_han": "",
-    "scientific_name": "Lycium chinense Mill. hoặc L. barbarum L.Họ: Solanaceae (Cà)Nhóm: Thuốc thanh nhiệt hư, lương huyết, chỉ khátTính: HànVị: Ngọt, nhạtQuy kinh: Phế, Can, ThậnBộ phận dùng: Vỏ rễ khô (bỏ lõi gỗ)Công dụng: Thanh nhiệt hư, lương huyết chỉ huyết, trừ phiền chỉ khát, giáng áp. Trị sốt về chiều, mồ hôi trộm, ho lao, ho ra máu, chảy máu cam, tiểu đường, cao huyết áp, nhiệt độc mụn nhọt.Cách bào chế: Rễ đào mùa xuân thu, rửa sạch, dùng đập nhẹ bóc lấy lớp vỏ trắng, phơi hoặc sấy khô. Thái đoạn hoặc tán bột.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Vỏ rễ Câu kỷ, Địa cốt,枸杞皮.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Tính hàn, người tỳ vị hư hàn, ngoại cảm phong hàn không dùng. Không dùng khi đang có biểu sốt lạnh run.Liều dùng: 6-12g/ngày sắc uống.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/da-ct-b.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 758,
+    "id": 710,
     "slug": "da-ct-t",
     "name_vn": "Địa cốt tử",
     "name_han": "",
@@ -27991,38 +26224,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 759,
-    "slug": "da-du",
-    "name_vn": "Địa du",
-    "name_han": "",
-    "scientific_name": "Sanguisorba officinalis L.Họ: Rosaceae (Hoa hồng)Nhóm: Thuốc lương huyết chỉ huyết, thanh nhiệt giải độc, chỉ tảTính: HànVị: Đắng, chua, chátQuy kinh: Can, Vị, Đại trườngBộ phận dùng: Rễ củ khôCông dụng: Lương huyết chỉ huyết, thanh nhiệt giải độc, chỉ tả liễm sang. Trị trĩ ngoại chảy máu, băng huyết rong kinh, xuất huyết tiêu hóa, lỵ, tiêu chảy, bỏng, viêm da, mụn nhọt.Cách bào chế: Rễ thu hái mùa thu đông, rửa sạch, phơi khô. Khi dùng chỉ huyết thì sao đen tồn tính, khi dùng thanh nhiệt giải độc thì dùng sống.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Thiền thảo, Địa du căn.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Tính hàn, người tỳ vị hư hàn không có nhiệt huyết không dùng. Không dùng chung với thuốc chống đông máu khi chưa có chỉ định.Liều dùng: Khô: 9-15g/ngày sắc uống. Dùng ngoài: tán bột rắc hoặc nấu nước rửa.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/da-du.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 760,
+    "id": 711,
     "slug": "da-dm",
     "name_vn": "Địa đởm",
     "name_han": "",
@@ -28053,7 +26255,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 761,
+    "id": 712,
     "slug": "da-dm-du",
     "name_vn": "Địa đảm đầu",
     "name_han": "",
@@ -28084,7 +26286,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 762,
+    "id": 713,
     "slug": "da-dm-tho",
     "name_vn": "Địa đảm thảo",
     "name_han": "",
@@ -28115,38 +26317,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 763,
-    "slug": "da-hong",
-    "name_vn": "Địa hoàng",
-    "name_han": "",
-    "scientific_name": "Rehmannia glutinosa (Gaertn.) Libosch. ex Fisch. & C.A.Mey.Họ: Orobanchaceae (Cỏ chổi)Nhóm: Thuốc thanh nhiệt lương huyết / Bổ huyết dưỡng âmTính: Sinh địa: Hàn; Thục địa: ÔnVị: Ngọt, hơi đắng (Sinh địa); Ngọt (Thục địa)Quy kinh: Tâm, Can, ThậnBộ phận dùng: Rễ củCông dụng:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Sinh địa, Thục địa.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Sinh địa tính hàn, tỳ vị hư hàn, tiêu chảy không dùng. Thục địa tính nhờn, người đờm thấp, đầy bụng, rối loạn tiêu hóa không dùng. Không dùng chung với Lai phục tử.Liều dùng: Sinh địa: 10-30g. Thục địa: 9-15g. Sắc uống hoặc làm hoàn tán.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/da-hong.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 764,
+    "id": 714,
     "slug": "da-ho-dip",
     "name_vn": "Địa ho điệp",
     "name_han": "",
@@ -28177,7 +26348,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 765,
+    "id": 715,
     "slug": "da-h-tiu",
     "name_vn": "Địa hỗ tiêu",
     "name_han": "",
@@ -28208,7 +26379,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 766,
+    "id": 716,
     "slug": "da-mao-cu",
     "name_vn": "Địa mao cầu",
     "name_han": "",
@@ -28239,7 +26410,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 767,
+    "id": 717,
     "slug": "da-m-thi",
     "name_vn": "Địa mỹ thái",
     "name_han": "",
@@ -28270,7 +26441,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 768,
+    "id": 718,
     "slug": "da-nh-tho",
     "name_vn": "Địa nhĩ thảo",
     "name_han": "",
@@ -28301,7 +26472,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 769,
+    "id": 719,
     "slug": "da-ph-dung",
     "name_vn": "Địa phù dung",
     "name_han": "",
@@ -28332,7 +26503,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 770,
+    "id": 720,
     "slug": "da-tinh",
     "name_vn": "Địa tinh",
     "name_han": "",
@@ -28363,7 +26534,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 771,
+    "id": 721,
     "slug": "din-c-hong",
     "name_vn": "Điền cơ hoàng",
     "name_han": "",
@@ -28394,7 +26565,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 772,
+    "id": 722,
     "slug": "din-c-vng",
     "name_vn": "Điền cơ vương",
     "name_han": "",
@@ -28425,7 +26596,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 773,
+    "id": 723,
     "slug": "din-thng",
     "name_vn": "Điền thông",
     "name_han": "",
@@ -28456,7 +26627,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 774,
+    "id": 724,
     "slug": "din-t-tho",
     "name_vn": "Điền tự thảo",
     "name_han": "",
@@ -28487,7 +26658,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 775,
+    "id": 725,
     "slug": "dip-h-thi",
     "name_vn": "Điệp hạ thái",
     "name_han": "",
@@ -28518,7 +26689,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 776,
+    "id": 726,
     "slug": "dip-ty",
     "name_vn": "Điệp tây",
     "name_han": "",
@@ -28549,7 +26720,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 777,
+    "id": 727,
     "slug": "diu",
     "name_vn": "Điều",
     "name_han": "",
@@ -28580,7 +26751,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 778,
+    "id": 728,
     "slug": "diu-nhum",
     "name_vn": "Điều nhuộm",
     "name_han": "",
@@ -28611,7 +26782,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 779,
+    "id": 729,
     "slug": "dnh-hng-dinh-t-hng",
     "name_vn": "Đình hương / Đinh tử hương",
     "name_han": "",
@@ -28642,38 +26813,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 780,
-    "slug": "dinh-lng",
-    "name_vn": "Đinh lăng",
-    "name_han": "",
-    "scientific_name": "Polyscias fruticosa (L.) HarmsHọ: Araliaceae (Nhân sâm)Nhóm: Thuốc bổ khí huyết, kiện tỳ, thông huyết mạch, an thầnTính: BìnhVị: Ngọt, hơi đắng, thơmQuy kinh: Tỳ, Phế, ThậnBộ phận dùng: Rễ, lá, vỏ thânCông dụng: Bổ khí huyết, kiện tỳ ích phế, hoạt huyết thông lạc, an thần định chí, lợi tiểu, thông sữa. Trị suy nhược cơ thể, mệt mỏi, kém ăn, mất ngủ, đau lưng mỏi gối, phụ nữ sau sinh ít sữa, ho, viêm họng, chấn thương bầm tím.Cách bào chế: Rễ thu hái mùa thu đông, rửa sạch, thái lát phơi hoặc sấy khô. Lá dùng tươi hoặc phơi khô. Có thể tẩm rượu sao để tăng tác dụng hoạt huyết.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Nam dương sâm, Cây gỏi cá.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người thực nhiệt, cao huyết áp không dùng quá liều. Không dùng rễ Đinh lăng thay Nhân sâm hoàn toàn. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng.Liều dùng: Rễ khô: 10-20g/ngày sắc uống. Lá tươi: 20-40g. Ngâm rượu: 20-30ml/ngày.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dinh-lng.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 781,
+    "id": 730,
     "slug": "dinh-nhc",
     "name_vn": "Đinh nhục",
     "name_han": "",
@@ -28704,7 +26844,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 782,
+    "id": 731,
     "slug": "dinh-t",
     "name_vn": "Đinh tử",
     "name_han": "",
@@ -28735,7 +26875,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 783,
+    "id": 732,
     "slug": "dinh-t-hng",
     "name_vn": "Đinh tử hương",
     "name_han": "",
@@ -28766,7 +26906,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 784,
+    "id": 733,
     "slug": "d-ging",
     "name_vn": "Đồ giáng",
     "name_han": "",
@@ -28797,69 +26937,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 785,
-    "slug": "d-trng",
-    "name_vn": "Đỗ trọng",
-    "name_han": "",
-    "scientific_name": "Eucommia ulmoides Oliv.Họ: Eucommiaceae (Đỗ trọng)Nhóm: Thuốc bổ can thận, mạnh gân xương, an thaiTính: ÔnVị: Ngọt, hơi cayQuy kinh: Can, ThậnBộ phận dùng: Vỏ thân khô (bỏ lớp vỏ ngoài, lấy lớp trong)Công dụng: Bổ can thận, mạnh gân cốt, an thai, giáng áp. Trị lưng gối yếu đau, liệt dương, di tinh, tiểu đêm nhiều, động thai, thai động không yên, cao huyết áp thể can thận hư, phong thấp tê bại.Cách bào chế: Vỏ thân thu hái mùa xuân thu, cạo bỏ lớp vỏ nâu bên ngoài, phơi hoặc sấy khô. Có thể tẩm nước muối sao để tăng tác dụng bổ thận, hoặc tẩm rượu sao để tăng hoạt huyết.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Đỗ trọng bì, Eucommia bark.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người âm hư hỏa vượng, thực nhiệt không dùng. Không dùng quá liều kéo dài. Phụ nữ có thai chỉ dùng khi có chỉ định thầy thuốc.Liều dùng: Khô: 6-12g/ngày sắc uống hoặc ngâm rượu 20-30ml/ngày.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/d-trng.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 786,
-    "slug": "dui-chn",
-    "name_vn": "Đuôi chồn",
-    "name_han": "",
-    "scientific_name": "Pluchea indica (L.) Less.Họ: Asteraceae (Cúc)Nhóm: Thuốc phát hãn, giải biểu, khu phong thấp, chỉ thốngTính: ÔnVị: Đắng, hơi cay, thơmQuy kinh: Phế, Tỳ, CanBộ phận dùng: Lá, cành non, rễCông dụng: Phát hãn giải biểu, khu phong trừ thấp, hoạt huyết chỉ thống. Trị cảm mạo không ra mồ hôi, sốt rét, đau đầu, phong thấp đau khớp, đau lưng, chấn thương bầm tím, mụn nhọt, viêm họng.Cách bào chế: Lá/cành thu hái quanh năm, rửa sạch phơi khô trong bóng râm hoặc dùng tươi. Rễ đào về rửa sạch, thái lát phơi khô.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Cỏ đuôi chồn, Cúc tần.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người biểu hư tự hãn (ra mồ hôi trộm), âm hư hỏa vượng không dùng. Phụ nữ có thai thận trọng. Không dùng quá liều kéo dài.Liều dùng: Lá/cành khô: 10-20g/ngày sắc uống. Rễ: 6-12g. Dùng ngoài: lượng tùy ý.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dui-chn.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 787,
+    "id": 734,
     "slug": "dui-cng",
     "name_vn": "Đuôi công",
     "name_han": "",
@@ -28890,7 +26968,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 788,
+    "id": 735,
     "slug": "dui-h",
     "name_vn": "Đuôi hổ",
     "name_han": "",
@@ -28921,7 +26999,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 789,
+    "id": 736,
     "slug": "dui-ln",
     "name_vn": "Đuôi lươn",
     "name_han": "",
@@ -28952,7 +27030,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 790,
+    "id": 737,
     "slug": "dui-phng",
     "name_vn": "Đuôi phượng",
     "name_han": "",
@@ -28983,7 +27061,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 791,
+    "id": 738,
     "slug": "dui-tm",
     "name_vn": "Đuôi tôm",
     "name_han": "",
@@ -29014,38 +27092,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 792,
-    "slug": "dng-quy",
-    "name_vn": "Đương quy",
-    "name_han": "",
-    "scientific_name": "Angelica sinensis (Oliv.) DielsHọ: Apiaceae (Hoa tán)Nhóm: Thuốc bổ huyết, hoạt huyết, điều kinh, nhuận tràngTính: ÔnVị: Ngọt, cay, hơi đắngQuy kinh: Can, Tâm, TỳBộ phận dùng: Rễ khôCông dụng: Bổ huyết hoạt huyết, điều kinh chỉ thống, nhuận tràng thông tiện. Trị thiếu máu, chóng mặt hoa mắt, kinh nguyệt không đều, đau bụng kinh, bế kinh, sản hậu ứ huyết, táo bón do huyết hư, phong thấp đau nhức, chấn thương bầm tím.Cách bào chế: Rễ thu hái mùa thu, rửa sạch, phơi hoặc sấy khô. Chế biến: Đương quy đầu (bổ huyết), Đương quy thân (dưỡng huyết), Đương quy vĩ (hoạt huyết), Toàn Đương quy (bổ hoạt huyết). Thường tẩm rượu sao để tăng tác dụng hoạt huyết.Phối hợp:",
-    "family": "",
-    "category": "",
-    "part_used": "",
-    "properties": "",
-    "taste": "",
-    "meridians": "",
-    "use_cases": [],
-    "usage_summary": "",
-    "basic_summary": "Còn gọi là: Angelica sinensis, Đương quy vĩ.",
-    "detailed_usage": "",
-    "preparation": "",
-    "dosage": "",
-    "warnings": "Người âm hư hỏa vượng, tiêu chảy, đầy bụng do thấp trệ không dùng. Phụ nữ có thai thận trọng do tác dụng hoạt huyết. Không dùng quá liều kéo dài.Liều dùng: Khô: 6-12g/ngày sắc uống hoặc làm hoàn tán.",
-    "safety_level": "normal",
-    "is_toxic": false,
-    "image": "/images/dng-quy.png",
-    "tags": [],
-    "source_refs": [
-      {
-        "label": "Docx - Chi Tiet Ten-p3",
-        "url": ""
-      }
-    ],
-    "combinations": []
-  },
-  {
-    "id": 793,
+    "id": 739,
     "slug": "dng-tin-lng",
     "name_vn": "Đương tiền lông",
     "name_han": "",
@@ -29076,7 +27123,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 794,
+    "id": 740,
     "slug": "dng-dng-sm",
     "name_vn": "Đông dương sâm",
     "name_han": "",
@@ -29107,7 +27154,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 795,
+    "id": 741,
     "slug": "dng-hong-sm",
     "name_vn": "Đông hoàng sâm",
     "name_han": "",
@@ -29138,7 +27185,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 796,
+    "id": 742,
     "slug": "dng-qu-t",
     "name_vn": "Đông quỳ tử",
     "name_han": "",
@@ -29169,7 +27216,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 797,
+    "id": 743,
     "slug": "dng-sa-sm",
     "name_vn": "Đông sa sâm",
     "name_han": "",
@@ -29200,7 +27247,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 798,
+    "id": 744,
     "slug": "dng-trng-h-tho",
     "name_vn": "Đông trùng hạ thảo",
     "name_han": "",
@@ -29231,7 +27278,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 799,
+    "id": 745,
     "slug": "dng-trc",
     "name_vn": "Đông trúc",
     "name_han": "",
@@ -29262,7 +27309,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 800,
+    "id": 746,
     "slug": "dng-tin",
     "name_vn": "Đồng tiện",
     "name_han": "",
@@ -29293,7 +27340,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 801,
+    "id": 747,
     "slug": "d-dt",
     "name_vn": "Đỏ đọt",
     "name_han": "",
@@ -29324,7 +27371,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 802,
+    "id": 748,
     "slug": "dm",
     "name_vn": "Đởm",
     "name_han": "",
@@ -29355,7 +27402,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 803,
+    "id": 749,
     "slug": "ich-mau-thao",
     "name_vn": "Ích mẫu thảo",
     "name_han": "",
@@ -29392,7 +27439,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 804,
+    "id": 750,
     "slug": "ich-tri",
     "name_vn": "Ích trí",
     "name_han": "",
@@ -29446,7 +27493,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 805,
+    "id": 751,
     "slug": "ich-tri-tu",
     "name_vn": "Ích trí tử",
     "name_han": "",
@@ -29483,7 +27530,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 806,
+    "id": 752,
     "slug": "kaladana",
     "name_vn": "Kalađana",
     "name_han": "",
@@ -29536,7 +27583,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 807,
+    "id": 753,
     "slug": "kamala",
     "name_vn": "Kamala",
     "name_han": "",
@@ -29589,7 +27636,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 808,
+    "id": 754,
     "slug": "ke-dong-tien",
     "name_vn": "Ké đồng tiền",
     "name_han": "",
@@ -29643,7 +27690,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 809,
+    "id": 755,
     "slug": "ke-hoa-dao",
     "name_vn": "Ké hoa đào",
     "name_han": "",
@@ -29696,7 +27743,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 810,
+    "id": 756,
     "slug": "ke-hoa-vang",
     "name_vn": "Ké hoa vàng",
     "name_han": "",
@@ -29750,7 +27797,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 811,
+    "id": 757,
     "slug": "ke-dan-tu",
     "name_vn": "Ké dan tử",
     "name_han": "",
@@ -29788,7 +27835,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 812,
+    "id": 758,
     "slug": "ke-chuan-bi",
     "name_vn": "Kê chuẩn bì",
     "name_han": "",
@@ -29842,7 +27889,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 813,
+    "id": 759,
     "slug": "ke-hoang-bi",
     "name_vn": "Kê hoàng bì",
     "name_han": "",
@@ -29880,7 +27927,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 814,
+    "id": 760,
     "slug": "ke-niem-thao",
     "name_vn": "Kê niệm thảo",
     "name_han": "",
@@ -29914,7 +27961,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 815,
+    "id": 761,
     "slug": "ke-quan",
     "name_vn": "Kê quan",
     "name_han": "",
@@ -29948,7 +27995,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 816,
+    "id": 762,
     "slug": "ke-quan-hoa",
     "name_vn": "Kê quan hoa",
     "name_han": "",
@@ -29984,7 +28031,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 817,
+    "id": 763,
     "slug": "ke-trao",
     "name_vn": "Kê trảo",
     "name_han": "",
@@ -30020,7 +28067,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 818,
+    "id": 764,
     "slug": "khao-thien",
     "name_vn": "Khao thiên",
     "name_han": "",
@@ -30054,7 +28101,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 819,
+    "id": 765,
     "slug": "khat-bo-luong",
     "name_vn": "Khắt bó lương",
     "name_han": "",
@@ -30088,7 +28135,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 820,
+    "id": 766,
     "slug": "khau-can-ca",
     "name_vn": "Khâu cần cà",
     "name_han": "",
@@ -30122,7 +28169,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 821,
+    "id": 767,
     "slug": "khau-dan",
     "name_vn": "Khâu dẫn",
     "name_han": "",
@@ -30156,7 +28203,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 822,
+    "id": 768,
     "slug": "khau-nuoc",
     "name_vn": "Khau nước",
     "name_han": "",
@@ -30192,7 +28239,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 823,
+    "id": 769,
     "slug": "khe",
     "name_vn": "Khế",
     "name_han": "",
@@ -30245,7 +28292,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 824,
+    "id": 770,
     "slug": "khe-chua",
     "name_vn": "Khế chua",
     "name_han": "",
@@ -30282,7 +28329,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 825,
+    "id": 771,
     "slug": "khe-com",
     "name_vn": "Khế cơm",
     "name_han": "",
@@ -30320,7 +28367,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 826,
+    "id": 772,
     "slug": "khe-giang",
     "name_vn": "Khế giang",
     "name_han": "",
@@ -30354,7 +28401,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 827,
+    "id": 773,
     "slug": "khe-rung",
     "name_vn": "Khế rừng",
     "name_han": "",
@@ -30408,7 +28455,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 828,
+    "id": 774,
     "slug": "khi",
     "name_vn": "Khi",
     "name_han": "",
@@ -30442,7 +28489,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 829,
+    "id": 775,
     "slug": "khiem-thuc",
     "name_vn": "Khiếm thực",
     "name_han": "",
@@ -30495,7 +28542,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 830,
+    "id": 776,
     "slug": "khien-nguu",
     "name_vn": "Khiên ngưu",
     "name_han": "",
@@ -30548,7 +28595,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 831,
+    "id": 777,
     "slug": "khinh-phan",
     "name_vn": "Khinh phấn",
     "name_han": "",
@@ -30595,7 +28642,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 832,
+    "id": 778,
     "slug": "khuong",
     "name_vn": "Khương",
     "name_han": "",
@@ -30649,7 +28696,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 833,
+    "id": 779,
     "slug": "khuong-gioi",
     "name_vn": "Khương giới",
     "name_han": "",
@@ -30696,7 +28743,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 834,
+    "id": 780,
     "slug": "khuong-hoang",
     "name_vn": "Khương hoàng",
     "name_han": "",
@@ -30752,7 +28799,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 835,
+    "id": 781,
     "slug": "khuong-tam-that",
     "name_vn": "Khương tam thất",
     "name_han": "",
@@ -30802,7 +28849,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 836,
+    "id": 782,
     "slug": "khuong-vu",
     "name_vn": "Khương vu",
     "name_han": "",
@@ -30856,7 +28903,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 837,
+    "id": 783,
     "slug": "kho-cot",
     "name_vn": "Khổ cốt",
     "name_han": "",
@@ -30909,7 +28956,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 838,
+    "id": 784,
     "slug": "kho-dam-thao",
     "name_vn": "Khổ đảm thảo",
     "name_han": "",
@@ -30962,7 +29009,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 839,
+    "id": 785,
     "slug": "kho-dia-dom",
     "name_vn": "Khổ địa đởm",
     "name_han": "",
@@ -30996,7 +29043,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 840,
+    "id": 786,
     "slug": "kho-hanh-nhan",
     "name_vn": "Khổ hạnh nhân",
     "name_han": "",
@@ -31048,7 +29095,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 841,
+    "id": 787,
     "slug": "kho-luyen",
     "name_vn": "Khổ luyện",
     "name_han": "",
@@ -31098,7 +29145,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 842,
+    "id": 788,
     "slug": "kho-luyen-tu",
     "name_vn": "Khổ luyện tử",
     "name_han": "",
@@ -31138,7 +29185,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 843,
+    "id": 789,
     "slug": "kho-qua",
     "name_vn": "Khổ qua",
     "name_han": "",
@@ -31193,7 +29240,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 844,
+    "id": 790,
     "slug": "khoi",
     "name_vn": "Khôi",
     "name_han": "",
@@ -31247,7 +29294,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 845,
+    "id": 791,
     "slug": "khuc-khac",
     "name_vn": "Khúc khắc",
     "name_han": "",
@@ -31302,7 +29349,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 846,
+    "id": 792,
     "slug": "khuc-dan",
     "name_vn": "Khúc đàn",
     "name_han": "",
@@ -31336,7 +29383,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 847,
+    "id": 793,
     "slug": "khung-cung",
     "name_vn": "Khung cùng",
     "name_han": "",
@@ -31370,7 +29417,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 848,
+    "id": 794,
     "slug": "khung-tung",
     "name_vn": "Khung tung",
     "name_han": "",
@@ -31404,7 +29451,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 849,
+    "id": 795,
     "slug": "khuynh-diep",
     "name_vn": "Khuynh diệp",
     "name_han": "",
@@ -31458,7 +29505,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 850,
+    "id": 796,
     "slug": "kinh-gioi-nui",
     "name_vn": "Kinh giới núi",
     "name_han": "",
@@ -31495,7 +29542,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 851,
+    "id": 797,
     "slug": "kinh-gioi-tue",
     "name_vn": "Kinh giới tuệ",
     "name_han": "",
@@ -31542,7 +29589,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 852,
+    "id": 798,
     "slug": "kinh-tu",
     "name_vn": "Kinh tử",
     "name_han": "",
@@ -31576,7 +29623,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 853,
+    "id": 799,
     "slug": "keo-giau-keo-giau",
     "name_vn": "Kéo giậu / Keo giậu",
     "name_han": "",
@@ -31630,7 +29677,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 854,
+    "id": 800,
     "slug": "ky-da",
     "name_vn": "Kỳ đà",
     "name_han": "",
@@ -31683,7 +29730,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 855,
+    "id": 801,
     "slug": "la-ba-chia",
     "name_vn": "Lá ba chìa",
     "name_han": "",
@@ -31738,7 +29785,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 856,
+    "id": 802,
     "slug": "la-do-ngon",
     "name_vn": "Lá đỏ ngọn",
     "name_han": "",
@@ -31774,7 +29821,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 857,
+    "id": 803,
     "slug": "la-dua-thom",
     "name_vn": "Lá dứa thơm",
     "name_han": "",
@@ -31829,7 +29876,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 858,
+    "id": 804,
     "slug": "la-gio",
     "name_vn": "Lá gió",
     "name_han": "",
@@ -31866,7 +29913,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 859,
+    "id": 805,
     "slug": "la-hen",
     "name_vn": "Lá hen",
     "name_han": "",
@@ -31921,7 +29968,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 860,
+    "id": 806,
     "slug": "la-khoi",
     "name_vn": "Lá khôi",
     "name_han": "",
@@ -31975,7 +30022,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 861,
+    "id": 807,
     "slug": "la-ma-de",
     "name_vn": "Lá mã đề",
     "name_han": "",
@@ -32028,7 +30075,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 862,
+    "id": 808,
     "slug": "la-mat-troi",
     "name_vn": "Lá mặt trời",
     "name_han": "",
@@ -32064,7 +30111,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 863,
+    "id": 809,
     "slug": "la-men",
     "name_vn": "Lá men",
     "name_han": "",
@@ -32102,7 +30149,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 864,
+    "id": 810,
     "slug": "la-nang",
     "name_vn": "Lá nang",
     "name_han": "",
@@ -32136,7 +30183,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 865,
+    "id": 811,
     "slug": "la-ngon",
     "name_vn": "Lá ngón",
     "name_han": "",
@@ -32172,7 +30219,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 866,
+    "id": 812,
     "slug": "la-sen",
     "name_vn": "Lá sen",
     "name_han": "",
@@ -32227,7 +30274,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 867,
+    "id": 813,
     "slug": "la-thom",
     "name_vn": "Lá thơm",
     "name_han": "",
@@ -32265,7 +30312,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 868,
+    "id": 814,
     "slug": "la-trang",
     "name_vn": "Lá trắng",
     "name_han": "",
@@ -32301,7 +30348,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 869,
+    "id": 815,
     "slug": "lac",
     "name_vn": "Lác",
     "name_han": "",
@@ -32355,7 +30402,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 870,
+    "id": 816,
     "slug": "lac-dia-sinh-can",
     "name_vn": "Lạc địa sinh căn",
     "name_han": "",
@@ -32389,7 +30436,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 871,
+    "id": 817,
     "slug": "lac-gioi",
     "name_vn": "Lạc giới",
     "name_han": "",
@@ -32423,7 +30470,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 872,
+    "id": 818,
     "slug": "lac-hoa-sinh",
     "name_vn": "Lạc hoa sinh",
     "name_han": "",
@@ -32476,7 +30523,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 873,
+    "id": 819,
     "slug": "lac-tien-coc",
     "name_vn": "Lạc tiên cọc",
     "name_han": "",
@@ -32513,7 +30560,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 874,
+    "id": 820,
     "slug": "lai-trang",
     "name_vn": "Lài trắng",
     "name_han": "",
@@ -32567,7 +30614,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 875,
+    "id": 821,
     "slug": "lam-ba-quyet",
     "name_vn": "Lâm ba quyết",
     "name_han": "",
@@ -32601,7 +30648,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 876,
+    "id": 822,
     "slug": "lac-ly",
     "name_vn": "Lặc lý",
     "name_han": "",
@@ -32655,7 +30702,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 877,
+    "id": 823,
     "slug": "le-chi",
     "name_vn": "Lề chi",
     "name_han": "",
@@ -32689,7 +30736,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 878,
+    "id": 824,
     "slug": "lieu",
     "name_vn": "Liễu",
     "name_han": "",
@@ -32743,7 +30790,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 879,
+    "id": 825,
     "slug": "lien",
     "name_vn": "Liên",
     "name_han": "",
@@ -32796,7 +30843,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 880,
+    "id": 826,
     "slug": "lien-chau-ba-kich",
     "name_vn": "Liên châu ba kích",
     "name_han": "",
@@ -32846,7 +30893,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 881,
+    "id": 827,
     "slug": "lien-diep",
     "name_vn": "Liên diệp",
     "name_han": "",
@@ -32901,7 +30948,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 882,
+    "id": 828,
     "slug": "lien-ngau",
     "name_vn": "Liên ngẫu",
     "name_han": "",
@@ -32958,7 +31005,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 883,
+    "id": 829,
     "slug": "lien-nhuc",
     "name_vn": "Liên nhục",
     "name_han": "",
@@ -33013,7 +31060,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 884,
+    "id": 830,
     "slug": "lien-phong",
     "name_vn": "Liên phòng",
     "name_han": "",
@@ -33066,7 +31113,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 885,
+    "id": 831,
     "slug": "lien-tam",
     "name_vn": "Liên tâm",
     "name_han": "",
@@ -33119,7 +31166,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 886,
+    "id": 832,
     "slug": "lien-tu-tam",
     "name_vn": "Liên tử tam",
     "name_han": "",
@@ -33153,7 +31200,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 887,
+    "id": 833,
     "slug": "lieu-cao-ban",
     "name_vn": "Liễu cao bản",
     "name_han": "",
@@ -33191,7 +31238,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 888,
+    "id": 834,
     "slug": "lieu-ngu-vi",
     "name_vn": "Liễu ngũ vi",
     "name_han": "",
@@ -33225,7 +31272,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 889,
+    "id": 835,
     "slug": "lieu-sa-sam",
     "name_vn": "Liễu sa sâm",
     "name_han": "",
@@ -33259,7 +31306,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 890,
+    "id": 836,
     "slug": "lieu-kha-vuong",
     "name_vn": "Liễu kha vương",
     "name_han": "",
@@ -33293,7 +31340,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 891,
+    "id": 837,
     "slug": "lo-cam-thach",
     "name_vn": "Lô cam thạch",
     "name_han": "",
@@ -33345,7 +31392,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 892,
+    "id": 838,
     "slug": "lo-hong-phan",
     "name_vn": "Lô hồng phấn",
     "name_han": "",
@@ -33379,7 +31426,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 893,
+    "id": 839,
     "slug": "lo-le",
     "name_vn": "Lô lê",
     "name_han": "",
@@ -33432,7 +31479,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 894,
+    "id": 840,
     "slug": "loi-tien",
     "name_vn": "Lồi tiền",
     "name_han": "",
@@ -33468,7 +31515,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 895,
+    "id": 841,
     "slug": "long-den",
     "name_vn": "Lòng đèn",
     "name_han": "",
@@ -33504,7 +31551,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 896,
+    "id": 842,
     "slug": "long-ma",
     "name_vn": "Lòng má",
     "name_han": "",
@@ -33538,7 +31585,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 897,
+    "id": 843,
     "slug": "lot",
     "name_vn": "Lốt",
     "name_han": "",
@@ -33592,7 +31639,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 898,
+    "id": 844,
     "slug": "loc-binh",
     "name_vn": "Lộc bình",
     "name_han": "",
@@ -33645,7 +31692,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 899,
+    "id": 845,
     "slug": "loc-giac-giao",
     "name_vn": "Lộc giác giao",
     "name_han": "",
@@ -33698,7 +31745,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 900,
+    "id": 846,
     "slug": "loc-giac-suong",
     "name_vn": "Lộc giác sương",
     "name_han": "",
@@ -33751,7 +31798,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 901,
+    "id": 847,
     "slug": "loc-huyet",
     "name_vn": "Lộc huyết",
     "name_han": "",
@@ -33803,7 +31850,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 902,
+    "id": 848,
     "slug": "loc-mai",
     "name_vn": "Lộc mãi",
     "name_han": "",
@@ -33857,7 +31904,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 903,
+    "id": 849,
     "slug": "loc-nhung-me-nhung",
     "name_vn": "Lộc nhung / Mê nhung",
     "name_han": "",
@@ -33911,7 +31958,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 904,
+    "id": 850,
     "slug": "loc-thai",
     "name_vn": "Lộc thái",
     "name_han": "",
@@ -33945,7 +31992,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 905,
+    "id": 851,
     "slug": "loc-thong",
     "name_vn": "Lộc thông",
     "name_han": "",
@@ -33981,7 +32028,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 906,
+    "id": 852,
     "slug": "lua-mieu",
     "name_vn": "Lúa miêu",
     "name_han": "",
@@ -34035,7 +32082,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 907,
+    "id": 853,
     "slug": "lua-seu",
     "name_vn": "Lúa sếu",
     "name_han": "",
@@ -34072,7 +32119,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 908,
+    "id": 854,
     "slug": "luc-bac-ha",
     "name_vn": "Lục bạc hà",
     "name_han": "",
@@ -34125,7 +32172,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 909,
+    "id": 855,
     "slug": "luc-dau",
     "name_vn": "Lục đậu",
     "name_han": "",
@@ -34178,7 +32225,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 910,
+    "id": 856,
     "slug": "luc-dinh-khuc",
     "name_vn": "Lục đình khúc",
     "name_han": "",
@@ -34212,7 +32259,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 911,
+    "id": 857,
     "slug": "luc-lac-ba-la-tron",
     "name_vn": "Lục lạc ba lá tròn",
     "name_han": "",
@@ -34266,7 +32313,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 912,
+    "id": 858,
     "slug": "luc-linh",
     "name_vn": "Lục lình",
     "name_han": "",
@@ -34300,7 +32347,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 913,
+    "id": 859,
     "slug": "luc-mai",
     "name_vn": "Lục mại",
     "name_han": "",
@@ -34354,7 +32401,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 914,
+    "id": 860,
     "slug": "luc-ngoc-thu",
     "name_vn": "Lục ngọc thụ",
     "name_han": "",
@@ -34391,7 +32438,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 915,
+    "id": 861,
     "slug": "luc-thang-ma",
     "name_vn": "Lục thăng ma",
     "name_han": "",
@@ -34425,7 +32472,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 916,
+    "id": 862,
     "slug": "luc-than-khuc",
     "name_vn": "Lục thần khúc",
     "name_han": "",
@@ -34480,7 +32527,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 917,
+    "id": 863,
     "slug": "luoi-uoi",
     "name_vn": "Lưỡi ươi",
     "name_han": "",
@@ -34534,7 +32581,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 918,
+    "id": 864,
     "slug": "luoi-bo",
     "name_vn": "Lưỡi bò",
     "name_han": "",
@@ -34587,7 +32634,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 919,
+    "id": 865,
     "slug": "luoi-cop",
     "name_vn": "Lưỡi cọp",
     "name_han": "",
@@ -34640,7 +32687,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 920,
+    "id": 866,
     "slug": "luoi-dong",
     "name_vn": "Lưỡi đồng",
     "name_han": "",
@@ -34676,7 +32723,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 921,
+    "id": 867,
     "slug": "luoi-ho",
     "name_vn": "Lưỡi hổ",
     "name_han": "",
@@ -34719,7 +32766,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 922,
+    "id": 868,
     "slug": "luoi-hum-can-trong",
     "name_vn": "Lưỡi hùm  ⚠️ CẨN TRỌNG",
     "name_han": "",
@@ -34767,7 +32814,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 923,
+    "id": 869,
     "slug": "luoi-le",
     "name_vn": "Lưỡi lê",
     "name_han": "",
@@ -34803,7 +32850,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 924,
+    "id": 870,
     "slug": "luoi-ran",
     "name_vn": "Lưỡi rắn",
     "name_han": "",
@@ -34839,7 +32886,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 925,
+    "id": 871,
     "slug": "luong-khuong",
     "name_vn": "Lương khương",
     "name_han": "",
@@ -34892,7 +32939,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 926,
+    "id": 872,
     "slug": "luong-phan-qua",
     "name_vn": "Lương phấn quả",
     "name_han": "",
@@ -34945,7 +32992,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 927,
+    "id": 873,
     "slug": "luu-hoang",
     "name_vn": "Lưu hoàng",
     "name_han": "",
@@ -34998,7 +33045,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 928,
+    "id": 874,
     "slug": "luu-hoi",
     "name_vn": "Lưu hội",
     "name_han": "",
@@ -35032,7 +33079,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 929,
+    "id": 875,
     "slug": "luu-chua-thap",
     "name_vn": "Lựu chùa tháp",
     "name_han": "",
@@ -35085,7 +33132,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 930,
+    "id": 876,
     "slug": "ma-hoang",
     "name_vn": "Ma hoàng",
     "name_han": "",
@@ -35138,7 +33185,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 931,
+    "id": 877,
     "slug": "ma-manh-tho",
     "name_vn": "Ma mãnh thố",
     "name_han": "",
@@ -35172,7 +33219,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 932,
+    "id": 878,
     "slug": "ma-tuoc-phan",
     "name_vn": "Ma tước phần",
     "name_han": "",
@@ -35206,7 +33253,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 933,
+    "id": 879,
     "slug": "ma-de-nuoc",
     "name_vn": "Mã đề nước",
     "name_han": "",
@@ -35242,7 +33289,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 934,
+    "id": 880,
     "slug": "ma-de-thao",
     "name_vn": "Mã đề thảo",
     "name_han": "",
@@ -35284,7 +33331,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 935,
+    "id": 881,
     "slug": "ma-ke",
     "name_vn": "Mã kế",
     "name_han": "",
@@ -35338,7 +33385,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 936,
+    "id": 882,
     "slug": "ma-lien-an",
     "name_vn": "Mã liên an",
     "name_han": "",
@@ -35372,7 +33419,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 937,
+    "id": 883,
     "slug": "ma-si-hien",
     "name_vn": "Mã sỉ hiện",
     "name_han": "",
@@ -35425,7 +33472,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 938,
+    "id": 884,
     "slug": "ma-thay",
     "name_vn": "Mã thầy",
     "name_han": "",
@@ -35459,7 +33506,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 939,
+    "id": 885,
     "slug": "ma-tien-thao",
     "name_vn": "Mã tiên thảo",
     "name_han": "",
@@ -35514,7 +33561,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 940,
+    "id": 886,
     "slug": "manh-tu-nhan",
     "name_vn": "Mãnh tử nhân",
     "name_han": "",
@@ -35548,7 +33595,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 941,
+    "id": 887,
     "slug": "man-kinh-tu",
     "name_vn": "Màn kinh tử",
     "name_han": "",
@@ -35602,7 +33649,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 942,
+    "id": 888,
     "slug": "man-tan",
     "name_vn": "Màn tàn",
     "name_han": "",
@@ -35636,7 +33683,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 943,
+    "id": 889,
     "slug": "mang-cut",
     "name_vn": "Măng cụt",
     "name_han": "",
@@ -35689,7 +33736,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 944,
+    "id": 890,
     "slug": "mao-sai-xich",
     "name_vn": "Mao sài xích",
     "name_han": "",
@@ -35723,7 +33770,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 945,
+    "id": 891,
     "slug": "mao-sang",
     "name_vn": "Mao sang",
     "name_han": "",
@@ -35757,7 +33804,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 946,
+    "id": 892,
     "slug": "mao-duong-quy",
     "name_vn": "Mao đương quy",
     "name_han": "",
@@ -35794,7 +33841,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 947,
+    "id": 893,
     "slug": "mao-thich",
     "name_vn": "Mao thích",
     "name_han": "",
@@ -35828,7 +33875,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 948,
+    "id": 894,
     "slug": "mao-tu-co",
     "name_vn": "Mao tử cô",
     "name_han": "",
@@ -35862,7 +33909,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 949,
+    "id": 895,
     "slug": "mao-truat",
     "name_vn": "Mao truật",
     "name_han": "",
@@ -35918,7 +33965,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 950,
+    "id": 896,
     "slug": "mao-yen",
     "name_vn": "Mao yến",
     "name_han": "",
@@ -35952,7 +33999,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 951,
+    "id": 897,
     "slug": "mao-ga",
     "name_vn": "Mào gà",
     "name_han": "",
@@ -36006,7 +34053,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 952,
+    "id": 898,
     "slug": "mao-ga-do",
     "name_vn": "Mào gà đỏ",
     "name_han": "",
@@ -36053,7 +34100,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 953,
+    "id": 899,
     "slug": "mao-ga-trang",
     "name_vn": "Mào gà trắng",
     "name_han": "",
@@ -36107,7 +34154,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 954,
+    "id": 900,
     "slug": "mat-bo",
     "name_vn": "Mật bò",
     "name_han": "",
@@ -36161,7 +34208,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 955,
+    "id": 901,
     "slug": "mat-da-tang",
     "name_vn": "Mật đà tăng",
     "name_han": "",
@@ -36208,7 +34255,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 956,
+    "id": 902,
     "slug": "mat-dat",
     "name_vn": "Mật đất",
     "name_han": "",
@@ -36242,7 +34289,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 957,
+    "id": 903,
     "slug": "mat-dong-vat-meo",
     "name_vn": "Mật động vật mèo",
     "name_han": "",
@@ -36291,7 +34338,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 958,
+    "id": 904,
     "slug": "mat-gau-dac-biet",
     "name_vn": "Mật gấu  ⚠️ ĐẶC BIỆT",
     "name_han": "",
@@ -36329,7 +34376,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 959,
+    "id": 905,
     "slug": "mat-lon",
     "name_vn": "Mật lợn",
     "name_han": "",
@@ -36378,7 +34425,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 960,
+    "id": 906,
     "slug": "mat-mong-hoa",
     "name_vn": "Mật móng hoa",
     "name_han": "",
@@ -36414,7 +34461,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 961,
+    "id": 907,
     "slug": "mat-ong-chua",
     "name_vn": "Mật ong chúa",
     "name_han": "",
@@ -36467,7 +34514,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 962,
+    "id": 908,
     "slug": "mat-ca",
     "name_vn": "Mật cá",
     "name_han": "",
@@ -36504,7 +34551,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 963,
+    "id": 909,
     "slug": "me-ra-rung",
     "name_vn": "Mẹ ra rừng",
     "name_han": "",
@@ -36538,7 +34585,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 964,
+    "id": 910,
     "slug": "me-duong-sam",
     "name_vn": "Mê dương sâm",
     "name_han": "",
@@ -36574,7 +34621,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 965,
+    "id": 911,
     "slug": "me-nhung",
     "name_vn": "Mê nhung",
     "name_han": "",
@@ -36611,7 +34658,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 966,
+    "id": 912,
     "slug": "meo-thep",
     "name_vn": "Mèo thép",
     "name_han": "",
@@ -36645,7 +34692,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 967,
+    "id": 913,
     "slug": "me-den",
     "name_vn": "Mè đen",
     "name_han": "",
@@ -36698,7 +34745,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 968,
+    "id": 914,
     "slug": "men-trang",
     "name_vn": "Mén trắng",
     "name_han": "",
@@ -36734,7 +34781,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 969,
+    "id": 915,
     "slug": "men",
     "name_vn": "Men",
     "name_han": "",
@@ -36772,7 +34819,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 970,
+    "id": 916,
     "slug": "men-sua",
     "name_vn": "Men sứa",
     "name_han": "",
@@ -36810,7 +34857,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 971,
+    "id": 917,
     "slug": "mia-bem",
     "name_vn": "Mía bẻm",
     "name_han": "",
@@ -36864,7 +34911,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 972,
+    "id": 918,
     "slug": "mia-do",
     "name_vn": "Mía dò",
     "name_han": "",
@@ -36901,7 +34948,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 973,
+    "id": 919,
     "slug": "mia-gio",
     "name_vn": "Mía giò",
     "name_han": "",
@@ -36935,7 +34982,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 974,
+    "id": 920,
     "slug": "mia-nung",
     "name_vn": "Mía nung",
     "name_han": "",
@@ -36972,7 +35019,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 975,
+    "id": 921,
     "slug": "mo-bac",
     "name_vn": "Mô bạc",
     "name_han": "",
@@ -37006,7 +35053,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 976,
+    "id": 922,
     "slug": "moc-coi",
     "name_vn": "Mốc côi",
     "name_han": "",
@@ -37040,7 +35087,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 977,
+    "id": 923,
     "slug": "mo-bo",
     "name_vn": "Mó bò",
     "name_han": "",
@@ -37093,7 +35140,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 978,
+    "id": 924,
     "slug": "moc-dieu",
     "name_vn": "Móc diều",
     "name_han": "",
@@ -37129,7 +35176,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 979,
+    "id": 925,
     "slug": "moc-meo-nui",
     "name_vn": "Móc mèo núi",
     "name_han": "",
@@ -37163,7 +35210,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 980,
+    "id": 926,
     "slug": "mong-lung-rong",
     "name_vn": "Móng lung rồng",
     "name_han": "",
@@ -37199,7 +35246,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 981,
+    "id": 927,
     "slug": "mong-tay",
     "name_vn": "Móng tay",
     "name_han": "",
@@ -37253,7 +35300,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 982,
+    "id": 928,
     "slug": "mong-tay-loi",
     "name_vn": "Móng tay lồi",
     "name_han": "",
@@ -37290,7 +35337,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 983,
+    "id": 929,
     "slug": "mong-tay-nhuom",
     "name_vn": "Móng tay nhuộm",
     "name_han": "",
@@ -37337,7 +35384,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 984,
+    "id": 930,
     "slug": "mop",
     "name_vn": "Móp",
     "name_han": "",
@@ -37380,7 +35427,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 985,
+    "id": 931,
     "slug": "mo",
     "name_vn": "Mơ",
     "name_han": "",
@@ -37432,7 +35479,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 986,
+    "id": 932,
     "slug": "mo-long",
     "name_vn": "Mơ lông",
     "name_han": "",
@@ -37487,7 +35534,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 987,
+    "id": 933,
     "slug": "mo-tron",
     "name_vn": "Mơ tròn",
     "name_han": "",
@@ -37523,7 +35570,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 988,
+    "id": 934,
     "slug": "mua-cua",
     "name_vn": "Mùa cua",
     "name_han": "",
@@ -37557,7 +35604,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 989,
+    "id": 935,
     "slug": "mui",
     "name_vn": "Mùi",
     "name_han": "",
@@ -37612,7 +35659,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 990,
+    "id": 936,
     "slug": "mui-cua",
     "name_vn": "Mùi cua",
     "name_han": "",
@@ -37651,7 +35698,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 991,
+    "id": 937,
     "slug": "mui-tau",
     "name_vn": "Mùi tàu",
     "name_han": "",
@@ -37706,7 +35753,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 992,
+    "id": 938,
     "slug": "mau-don",
     "name_vn": "Mẫu đơn",
     "name_han": "",
@@ -37762,7 +35809,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 993,
+    "id": 939,
     "slug": "moc-du",
     "name_vn": "Mộc du",
     "name_han": "",
@@ -37816,7 +35863,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 994,
+    "id": 940,
     "slug": "moc-du-thy",
     "name_vn": "Mộc du thy",
     "name_han": "",
@@ -37850,7 +35897,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 995,
+    "id": 941,
     "slug": "moc-ho-diep",
     "name_vn": "Mộc hồ diệp",
     "name_han": "",
@@ -37904,7 +35951,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 996,
+    "id": 942,
     "slug": "moc-hoa-trang",
     "name_vn": "Mộc hoa trắng",
     "name_han": "",
@@ -37940,7 +35987,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 997,
+    "id": 943,
     "slug": "moc-huong",
     "name_vn": "Mộc hương",
     "name_han": "",
@@ -37993,7 +36040,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 998,
+    "id": 944,
     "slug": "moc-lien",
     "name_vn": "Mộc liên",
     "name_han": "",
@@ -38027,7 +36074,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 999,
+    "id": 945,
     "slug": "moc-ma-hoang",
     "name_vn": "Mộc ma hoàng",
     "name_han": "",
@@ -38064,7 +36111,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1000,
+    "id": 946,
     "slug": "moc-mien",
     "name_vn": "Mộc miên",
     "name_han": "",
@@ -38117,7 +36164,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1001,
+    "id": 947,
     "slug": "moc-miet-tu",
     "name_vn": "Mộc miết tử",
     "name_han": "",
@@ -38171,7 +36218,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1002,
+    "id": 948,
     "slug": "moc-nhi",
     "name_vn": "Mộc nhĩ",
     "name_han": "",
@@ -38225,7 +36272,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1003,
+    "id": 949,
     "slug": "moc-phong-ky",
     "name_vn": "Mộc phòng kỷ",
     "name_han": "",
@@ -38278,7 +36325,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1004,
+    "id": 950,
     "slug": "moc-qua",
     "name_vn": "Mộc qua",
     "name_han": "",
@@ -38332,7 +36379,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1005,
+    "id": 951,
     "slug": "moc-tat-tu-dung-ngoai-la-chinh",
     "name_vn": "Mộc tất tử  ⚠️ DÙNG NGOÀI LÀ CHÍNH",
     "name_han": "",
@@ -38380,7 +36427,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1006,
+    "id": 952,
     "slug": "moc-tac",
     "name_vn": "Mộc tặc",
     "name_han": "",
@@ -38432,7 +36479,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1007,
+    "id": 953,
     "slug": "moc-tac-ma-hoang",
     "name_vn": "Mộc tặc ma hoàng",
     "name_han": "",
@@ -38466,7 +36513,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1008,
+    "id": 954,
     "slug": "moc-thuoc-duoc",
     "name_vn": "Mộc thược dược",
     "name_han": "",
@@ -38522,7 +36569,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1009,
+    "id": 955,
     "slug": "moc-tu-thu",
     "name_vn": "Mộc tử thụ",
     "name_han": "",
@@ -38556,7 +36603,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1010,
+    "id": 956,
     "slug": "moc-vai",
     "name_vn": "Mộc vài",
     "name_han": "",
@@ -38592,7 +36639,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1011,
+    "id": 957,
     "slug": "muop",
     "name_vn": "Mướp",
     "name_han": "",
@@ -38645,7 +36692,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1012,
+    "id": 958,
     "slug": "muop-dai",
     "name_vn": "Mướp dại",
     "name_han": "",
@@ -38699,7 +36746,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1013,
+    "id": 959,
     "slug": "muop-huong",
     "name_vn": "Mướp hương",
     "name_han": "",
@@ -38753,7 +36800,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1014,
+    "id": 960,
     "slug": "muop-mu",
     "name_vn": "Mướp mũ",
     "name_han": "",
@@ -38789,7 +36836,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1015,
+    "id": 961,
     "slug": "muop-rung",
     "name_vn": "Mướp rừng",
     "name_han": "",
@@ -38843,7 +36890,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1016,
+    "id": 962,
     "slug": "muop-sat",
     "name_vn": "Mướp sát",
     "name_han": "",
@@ -38879,7 +36926,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1017,
+    "id": 963,
     "slug": "muop-tay",
     "name_vn": "Mướp tay",
     "name_han": "",
@@ -38915,7 +36962,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1018,
+    "id": 964,
     "slug": "na",
     "name_vn": "Na",
     "name_han": "",
@@ -38969,7 +37016,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1019,
+    "id": 965,
     "slug": "nam-bach-chi",
     "name_vn": "Nam bạch chi",
     "name_han": "",
@@ -39006,7 +37053,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1020,
+    "id": 966,
     "slug": "nam-bach-truat",
     "name_vn": "Nam bạch truật",
     "name_han": "",
@@ -39043,7 +37090,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1021,
+    "id": 967,
     "slug": "nam-duong-lam",
     "name_vn": "Nam đương lam",
     "name_han": "",
@@ -39077,7 +37124,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1022,
+    "id": 968,
     "slug": "nam-da-can",
     "name_vn": "Nam đà căn",
     "name_han": "",
@@ -39114,7 +37161,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1023,
+    "id": 969,
     "slug": "nam-hau-phac",
     "name_vn": "Nam hậu phác",
     "name_han": "",
@@ -39166,7 +37213,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1024,
+    "id": 970,
     "slug": "nam-hoang-ba",
     "name_vn": "Nam hoàng bá",
     "name_han": "",
@@ -39220,7 +37267,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1025,
+    "id": 971,
     "slug": "nam-hoang-lien",
     "name_vn": "Nam hoàng liên",
     "name_han": "",
@@ -39274,7 +37321,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1026,
+    "id": 972,
     "slug": "nam-ngu-gia-bi",
     "name_vn": "Nam ngũ gia bì",
     "name_han": "",
@@ -39329,7 +37376,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1027,
+    "id": 973,
     "slug": "nam-ngu-vi-tu",
     "name_vn": "Nam ngũ vị tử",
     "name_han": "",
@@ -39383,7 +37430,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1028,
+    "id": 974,
     "slug": "nam-qua-tu",
     "name_vn": "Nam qua tử",
     "name_han": "",
@@ -39436,7 +37483,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1029,
+    "id": 975,
     "slug": "nam-sa-sam",
     "name_vn": "Nam sa sâm",
     "name_han": "",
@@ -39489,7 +37536,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1030,
+    "id": 976,
     "slug": "nam-sai-ho",
     "name_vn": "Nam sài hồ",
     "name_han": "",
@@ -39542,7 +37589,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1031,
+    "id": 977,
     "slug": "nam-sam",
     "name_vn": "Nam sam",
     "name_han": "",
@@ -39578,7 +37625,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1032,
+    "id": 978,
     "slug": "nam-son-tra",
     "name_vn": "Nam sơn tra",
     "name_han": "",
@@ -39631,7 +37678,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1033,
+    "id": 979,
     "slug": "nam-thuong-truat",
     "name_vn": "Nam thương truật",
     "name_han": "",
@@ -39687,7 +37734,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1034,
+    "id": 980,
     "slug": "nam-ty-ba",
     "name_vn": "Nam tỳ bà",
     "name_han": "",
@@ -39740,7 +37787,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1035,
+    "id": 981,
     "slug": "nam-ton",
     "name_vn": "Nam tôn",
     "name_han": "",
@@ -39774,7 +37821,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1036,
+    "id": 982,
     "slug": "nam-uy-linh-tien",
     "name_vn": "Nam uy linh tiên",
     "name_han": "",
@@ -39826,7 +37873,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1037,
+    "id": 983,
     "slug": "nam-vien-chi",
     "name_vn": "Nam viễn chí",
     "name_han": "",
@@ -39879,7 +37926,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1038,
+    "id": 984,
     "slug": "nam-huong",
     "name_vn": "Nấm hương",
     "name_han": "",
@@ -39932,7 +37979,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1039,
+    "id": 985,
     "slug": "nam-lim",
     "name_vn": "Nấm lim",
     "name_han": "",
@@ -39986,7 +38033,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1040,
+    "id": 986,
     "slug": "nam-linh-chi",
     "name_vn": "Nấm linh chi",
     "name_han": "",
@@ -40040,7 +38087,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1041,
+    "id": 987,
     "slug": "nam-tai-meo",
     "name_vn": "Nấm tai mèo",
     "name_han": "",
@@ -40094,7 +38141,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1042,
+    "id": 988,
     "slug": "nam-truong-tho",
     "name_vn": "Nấm trường thọ",
     "name_han": "",
@@ -40147,7 +38194,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1043,
+    "id": 989,
     "slug": "ngai-phien",
     "name_vn": "Ngái phiến",
     "name_han": "",
@@ -40184,7 +38231,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1044,
+    "id": 990,
     "slug": "ngai-phu-dung",
     "name_vn": "Ngải phù dung",
     "name_han": "",
@@ -40220,7 +38267,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1045,
+    "id": 991,
     "slug": "ngai-tim",
     "name_vn": "Ngải tím",
     "name_han": "",
@@ -40274,7 +38321,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1046,
+    "id": 992,
     "slug": "ngai-diep",
     "name_vn": "Ngải diệp",
     "name_han": "",
@@ -40329,7 +38376,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1047,
+    "id": 993,
     "slug": "ngai-mau",
     "name_vn": "Ngải máu",
     "name_han": "",
@@ -40365,7 +38412,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1048,
+    "id": 994,
     "slug": "ngai-mat-troi",
     "name_vn": "Ngải mặt trời",
     "name_han": "",
@@ -40401,7 +38448,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1049,
+    "id": 995,
     "slug": "ngan-sai-ho",
     "name_vn": "Ngân sài hồ",
     "name_han": "",
@@ -40435,7 +38482,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1050,
+    "id": 996,
     "slug": "ngau-tiet",
     "name_vn": "Ngẫu tiết",
     "name_han": "",
@@ -40487,7 +38534,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1051,
+    "id": 997,
     "slug": "ngau-tu",
     "name_vn": "Ngẫu tử",
     "name_han": "",
@@ -40542,7 +38589,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1052,
+    "id": 998,
     "slug": "nghe",
     "name_vn": "Nghệ",
     "name_han": "",
@@ -40603,7 +38650,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1053,
+    "id": 999,
     "slug": "nghe-den",
     "name_vn": "Nghệ đen",
     "name_han": "",
@@ -40659,7 +38706,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1054,
+    "id": 1000,
     "slug": "nghe-chim",
     "name_vn": "Nghể chim",
     "name_han": "",
@@ -40695,7 +38742,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1055,
+    "id": 1001,
     "slug": "nguu-bang",
     "name_vn": "Ngưu bàng",
     "name_han": "",
@@ -40749,7 +38796,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1056,
+    "id": 1002,
     "slug": "nguu-bang-can",
     "name_vn": "Ngưu bàng căn",
     "name_han": "",
@@ -40803,7 +38850,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1057,
+    "id": 1003,
     "slug": "nguu-bang-tu",
     "name_vn": "Ngưu bàng tử",
     "name_han": "",
@@ -40857,7 +38904,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1058,
+    "id": 1004,
     "slug": "nguu-bi-dong",
     "name_vn": "Ngưu bì đống",
     "name_han": "",
@@ -40891,7 +38938,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1059,
+    "id": 1005,
     "slug": "nguu-bi-lien",
     "name_vn": "Ngưu bì liên",
     "name_han": "",
@@ -40925,7 +38972,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1060,
+    "id": 1006,
     "slug": "nguu-cam-tu",
     "name_vn": "Ngưu cam tử",
     "name_han": "",
@@ -40979,7 +39026,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1061,
+    "id": 1007,
     "slug": "nguu-dai-luc",
     "name_vn": "Ngưu đại lực",
     "name_han": "",
@@ -41013,7 +39060,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1062,
+    "id": 1008,
     "slug": "nguu-hoang",
     "name_vn": "Ngưu hoàng",
     "name_han": "",
@@ -41067,7 +39114,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1063,
+    "id": 1009,
     "slug": "nguu-thiet",
     "name_vn": "Ngưu thiệt",
     "name_han": "",
@@ -41120,7 +39167,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1064,
+    "id": 1010,
     "slug": "nguu-vi-doc-hoat",
     "name_vn": "Ngưu vi độc hoạt",
     "name_han": "",
@@ -41154,7 +39201,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1065,
+    "id": 1011,
     "slug": "ngoc-phu-dung",
     "name_vn": "Ngọc phù dung",
     "name_han": "",
@@ -41207,7 +39254,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1066,
+    "id": 1012,
     "slug": "ngoc-qua",
     "name_vn": "Ngọc quả",
     "name_han": "",
@@ -41244,7 +39291,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1067,
+    "id": 1013,
     "slug": "ngoc-qua-hoa",
     "name_vn": "Ngọc quả hoa",
     "name_han": "",
@@ -41280,7 +39327,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1068,
+    "id": 1014,
     "slug": "ngoc-thu",
     "name_vn": "Ngọc thụ",
     "name_han": "",
@@ -41317,7 +39364,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1069,
+    "id": 1015,
     "slug": "ngoc-tran",
     "name_vn": "Ngọc trản",
     "name_han": "",
@@ -41351,7 +39398,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1070,
+    "id": 1016,
     "slug": "nha-dam-tu",
     "name_vn": "Nha đảm tử",
     "name_han": "",
@@ -41403,7 +39450,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1071,
+    "id": 1017,
     "slug": "nha-en-di",
     "name_vn": "Nha én dị",
     "name_han": "",
@@ -41437,7 +39484,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1072,
+    "id": 1018,
     "slug": "nga-bat-thuc-thao",
     "name_vn": "Nga bất thực thảo",
     "name_han": "",
@@ -41471,7 +39518,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1073,
+    "id": 1019,
     "slug": "nga-chuong-sai",
     "name_vn": "Nga chưởng sài",
     "name_han": "",
@@ -41507,7 +39554,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1074,
+    "id": 1020,
     "slug": "nga-mi-dau",
     "name_vn": "Nga mi đậu",
     "name_han": "",
@@ -41545,7 +39592,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1075,
+    "id": 1021,
     "slug": "nga-truat",
     "name_vn": "Nga truật",
     "name_han": "",
@@ -41600,7 +39647,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1076,
+    "id": 1022,
     "slug": "nga-voi-dong-vat-quy-hiem",
     "name_vn": "Ngà voi  ⚠️ ĐỘNG VẬT QUÝ HIẾM",
     "name_han": "",
@@ -41636,7 +39683,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1077,
+    "id": 1023,
     "slug": "ngai",
     "name_vn": "Ngải",
     "name_han": "",
@@ -41696,7 +39743,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1078,
+    "id": 1024,
     "slug": "ngo",
     "name_vn": "Ngỏ",
     "name_han": "",
@@ -41730,7 +39777,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1079,
+    "id": 1025,
     "slug": "nhang",
     "name_vn": "Nhang",
     "name_han": "",
@@ -41783,7 +39830,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1080,
+    "id": 1026,
     "slug": "nhai-don",
     "name_vn": "Nhài đơn",
     "name_han": "",
@@ -41837,7 +39884,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1081,
+    "id": 1027,
     "slug": "nhai-kep",
     "name_vn": "Nhài kép",
     "name_han": "",
@@ -41880,7 +39927,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1082,
+    "id": 1028,
     "slug": "nhan-huong",
     "name_vn": "Nhãn hương",
     "name_han": "",
@@ -41914,7 +39961,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1083,
+    "id": 1029,
     "slug": "nhan-kinh-xa",
     "name_vn": "Nhãn kính xà",
     "name_han": "",
@@ -41948,7 +39995,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1084,
+    "id": 1030,
     "slug": "nhan-long",
     "name_vn": "Nhãn lồng",
     "name_han": "",
@@ -42002,7 +40049,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1085,
+    "id": 1031,
     "slug": "nhau-san-phu",
     "name_vn": "Nhau sản phụ",
     "name_han": "",
@@ -42055,7 +40102,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1086,
+    "id": 1032,
     "slug": "nhau",
     "name_vn": "Nhàu",
     "name_han": "",
@@ -42110,7 +40157,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1087,
+    "id": 1033,
     "slug": "nhau-nui",
     "name_vn": "Nhàu núi",
     "name_han": "",
@@ -42165,7 +40212,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1088,
+    "id": 1034,
     "slug": "nhan-bao",
     "name_vn": "Nhân bào",
     "name_han": "",
@@ -42199,7 +40246,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1089,
+    "id": 1035,
     "slug": "nhan-khoi",
     "name_vn": "Nhân khởi",
     "name_han": "",
@@ -42233,7 +40280,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1090,
+    "id": 1036,
     "slug": "nhan-ngon",
     "name_vn": "Nhân ngôn",
     "name_han": "",
@@ -42267,7 +40314,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1091,
+    "id": 1037,
     "slug": "nhan-nieu",
     "name_vn": "Nhân niệu",
     "name_han": "",
@@ -42321,7 +40368,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1092,
+    "id": 1038,
     "slug": "nhan-nieu-bach",
     "name_vn": "Nhân niệu bạch",
     "name_han": "",
@@ -42369,7 +40416,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1093,
+    "id": 1039,
     "slug": "nhan-phan",
     "name_vn": "Nhân phần",
     "name_han": "",
@@ -42403,7 +40450,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1094,
+    "id": 1040,
     "slug": "nhan-sam-dot-truc",
     "name_vn": "Nhân sâm đốt trúc",
     "name_han": "",
@@ -42441,7 +40488,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1095,
+    "id": 1041,
     "slug": "nhan-sam-phu-yen",
     "name_vn": "Nhân sâm Phú Yên",
     "name_han": "",
@@ -42484,7 +40531,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1096,
+    "id": 1042,
     "slug": "nhan-sam-tam-that",
     "name_vn": "Nhân sâm tam thất",
     "name_han": "",
@@ -42533,7 +40580,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1097,
+    "id": 1043,
     "slug": "nhan-sam-viet-nam",
     "name_vn": "Nhân sâm Việt Nam",
     "name_han": "",
@@ -42586,7 +40633,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1098,
+    "id": 1044,
     "slug": "nhan-trung-bach",
     "name_vn": "Nhân trung bạch",
     "name_han": "",
@@ -42635,7 +40682,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1099,
+    "id": 1045,
     "slug": "nhan-trung-hoang",
     "name_vn": "Nhân trung hoàng",
     "name_han": "",
@@ -42672,7 +40719,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1100,
+    "id": 1046,
     "slug": "nhuc-dau-khau-y",
     "name_vn": "Nhục đậu khấu y",
     "name_han": "",
@@ -42720,7 +40767,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1101,
+    "id": 1047,
     "slug": "nhuc-qua",
     "name_vn": "Nhục quả",
     "name_han": "",
@@ -42763,7 +40810,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1102,
+    "id": 1048,
     "slug": "nhuc-que",
     "name_vn": "Nhục quế",
     "name_han": "",
@@ -42816,7 +40863,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1103,
+    "id": 1049,
     "slug": "nhung-huou",
     "name_vn": "Nhung hươu",
     "name_han": "",
@@ -42870,7 +40917,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1104,
+    "id": 1050,
     "slug": "nhung-nai",
     "name_vn": "Nhung nai",
     "name_han": "",
@@ -42913,7 +40960,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1105,
+    "id": 1051,
     "slug": "nhung-yen-ngua",
     "name_vn": "Nhung yên ngựa",
     "name_han": "",
@@ -42947,7 +40994,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1106,
+    "id": 1052,
     "slug": "niem-du-tu",
     "name_vn": "Niệm du tử",
     "name_han": "",
@@ -42981,7 +41028,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1107,
+    "id": 1053,
     "slug": "niem-ho-thai",
     "name_vn": "Niêm hồ thải",
     "name_han": "",
@@ -43015,7 +41062,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1108,
+    "id": 1054,
     "slug": "niep-duc",
     "name_vn": "Niếp duc",
     "name_han": "",
@@ -43049,7 +41096,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1109,
+    "id": 1055,
     "slug": "no-cong",
     "name_vn": "Nọ công",
     "name_han": "",
@@ -43083,7 +41130,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1110,
+    "id": 1056,
     "slug": "noc-nha",
     "name_vn": "Nóc nhà",
     "name_han": "",
@@ -43119,7 +41166,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1111,
+    "id": 1057,
     "slug": "nu-lang",
     "name_vn": "Nữ lang",
     "name_han": "",
@@ -43172,7 +41219,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1112,
+    "id": 1058,
     "slug": "oai-huong",
     "name_vn": "Oải hương",
     "name_han": "",
@@ -43226,7 +41273,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1113,
+    "id": 1059,
     "slug": "o-duoc-nam",
     "name_vn": "Ô dược nam",
     "name_han": "",
@@ -43280,7 +41327,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1114,
+    "id": 1060,
     "slug": "o-duong",
     "name_vn": "Ô dương",
     "name_han": "",
@@ -43314,7 +41361,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1115,
+    "id": 1061,
     "slug": "o-moi",
     "name_vn": "Ô môi",
     "name_han": "",
@@ -43368,7 +41415,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1116,
+    "id": 1062,
     "slug": "o-phien",
     "name_vn": "Ô phiến",
     "name_han": "",
@@ -43402,7 +41449,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1117,
+    "id": 1063,
     "slug": "o-dau",
     "name_vn": "Ô đầu",
     "name_han": "",
@@ -43455,7 +41502,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1118,
+    "id": 1064,
     "slug": "o-dau-va-phu-tu",
     "name_vn": "Ô đầu và phụ tử",
     "name_han": "",
@@ -43502,7 +41549,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1119,
+    "id": 1065,
     "slug": "o-dau-viet-nam",
     "name_vn": "Ô đầu Việt Nam",
     "name_han": "",
@@ -43544,7 +41591,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1120,
+    "id": 1066,
     "slug": "o-cuu",
     "name_vn": "Ô cữu",
     "name_han": "",
@@ -43578,7 +41625,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1121,
+    "id": 1067,
     "slug": "o-cuu-can-bi",
     "name_vn": "Ô cữu căn bì",
     "name_han": "",
@@ -43612,7 +41659,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1122,
+    "id": 1068,
     "slug": "o-cuu-chi",
     "name_vn": "Ô cữu chỉ",
     "name_han": "",
@@ -43646,7 +41693,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1123,
+    "id": 1069,
     "slug": "oc-cho",
     "name_vn": "Ốc chó",
     "name_han": "",
@@ -43699,7 +41746,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1124,
+    "id": 1070,
     "slug": "oc-khong",
     "name_vn": "Ốc khống",
     "name_han": "",
@@ -43736,7 +41783,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1125,
+    "id": 1071,
     "slug": "oc-sen",
     "name_vn": "Ốc sên",
     "name_han": "",
@@ -43789,7 +41836,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1126,
+    "id": 1072,
     "slug": "ong-bau",
     "name_vn": "Ong bầu",
     "name_han": "",
@@ -43825,7 +41872,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1127,
+    "id": 1073,
     "slug": "ong-den",
     "name_vn": "Ong đen",
     "name_han": "",
@@ -43873,7 +41920,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1128,
+    "id": 1074,
     "slug": "ong-mat",
     "name_vn": "Ong mật",
     "name_han": "",
@@ -43926,7 +41973,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1129,
+    "id": 1075,
     "slug": "ong-muop",
     "name_vn": "Ong mướp",
     "name_han": "",
@@ -43962,7 +42009,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1130,
+    "id": 1076,
     "slug": "para",
     "name_vn": "Para",
     "name_han": "",
@@ -43999,7 +42046,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1131,
+    "id": 1077,
     "slug": "phen-chua",
     "name_vn": "Phèn chua",
     "name_han": "",
@@ -44053,7 +42100,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1132,
+    "id": 1078,
     "slug": "phen-den",
     "name_vn": "Phèn đen",
     "name_han": "",
@@ -44087,7 +42134,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1133,
+    "id": 1079,
     "slug": "phen-phi",
     "name_vn": "Phèn phi",
     "name_han": "",
@@ -44140,7 +42187,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1134,
+    "id": 1080,
     "slug": "phu-tu-muoi",
     "name_vn": "Phụ tử muối",
     "name_han": "",
@@ -44188,7 +42235,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1135,
+    "id": 1081,
     "slug": "phu-tu-song",
     "name_vn": "Phụ tử sông",
     "name_han": "",
@@ -44222,7 +42269,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1136,
+    "id": 1082,
     "slug": "phat-thu",
     "name_vn": "Phật thủ",
     "name_han": "",
@@ -44275,7 +42322,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1137,
+    "id": 1083,
     "slug": "phat-thu-cam",
     "name_vn": "Phật thủ cam",
     "name_han": "",
@@ -44318,7 +42365,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1138,
+    "id": 1084,
     "slug": "phat-thu-phien",
     "name_vn": "Phật thủ phiến",
     "name_han": "",
@@ -44361,7 +42408,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1139,
+    "id": 1085,
     "slug": "phu-dung",
     "name_vn": "Phù dung",
     "name_han": "",
@@ -44414,7 +42461,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1140,
+    "id": 1086,
     "slug": "phu-thuy-cam-thach",
     "name_vn": "Phù thủy cam thạch",
     "name_han": "",
@@ -44448,7 +42495,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1141,
+    "id": 1087,
     "slug": "pha-co-chi",
     "name_vn": "Phá cổ chi",
     "name_han": "",
@@ -44482,7 +42529,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1142,
+    "id": 1088,
     "slug": "pha-cot-tu",
     "name_vn": "Phá cốt tử",
     "name_han": "",
@@ -44535,7 +42582,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1143,
+    "id": 1089,
     "slug": "pha-dong-tien",
     "name_vn": "Phá đồng tiền",
     "name_han": "",
@@ -44572,7 +42619,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1144,
+    "id": 1090,
     "slug": "phac-tieu",
     "name_vn": "Phác tiêu",
     "name_han": "",
@@ -44625,7 +42672,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1145,
+    "id": 1091,
     "slug": "phuong-tien-hoa",
     "name_vn": "Phương tiên hoa",
     "name_han": "",
@@ -44659,7 +42706,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1146,
+    "id": 1092,
     "slug": "phuong-vi",
     "name_vn": "Phượng vĩ",
     "name_han": "",
@@ -44714,7 +42761,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1147,
+    "id": 1093,
     "slug": "phuong-vi-thao",
     "name_vn": "Phượng vĩ thảo",
     "name_han": "",
@@ -44751,7 +42798,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1148,
+    "id": 1094,
     "slug": "phan-co-doc",
     "name_vn": "Phấn cơ đốc",
     "name_han": "",
@@ -44785,7 +42832,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1149,
+    "id": 1095,
     "slug": "phan-don-bi",
     "name_vn": "Phấn đơn bì",
     "name_han": "",
@@ -44823,7 +42870,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1150,
+    "id": 1096,
     "slug": "phan-nua",
     "name_vn": "Phấn nứa",
     "name_han": "",
@@ -44857,7 +42904,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1151,
+    "id": 1097,
     "slug": "phan-phong-ky",
     "name_vn": "Phấn phong kỷ",
     "name_han": "",
@@ -44891,7 +42938,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1152,
+    "id": 1098,
     "slug": "phan-thanh",
     "name_vn": "Phấn thanh",
     "name_han": "",
@@ -44925,7 +42972,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1153,
+    "id": 1099,
     "slug": "phan-ty-giai",
     "name_vn": "Phấn tỷ giải",
     "name_han": "",
@@ -44959,7 +43006,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1154,
+    "id": 1100,
     "slug": "qua-lau-bi",
     "name_vn": "Qua lâu bì",
     "name_han": "",
@@ -45006,7 +43053,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1155,
+    "id": 1101,
     "slug": "qua-lau-can",
     "name_vn": "Qua lâu căn",
     "name_han": "",
@@ -45059,7 +43106,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1156,
+    "id": 1102,
     "slug": "qua-lau-nhan",
     "name_vn": "Qua lâu nhân",
     "name_han": "",
@@ -45108,7 +43155,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1157,
+    "id": 1103,
     "slug": "qua-tu-kim",
     "name_vn": "Qua tử kim",
     "name_han": "",
@@ -45142,7 +43189,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1158,
+    "id": 1104,
     "slug": "qua-dieu",
     "name_vn": "Quả điều",
     "name_han": "",
@@ -45191,7 +43238,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1159,
+    "id": 1105,
     "slug": "qua-giun",
     "name_vn": "Quả giun",
     "name_han": "",
@@ -45244,7 +43291,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1160,
+    "id": 1106,
     "slug": "qua-truong-sinh",
     "name_vn": "Quả trường sinh",
     "name_han": "",
@@ -45280,7 +43327,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1161,
+    "id": 1107,
     "slug": "que",
     "name_vn": "Quế",
     "name_han": "",
@@ -45334,7 +43381,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1162,
+    "id": 1108,
     "slug": "que-bi",
     "name_vn": "Quế bì",
     "name_han": "",
@@ -45377,7 +43424,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1163,
+    "id": 1109,
     "slug": "que-do",
     "name_vn": "Quế đỏ",
     "name_han": "",
@@ -45414,7 +43461,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1164,
+    "id": 1110,
     "slug": "que-don",
     "name_vn": "Quế đơn",
     "name_han": "",
@@ -45448,7 +43495,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1165,
+    "id": 1111,
     "slug": "que-nhuc",
     "name_vn": "Quế nhục",
     "name_han": "",
@@ -45493,7 +43540,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1166,
+    "id": 1112,
     "slug": "que-quan",
     "name_vn": "Quế quan",
     "name_han": "",
@@ -45533,7 +43580,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1167,
+    "id": 1113,
     "slug": "que-quy",
     "name_vn": "Quế quỳ",
     "name_han": "",
@@ -45567,7 +43614,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1168,
+    "id": 1114,
     "slug": "que-ranh",
     "name_vn": "Quế rành",
     "name_han": "",
@@ -45604,7 +43651,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1169,
+    "id": 1115,
     "slug": "que-thanh",
     "name_vn": "Quế Thanh",
     "name_han": "",
@@ -45658,7 +43705,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1170,
+    "id": 1116,
     "slug": "que-trung-quoc",
     "name_vn": "Quế Trung Quốc",
     "name_han": "",
@@ -45701,7 +43748,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1171,
+    "id": 1117,
     "slug": "que-xri-lanca",
     "name_vn": "Quế Xri-Lanca",
     "name_han": "",
@@ -45755,7 +43802,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1172,
+    "id": 1118,
     "slug": "quy-cham-thao",
     "name_vn": "Quỷ châm thảo",
     "name_han": "",
@@ -45809,7 +43856,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1173,
+    "id": 1119,
     "slug": "quan-chi",
     "name_vn": "Quán chi",
     "name_han": "",
@@ -45843,7 +43890,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1174,
+    "id": 1120,
     "slug": "quan-chung",
     "name_vn": "Quán chúng",
     "name_han": "",
@@ -45896,7 +43943,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1175,
+    "id": 1121,
     "slug": "quy",
     "name_vn": "Quy",
     "name_han": "",
@@ -45950,7 +43997,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1176,
+    "id": 1122,
     "slug": "quy-ban-va-cao-quy-ban",
     "name_vn": "Quy bản và cao quy bản",
     "name_han": "",
@@ -45998,7 +44045,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1177,
+    "id": 1123,
     "slug": "quy-dau",
     "name_vn": "Quy đầu",
     "name_han": "",
@@ -46046,7 +44093,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1178,
+    "id": 1124,
     "slug": "quy-nam",
     "name_vn": "Quy nam",
     "name_han": "",
@@ -46082,7 +44129,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1179,
+    "id": 1125,
     "slug": "quy-thoai",
     "name_vn": "Quy thoái",
     "name_han": "",
@@ -46116,7 +44163,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1180,
+    "id": 1126,
     "slug": "quy-vi",
     "name_vn": "Quy vi",
     "name_han": "",
@@ -46150,7 +44197,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1181,
+    "id": 1127,
     "slug": "quynh-chi",
     "name_vn": "Quỳnh chi",
     "name_han": "",
@@ -46188,7 +44235,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1182,
+    "id": 1128,
     "slug": "quyt",
     "name_vn": "Quýt",
     "name_han": "",
@@ -46242,7 +44289,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1183,
+    "id": 1129,
     "slug": "quyt-gai",
     "name_vn": "Quýt gai",
     "name_han": "",
@@ -46290,7 +44337,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1184,
+    "id": 1130,
     "slug": "quyt-hoi",
     "name_vn": "Quýt hôi",
     "name_han": "",
@@ -46327,7 +44374,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1185,
+    "id": 1131,
     "slug": "ra-huong",
     "name_vn": "Rã hương",
     "name_han": "",
@@ -46361,7 +44408,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1186,
+    "id": 1132,
     "slug": "rau-nghe",
     "name_vn": "Rau nghề",
     "name_han": "",
@@ -46415,7 +44462,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1187,
+    "id": 1133,
     "slug": "rau-ngo",
     "name_vn": "Rau ngò",
     "name_han": "",
@@ -46470,7 +44517,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1188,
+    "id": 1134,
     "slug": "rau-bo-coc",
     "name_vn": "Rau bồ cóc",
     "name_han": "",
@@ -46506,7 +44553,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1189,
+    "id": 1135,
     "slug": "rau-bo",
     "name_vn": "Rau bợ",
     "name_han": "",
@@ -46560,7 +44607,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1190,
+    "id": 1136,
     "slug": "rau-cai",
     "name_vn": "Rau cải",
     "name_han": "",
@@ -46613,7 +44660,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1191,
+    "id": 1137,
     "slug": "rau-ngo-thom",
     "name_vn": "Rau ngổ thơm",
     "name_han": "",
@@ -46668,7 +44715,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1192,
+    "id": 1138,
     "slug": "rau-can",
     "name_vn": "Rau cần",
     "name_han": "",
@@ -46720,7 +44767,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1193,
+    "id": 1139,
     "slug": "rau-ngo-trau",
     "name_vn": "Rau ngổ trâu",
     "name_han": "",
@@ -46757,7 +44804,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1194,
+    "id": 1140,
     "slug": "rau-can-tay",
     "name_vn": "Rau cần tây",
     "name_han": "",
@@ -46811,7 +44858,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1195,
+    "id": 1141,
     "slug": "rau-om",
     "name_vn": "Rau om",
     "name_han": "",
@@ -46866,7 +44913,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1196,
+    "id": 1142,
     "slug": "rau-chua-le",
     "name_vn": "Rau chua lè",
     "name_han": "",
@@ -46904,7 +44951,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1197,
+    "id": 1143,
     "slug": "rau-que",
     "name_vn": "Rau quế",
     "name_han": "",
@@ -46959,7 +45006,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1198,
+    "id": 1144,
     "slug": "rau-cu-khoi",
     "name_vn": "Rau củ khởi",
     "name_han": "",
@@ -46995,7 +45042,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1199,
+    "id": 1145,
     "slug": "rau-ram",
     "name_vn": "Rau răm",
     "name_han": "",
@@ -47049,7 +45096,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1200,
+    "id": 1146,
     "slug": "rau-dua-nuoc",
     "name_vn": "Rau dừa nước",
     "name_han": "",
@@ -47102,7 +45149,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1201,
+    "id": 1147,
     "slug": "rau-sam",
     "name_vn": "Rau sam",
     "name_han": "",
@@ -47155,7 +45202,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1202,
+    "id": 1148,
     "slug": "rau-sam-dai",
     "name_vn": "Rau sam dại",
     "name_han": "",
@@ -47198,7 +45245,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1203,
+    "id": 1149,
     "slug": "rau-sam-trang",
     "name_vn": "Rau sam trắng",
     "name_han": "",
@@ -47234,7 +45281,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1204,
+    "id": 1150,
     "slug": "rau-san-phu",
     "name_vn": "Rau san phụ",
     "name_han": "",
@@ -47268,7 +45315,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1205,
+    "id": 1151,
     "slug": "rau-sung-an-goi",
     "name_vn": "Rau súng ăn gỏi",
     "name_han": "",
@@ -47324,7 +45371,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1206,
+    "id": 1152,
     "slug": "rau-gai",
     "name_vn": "Rau gai",
     "name_han": "",
@@ -47360,7 +45407,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1207,
+    "id": 1153,
     "slug": "rau-tan",
     "name_vn": "Rau tần",
     "name_han": "",
@@ -47414,7 +45461,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1208,
+    "id": 1154,
     "slug": "rau-tau-bay",
     "name_vn": "Rau tầu bay",
     "name_han": "",
@@ -47448,7 +45495,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1209,
+    "id": 1155,
     "slug": "rau-thia-la",
     "name_vn": "Rau thìa là",
     "name_han": "",
@@ -47502,7 +45549,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1210,
+    "id": 1156,
     "slug": "rau-thom",
     "name_vn": "Rau thơm",
     "name_han": "",
@@ -47557,7 +45604,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1211,
+    "id": 1157,
     "slug": "rau-khuc",
     "name_vn": "Rau khúc",
     "name_han": "",
@@ -47610,7 +45657,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1212,
+    "id": 1158,
     "slug": "rau-day-qua-dai",
     "name_vn": "Rau đay quả dài",
     "name_han": "",
@@ -47665,7 +45712,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1213,
+    "id": 1159,
     "slug": "rau-song-chua-day",
     "name_vn": "Rau sông chua dây",
     "name_han": "",
@@ -47703,7 +45750,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1214,
+    "id": 1160,
     "slug": "rau-dang",
     "name_vn": "Rau đắng",
     "name_han": "",
@@ -47756,7 +45803,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1215,
+    "id": 1161,
     "slug": "rau-ma",
     "name_vn": "Rau má",
     "name_han": "",
@@ -47811,7 +45858,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1216,
+    "id": 1162,
     "slug": "rau-thom-long",
     "name_vn": "Rau thơm lồng",
     "name_han": "",
@@ -47850,7 +45897,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1217,
+    "id": 1163,
     "slug": "rau-la-rau-muong",
     "name_vn": "Rau lá rau muống",
     "name_han": "",
@@ -47903,7 +45950,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1218,
+    "id": 1164,
     "slug": "rau-trai-man",
     "name_vn": "Rau trai mận",
     "name_han": "",
@@ -47939,7 +45986,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1219,
+    "id": 1165,
     "slug": "rau-ma-ngo",
     "name_vn": "Rau má ngò",
     "name_han": "",
@@ -47977,7 +46024,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1220,
+    "id": 1166,
     "slug": "rau-mong-toi",
     "name_vn": "Rau mồng tơi",
     "name_han": "",
@@ -48032,7 +46079,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1221,
+    "id": 1167,
     "slug": "rau-muoi-dai",
     "name_vn": "Rau muối dại",
     "name_han": "",
@@ -48069,7 +46116,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1222,
+    "id": 1168,
     "slug": "rau-muong",
     "name_vn": "Rau muống",
     "name_han": "",
@@ -48122,7 +46169,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1223,
+    "id": 1169,
     "slug": "ruou-hoi",
     "name_vn": "Rượu hội",
     "name_han": "",
@@ -48156,7 +46203,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1224,
+    "id": 1170,
     "slug": "ruoi",
     "name_vn": "Rươi",
     "name_han": "",
@@ -48209,7 +46256,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1225,
+    "id": 1171,
     "slug": "sa-hoang",
     "name_vn": "Sa hoàng",
     "name_han": "",
@@ -48243,7 +46290,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1226,
+    "id": 1172,
     "slug": "sa-khuong",
     "name_vn": "Sa khương",
     "name_han": "",
@@ -48280,7 +46327,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1227,
+    "id": 1173,
     "slug": "sa-nhan",
     "name_vn": "Sa nhân",
     "name_han": "",
@@ -48334,7 +46381,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1228,
+    "id": 1174,
     "slug": "sa-diep-sai-ho",
     "name_vn": "Sà diệp sài hồ",
     "name_han": "",
@@ -48368,7 +46415,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1229,
+    "id": 1175,
     "slug": "sa",
     "name_vn": "Sả",
     "name_han": "",
@@ -48423,7 +46470,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1230,
+    "id": 1176,
     "slug": "san-cao-thu",
     "name_vn": "Sàn cao thụ",
     "name_han": "",
@@ -48457,7 +46504,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1231,
+    "id": 1177,
     "slug": "san-dang",
     "name_vn": "Sàn đắng",
     "name_han": "",
@@ -48494,7 +46541,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1232,
+    "id": 1178,
     "slug": "san-thu",
     "name_vn": "Sàn thụ",
     "name_han": "",
@@ -48528,7 +46575,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1233,
+    "id": 1179,
     "slug": "san-sa",
     "name_vn": "Sản sa",
     "name_han": "",
@@ -48562,7 +46609,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1234,
+    "id": 1180,
     "slug": "san-lai",
     "name_vn": "Sân lai",
     "name_han": "",
@@ -48596,7 +46643,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1235,
+    "id": 1181,
     "slug": "son-gian-lan",
     "name_vn": "Sơn gian lan",
     "name_han": "",
@@ -48633,7 +46680,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1236,
+    "id": 1182,
     "slug": "son-ho-tieu-thich",
     "name_vn": "Sơn hồ tiêu thích",
     "name_han": "",
@@ -48667,7 +46714,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1237,
+    "id": 1183,
     "slug": "son-ke-me",
     "name_vn": "Sơn kê mê",
     "name_han": "",
@@ -48701,7 +46748,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1238,
+    "id": 1184,
     "slug": "son-khuong-tu",
     "name_vn": "Sơn khương tử",
     "name_han": "",
@@ -48738,7 +46785,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1239,
+    "id": 1185,
     "slug": "son-lien-ngau",
     "name_vn": "Sơn liên ngẩu",
     "name_han": "",
@@ -48774,7 +46821,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1240,
+    "id": 1186,
     "slug": "son-luc-dau",
     "name_vn": "Sơn lục đấu",
     "name_han": "",
@@ -48808,7 +46855,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1241,
+    "id": 1187,
     "slug": "son-ma-hoang",
     "name_vn": "Sơn ma hoàng",
     "name_han": "",
@@ -48845,7 +46892,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1242,
+    "id": 1188,
     "slug": "son-mien-bi",
     "name_vn": "Sơn miên bì",
     "name_han": "",
@@ -48882,7 +46929,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1243,
+    "id": 1189,
     "slug": "son-nai",
     "name_vn": "Sơn nai",
     "name_han": "",
@@ -48919,7 +46966,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1244,
+    "id": 1190,
     "slug": "son-nguu-bang",
     "name_vn": "Sơn ngưu bang",
     "name_han": "",
@@ -48957,7 +47004,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1245,
+    "id": 1191,
     "slug": "son-nham",
     "name_vn": "Sơn nham",
     "name_han": "",
@@ -48991,7 +47038,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1246,
+    "id": 1192,
     "slug": "son-nhuc-que",
     "name_vn": "Sơn nhục quế",
     "name_han": "",
@@ -49038,7 +47085,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1247,
+    "id": 1193,
     "slug": "son-tac-tuong-thao",
     "name_vn": "Sơn tắc tương thảo",
     "name_han": "",
@@ -49072,7 +47119,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1248,
+    "id": 1194,
     "slug": "son-tho",
     "name_vn": "Sơn thô",
     "name_han": "",
@@ -49106,7 +47153,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1249,
+    "id": 1195,
     "slug": "son-thuc",
     "name_vn": "Sơn thục",
     "name_han": "",
@@ -49160,7 +47207,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1250,
+    "id": 1196,
     "slug": "son-thuc-gai",
     "name_vn": "Sơn thục gai",
     "name_han": "",
@@ -49198,7 +47245,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1251,
+    "id": 1197,
     "slug": "son-thuong-son",
     "name_vn": "Sơn thường sơn",
     "name_han": "",
@@ -49246,7 +47293,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1252,
+    "id": 1198,
     "slug": "son-tra",
     "name_vn": "Sơn tra",
     "name_han": "",
@@ -49299,7 +47346,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1253,
+    "id": 1199,
     "slug": "son-truc-tu",
     "name_vn": "Sơn trúc tử",
     "name_han": "",
@@ -49333,7 +47380,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1254,
+    "id": 1200,
     "slug": "son-tu-co",
     "name_vn": "Sơn từ cô",
     "name_han": "",
@@ -49385,7 +47432,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1255,
+    "id": 1201,
     "slug": "son-ty-mieu",
     "name_vn": "Sơn ty miêu",
     "name_han": "",
@@ -49419,7 +47466,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1256,
+    "id": 1202,
     "slug": "son-yen-tu",
     "name_vn": "Sơn yên tử",
     "name_han": "",
@@ -49453,7 +47500,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1257,
+    "id": 1203,
     "slug": "so-huyet",
     "name_vn": "Sò huyết",
     "name_han": "",
@@ -49501,7 +47548,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1258,
+    "id": 1204,
     "slug": "soi-mat-cua-khi",
     "name_vn": "Sói mật của khỉ",
     "name_han": "",
@@ -49535,7 +47582,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1259,
+    "id": 1205,
     "slug": "sung-bo",
     "name_vn": "Sừng bò",
     "name_han": "",
@@ -49589,7 +47636,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1260,
+    "id": 1206,
     "slug": "sung-de",
     "name_vn": "Sừng dê",
     "name_han": "",
@@ -49642,7 +47689,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1261,
+    "id": 1207,
     "slug": "sung-trau",
     "name_vn": "Sừng trâu",
     "name_han": "",
@@ -49696,7 +47743,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1262,
+    "id": 1208,
     "slug": "sau",
     "name_vn": "Sấu",
     "name_han": "",
@@ -49750,7 +47797,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1263,
+    "id": 1209,
     "slug": "sau-tia",
     "name_vn": "Sấu tia",
     "name_han": "",
@@ -49787,7 +47834,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1264,
+    "id": 1210,
     "slug": "sau-trang",
     "name_vn": "Sấu trắng",
     "name_han": "",
@@ -49824,7 +47871,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1265,
+    "id": 1211,
     "slug": "sen",
     "name_vn": "Sen",
     "name_han": "",
@@ -49877,7 +47924,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1266,
+    "id": 1212,
     "slug": "se",
     "name_vn": "Sê",
     "name_han": "",
@@ -49911,7 +47958,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1267,
+    "id": 1213,
     "slug": "si",
     "name_vn": "Si",
     "name_han": "",
@@ -49964,7 +48011,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1268,
+    "id": 1214,
     "slug": "sim",
     "name_vn": "Sim",
     "name_han": "",
@@ -50018,7 +48065,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1269,
+    "id": 1215,
     "slug": "soi",
     "name_vn": "Sỏi",
     "name_han": "",
@@ -50052,7 +48099,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1270,
+    "id": 1216,
     "slug": "song-ky-sinh",
     "name_vn": "Song ký sinh",
     "name_han": "",
@@ -50105,7 +48152,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1271,
+    "id": 1217,
     "slug": "sung",
     "name_vn": "Sung",
     "name_han": "",
@@ -50159,7 +48206,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1272,
+    "id": 1218,
     "slug": "sung-uy",
     "name_vn": "Sung úy",
     "name_han": "",
@@ -50197,7 +48244,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1273,
+    "id": 1219,
     "slug": "sung-uy-tu",
     "name_vn": "Sung úy tử",
     "name_han": "",
@@ -50234,7 +48281,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1274,
+    "id": 1220,
     "slug": "sua",
     "name_vn": "Sữa",
     "name_han": "",
@@ -50288,7 +48335,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1275,
+    "id": 1221,
     "slug": "ta-hoang-do",
     "name_vn": "Tả hoàng đồ",
     "name_han": "",
@@ -50322,7 +48369,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1276,
+    "id": 1222,
     "slug": "tam-bach-thao",
     "name_vn": "Tam bách thảo",
     "name_han": "",
@@ -50360,7 +48407,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1277,
+    "id": 1223,
     "slug": "tam-diep-toan",
     "name_vn": "Tam diệp toan",
     "name_han": "",
@@ -50396,7 +48443,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1278,
+    "id": 1224,
     "slug": "tam-giac-mach",
     "name_vn": "Tam giác mạch",
     "name_han": "",
@@ -50450,7 +48497,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1279,
+    "id": 1225,
     "slug": "tam-hoang-cam",
     "name_vn": "Tam hoàng cầm",
     "name_han": "",
@@ -50488,7 +48535,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1280,
+    "id": 1226,
     "slug": "tam-nai",
     "name_vn": "Tam nai",
     "name_han": "",
@@ -50522,7 +48569,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1281,
+    "id": 1227,
     "slug": "tam-thach-co",
     "name_vn": "Tam thạch cô",
     "name_han": "",
@@ -50556,7 +48603,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1282,
+    "id": 1228,
     "slug": "tam-that-gia",
     "name_vn": "Tam thất gia",
     "name_han": "",
@@ -50593,7 +48640,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1283,
+    "id": 1229,
     "slug": "tam-tieu-don",
     "name_vn": "Tam tiêu đơn",
     "name_han": "",
@@ -50627,7 +48674,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1284,
+    "id": 1230,
     "slug": "tam-troc",
     "name_vn": "Tam tróc",
     "name_han": "",
@@ -50661,7 +48708,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1285,
+    "id": 1231,
     "slug": "tat-bat",
     "name_vn": "Tất bật",
     "name_han": "",
@@ -50695,7 +48742,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1286,
+    "id": 1232,
     "slug": "tat-gia",
     "name_vn": "Tất gia",
     "name_han": "",
@@ -50729,7 +48776,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1287,
+    "id": 1233,
     "slug": "tan-mat-hoa",
     "name_vn": "Tán mạt hoa",
     "name_han": "",
@@ -50765,7 +48812,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1288,
+    "id": 1234,
     "slug": "tat-suat",
     "name_vn": "Tất suất",
     "name_han": "",
@@ -50799,7 +48846,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1289,
+    "id": 1235,
     "slug": "tat-suat-thao",
     "name_vn": "Tất suất thảo",
     "name_han": "",
@@ -50833,7 +48880,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1290,
+    "id": 1236,
     "slug": "tat-trung-gia",
     "name_vn": "Tất trưng già",
     "name_han": "",
@@ -50867,7 +48914,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1291,
+    "id": 1237,
     "slug": "tang-bach-bi",
     "name_vn": "Tang bạch bì",
     "name_han": "",
@@ -50919,7 +48966,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1292,
+    "id": 1238,
     "slug": "tang-diep",
     "name_vn": "Tang diệp",
     "name_han": "",
@@ -50971,7 +49018,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1293,
+    "id": 1239,
     "slug": "tang-phieu-tieu",
     "name_vn": "Tang phiêu tiêu",
     "name_han": "",
@@ -51023,7 +49070,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1294,
+    "id": 1240,
     "slug": "tang-tham",
     "name_vn": "Tang thầm",
     "name_han": "",
@@ -51076,7 +49123,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1295,
+    "id": 1241,
     "slug": "tao",
     "name_vn": "Táo",
     "name_han": "",
@@ -51130,7 +49177,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1296,
+    "id": 1242,
     "slug": "tao-chua",
     "name_vn": "Táo chua",
     "name_han": "",
@@ -51167,7 +49214,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1297,
+    "id": 1243,
     "slug": "tao-den",
     "name_vn": "Táo đen",
     "name_han": "",
@@ -51204,7 +49251,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1298,
+    "id": 1244,
     "slug": "tao-do",
     "name_vn": "Táo đỏ",
     "name_han": "",
@@ -51258,7 +49305,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1299,
+    "id": 1245,
     "slug": "tao-nhan",
     "name_vn": "Táo nhân",
     "name_han": "",
@@ -51311,7 +49358,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1300,
+    "id": 1246,
     "slug": "tao-rung",
     "name_vn": "Táo rừng",
     "name_han": "",
@@ -51365,7 +49412,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1301,
+    "id": 1247,
     "slug": "tao-tam-thach",
     "name_vn": "Táo tâm thạch",
     "name_han": "",
@@ -51399,7 +49446,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1302,
+    "id": 1248,
     "slug": "tao-giac-thich",
     "name_vn": "Tạo giác thích",
     "name_han": "",
@@ -51452,7 +49499,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1303,
+    "id": 1249,
     "slug": "tao-giac-tu",
     "name_vn": "Tạo giác tử",
     "name_han": "",
@@ -51500,7 +49547,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1304,
+    "id": 1250,
     "slug": "tao-giap",
     "name_vn": "Tạo giáp",
     "name_han": "",
@@ -51552,7 +49599,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1305,
+    "id": 1251,
     "slug": "tao-phan",
     "name_vn": "Tạo phàn",
     "name_han": "",
@@ -51586,7 +49633,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1306,
+    "id": 1252,
     "slug": "tac-ke",
     "name_vn": "Tắc kè",
     "name_han": "",
@@ -51638,7 +49685,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1307,
+    "id": 1253,
     "slug": "tac-ke-da",
     "name_vn": "Tắc kè da",
     "name_han": "",
@@ -51674,7 +49721,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1308,
+    "id": 1254,
     "slug": "thach",
     "name_vn": "Thạch",
     "name_han": "",
@@ -51717,7 +49764,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1309,
+    "id": 1255,
     "slug": "thach-ba-chi",
     "name_vn": "Thạch bá chi",
     "name_han": "",
@@ -51751,7 +49798,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1310,
+    "id": 1256,
     "slug": "thach-bi",
     "name_vn": "Thạch bì",
     "name_han": "",
@@ -51788,7 +49835,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1311,
+    "id": 1257,
     "slug": "thach-den",
     "name_vn": "Thạch đen",
     "name_han": "",
@@ -51841,7 +49888,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1312,
+    "id": 1258,
     "slug": "thach-hoa-thai",
     "name_vn": "Thạch hoa thái",
     "name_han": "",
@@ -51875,7 +49922,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1313,
+    "id": 1259,
     "slug": "thach-hoang",
     "name_vn": "Thạch hoàng",
     "name_han": "",
@@ -51909,7 +49956,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1314,
+    "id": 1260,
     "slug": "thach-ho-tu",
     "name_vn": "Thạch hổ tụ",
     "name_han": "",
@@ -51947,7 +49994,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1315,
+    "id": 1261,
     "slug": "thach-lan",
     "name_vn": "Thạch lan",
     "name_han": "",
@@ -51985,7 +50032,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1316,
+    "id": 1262,
     "slug": "thach-lien-tu",
     "name_vn": "Thạch liên tử",
     "name_han": "",
@@ -52038,7 +50085,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1317,
+    "id": 1263,
     "slug": "thach-luu",
     "name_vn": "Thạch lựu",
     "name_han": "",
@@ -52091,7 +50138,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1318,
+    "id": 1264,
     "slug": "thach-phan",
     "name_vn": "Thạch phàn",
     "name_han": "",
@@ -52145,7 +50192,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1319,
+    "id": 1265,
     "slug": "thach-sung",
     "name_vn": "Thạch sung",
     "name_han": "",
@@ -52179,7 +50226,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1320,
+    "id": 1266,
     "slug": "thach-thung",
     "name_vn": "Thạch thùng",
     "name_han": "",
@@ -52213,7 +50260,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1321,
+    "id": 1267,
     "slug": "thach-tin",
     "name_vn": "Thạch tin",
     "name_han": "",
@@ -52247,7 +50294,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1322,
+    "id": 1268,
     "slug": "thach-truong-sinh",
     "name_vn": "Thạch trường sinh",
     "name_han": "",
@@ -52285,7 +50332,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1323,
+    "id": 1269,
     "slug": "thach-vi",
     "name_vn": "Thạch vi",
     "name_han": "",
@@ -52338,7 +50385,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1324,
+    "id": 1270,
     "slug": "thach-vi-day",
     "name_vn": "Thạch vi dây",
     "name_han": "",
@@ -52374,7 +50421,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1325,
+    "id": 1271,
     "slug": "thao-cao",
     "name_vn": "Thao cao",
     "name_han": "",
@@ -52408,7 +50455,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1326,
+    "id": 1272,
     "slug": "thao-ca-phe",
     "name_vn": "Thảo cà phê",
     "name_han": "",
@@ -52445,7 +50492,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1327,
+    "id": 1273,
     "slug": "thao-dau-khau",
     "name_vn": "Thảo đậu khấu",
     "name_han": "",
@@ -52498,7 +50545,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1328,
+    "id": 1274,
     "slug": "thao-ha-sa",
     "name_vn": "Thảo hà sa",
     "name_han": "",
@@ -52532,7 +50579,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1329,
+    "id": 1275,
     "slug": "thao-khau-nhan",
     "name_vn": "Thảo khấu nhân",
     "name_han": "",
@@ -52585,7 +50632,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1330,
+    "id": 1276,
     "slug": "thao-linh-chi",
     "name_vn": "Thảo linh chi",
     "name_han": "",
@@ -52622,7 +50669,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1331,
+    "id": 1277,
     "slug": "thao-ma-hoang",
     "name_vn": "Thảo ma hoàng",
     "name_han": "",
@@ -52659,7 +50706,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1332,
+    "id": 1278,
     "slug": "thao-o",
     "name_vn": "Thảo ô",
     "name_han": "",
@@ -52712,7 +50759,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1333,
+    "id": 1279,
     "slug": "thao-quyet-minh",
     "name_vn": "Thảo quyết minh",
     "name_han": "",
@@ -52765,7 +50812,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1334,
+    "id": 1280,
     "slug": "thao-tu-hoa",
     "name_vn": "Thảo tử hoa",
     "name_han": "",
@@ -52801,7 +50848,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1335,
+    "id": 1281,
     "slug": "thap-luu",
     "name_vn": "Tháp lựu",
     "name_han": "",
@@ -52835,7 +50882,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1336,
+    "id": 1282,
     "slug": "thau-dau",
     "name_vn": "Thầu dầu",
     "name_han": "",
@@ -52889,7 +50936,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1337,
+    "id": 1283,
     "slug": "then",
     "name_vn": "Thẹn",
     "name_han": "",
@@ -52944,7 +50991,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1338,
+    "id": 1284,
     "slug": "thiet-dang-dai",
     "name_vn": "Thiết đăng đài",
     "name_han": "",
@@ -52981,7 +51028,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1339,
+    "id": 1285,
     "slug": "thiet-thich-ngai",
     "name_vn": "Thiết thích ngải",
     "name_han": "",
@@ -53019,7 +51066,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1340,
+    "id": 1286,
     "slug": "thiet-thu",
     "name_vn": "Thiết thụ",
     "name_han": "",
@@ -53055,7 +51102,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1341,
+    "id": 1287,
     "slug": "thiet-tuyen-thao",
     "name_vn": "Thiết tuyến thảo",
     "name_han": "",
@@ -53089,7 +51136,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1342,
+    "id": 1288,
     "slug": "thieu-tang-chi",
     "name_vn": "Thiêu tầng chi",
     "name_han": "",
@@ -53123,7 +51170,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1343,
+    "id": 1289,
     "slug": "tho-co",
     "name_vn": "Thỏ cỏ",
     "name_han": "",
@@ -53159,7 +51206,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1344,
+    "id": 1290,
     "slug": "tho-bach-khau",
     "name_vn": "Thổ bạch khấu",
     "name_han": "",
@@ -53196,7 +51243,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1345,
+    "id": 1291,
     "slug": "tho-cam-thao",
     "name_vn": "Thổ cam thảo",
     "name_han": "",
@@ -53250,7 +51297,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1346,
+    "id": 1292,
     "slug": "tho-cao-ly-sam",
     "name_vn": "Thổ cao ly sâm",
     "name_han": "",
@@ -53303,7 +51350,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1347,
+    "id": 1293,
     "slug": "tho-hoac-huong",
     "name_vn": "Thổ hoắc hương",
     "name_han": "",
@@ -53357,7 +51404,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1348,
+    "id": 1294,
     "slug": "tho-hoang-lien",
     "name_vn": "Thổ hoàng liên",
     "name_han": "",
@@ -53411,7 +51458,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1349,
+    "id": 1295,
     "slug": "tho-kinh-gioi",
     "name_vn": "Thổ kinh giới",
     "name_han": "",
@@ -53464,7 +51511,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1350,
+    "id": 1296,
     "slug": "tho-long-cot",
     "name_vn": "Thổ long cốt",
     "name_han": "",
@@ -53517,7 +51564,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1351,
+    "id": 1297,
     "slug": "tho-moc-huong",
     "name_vn": "Thổ mộc hương",
     "name_han": "",
@@ -53570,7 +51617,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1352,
+    "id": 1298,
     "slug": "tho-moc-miet",
     "name_vn": "Thổ mộc miết",
     "name_han": "",
@@ -53604,7 +51651,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1353,
+    "id": 1299,
     "slug": "tho-nhan-sam",
     "name_vn": "Thổ nhân sâm",
     "name_han": "",
@@ -53657,7 +51704,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1354,
+    "id": 1300,
     "slug": "tho-tam-that",
     "name_vn": "Thổ tam thất",
     "name_han": "",
@@ -53711,7 +51758,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1355,
+    "id": 1301,
     "slug": "tho-te-tan",
     "name_vn": "Thổ tế tân",
     "name_han": "",
@@ -53764,7 +51811,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1356,
+    "id": 1302,
     "slug": "thoi-ruot",
     "name_vn": "Thối ruột",
     "name_han": "",
@@ -53801,7 +51848,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1357,
+    "id": 1303,
     "slug": "thong",
     "name_vn": "Thông",
     "name_han": "",
@@ -53855,7 +51902,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1358,
+    "id": 1304,
     "slug": "thong-ba-la",
     "name_vn": "Thông ba lá",
     "name_han": "",
@@ -53898,7 +51945,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1359,
+    "id": 1305,
     "slug": "thong-bach",
     "name_vn": "Thông bạch",
     "name_han": "",
@@ -53951,7 +51998,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1360,
+    "id": 1306,
     "slug": "thong-duoi-ngua",
     "name_vn": "Thông đuôi ngựa",
     "name_han": "",
@@ -54003,7 +52050,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1361,
+    "id": 1307,
     "slug": "thong-hai-la",
     "name_vn": "Thông hai lá",
     "name_han": "",
@@ -54045,7 +52092,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1362,
+    "id": 1308,
     "slug": "thong-nhua",
     "name_vn": "Thông nhựa",
     "name_han": "",
@@ -54098,7 +52145,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1363,
+    "id": 1309,
     "slug": "thong-thien",
     "name_vn": "Thông thiên",
     "name_han": "",
@@ -54135,7 +52182,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1364,
+    "id": 1310,
     "slug": "thom",
     "name_vn": "Thơm",
     "name_han": "",
@@ -54189,7 +52236,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1365,
+    "id": 1311,
     "slug": "thua",
     "name_vn": "Thùa",
     "name_han": "",
@@ -54243,7 +52290,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1366,
+    "id": 1312,
     "slug": "thu-bach-suong",
     "name_vn": "Thu bạch sương",
     "name_han": "",
@@ -54277,7 +52324,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1367,
+    "id": 1313,
     "slug": "thu-phong",
     "name_vn": "Thu phong",
     "name_han": "",
@@ -54314,7 +52361,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1368,
+    "id": 1314,
     "slug": "thuc-tat",
     "name_vn": "Thục tất",
     "name_han": "",
@@ -54348,7 +52395,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1369,
+    "id": 1315,
     "slug": "thuc-tieu",
     "name_vn": "Thục tiêu",
     "name_han": "",
@@ -54401,7 +52448,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1370,
+    "id": 1316,
     "slug": "thuy-dieu-thai",
     "name_vn": "Thủy điều thái",
     "name_han": "",
@@ -54437,7 +52484,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1371,
+    "id": 1317,
     "slug": "thuy-lieu",
     "name_vn": "Thủy liễu",
     "name_han": "",
@@ -54490,7 +52537,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1372,
+    "id": 1318,
     "slug": "thuy-long",
     "name_vn": "Thủy long",
     "name_han": "",
@@ -54526,7 +52573,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1373,
+    "id": 1319,
     "slug": "thuy-luc-phan",
     "name_vn": "Thủy lục phàn",
     "name_han": "",
@@ -54560,7 +52607,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1374,
+    "id": 1320,
     "slug": "thuy-ma",
     "name_vn": "Thủy mã",
     "name_han": "",
@@ -54596,7 +52643,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1375,
+    "id": 1321,
     "slug": "thuy-ngan-khong-dung-noi-phuc",
     "name_vn": "Thủy ngân   - KHÔNG DÙNG NỘI PHỤC",
     "name_han": "",
@@ -54630,7 +52677,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1376,
+    "id": 1322,
     "slug": "thuy-ngan-phan",
     "name_vn": "Thủy ngân phấn",
     "name_han": "",
@@ -54664,7 +52711,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1377,
+    "id": 1323,
     "slug": "thuy-ngu-xac",
     "name_vn": "Thủy ngư xác",
     "name_han": "",
@@ -54701,7 +52748,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1378,
+    "id": 1324,
     "slug": "thuy-phu-lien",
     "name_vn": "Thủy phù liên",
     "name_han": "",
@@ -54757,7 +52804,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1379,
+    "id": 1325,
     "slug": "thuy-qua",
     "name_vn": "Thủy qua",
     "name_han": "",
@@ -54810,7 +52857,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1380,
+    "id": 1326,
     "slug": "thuy-tien",
     "name_vn": "Thủy tiên",
     "name_han": "",
@@ -54858,7 +52905,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1381,
+    "id": 1327,
     "slug": "thuy-xuong-bo",
     "name_vn": "Thủy xương bồ",
     "name_han": "",
@@ -54912,7 +52959,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1382,
+    "id": 1328,
     "slug": "thuyen-thoai",
     "name_vn": "Thuyền thoái",
     "name_han": "",
@@ -54971,7 +53018,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1383,
+    "id": 1329,
     "slug": "thuyen-thue",
     "name_vn": "Thuyền thuế",
     "name_han": "",
@@ -55007,7 +53054,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1384,
+    "id": 1330,
     "slug": "thuy-duong",
     "name_vn": "Thùy dương",
     "name_han": "",
@@ -55061,7 +53108,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1385,
+    "id": 1331,
     "slug": "tia-to",
     "name_vn": "Tía tô",
     "name_han": "",
@@ -55116,7 +53163,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1386,
+    "id": 1332,
     "slug": "tia-to-dai",
     "name_vn": "Tía tô dại",
     "name_han": "",
@@ -55160,7 +53207,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1387,
+    "id": 1333,
     "slug": "tia-to-gioi",
     "name_vn": "Tía tô giới",
     "name_han": "",
@@ -55212,7 +53259,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1388,
+    "id": 1334,
     "slug": "tich-duong",
     "name_vn": "Tích dương",
     "name_han": "",
@@ -55248,7 +53295,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1389,
+    "id": 1335,
     "slug": "tich-tuyet-thao",
     "name_vn": "Tích tuyết thảo",
     "name_han": "",
@@ -55303,7 +53350,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1390,
+    "id": 1336,
     "slug": "tiem-diep-phan-ta-diep",
     "name_vn": "Tiêm diệp phan tả điệp",
     "name_han": "",
@@ -55337,7 +53384,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1391,
+    "id": 1337,
     "slug": "tien-hac-thao",
     "name_vn": "Tiên hạc thảo",
     "name_han": "",
@@ -55391,7 +53438,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1392,
+    "id": 1338,
     "slug": "tien-ho-hoa-trang",
     "name_vn": "Tiền hồ hoa trắng",
     "name_han": "",
@@ -55427,7 +53474,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1393,
+    "id": 1339,
     "slug": "tien-thuc",
     "name_vn": "Tiến thực",
     "name_han": "",
@@ -55461,7 +53508,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1394,
+    "id": 1340,
     "slug": "tiet-cot-thao",
     "name_vn": "Tiết cốt thảo",
     "name_han": "",
@@ -55514,7 +53561,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1395,
+    "id": 1341,
     "slug": "tiet-de",
     "name_vn": "Tiết dê",
     "name_han": "",
@@ -55567,7 +53614,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1396,
+    "id": 1342,
     "slug": "toi-do",
     "name_vn": "Tỏi đỏ",
     "name_han": "",
@@ -55609,7 +53656,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1397,
+    "id": 1343,
     "slug": "toi-doc",
     "name_vn": "Tỏi độc",
     "name_han": "",
@@ -55643,7 +53690,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1398,
+    "id": 1344,
     "slug": "toi-voi",
     "name_vn": "Tỏi voi",
     "name_han": "",
@@ -55697,7 +53744,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1399,
+    "id": 1345,
     "slug": "to-dieu",
     "name_vn": "Tổ điều",
     "name_han": "",
@@ -55731,7 +53778,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1400,
+    "id": 1346,
     "slug": "to-phuong",
     "name_vn": "Tổ phượng",
     "name_han": "",
@@ -55765,7 +53812,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1401,
+    "id": 1347,
     "slug": "to-rong",
     "name_vn": "Tổ rồng",
     "name_han": "",
@@ -55799,7 +53846,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1402,
+    "id": 1348,
     "slug": "to-hong",
     "name_vn": "Tơ hồng",
     "name_han": "",
@@ -55852,7 +53899,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1403,
+    "id": 1349,
     "slug": "toi-tay",
     "name_vn": "Tỏi tây",
     "name_han": "",
@@ -55906,7 +53953,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1404,
+    "id": 1350,
     "slug": "to-hgap",
     "name_vn": "Tô hgạp",
     "name_han": "",
@@ -55940,7 +53987,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1405,
+    "id": 1351,
     "slug": "to-hap-du",
     "name_vn": "Tô hạp du",
     "name_han": "",
@@ -55974,7 +54021,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1406,
+    "id": 1352,
     "slug": "to-hap-huong",
     "name_vn": "Tô hạp hương",
     "name_han": "",
@@ -56027,7 +54074,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1407,
+    "id": 1353,
     "slug": "to-hap-huong-binh-khang",
     "name_vn": "Tô hạp hương bình khang",
     "name_han": "",
@@ -56067,7 +54114,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1408,
+    "id": 1354,
     "slug": "to-nganh",
     "name_vn": "Tô ngạnh",
     "name_han": "",
@@ -56104,7 +54151,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1409,
+    "id": 1355,
     "slug": "tu-thuong-son",
     "name_vn": "Tử thường sơn",
     "name_han": "",
@@ -56153,7 +54200,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1410,
+    "id": 1356,
     "slug": "tuc-doan",
     "name_vn": "Tục đoạn",
     "name_han": "",
@@ -56206,7 +54253,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1411,
+    "id": 1357,
     "slug": "tuc-tuy-tu",
     "name_vn": "Tục tùy tử",
     "name_han": "",
@@ -56240,7 +54287,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1412,
+    "id": 1358,
     "slug": "tu-van-nien-thanh",
     "name_vn": "Tử vạn niên thanh",
     "name_han": "",
@@ -56288,7 +54335,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1413,
+    "id": 1359,
     "slug": "tu-ha-sa",
     "name_vn": "Tử hà sa",
     "name_han": "",
@@ -56322,7 +54369,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1414,
+    "id": 1360,
     "slug": "tu-hoa-tien-ho",
     "name_vn": "Tử hoa tiền hồ",
     "name_han": "",
@@ -56370,7 +54417,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1415,
+    "id": 1361,
     "slug": "tu-kim-long",
     "name_vn": "Tử kim long",
     "name_han": "",
@@ -56404,7 +54451,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1416,
+    "id": 1362,
     "slug": "ty-ba-diep",
     "name_vn": "Tỳ bà diệp",
     "name_han": "",
@@ -56457,7 +54504,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1417,
+    "id": 1363,
     "slug": "ty-ma-du",
     "name_vn": "Tỳ ma du",
     "name_han": "",
@@ -56491,7 +54538,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1418,
+    "id": 1364,
     "slug": "uat-kim",
     "name_vn": "Uất kim",
     "name_han": "",
@@ -56545,7 +54592,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1419,
+    "id": 1365,
     "slug": "vang-dang",
     "name_vn": "Vàng đắng",
     "name_han": "",
@@ -56583,7 +54630,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1420,
+    "id": 1366,
     "slug": "vang-lo",
     "name_vn": "Vàng lồ",
     "name_han": "",
@@ -56620,7 +54667,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1421,
+    "id": 1367,
     "slug": "vang-nghe",
     "name_vn": "Vàng nghệ",
     "name_han": "",
@@ -56676,7 +54723,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1422,
+    "id": 1368,
     "slug": "vang-nhua",
     "name_vn": "Vàng nhựa",
     "name_han": "",
@@ -56713,7 +54760,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1423,
+    "id": 1369,
     "slug": "vang-nhuom",
     "name_vn": "Vàng nhuộm",
     "name_han": "",
@@ -56755,7 +54802,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1424,
+    "id": 1370,
     "slug": "vang-tram",
     "name_vn": "Vàng trầm",
     "name_han": "",
@@ -56792,7 +54839,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1425,
+    "id": 1371,
     "slug": "vang",
     "name_vn": "Vàng",
     "name_han": "",
@@ -56845,7 +54892,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1426,
+    "id": 1372,
     "slug": "vai",
     "name_vn": "Vải",
     "name_han": "",
@@ -56898,7 +54945,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1427,
+    "id": 1373,
     "slug": "van-linh",
     "name_vn": "Vân linh",
     "name_han": "",
@@ -56953,7 +55000,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1428,
+    "id": 1374,
     "slug": "van-moc-huong",
     "name_vn": "Vân mộc hương",
     "name_han": "",
@@ -57006,7 +55053,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1429,
+    "id": 1375,
     "slug": "van-phong-phong",
     "name_vn": "Vân phòng phong",
     "name_han": "",
@@ -57043,7 +55090,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1430,
+    "id": 1376,
     "slug": "van-nien-thanh-nhe",
     "name_vn": "Vạn niên thanh   NHẸ",
     "name_han": "",
@@ -57091,7 +55138,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1431,
+    "id": 1377,
     "slug": "van-nien-tung",
     "name_vn": "Vạn niên tùng",
     "name_han": "",
@@ -57128,7 +55175,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1432,
+    "id": 1378,
     "slug": "van-tho",
     "name_vn": "Vạn thọ",
     "name_han": "",
@@ -57181,7 +55228,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1433,
+    "id": 1379,
     "slug": "van-tue",
     "name_vn": "Vạn tuế",
     "name_han": "",
@@ -57229,7 +55276,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1434,
+    "id": 1380,
     "slug": "ve-chau",
     "name_vn": "Vệ châu",
     "name_han": "",
@@ -57282,7 +55329,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1435,
+    "id": 1381,
     "slug": "van-dai-tu",
     "name_vn": "Vân đài tử",
     "name_han": "",
@@ -57316,7 +55363,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1436,
+    "id": 1382,
     "slug": "van-huong",
     "name_vn": "Vân hương",
     "name_han": "",
@@ -57370,7 +55417,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1437,
+    "id": 1383,
     "slug": "vong-giang-nam",
     "name_vn": "Vọng giang nam",
     "name_han": "",
@@ -57404,7 +55451,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1438,
+    "id": 1384,
     "slug": "vu-sua",
     "name_vn": "Vú sữa",
     "name_han": "",
@@ -57458,7 +55505,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1439,
+    "id": 1385,
     "slug": "vu-bo",
     "name_vn": "Vú bò",
     "name_han": "",
@@ -57495,7 +55542,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1440,
+    "id": 1386,
     "slug": "vu-cho",
     "name_vn": "Vú chó",
     "name_han": "",
@@ -57529,7 +55576,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1441,
+    "id": 1387,
     "slug": "vuong-bat-luu-hanh",
     "name_vn": "Vương bất lưu hành",
     "name_han": "",
@@ -57582,7 +55629,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1442,
+    "id": 1388,
     "slug": "vuong-thai-to",
     "name_vn": "Vương thái tô",
     "name_han": "",
@@ -57616,7 +55663,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1443,
+    "id": 1389,
     "slug": "vuong-ton",
     "name_vn": "Vương tôn",
     "name_han": "",
@@ -57650,7 +55697,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1444,
+    "id": 1390,
     "slug": "vuong-tung",
     "name_vn": "Vương tung",
     "name_han": "",
@@ -57684,7 +55731,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1445,
+    "id": 1391,
     "slug": "vong-cach",
     "name_vn": "Vọng cách",
     "name_han": "",
@@ -57738,7 +55785,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1446,
+    "id": 1392,
     "slug": "xa",
     "name_vn": "Xa",
     "name_han": "",
@@ -57772,7 +55819,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1447,
+    "id": 1393,
     "slug": "xa-ke",
     "name_vn": "Xa kê",
     "name_han": "",
@@ -57826,7 +55873,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1448,
+    "id": 1394,
     "slug": "xa-tien",
     "name_vn": "Xa tiền",
     "name_han": "",
@@ -57878,7 +55925,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1449,
+    "id": 1395,
     "slug": "xa-tien-tu",
     "name_vn": "Xa tiền tử",
     "name_han": "",
@@ -57931,7 +55978,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1450,
+    "id": 1396,
     "slug": "xa-co",
     "name_vn": "Xà cô",
     "name_han": "",
@@ -57968,7 +56015,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1451,
+    "id": 1397,
     "slug": "xa-sang",
     "name_vn": "Xà sàng",
     "name_han": "",
@@ -58021,7 +56068,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1452,
+    "id": 1398,
     "slug": "xa-thoai",
     "name_vn": "Xa thoái",
     "name_han": "",
@@ -58059,7 +56106,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1453,
+    "id": 1399,
     "slug": "xa-xi",
     "name_vn": "Xá xị",
     "name_han": "",
@@ -58114,7 +56161,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1454,
+    "id": 1400,
     "slug": "xich-chu-dang",
     "name_vn": "Xích chu đẳng",
     "name_han": "",
@@ -58150,7 +56197,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1455,
+    "id": 1401,
     "slug": "xich-dau",
     "name_vn": "Xích đậu",
     "name_han": "",
@@ -58204,7 +56251,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1456,
+    "id": 1402,
     "slug": "xich-diep-moc",
     "name_vn": "Xích điệp mộc",
     "name_han": "",
@@ -58238,7 +56285,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1457,
+    "id": 1403,
     "slug": "xich-dong-nam",
     "name_vn": "Xích đồng nam",
     "name_han": "",
@@ -58275,7 +56322,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1458,
+    "id": 1404,
     "slug": "xich-giao",
     "name_vn": "Xích giao",
     "name_han": "",
@@ -58311,7 +56358,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1459,
+    "id": 1405,
     "slug": "xich-hoa-xa-dong-vat-quy-hiemdoc",
     "name_vn": "Xích hoa xà  ⚠️ ĐỘNG VẬT QUÝ HIẾM/ĐỘC",
     "name_han": "",
@@ -58345,7 +56392,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1460,
+    "id": 1406,
     "slug": "xich-sam",
     "name_vn": "Xích sâm",
     "name_han": "",
@@ -58398,7 +56445,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1461,
+    "id": 1407,
     "slug": "xich-thuoc",
     "name_vn": "Xích thược",
     "name_han": "",
@@ -58453,7 +56500,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1462,
+    "id": 1408,
     "slug": "xiem-phung",
     "name_vn": "Xiêm phụng",
     "name_han": "",
@@ -58487,7 +56534,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1463,
+    "id": 1409,
     "slug": "xoai",
     "name_vn": "Xoài",
     "name_han": "",
@@ -58541,7 +56588,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1464,
+    "id": 1410,
     "slug": "xoan",
     "name_vn": "Xoan",
     "name_han": "",
@@ -58593,7 +56640,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1465,
+    "id": 1411,
     "slug": "xoan-dau-rung",
     "name_vn": "Xoan đâu rừng",
     "name_han": "",
@@ -58647,7 +56694,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1466,
+    "id": 1412,
     "slug": "xoan-nhu",
     "name_vn": "Xoan nhừ",
     "name_han": "",
@@ -58701,7 +56748,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1467,
+    "id": 1413,
     "slug": "xoan-rung",
     "name_vn": "Xoan rừng",
     "name_han": "",
@@ -58739,7 +56786,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1468,
+    "id": 1414,
     "slug": "xoan-tra",
     "name_vn": "Xoan trà",
     "name_han": "",
@@ -58773,7 +56820,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1469,
+    "id": 1415,
     "slug": "xoan-trang-loi",
     "name_vn": "Xoan trắng lõi",
     "name_han": "",
@@ -58810,7 +56857,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1470,
+    "id": 1416,
     "slug": "xuong-bo",
     "name_vn": "Xương bồ",
     "name_han": "",
@@ -58864,7 +56911,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1471,
+    "id": 1417,
     "slug": "xuong-ca",
     "name_vn": "Xương cá",
     "name_han": "",
@@ -58901,7 +56948,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1472,
+    "id": 1418,
     "slug": "xuong-ho-dong-vat-quy-hiem-cam-su-dung",
     "name_vn": "Xương hổ  ⚠️ ĐỘNG VẬT QUÝ HIẾM - CẤM SỬ DỤNG",
     "name_han": "",
@@ -58935,7 +56982,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1473,
+    "id": 1419,
     "slug": "xuong-kho",
     "name_vn": "Xương khô",
     "name_han": "",
@@ -58972,7 +57019,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1474,
+    "id": 1420,
     "slug": "xuong-rong",
     "name_vn": "Xương rồng",
     "name_han": "",
@@ -59025,7 +57072,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1475,
+    "id": 1421,
     "slug": "xuong-sao",
     "name_vn": "Xương sáo",
     "name_han": "",
@@ -59061,7 +57108,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1476,
+    "id": 1422,
     "slug": "xuyen-can-bi",
     "name_vn": "Xuyên cận bì",
     "name_han": "",
@@ -59095,7 +57142,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1477,
+    "id": 1423,
     "slug": "xuyen-khuong",
     "name_vn": "Xuyên khương",
     "name_han": "",
@@ -59132,7 +57179,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1478,
+    "id": 1424,
     "slug": "xuyen-luyen",
     "name_vn": "Xuyên luyện",
     "name_han": "",
@@ -59184,7 +57231,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1479,
+    "id": 1425,
     "slug": "xuyen-moc-huong",
     "name_vn": "Xuyên mộc hương",
     "name_han": "",
@@ -59237,7 +57284,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1480,
+    "id": 1426,
     "slug": "xuyen-o",
     "name_vn": "Xuyên ô",
     "name_han": "",
@@ -59290,7 +57337,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1481,
+    "id": 1427,
     "slug": "xuyen-pha-thach",
     "name_vn": "Xuyên phá thạch",
     "name_han": "",
@@ -59324,7 +57371,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1482,
+    "id": 1428,
     "slug": "xuyen-phong-phong",
     "name_vn": "Xuyên phòng phong",
     "name_han": "",
@@ -59361,7 +57408,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1483,
+    "id": 1429,
     "slug": "xuyen-son-giap-dong-vat-quy-hiem-cam-su-dung",
     "name_vn": "Xuyên sơn giáp  ⚠️ ĐỘNG VẬT QUÝ HIẾM - CẤM SỬ DỤNG",
     "name_han": "",
@@ -59395,7 +57442,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1484,
+    "id": 1430,
     "slug": "xuyen-tieu",
     "name_vn": "Xuyên tiêu",
     "name_han": "",
@@ -59448,7 +57495,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1485,
+    "id": 1431,
     "slug": "xuyen-ty-giai",
     "name_vn": "Xuyên tỳ giải",
     "name_han": "",
@@ -59486,7 +57533,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1486,
+    "id": 1432,
     "slug": "xuyen-dai-hoang",
     "name_vn": "Xuyên đại hoàng",
     "name_han": "",
@@ -59539,7 +57586,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1487,
+    "id": 1433,
     "slug": "xuyen-dang-sam",
     "name_vn": "Xuyên đảng sâm",
     "name_han": "",
@@ -59592,7 +57639,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1488,
+    "id": 1434,
     "slug": "xuyen-doc-hoat",
     "name_vn": "Xuyên độc hoạt",
     "name_han": "",
@@ -59645,7 +57692,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1489,
+    "id": 1435,
     "slug": "y-di-nhan",
     "name_vn": "Ý dĩ nhân",
     "name_han": "",
@@ -59690,7 +57737,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1490,
+    "id": 1436,
     "slug": "yen",
     "name_vn": "Yến",
     "name_han": "",
@@ -59744,7 +57791,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1491,
+    "id": 1437,
     "slug": "yen-hoa",
     "name_vn": "Yến hoa",
     "name_han": "",
@@ -59778,7 +57825,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1492,
+    "id": 1438,
     "slug": "yen-thai",
     "name_vn": "Yến thái",
     "name_han": "",
@@ -59812,7 +57859,7 @@ export const herbs = [
     "combinations": []
   },
   {
-    "id": 1493,
+    "id": 1439,
     "slug": "yet-tu",
     "name_vn": "Yết tử",
     "name_han": "",
@@ -59865,7 +57912,7 @@ export const herbs = [
     ]
   },
   {
-    "id": 1494,
+    "id": 1440,
     "slug": "yem-rua",
     "name_vn": "Yếm rùa",
     "name_han": "",

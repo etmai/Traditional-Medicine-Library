@@ -68,9 +68,18 @@ function AdminDashboard({ herbs = [] }) {
   const [activeTab, setActiveTab] = useState('overview');
   const [session, setSession] = useState(() => {
     const saved = window.localStorage.getItem('celestial-admin-session');
-    return saved ? JSON.parse(saved) : null;
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (parsed.expiresAt && Date.now() > parsed.expiresAt) {
+        window.localStorage.removeItem('celestial-admin-session');
+        return null;
+      }
+      return parsed;
+    }
+    return null;
   });
   const [loginForm, setLoginForm] = useState({ email: 'admin@celestial.local', password: '' });
+  const [loginError, setLoginError] = useState(false);
   const [query, setQuery] = useState('');
   const [safetyFilter, setSafetyFilter] = useState('all');
   const [managedHerbs, setManagedHerbs] = useState(() => readStorage(storageKeys.herbs, herbs));
@@ -147,11 +156,18 @@ function AdminDashboard({ herbs = [] }) {
 
   const handleLogin = (event) => {
     event.preventDefault();
+    const correctPassword = import.meta.env.VITE_ADMIN_PASSWORD || '123456';
+    if (loginForm.password !== correctPassword) {
+      setLoginError(true);
+      setTimeout(() => setLoginError(false), 800);
+      return;
+    }
     const nextSession = {
       name: 'Quản trị viên',
       email: loginForm.email,
       role: 'Admin nội dung',
       signedAt: new Date().toISOString(),
+      expiresAt: Date.now() + 2 * 60 * 60 * 1000,
     };
     window.localStorage.setItem('celestial-admin-session', JSON.stringify(nextSession));
     setSession(nextSession);
@@ -376,15 +392,17 @@ function AdminDashboard({ herbs = [] }) {
   };
 
   const renderLogin = () => (
-    <main className="admin-page">
+    <main className="admin-page login-bg">
       <section className="admin-login container">
-        <form className="admin-login-card" onSubmit={handleLogin}>
-          <span className="eyebrow">Admin secure area</span>
-          <h1>Đăng nhập quản trị</h1>
-          <p>
-            Đây là lớp đăng nhập prototype cho frontend. Khi nối backend, form này cần gọi API xác thực,
-            phân quyền và refresh token.
-          </p>
+        <form className={`admin-login-card glassmorphism ${loginError ? 'shake-error' : ''}`} onSubmit={handleLogin}>
+          <div className="login-header">
+            <span className="eyebrow">Bách Thảo Kính</span>
+            <h1>Cổng Quản Trị Hệ Thống</h1>
+            <p>Vui lòng đăng nhập bằng mật khẩu cấp phép để truy cập kho lưu trữ và kiểm duyệt nội dung y tế.</p>
+          </div>
+          
+          {loginError && <div className="login-error-msg">⚠️ Mật khẩu không chính xác. Truy cập bị từ chối.</div>}
+          
           <label>
             Email quản trị
             <input
@@ -395,16 +413,16 @@ function AdminDashboard({ herbs = [] }) {
             />
           </label>
           <label>
-            Mật khẩu
+            Mật khẩu bảo mật
             <input
               onChange={(event) => setLoginForm((form) => ({ ...form, password: event.target.value }))}
-              placeholder="Nhập bất kỳ để vào bản prototype"
+              placeholder="Nhập mật khẩu (.env)"
               required
               type="password"
               value={loginForm.password}
             />
           </label>
-          <button className="primary-action" type="submit">Đăng nhập</button>
+          <button className="primary-action glass-btn" type="submit">Đăng nhập an toàn</button>
         </form>
       </section>
     </main>
