@@ -1,0 +1,16 @@
+id,slug,name_vn,name_han,scientific_name,category,part_used,properties,taste,meridians,use_cases,safety_level,usage_summary,is_toxic
+1,nhan-sam,Nhân sâm,人參,Panax ginseng,Thuốc bổ khí,Rễ,Ôn,"Ngọt, hơi đắng","Tỳ, Phế, Tâm","tonic|fatigue|recovery",caution,"Đại bổ nguyên khí, ích huyết, sinh tân, định thần",FALSE
+2,duong-quy,Đương quy,當歸,Angelica sinensis,Thuốc bổ huyết,Rễ,Ôn,"Ngọt, cay, đắng","Can, Tâm, Tỳ","women|tonic|pain",caution,"Bổ huyết, hoạt huyết, điều kinh, giảm đau",FALSE
+3,cam-thao,Cam thảo,甘草,Glycyrrhiza uralensis,"Thuốc bổ khí, điều hòa","Rễ, thân rễ",Bình,Ngọt,12 kinh,"tonic|cough|harmonize",caution,"Kiện tỳ ích khí, giải độc, chỉ khái, điều hòa các vị thuốc",FALSE
+4,thuc-dia,Thục địa,熟地,Rehmannia glutinosa,"Thuốc bổ huyết, bổ âm",Rễ củ đã chế,Hơi ôn,Ngọt,"Can, Thận","tonic|kidney|women",normal,"Tư âm dưỡng huyết, bổ thận điền tinh",FALSE
+5,hoai-son,Hoài sơn,懷山,Dioscorea opposita,Thuốc bổ khí âm,Củ,Bình,Ngọt,"Tỳ, Phế, Thận","tonic|digestion|kidney",normal,"Ích khí dưỡng âm, bổ tỳ phế thận",FALSE
+6,sinh-khuong,Sinh khương,生薑,Zingiber officinale,Thuốc giải biểu tán hàn,Thân rễ tươi,Ôn,Cay,"Phế, Tỳ, Vị","cold|digestion|tea",caution,"Phát tán phong hàn, ôn trung chỉ nôn, hóa đờm chỉ khái",FALSE
+7,tran-bi,Trần bì,陳皮,Citrus reticulata,Thuốc lý khí,Vỏ quả chín phơi lâu năm,Ôn,"Cay, đắng","Tỳ, Phế","digestion|cough|tea",normal,"Lý khí kiện tỳ, táo thấp hóa đờm",FALSE
+8,dai-tao,Đại táo,大棗,Ziziphus jujuba,Thuốc bổ khí,Quả chín,Ôn,Ngọt,"Tỳ, Vị","tonic|tea|digestion",normal,"Bổ trung ích khí, dưỡng huyết an thần, điều hòa dược tính",FALSE
+9,ky-tu,Kỷ tử,枸杞子,Lycium barbarum,Thuốc bổ âm huyết,Quả chín,Bình,Ngọt,"Can, Thận, Phế","tonic|eye|tea",caution,"Bổ can thận, ích tinh minh mục, nhuận phế",FALSE
+10,hoang-ky,Hoàng kỳ,黃芪,Astragalus membranaceus,Thuốc bổ khí,Rễ,Hơi ôn,Ngọt,"Phế, Tỳ","tonic|recovery|sweat",caution,"Bổ khí thăng dương, cố biểu chỉ hãn, lợi thủy tiêu thũng",FALSE
+11,bac-ha,Bạc hà,薄荷,Mentha haplocalyx,Thuốc giải biểu tán phong nhiệt,Toàn cây trên mặt đất,Lương,Cay,"Phế, Can","cold|headache|tea",normal,"Tán phong nhiệt, thanh lợi đầu mắt, sơ can giải uất",FALSE
+12,kim-ngan-hoa,Kim ngân hoa,金銀花,Lonicera japonica,Thuốc thanh nhiệt giải độc,Nụ hoa,Hàn,Ngọt,"Phế, Tâm, Vị","cold|detox|skin",normal,"Thanh nhiệt giải độc, sơ tán phong nhiệt",FALSE
+13,lien-tu,Liên tử,蓮子,Nelumbo nucifera,"Thuốc bổ tỳ, an thần",Hạt,Bình,"Ngọt, sáp","Tỳ, Thận, Tâm","tonic|sleep|digestion",normal,"Bổ tỳ chỉ tả, ích thận cố tinh, dưỡng tâm an thần",FALSE
+14,y-di,Ý dĩ,薏苡仁,Coix lacryma-jobi var. ma-yuen,Thuốc lợi thủy thẩm thấp,Hạt,Hơi hàn,"Ngọt, nhạt","Tỳ, Vị, Phế","digestion|skin|joint",caution,"Kiện tỳ thẩm thấp, lợi thủy, trừ tý, thanh nhiệt bài nùng",FALSE
+15,phu-tu,Phụ tử,附子,Aconitum carmichaelii,Thuốc ôn lý,Rễ củ con đã bào chế,Đại nhiệt,"Cay, ngọt, có độc","Tâm, Thận, Tỳ","cold|pain|critical",toxic,"Hồi dương cứu nghịch, bổ hỏa trợ dương, tán hàn chỉ thống",TRUE

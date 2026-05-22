@@ -1,0 +1,756 @@
+0: 1. Ích mẫu (Ích mẫu thảo, Thảo xung, Leonurus)
+7: 2. Ích mẫu thảo
+12: 3. Ích trí (Ích trí nhân, Quả sa nhân Xiêm)
+19: 4. Ích trí tử
+24: 5. Kalađana (Hạt mực, Hạt ba đậu Ấn Độ)
+31: 6. Kamala (Kamala, Bột đỏ, Mallotus)
+38: 7. Ké đầu ngựa (cây) (Thương nhĩ tử, Xanthium)
+45: 8. Ké đồng tiền (Rau má đồng tiền, Hydrocotyle)
+52: 9. Ké hoa đào (Đơn châu chấu, Dành xay)
+59: 10. Ké hoa vàng (Chổi đực, Sida rhombifolia)
+65: 1. Ké dan tử
+70: 2. Kê chuẩn bì (Kê nội kim, Màng mề gà)
+77: 3. Kê hoàng bì (Kê nội kim, Màng mề gà)
+82: 4. Kê huyết đằng (Dây máu gà, Hồng đằng)
+89: 5. Kê niệm thảo
+94: 6. Kê quan
+99: 7. Kê quan hoa
+104: 8. Kê trảo
+109: 9. Khao thiên
+114: 10. Khắt bó lương
+118: 1. Khâu cần cà
+123: 2. Khâu dẫn
+128: 3. Khau nước
+133: 4. Khế (Khế chua, Star fruit)
+140: 5. Khế chua
+145: 6. Khế cơm
+150: 7. Khế giang
+155: 8. Khế rừng (Khế chua rừng, Averrhoa bilimbi)
+162: 9. Khi
+167: 10. Khiếm thực (Hạt sen súng, Euryale seed, Gorgon fruit)
+173: 1. Khiên ngưu
+180: 2. Khiên ngưu tử
+184: 3. Khinh phấn (Khinh phấn thạch, Calomel)
+190: 4. Khương (Sinh khương, Gừng)
+197: 5. Khương giới
+204: 6. Khương hoàng (Nghệ, Curcuma)
+211: 7. Khương hoạt
+218: 8. Khương tam thất
+225: 9. Khương vu (Sa nhân, Ngải cứu củ)
+232: 10. Khổ cốt (Khổ sâm, Hoàng đằng)
+238: 1. Khổ đảm thảo (Long đởm thảo, Gentian)
+245: 2. Khổ địa đởm
+250: 3. Khổ hạnh nhân (Hạnh nhân đắng, Semen Armeniacae Amarum)
+257: 4. Khổ luyện (Xoan chịu hạn, Toosendan)
+264: 5. Khổ luyện tử (Quả Khổ luyện, Fructus Toosendan)
+268: 6. Khổ qua (Mướp đắng, Momordica)
+275: 7. Khổ sâm (Sophora, Hoàng đằng)
+282: 8. Khổ sâm (rễ)
+286: 9. Khôi (cây) (Khôi tía, Ardisia)
+293: 10. Khúc khắc (củ) (Thổ phục linh, Củ khúc khắc)
+299: 1. Khúc đàn
+304: 2. Khung cùng
+309: 3. Khung tung
+314: 4. Khuynh diệp (Lá Bạch đàn, Eucalyptus leaf)
+321: 5. Kinh giới (Kinh giới tuệ, Schizonepeta)
+329: 6. Kinh giới núi
+334: 7. Kinh giới tuệ (Hoa Kinh giới, Spica Schizonepetae)
+340: 8. Kinh tử
+345: 9. Kéo giậu / Keo giậu (Bình linh, Mimoso)
+352: 10. Kỳ đà (Monitor lizard, Động vật làm thuốc)
+358: 1. Lá ba chìa (Chua me ba chìa, Oxalis)
+365: 2. Lá đỏ ngọn
+370: 3. Lá dứa thơm (Lá dứa, Lá nếp, Pandan)
+377: 4. Lá gió
+382: 5. Lá hen (Lá đu đủ, Papaya leaf)
+389: 6. Lá khôi (Lá Khôi tía, Ardisia leaf)
+396: 7. Lá lốt (Wild betel leaf, Piper sarmentosum)
+403: 8. Lá mã đề (Plantain leaf, Xa tiền thảo)
+410: 9. Lá mặt trời
+415: 10. Lá men (cây)
+419: 1. Lá móng tay
+424: 2. Lá nang
+429: 3. Lá ngón (Gelsemium, Đoạn trường thảo) ⚠️ CỰC ĐỘC
+433: 4. Lá sen (Liên diệp, Lotus leaf)
+440: 5. Lá thơm
+445: 6. Lá trắng
+450: 7. Lác (Cỏ lác, Cói, Cyperus)
+457: 8. Lạc (Đậu phộng, Arachis)
+464: 9. Lạc địa sinh căn
+469: 10. Lạc giới
+473: 1. Lạc hoa sinh (Đậu phộng, Arachis)
+480: 2. Lạc tiên (Chanh leo rừng, Passiflora)
+487: 3. Lạc tiên cọc
+492: 4. Lài trắng (Nhài, Hoa lài, Jasminum)
+499: 5. Lâm ba quyết
+504: 6. Lặc lý (Kha tử, Quả trám đen, Chebula)
+511: 7. Lề chi
+516: 8. Liễu (Liễu trắng, Willow, Salix)
+523: 9. Liên (Sen, Lotus, Nelumbo)
+537: 10. Liên châu ba kích
+543: 1. Liên diệp (Lá sen, Lotus leaf)
+550: 2. Liên kiểu
+555: 3. Liên ngẫu (Ngó sen, Lotus rhizome)
+562: 4. Liên nhục (Hạt sen, Lotus seed)
+569: 5. Liên phòng (Đài sen, Lotus receptacle)
+576: 6. Liên tâm (Tâm sen, Lotus plumule)
+583: 7. Liên tu (Nhị sen, Lotus stamen)
+590: 8. Liên tử tam
+595: 9. Liễu cao bản
+600: 10. Liễu ngũ vi
+604: 1. Liễu sa sâm
+609: 2. Liễu kha vương
+614: 3. Lô cam thạch (Calamina, Zinc carbonate)
+621: 4. Lô hội (Nha đam, Aloe vera)
+631: 5. Lô hồng phấn
+636: 6. Lô lê (Lê, Pear)
+643: 7. Lồi tiền
+648: 8. Lòng đèn
+653: 9. Lòng má
+658: 10. Lốt (Lá lốt, Wild betel leaf)
+664: 1. Lạc tiên (Chanh leo rừng, Passion flower)
+671: 2. Lộc bình (Bèo tây, Lục bình, Water hyacinth)
+678: 3. Lộc giác giao (Giao cao sừng hươu, Deer antler glue)
+685: 4. Lộc giác sương (Bột sừng hươu, Deer antler powder)
+692: 5. Lộc huyết (Máu hươu, Deer blood)
+699: 6. Lộc mãi (Mạch môn đông, Ophiopogon)
+706: 7. Lộc nhung / Mê nhung (Lộc nhung, Deer velvet)
+713: 8. Lộc thái
+718: 9. Lộc thông
+723: 10. Lúa miêu (Kê, Foxtail millet)
+729: 1. Lúa sếu
+734: 2. Lục bạc hà (Bạc hà, Mentha)
+741: 3. Lục đậu (Đậu xanh, Mung bean)
+748: 4. Lục đình khúc
+753: 5. Lục lạc ba lá tròn (Crotalaria, Đậu lục lạc)
+760: 6. Lục lình
+765: 7. Lục mại (Tiểu mạch, Wheat)
+772: 8. Lục ngọc thụ
+777: 9. Lục thăng ma
+782: 10. Lục thần khúc (Thần khúc, Fermented medicinal cake)
+788: 1. Lưỡi ươi (Đại hải tử, Bàng đại hải, Hạt lười ươi)
+795: 2. Lưỡi bò (Chút chít, Ngưu thiệt, Rumex)
+802: 3. Lưỡi cọp (Đơn lưỡi cọp, Sansevieria)
+809: 4. Lưỡi đồng
+814: 5. Lưỡi hổ (Cũng gọi là Lưỡi cọp, Sansevieria)
+817: 6. Lưỡi hùm (Khoai nưa, Amorphophallus) ⚠️ CẨN TRỌNG
+823: 7. Lưỡi lê
+828: 8. Lưỡi rắn
+833: 9. Lương khương (Cao lương khương, Galangal)
+840: 10. Lương phấn quả (Sương sáo, Thạch đen, Mesona)
+846: 1. Lưu hoàng (Sinh hoàng, Sulfur)
+853: 2. Lưu hội
+858: 3. Lựu chùa tháp (Lựu, Pomegranate)
+865: 4. Ma hoàng (Ephedra, Ephedra sinica)
+872: 5. Ma mãnh thố
+877: 6. Ma tước phần
+882: 7. Mã đề (Xa tiền thảo, Plantain)
+889: 8. Mã đề nước
+894: 9. Mã đề thảo
+898: 10. Mã kế (Đại kế, Cirsium)
+904: 1. Mã liên an
+909: 2. Mã sỉ hiện (Rau sam, Purslane)
+916: 3. Mã thầy
+921: 4. Mã tiên thảo (cây) (Cỏ roi ngựa, Vervain)
+928: 5. Mãnh tử nhân
+933: 6. Màn kinh tử (Quá gai, Vitex fruit)
+940: 7. Màn tàn
+945: 8. Măng cụt (Mangosteen, Garcinia)
+952: 9. Mao sài xích
+957: 10. Mao sang
+961: 1. Mao đương quy
+966: 2. Mao thích
+971: 3. Mao tử cô
+976: 4. Mao truật (Thương truật, Atractylodes)
+983: 5. Mao yến
+988: 6. Mào gà (Kê quan hoa, Cockscomb)
+995: 7. Mào gà đỏ (cây) (Kê quan hoa đỏ)
+1001: 8. Mào gà trắng (cây) (Thanh tương tử, Celosia seed)
+1008: 9. Mật bò (Ngưu đảm, Cow bile)
+1015: 10. Mật đà tăng (Chì đơn, Lithargyrum)
+1020: 1. Mật đất
+1025: 2. Mật động vật mèo (Mèo rừng, Mèo nhà)
+1031: 3. Mật gấu (Bear bile) ⚠️ ĐẶC BIỆT
+1035: 4. Mật lợn (Heo, Pig bile)
+1041: 5. Mật móng hoa
+1046: 6. Mật ong (Honey)
+1053: 7. Mật ong chúa (Royal jelly)
+1060: 8. Mật cá (cây)
+1065: 9. Mẹ ra rừng
+1070: 10. Mê dương sâm
+1074: 1. Mê nhung
+1079: 2. Mèo thép
+1084: 3. Mè đen (Hắc chi ma, Black sesame)
+1091: 4. Mén trắng
+1096: 5. Men (cây)
+1101: 6. Men sứa
+1106: 7. Mía bẻm (Mía rừng, Mía đắng)
+1113: 8. Mía dò
+1118: 9. Mía giò
+1123: 10. Mía nung (Than mía, Mía sao)
+1127: 1. Mô bạc
+1132: 2. Mốc côi
+1137: 3. Mó bò (Chóc gai, Ráy gai, Lasia)
+1144: 4. Móc diều
+1149: 5. Móc mèo núi
+1154: 6. Móng lung rồng
+1159: 7. Móng tay (Bóng nước, Impatiens)
+1166: 8. Móng tay lồi
+1171: 9. Móng tay nhuộm
+1181: 10. Móp (Chóc gai, Ráy gai, Lasia - tên gọi khác)
+1183: 1. Mơ (Mai mơ, Ô mai, Prunus mume)
+1190: 2. Mơ lông (Dây mơ tam thể, Thối địt, Paederia)
+1197: 3. Mơ tròn
+1202: 4. Mùa cua
+1207: 5. Mùi (Rau mùi, Ngò rí, Coriander)
+1214: 6. Mùi cua
+1219: 7. Mùi tàu (Ngò gai, Culantro, Eryngium)
+1226: 8. Mẫu đơn (Peony, Paeonia)
+1236: 9. Mẫu đơn bì (Vỏ rễ Mẫu đơn, Moutan bark)
+1243: 10. Mẫu lệ (Vỏ hàu, Oyster shell)
+1249: 1. Mộc du (thường gọi là Mộc qua)
+1256: 2. Mộc du thy
+1261: 3. Mộc hồ diệp (Mộc hồ điệp)
+1268: 4. Mộc hoa trắng
+1273: 5. Mộc hương (Quảng mộc hương, Aucklandia)
+1280: 6. Mộc liên
+1285: 7. Mộc ma hoàng
+1290: 8. Mộc miên (Bông gòn, Kapok)
+1297: 9. Mộc miết tử (Hạt gấc, Momordica seed)
+1304: 10. Mộc nhĩ (Nấm mèo, Wood ear)
+1310: 1. Mộc phòng kỷ (Phòng kỷ, Stephania)
+1317: 2. Mộc qua (Quả Mộc qua, Chaenomeles)
+1324: 3. Mộc tất tử (Hạt Gấc rừng, Momordica seed) ⚠️ DÙNG NGOÀI LÀ CHÍNH
+1330: 4. Mộc tặc (Cỏ tháp bút, Equisetum)
+1337: 5. Mộc tặc ma hoàng
+1342: 6. Mộc thược dược
+1353: 7. Mộc tử thụ
+1358: 8. Mộc vài
+1363: 9. Mướp (Ty qua, Luffa cylindrica)
+1370: 10. Mướp dại (Mướp rừng, Luffa acutangula)
+1376: 1. Mướp hương (Mướp thơm, Luffa fragrant)
+1383: 2. Mướp mũ
+1388: 3. Mướp rừng (Mướp dại, Wild Luffa)
+1395: 4. Mướp sát (cây)
+1400: 5. Mướp tay
+1405: 6. Na (Mãng cầu ta, Custard apple)
+1417: 7. Nam bạch chi
+1422: 8. Nam bạch truật
+1427: 9. Nam đương lam
+1432: 10. Nam đà căn
+1436: 1. Nam hậu phác (Hậu phác nam, Magnolia meridionalis)
+1443: 2. Nam hoàng bá (Hoàng bá nam, Phellodendron meridionale)
+1450: 3. Nam hoàng liên (Hoàng liên nam, Coptis meridionalis)
+1457: 4. Nam ngũ gia bì (Ngũ gia bì nam, Acanthopanax meridionalis)
+1464: 5. Nam ngũ vị tử (Ngũ vị tử nam, Schisandra meridionalis)
+1471: 6. Nam qua tử (Qua tử nam, Trichosanthes seed meridionalis)
+1478: 7. Nam sa sâm (Sa sâm nam, Adenophora meridionalis)
+1485: 8. Nam sài hồ (Sài hồ nam, Bupleurum meridionale)
+1492: 9. Nam sam
+1497: 10. Nam sơn tra (Sơn tra nam, Crataegus meridionalis)
+1503: 1. Nam thương truật (Thương truật nam, Atractylodes meridionalis)
+1510: 2. Nam tỳ bà (Tỳ bà nam, Eriobotrya meridionalis)
+1517: 3. Nam tôn
+1522: 4. Nam uy linh tiên (Uy linh tiên nam, Clematis meridionalis)
+1529: 5. Nam viễn chí (Viễn chí nam, Polygala meridionalis)
+1536: 6. Nấm hương (Shiitake, Lentinula edodes)
+1543: 7. Nấm lim (Lim xanh, Ganoderma lucidum rừng)
+1550: 8. Nấm linh chi (Reishi, Ganoderma lucidum)
+1557: 9. Nấm tai mèo (Mộc nhĩ, Wood ear mushroom)
+1564: 10. Nấm trường thọ (Nấm hương, Nấm đông cô, Longevity mushroom)
+1570: 1. Ngái phiến
+1575: 2. Ngải phù dung
+1580: 3. Ngải tím (Ngải cứu tía, Artemisia vulgaris var. purpurea)
+1587: 4. Ngải cứu (Ngải diệp, Mugwort, Artemisia)
+1595: 5. Ngải diệp (Lá Ngải cứu, Folium Artemisiae Argyi)
+1602: 6. Ngải máu
+1607: 7. Ngải mặt trời
+1612: 8. Ngân sài hồ
+1617: 9. Ngẫu tiết (Ngó sen đốt, Lotus rhizome node)
+1624: 10. Ngẫu tử (Hạt sen, Lotus seed)
+1630: 1. Nghệ (Nghệ vàng, Curcuma longa)
+1638: 2. Nghệ đen (Curcuma zanthorrhiza, Temulawak)
+1645: 3. Nghể (Rau nghể, Polygonum)
+1652: 4. Nghể chim
+1657: 5. Ngưu bàng (Burdock, Arctium lappa)
+1664: 6. Ngưu bàng căn (Rễ Ngưu bàng, Burdock root)
+1671: 7. Ngưu bàng tử (Hạt Ngưu bàng, Fructus Arctii)
+1678: 8. Ngưu bì đống
+1683: 9. Ngưu bì liên
+1688: 10. Ngưu cam tử (Ngưu hoàng, Bovis calculus)
+1694: 1. Ngưu đại lực
+1699: 2. Ngưu hoàng (Sỏi mật bò, Bovis calculus)
+1706: 3. Ngưu tất (cây) (Achyranthes bidentata)
+1713: 4. Ngưu thiệt (Rau sam đất, Rumex)
+1720: 5. Ngưu vi độc hoạt
+1725: 6. Ngọc phù dung (Phù dung ngọc, Hibiscus mutabilis)
+1732: 7. Ngọc quả
+1737: 8. Ngọc quả hoa
+1742: 9. Ngọc thụ
+1747: 10. Ngọc trản
+1751: 1. Ngọc trúc (Polygonatum odoratum, Solomons seal)
+1758: 2. Nha đảm tử (Hạt khổ sâm, Brucea javanica) ⚠️ CÓ ĐỘC TÍNH
+1765: 3. Nha én dị
+1770: 4. Nga bất thực thảo
+1775: 5. Nga chưởng sài
+1780: 6. Nga mi đậu
+1785: 7. Nga truật (Curcuma zedoaria, White turmeric)
+1792: 8. Ngà voi (Elephant tusk) ⚠️ ĐỘNG VẬT QUÝ HIẾM
+1796: 9. Ngải (Ngải cứu, Artemisia vulgaris)
+1804: 10. Ngỏ
+1808: 1. Nhang (Trầm hương, Aquilaria)
+1815: 2. Nhài đơn (Hoa nhài đơn, Jasminum sambac)
+1822: 3. Nhài kép (Hoa nhài kép, Double jasmine)
+1826: 4. Nhãn hương
+1831: 5. Nhãn kính xà
+1836: 6. Nhãn lồng (Lạc tiên, Chanh leo rừng, Passiflora)
+1843: 7. Nhau sản phụ (Tử hà xa, Human placenta)
+1850: 8. Nhàu (cây) (Nhàu nhà, Noni, Morinda citrifolia)
+1857: 9. Nhàu núi (Ba kích, Nhàu rừng, Morinda officinalis)
+1864: 10. Nhân bào
+1868: 1. Nhân khởi
+1873: 2. Nhân ngôn
+1878: 3. Nhân niệu (Nước tiểu người, Đồng tiện)
+1885: 4. Nhân niệu bạch (Nhân trung bạch, Cặn nước tiểu)
+1891: 5. Nhân phần
+1896: 6. Nhân sâm (Ginseng, Panax ginseng)
+1903: 7. Nhân sâm đốt trúc
+1908: 8. Nhân sâm Phú Yên
+1912: 9. Nhân sâm tam thất
+1922: 10. Nhân sâm Việt Nam (Sâm Ngọc Linh, Đông dương sâm)
+1928: 1. Nhân trần (Capillaris, Artemisia capillaris)
+1935: 2. Nhân trung bạch (Cặn nước tiểu, Sedimentum Urinae)
+1941: 3. Nhân trung hoàng (Phân người chế, Feces Hominis Preparatum)
+1945: 4. Nhục đậu khấu (Quả đậu khấu, Nutmeg)
+1952: 5. Nhục đậu khấu y (Mace, Aril của Nhục đậu khấu)
+1958: 6. Nhục quả (Hạt Nhục đậu khấu, Semen Myristicae)
+1962: 7. Nhục quế (Vỏ quế, Cinnamon bark)
+1969: 8. Nhục thung dung (Cistanche, Desert ginseng)
+1976: 9. Nhung hươu (Deer velvet antler)
+1983: 10. Nhung nai (Deer velvet - loài nai)
+1985: 1. Nhung yên ngựa
+1990: 2. Niệm du tử
+1995: 3. Niêm hồ thải
+2000: 4. Niếp duc
+2005: 5. Nọ công
+2010: 6. Nóc nhà
+2015: 7. Nữ lang (Valerian, Nữ lang thảo)
+2022: 8. Oải hương (Lavender, Lavandula)
+2029: 9. Ô dược nam (Lindera meridionalis)
+2036: 10. Ô dương
+2040: 1. Ô mai (Mai đen, Fructus Mume)
+2047: 2. Ô môi (Ochna, Chim chích, Mắt chim)
+2054: 3. Ô phiến
+2059: 4. Ô đầu (Aconitum root, Chuan Wu / Cao Wu) ⚠️ CỰC ĐỘC
+2066: 5. Ô đầu và phụ tử (Mối liên hệ thực vật & lâm sàng)
+2078: 6. Ô đầu Việt Nam (Aconitum tonkinense)
+2082: 7. Ô cữu
+2087: 8. Ô cữu căn bì
+2092: 9. Ô cữu chỉ
+2097: 10. Ô dược (Lindera root, Udae radix)
+2103: 1. Ô tặc cốt (Mai mực, Cuttlefish bone)
+2111: 2. Ốc chó (Sea snail, Turbo cornutus)
+2118: 3. Ốc khống
+2123: 4. Ốc sên (Snail, Helix)
+2130: 5. Ong bầu (cây)
+2135: 6. Ong đen (Black bee/wasp)
+2145: 7. Ong mật (Honey bee, Apis mellifera)
+2158: 8. Ong mướp
+2163: 9. Para
+2174: 10. Phèn chua (Alum, Potassium aluminum sulfate)
+2180: 1. Phèn đen
+2185: 2. Phèn phi (Khô phàn, Calcined Alum)
+2192: 3. Phụ tử (Aconiti Lateralis Radix Praeparata)
+2199: 4. Phụ tử muối (Diêm phụ tử)
+2205: 5. Phụ tử sông
+2210: 6. Phật thủ (Buddha's hand citron)
+2217: 7. Phật thủ cam
+2221: 8. Phật thủ phiến
+2225: 9. Phù bình (Duckweed, Water hyacinth nhỏ)
+2232: 10. Phù dung (Confederate rose, Hibiscus mutabilis)
+2238: 1. Phù thủy cam thạch
+2243: 2. Phá cổ chi
+2248: 3. Phá cốt tử (Phá cố chỉ, Psoralea corylifolia)
+2255: 4. Phá đồng tiền
+2260: 5. Phác tiêu (Sichuan pepper, Hoa tiêu)
+2267: 6. Phương tiên hoa
+2272: 7. Phượng vĩ (Flamboyant, Royal Poinciana)
+2279: 8. Phượng vĩ thảo
+2284: 9. Phấn cơ đốc
+2289: 10. Phấn đơn bì
+2293: 1. Phấn nứa
+2298: 2. Phấn phong kỷ
+2303: 3. Phấn thanh
+2308: 4. Phấn tỷ giải
+2313: 5. Qua lâu (Trichosanthes fruit, Quả Qua lâu)
+2320: 6. Qua lâu bì (Vỏ Qua lâu, Trichosanthes pericarp)
+2326: 7. Qua lâu căn (Rễ Qua lâu = Thiên hoa phấn)
+2333: 8. Qua lâu nhân (Hạt Qua lâu, Trichosanthes seed)
+2339: 9. Qua tử kim
+2344: 10. Quả điều (Cashew apple, Pseudo-fruit of Anacardium)
+2349: 1. Quả giun (Sử quân tử, Quisqualis fruit)
+2356: 2. Quả trường sinh
+2361: 3. Quế (Quế thanh, Cinnamon, Cinnamomum cassia)
+2368: 4. Quế bì (Vỏ quế, Cinnamon bark)
+2372: 5. Quế đỏ
+2377: 6. Quế đơn
+2382: 7. Quế nhục (Nhục quế, Inner bark of Cinnamon)
+2388: 8. Quế quan (Quế quan bì, Premium cinnamon bark)
+2392: 9. Quế quỳ
+2397: 10. Quế rành
+2401: 1. Quế Thanh (Cinnamomum loureiroi - Quế Việt Nam)
+2408: 2. Quế Trung Quốc (Cinnamomum cassia - Chinese Cinnamon)
+2412: 3. Quế Xri-Lanca (Ceylon Cinnamon, True Cinnamon)
+2419: 4. Quỷ châm thảo (Cúc gai, Xanthium)
+2426: 5. Quán chi
+2431: 6. Quán chúng (Dryopteris rhizome, Dương xỉ)
+2438: 7. Quy (Quy bản, Turtle plastron)
+2445: 8. Quy bản và cao quy bản (Turtle plastron & Gelatin)
+2457: 9. Quy đầu (Turtle head)
+2463: 10. Quy nam
+2467: 1. Quy thoái
+2472: 2. Quy vi
+2477: 3. Quỳ (Đông quỳ, Hollyhock)
+2484: 4. Quỳnh chi
+2489: 5. Quýt (Mandarin orange, Citrus reticulata)
+2501: 6. Quýt gai (Poncirus trifoliata, Trifoliate orange)
+2507: 7. Quýt hôi
+2512: 8. Rã hương
+2517: 9. Rau nghề (Rau nghể, Polygonum hydropiper)
+2524: 10. Rau ngò (Ngò rí, Coriander)
+2530: 1. Rau bồ cóc
+2535: 2. Rau bợ (Cỏ bợ, Marsilea quadrifolia)
+2542: 3. Rau ngót (cây) (Sauropus androgynus)
+2549: 4. Rau ngổ (Enhydra fluctuans)
+2556: 5. Rau cải (Brassica vegetables)
+2566: 6. Rau ngổ thơm (Limnophila aromatica)
+2573: 7. Rau cần (Oenanthe javanica, Water dropwort)
+2580: 8. Rau ngổ trâu
+2585: 9. Rau cần tây (Celery, Apium graveolens)
+2592: 10. Rau om (Rau ngổ, Limnophila aromatica)
+2598: 1. Rau chua lè
+2603: 2. Rau quế (Húng quế, Ocimum gratissimum)
+2610: 3. Râu ngô (Corn silk, Zea mays stigma)
+2617: 4. Rau củ khởi
+2622: 5. Rau răm (Vietnamese coriander, Persicaria odorata)
+2629: 6. Rau dừa nước (Water primrose, Ludwigia)
+2636: 7. Rau sam (Purslane, Portulaca oleracea)
+2643: 8. Rau sam dại
+2647: 9. Rau sam trắng
+2652: 10. Rau san phụ
+2656: 1. Rau súng ăn gỏi (Nymphaea, Súng nước)
+2663: 2. Rau gai
+2668: 3. Rau tần (Tần ô, Chrysanthemum coronarium)
+2675: 4. Rau tầu bay
+2680: 5. Rau thìa là (Dill, Anethum graveolens)
+2687: 6. Rau thơm (Aromatic herbs - tổng hợp)
+2695: 7. Rau khúc (Cudweed, Gnaphalium affine)
+2702: 8. Rau đay quả dài (Long-fruited Jute, Corchorus olitorius)
+2709: 9. Rau sông chua dây
+2714: 10. Rau đắng (Bitter herb - có thể là Gynostemma hoặc Portulaca)
+2723: 1. Rau má (Centella asiatica, Pennywort)
+2730: 2. Rau thơm lồng
+2735: 3. Rau lá rau muống (Water spinach leaves)
+2742: 4. Rau trai mận
+2747: 5. Rau má ngò
+2752: 6. Rau mồng tơi (Malabar spinach, Basella alba)
+2759: 7. Rau muối dại
+2764: 8. Rau muống (Water spinach, Ipomoea aquatica)
+2771: 9. Rượu hội
+2776: 10. Rươi (Ragworm, Sandworm)
+2782: 1. Sa hoàng
+2787: 2. Sa khương
+2792: 3. Sa nhân (Amomum villosum, Cardamom)
+2799: 4. Sa sâm (Glehnia root, Adenophora root)
+2806: 5. Sà diệp sài hồ
+2811: 6. Sả (Lemongrass, Cymbopogon citratus)
+2818: 7. Sàn cao thụ
+2823: 8. Sàn đắng
+2828: 9. Sàn thụ
+2833: 10. Sản sa
+2837: 1. Sân lai
+2842: 2. Sơn gian lan
+2847: 3. Sơn hồ tiêu thích
+2852: 4. Sơn kê mê
+2857: 5. Sơn khương tử
+2862: 6. Sơn liên ngẩu
+2867: 7. Sơn lục đấu
+2872: 8. Sơn ma hoàng
+2877: 9. Sơn miên bì
+2882: 10. Sơn nai
+2886: 1. Sơn ngưu bang
+2891: 2. Sơn nham
+2896: 3. Sơn nhục quế (Vỏ quế núi, Wild Cinnamon bark)
+2902: 4. Sơn tắc tương thảo
+2907: 5. Sơn thô
+2912: 6. Sơn thù du (Cornus fruit, Dogwood)
+2919: 7. Sơn thục (Sơn dược, Chinese Yam)
+2926: 8. Sơn thục gai
+2931: 9. Sơn thường sơn (Thường sơn núi, Dichroa root) ⚠️ CÓ ĐỘC
+2937: 10. Sơn tra (Hawthorn fruit, Crataegus)
+2943: 1. Sơn trúc tử
+2948: 2. Sơn từ cô
+2955: 3. Sơn ty miêu
+2960: 4. Sơn yên tử
+2965: 5. Sò huyết (Blood cockle, Anadara)
+2974: 6. Sói mật của khỉ
+2979: 7. Sừng bò (Cow horn)
+2986: 8. Sừng dê (Goat horn)
+2993: 9. Sừng trâu (Buffalo horn)
+3000: 10. Sấu (Dracontomelon fruit)
+3006: 1. Sấu tia
+3011: 2. Sấu trắng
+3016: 3. Sen (Lotus, Nelumbo nucifera)
+3030: 4. Sê (cây)
+3035: 5. Si (cây) (Ficus microcarpa, Chinese Banyan)
+3042: 6. Sim (Rhodomyrtus tomentosa, Myrtle)
+3049: 7. Sỏi
+3054: 8. Song ký sinh (Tang ký sinh, Mistletoe)
+3061: 9. Sung (cây) (Ficus racemosa, Cluster Fig)
+3068: 10. Sung úy
+3072: 1. Sung úy tử
+3077: 2. Sứ quân tử
+3085: 3. Sử quân tử (Quisqualis fruit, Rangoon creeper)
+3092: 4. Sữa (Milk - động vật)
+3099: 5. Tả hoàng đồ
+3104: 6. Tam bách thảo
+3109: 7. Tam diệp toan
+3114: 8. Tam giác mạch (Buckwheat, Fagopyrum esculentum)
+3121: 9. Tam hoàng cầm
+3126: 10. Tam nai
+3130: 1. Tam thạch cô
+3135: 2. Tam thất (cây) (Panax notoginseng, Notoginseng)
+3142: 3. Tam thất gia
+3147: 4. Tam tiêu đơn
+3152: 5. Tam tróc
+3157: 6. Tam sa
+3162: 7. Tất bật
+3167: 8. Tất gia
+3172: 9. Tán mạt hoa
+3177: 10. Tất suất
+3181: 1. Tất suất thảo
+3186: 2. Tất trưng già
+3191: 3. Tang bạch bì (Vỏ rễ Dâu tằm, Mori Cortex)
+3198: 4. Tang diệp (Lá Dâu tằm, Mori Folium)
+3205: 5. Tang phiêu tiêu (Mantis egg case, Ootheca Mantidis)
+3212: 6. Tang thầm (Quả Dâu tằm, Mori Fructus)
+3219: 7. Táo (Jujube, Ziziphus jujuba)
+3226: 8. Táo chua
+3231: 9. Táo đen
+3236: 10. Táo đỏ (Red date, Đại táo)
+3242: 1. Táo nhân (Semen Ziziphi Spinosae, Sour Jujube Seed)
+3249: 2. Táo rừng (Wild Jujube)
+3256: 3. Táo tâm thạch
+3261: 4. Tạo giác thích (Gleditsia thorn, Soapberry thorn)
+3268: 5. Tạo giác tử (Gleditsia seed)
+3274: 6. Tạo giáp (Gleditsia fruit pod, Soapberry pod)
+3281: 7. Tạo phàn
+3286: 8. Tắc kè (Tokay gecko, Gekko gecko)
+3293: 9. Tắc kè da
+3298: 10. Thạch (Mineral medicines - tổng hợp)
+3307: 1. Thạch bá chi
+3312: 2. Thạch bì
+3317: 3. Thạch cao (Gypsum fibrosum)
+3326: 4. Thạch đen (cây) (Sương sáo, Mesona)
+3333: 5. Thạch hoa thái
+3338: 6. Thạch hoàng
+3343: 7. Thạch hổ tụ
+3348: 8. Thạch lan
+3353: 9. Thạch liên tử (Stone Lotus Seed)
+3360: 10. Thạch lựu (Pomegranate)
+3366: 1. Thạch phàn (Bạch phàn, Phèn chua tinh chế)
+3373: 2. Thạch quyết minh (Vỏ bào ngư, Abalone shell)
+3380: 3. Thạch sung
+3385: 4. Thạch thùng
+3390: 5. Thạch tin
+3395: 6. Thạch trường sinh
+3400: 7. Thạch vi (Pyrrosia leaf)
+3407: 8. Thạch vi dây
+3412: 9. Thạch xương bò
+3417: 10. Thao cao
+3421: 1. Thảo cà phê
+3426: 2. Thảo đậu khấu (Amomum subulatum, Black cardamom)
+3433: 3. Thảo hà sa
+3438: 4. Thảo khấu nhân (Alpinia seed, Galangal seed)
+3445: 5. Thảo linh chi
+3450: 6. Thảo ma hoàng
+3455: 7. Thảo ô (Aconitum root, Wild monkshood) ⚠️ CỰC ĐỘC
+3462: 8. Thảo quả (Tsaoko, Black cardamom)
+3469: 9. Thảo quyết minh (Cassia seed, Senna tora)
+3476: 10. Thảo tử hoa
+3480: 1. Tháp lựu
+3485: 2. Thầu dầu (Castor bean, Ricinus communis) ⚠️ CỰC ĐỘC
+3492: 3. Thẹn (Cây xấu hổ, Mimosa pudica)
+3499: 4. Thiết đăng đài
+3504: 5. Thiết thích ngải
+3509: 6. Thiết thụ
+3514: 7. Thiết tuyến thảo
+3519: 8. Thiêu tầng chi
+3524: 9. Thỏ cỏ
+3529: 10. Thổ bạch khấu
+3533: 1. Thổ cam thảo (Local Licorice Substitute)
+3540: 2. Thổ cao ly sâm
+3548: 3. Thổ hoắc hương (Local Patchouli/Agastache)
+3555: 4. Thổ hoàng liên (Local Coptis Substitute)
+3562: 5. Thổ kinh giới (Local Schizonepeta Substitute)
+3569: 6. Thổ long cốt (Local Dragon Bone Substitute)
+3577: 7. Thổ mộc hương (Local Aucklandia Substitute)
+3584: 8. Thổ mộc miết
+3589: 9. Thổ nhân sâm (Local Ginseng Substitute)
+3596: 10. Thổ tam thất (Local Notoginseng Substitute)
+3602: 1. Thổ tế tân (Local Asarum Substitute)
+3609: 2. Thối ruột
+3614: 3. Thông (Pine tree, Pinus spp.)
+3625: 4. Thông ba lá (Three-needled pine)
+3629: 5. Thông bạch (Pine needle/leaf preparation)
+3636: 6. Thông đuôi ngựa (Horsetail, Equisetum)
+3643: 7. Thông hai lá (Two-needled pine)
+3647: 8. Thông nhựa (Pine resin, Rosin)
+3654: 9. Thông thảo (cây) (Rice paper plant, Tetrapanax)
+3661: 10. Thông thiên (cây) (Yellow oleander, Thevetia peruviana) ⚠️ CỰC ĐỘC
+3664: 1. Thơm (Dứa, Pineapple, Ananas comosus)
+3671: 2. Thùa (Agave, Agave americana)
+3678: 3. Thu bạch sương
+3683: 4. Thu phong
+3688: 5. Thục địa (Prepared Rehmannia root)
+3695: 6. Thục tất
+3700: 7. Thục tiêu (Prepared Sichuan pepper)
+3707: 8. Thủy điều thái
+3712: 9. Thủy liễu (Water willow)
+3719: 10. Thủy long
+3723: 1. Thủy lục phàn
+3728: 2. Thủy mã
+3733: 3. Thủy ngân (Mercury, Hydrargyrum) ⚠️ CỰC ĐỘC - KHÔNG DÙNG NỘI PHỤC
+3744: 4. Thủy ngân phấn (Calomel/Mercury preparation) ⚠️ CỰC ĐỘC
+3754: 5. Thủy ngư xác
+3759: 6. Thủy phù liên (Water lily, Nymphaea)
+3766: 7. Thủy qua (Water melon, Citrullus lanatus)
+3773: 8. Thủy tiên (Narcissus, Daffodil) ⚠️ CÓ ĐỘC TÍNH
+3779: 9. Thủy xương bồ (Water calamus, Acorus calamus)
+3786: 10. Thuyền thoái (Cicada slough, Periostracum Cicadae)
+3793: 1. Thuyền thuế
+3798: 2. Thùy dương (Casuarina, Phi lao)
+3805: 3. Thùy liễu (Weeping willow, Salix babylonica)
+3812: 4. Tía tô (Perilla, Perilla frutescens)
+3823: 5. Tía tô dại (Wild Perilla)
+3827: 6. Tía tô giới (Perilla seed)
+3834: 7. Tích dương
+3839: 8. Tích tuyết thảo (Centella asiatica, Pennywort)
+3846: 9. Tiêm diệp phan tả điệp
+3851: 10. Tiên hạc thảo (Agrimonia, Hairy Vein Agrimonia)
+3857: 1. Tiền hồ (Peucedanum root, Peucedani Radix)
+3864: 2. Tiền hồ hoa trắng
+3869: 3. Tiến thực
+3874: 4. Tiết cốt thảo (Lycopodium, Clubmoss)
+3881: 5. Tiết dê (Stephania root, Tinospora)
+3888: 6. Tỏi (Garlic, Allium sativum)
+3895: 7. Tỏi đỏ (Red garlic)
+3899: 8. Tỏi độc (Poisonous garlic - Toxic plant) ⚠️ CỰC ĐỘC
+3913: 9. Tỏi voi (Elephant garlic, Allium ampeloprasum)
+3920: 10. Tổ điều
+3924: 1. Tổ phượng
+3929: 2. Tổ rồng
+3934: 3. Tơ hồng (Dodder, Cuscuta)
+3941: 4. Tỏi tây (Leek, Allium porrum)
+3948: 5. Tô hgạp
+3953: 6. Tô hạp du
+3958: 7. Tô hạp hương (Storax, Styrax resin)
+3965: 8. Tô hạp hương bình khang
+3970: 9. Tô ngạnh
+3975: 10. Tô phượng
+3979: 1. Tử thường sơn (Purple Dichroa root) ⚠️ CÓ ĐỘC
+3985: 2. Tô tử (Perilla seed, Fructus Perillae)
+3992: 3. Tục đoạn (Dipsacus root, Himalayan Teasel)
+3999: 4. Tục tùy tử
+4004: 5. Tử vạn niên thanh (Purple Rohdea)
+4010: 6. Tử uyển (Aster root, Tatarian Aster)
+4017: 7. Tử hà sa
+4022: 8. Tử hoa tiền hồ (Purple-flowered Peucedanum)
+4028: 9. Tử kim long
+4033: 10. Tỳ bà diệp (Loquat leaf, Eriobotrya japonica)
+4039: 1. Tỳ ma du
+4044: 2. Uất kim (Curcuma root, Turmeric rhizome)
+4051: 3. Uy linh tiên (Clematis root)
+4058: 4. Vàng đắng
+4063: 5. Vàng đằng (Fibraurea tinctoria, Yellow vine)
+4070: 6. Vàng lồ
+4075: 7. Vàng nghệ (Turmeric yellow, Curcuma longa)
+4082: 8. Vàng nhựa
+4087: 9. Vàng nhuộm (Yellow dye plant)
+4097: 10. Vàng trầm
+4101: 1. Vàng (dây) (Fibraurea tinctoria, Yellow vine)
+4108: 2. Vải (Lychee, Litchi chinensis)
+4119: 3. Vân linh (Polyporus, Zhu Ling)
+4126: 4. Vân mộc hương (Yunnan Aucklandia)
+4133: 5. Vân phòng phong
+4138: 6. Vạn niên thanh (Rohdea japonica, Sacred lily) ⚠️ CÓ ĐỘC NHẸ
+4144: 7. Vạn niên tùng
+4149: 8. Vạn thọ (Marigold, Tagetes)
+4156: 9. Vạn tuế (Cycas, Sago palm) ⚠️ CÓ ĐỘC
+4162: 10. Vệ châu (Phyllanthus, Leaf-flower)
+4168: 1. Vân đài tử
+4173: 2. Vân hương (Frankincense, Olibanum)
+4180: 3. Viễn chí (Polygala root)
+4187: 4. Vọng giang nam
+4192: 5. Vú sữa (Star apple, Chrysophyllum cainito)
+4199: 6. Vú bò
+4204: 7. Vú chó
+4209: 8. Vương bất lưu hành (Vaccaria seed)
+4216: 9. Vương thái tô
+4221: 10. Vương tôn
+4225: 1. Vương tung
+4230: 2. Vọng cách (Premna serratifolia, Wayfaring tree)
+4237: 3. Xa
+4242: 4. Xa kê (cây) (Breadfruit, Artocarpus altilis)
+4254: 5. Xa tiền (Plantago major, Greater plantain)
+4261: 6. Xa tiền tử (Plantago seed, Cheqianzi)
+4268: 7. Xà cô
+4273: 8. Xà sàng (cây) (Cnidium monnieri plant)
+4280: 9. Xà sàng tử (Cnidium seed, Shechuangzi)
+4287: 10. Xa thoái
+4291: 1. Xá xị (cây) (Sarsaparilla, Smilax)
+4298: 2. Xích chu đẳng
+4303: 3. Xích đậu (Red adzuki bean, Vigna angularis)
+4310: 4. Xích điệp mộc
+4315: 5. Xích đồng nam
+4320: 6. Xích giao
+4325: 7. Xích hoa xà (Red-banded krait, Bungarus species) ⚠️ ĐỘNG VẬT QUÝ HIẾM/ĐỘC
+4335: 8. Xích sâm (Red ginseng)
+4342: 9. Xích thược (Red peony root, Paeoniae Radix Rubra)
+4349: 10. Xiêm phụng
+4353: 1. Xoài (Mango, Mangifera indica)
+4366: 2. Xoan (Indian lilac, Melia azedarach) ⚠️ CÓ ĐỘC
+4373: 3. Xoan đâu rừng (Sureni toon, Toona sureni)
+4380: 4. Xoan nhừ (Nepali hog plum, Choerospondias axillaris)
+4387: 5. Xoan rừng
+4392: 6. Xoan trà
+4397: 7. Xoan trắng lõi
+4402: 8. Xương bồ (Sweet flag, Acorus calamus)
+4409: 9. Xương cá
+4414: 10. Xương hổ (Tiger bone) ⚠️ ĐỘNG VẬT QUÝ HIẾM - CẤM SỬ DỤNG
+4422: 1. Xương khô
+4427: 2. Xương rồng (Cactus, Opuntia/Prickly Pear)
+4434: 3. Xương sáo (cây)
+4439: 4. Xuyên bối mẫu (Chuan Bei Mu, Fritillaria)
+4446: 5. Xuyên cận bì
+4451: 6. Xuyên khung (Chuanxiong, Ligusticum)
+4458: 7. Xuyên khương
+4463: 8. Xuyên luyện (Chuan Lian Zi, Melia seed)
+4470: 9. Xuyên mộc hương (Sichuan Aucklandia)
+4477: 10. Xuyên ô (Chuan Wu, Aconitum main root) ⚠️ CỰC ĐỘC
+4483: 1. Xuyên phá thạch
+4488: 2. Xuyên phòng phong
+4493: 3. Xuyên sơn giáp (Pangolin scales) ⚠️ ĐỘNG VẬT QUÝ HIẾM - CẤM SỬ DỤNG
+4502: 4. Xuyên tâm liên (Andrographis, Green Chiretta)
+4509: 5. Xuyên tiêu (Prepared Sichuan Pepper)
+4516: 6. Xuyên tỳ giải
+4521: 7. Xuyên đại hoàng (Sichuan Rhubarb)
+4528: 8. Xuyên đảng sâm (Sichuan Codonopsis)
+4535: 9. Xuyên độc hoạt (Sichuan Angelica pubescens)
+4542: 10. Ý dĩ (Coix seed, Job's tears)
+4549: 11. Ý dĩ nhân (Coix kernel)
+4553: 12. Yến (Edible bird's nest)
+4560: 13. Yến hoa
+4565: 14. Yến thái
+4570: 15. Yết tử (Scorpion, Buthus)
+4577: 16. Yếm rùa (Turtle plastron, same as Quy bản)
