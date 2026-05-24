@@ -1,90 +1,5 @@
 [
   {
-    "slug": "anh-tu-tuc",
-    "name": "Anh tử túc",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Papaver somniferum L. (Anh tử túc), depicting its seeds and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "atiso",
-    "name": "Atisô",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Cynara scolymus L. (Atisô), depicting its Lá, thân rễ, cụm hoa and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-ba",
-    "name": "Ba ba",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Trionyx sinensis Wiegmann (Ba ba), depicting its Mai (yết giáp), Thịt and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-chac",
-    "name": "Ba chạc",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Breynia fruticosa (L.) Hook.f. (Ba chạc), depicting its Rễ, Lá, Cành and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-che",
-    "name": "Ba chế",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Homalomena occulta (Lour.) Schott (Ba chế), depicting its Thân rễ (Củ) and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-dau",
-    "name": "Ba đậu",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Croton tiglium L. (Ba đậu), depicting its Hạt phơi khô and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-dau-me",
-    "name": "Ba đậu me",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Jatropha curcas L. (Ba đậu me), depicting its Hạt, Lá, Vỏ rễ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-dau-nam",
-    "name": "Ba đậu nam",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Croton tonkinensis Gagnep. (Ba đậu nam), depicting its Hạt, Lá, Rễ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-dau-suong",
-    "name": "Ba đậu sương",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Croton tiglium L. (Ba đậu sương), depicting its Bã hạt ba đậu đã ép kiệt dầu and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-dau-tay",
-    "name": "Ba đậu tây",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Ricinus communis L. (Ba đậu tây), depicting its Dầu ép từ hạt (Castor oil) and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-gac",
-    "name": "Ba gạc",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Rauwolfia serpentina (L.) Benth. (Ba gạc), depicting its root and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-gac-an-do",
-    "name": "Ba gạc Ấn Độ",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Rauwolfia tetraphylla L. (Ba gạc Ấn Độ), depicting its Rễ, Vỏ rễ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-kich",
-    "name": "Ba kích",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Morinda officinalis How. (Ba kích), depicting its Rễ củ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-muoi",
-    "name": "Ba mươi",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Gynura procumbens (Lour.) Merr. (Ba mươi), depicting its Cành, lá and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-nhan",
-    "name": "Ba nhân",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Croton tiglium L. (Ba nhân), depicting its Nhân hạt (bỏ vỏ cứng) and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ba-tieu",
-    "name": "Ba tiêu",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Musa paradisiaca L. (Ba tiêu), depicting its Quả, Hoa, Rễ, Thân giả and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "bach-bo",
-    "name": "Bách bộ",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Stemona tuberosa Lour. (Bách bộ), depicting its Rễ củ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
     "slug": "bach-bo-xa",
     "name": "Bách bộ xà",
     "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Deinagkistrodon acutus (Bách bộ xà), depicting its Thịt rắn bỏ đầu, đuôi, nội tạng and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
@@ -98,5 +13,90 @@
     "slug": "bach-hop",
     "name": "Bách hợp",
     "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Lilium brownii var. viridulum (Bách hợp), depicting its Vảy củ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-nhat-hong",
+    "name": "Bách nhật hồng",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Gomphrena globosa L. (Bách nhật hồng), depicting its Cụm hoa, Rễ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-thao-suong",
+    "name": "Bách thảo sương",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Fuligo septica (Cặn khoáng) (Bách thảo sương), depicting its Cặn đen bong ra ở nồi and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-tuc-trung",
+    "name": "Bách túc trùng",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Scolopendra subspinipes (Bách túc trùng), depicting its Toàn thân con rết and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bai-luong",
+    "name": "Bái lương",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Arthraxon hispidus (Thunb.) (Bái lương), depicting its whole plant and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "thach-hoc",
+    "name": "Thạch hộc",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Dendrobium nobile Lindl. (Thạch hộc), depicting its Thân cây phơi khô and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-cuc-hoa",
+    "name": "Bạch cúc hoa",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Chrysanthemum morifolium Ramat. (Bạch cúc hoa), depicting its Cụm hoa and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "cuong-tam",
+    "name": "Bạch cương tằm",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Bombyx mori L. (Con tằm vôi) (Bạch cương tằm), depicting its Con tằm chết tự nhiên do nấm phơi khô and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-cap",
+    "name": "Bạch cập",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Bletilla striata (Thunb.) Reichb. f. (Bạch cập), depicting its Củ (giả hành) and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-co-sam",
+    "name": "Bạch cổ sâm",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Gynura segetum (Lour.) Merr. (Bạch cổ sâm), depicting its Rễ củ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-bien-dau",
+    "name": "Bạch biển đậu",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Lablab purpureus (L.) Sweet (Bạch biển đậu), depicting its Hạt chín đã bóc vỏ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-dan",
+    "name": "Bạch đàn",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Eucalyptus spp. (Bạch đàn), depicting its Lá, Tinh dầu and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-dong-nu",
+    "name": "Bạch đồng nữ",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Rostellularia procumbens (L.) Nees (Bạch đồng nữ), depicting its whole plant and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-phan-dang",
+    "name": "Bạch phấn đằng",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Cissus repens Lamk. (Bạch phấn đằng), depicting its Thân, lá, rễ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-phuc-linh",
+    "name": "Bạch phục linh",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Poria cocos (Schw.) Wolf. (Bạch phục linh), depicting its Quả thể nấm (phần thịt trắng) and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-phu-tu",
+    "name": "Bạch phụ tử",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Typhonium giganteum Engl. (Bạch phụ tử), depicting its Củ (Thân rễ) and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "ha-thu-o-trang",
+    "name": "Hà thủ ô trắng",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Streptocaulon griffithii Hook. f. (Hà thủ ô trắng), depicting its Rễ củ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "bach-hac",
+    "name": "Bạch hạc",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Rhinacanthus nasutus (L.) Kurz (Bạch hạc), depicting its Lá, Thân, Rễ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
   }
 ]

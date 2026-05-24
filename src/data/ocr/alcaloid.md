@@ -26,3 +26,12 @@ Bào chế y học cổ truyền là quá trình biến đổi dược liệu th
 ### 3. Thủy hỏa hợp chế (Kết hợp nước và nhiệt):
 - **Chưng**: Đun cách thủy vị thuốc với rượu hoặc phụ liệu trong nhiều giờ (như chưng Thục địa cửu chưng cửu sái - 9 lần đồ 9 lần phơi để biến Sinh địa đắng hàn thành Thục địa ngọt ấm bổ thận).
 - **Đồ**: Dùng hơi nước làm mềm dược liệu để thái lát hoặc diệt men phân hủy chất quý.
+
+### Minh họa Kỹ thuật Bào chế Đông Y
+Dưới đây là một số ví dụ thực tế về phương pháp bào chế giúp thay đổi thuộc tính dược liệu:
+
+*   **Sinh khương (Thủy chế phụ liệu)**: Gừng tươi thường giã lấy nước hoặc làm dịch phụ liệu để ngâm tẩm, sao sấy giúp làm giảm bớt tính hàn lạnh hoặc độc tính gây ngứa của các vị thuốc khác (như Bán hạ).
+    ![Sinh khương - Phụ liệu giải độc ấm vị trong thủy chế](/images/sinh-khuong.png)
+*   **Thục địa (Thủy hỏa hợp chế)**: Thành phẩm thu được sau quá trình "Cửu chưng cửu sái" (9 lần đồ cách thủy với rượu và nước gừng, 9 lần phơi) từ củ Sinh địa thô, chuyển hóa hoàn toàn tính vị từ đắng lạnh thành ngọt ấm bổ thận tinh.
+    ![Thục địa - Sản phẩm tinh hoa của kỹ thuật thủy hỏa hợp chế](/images/thuc-dia.png)
+

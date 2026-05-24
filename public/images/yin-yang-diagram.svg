@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <!-- Yang Gradient: Warm sun fire -->
+    <linearGradient id="yangGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd000" />
+      <stop offset="50%" stop-color="#ff7b00" />
+      <stop offset="100%" stop-color="#ff3c00" />
+    </linearGradient>
+    
+    <!-- Yin Gradient: Deep cool water -->
+    <linearGradient id="yinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="50%" stop-color="#172a45" />
+      <stop offset="100%" stop-color="#0052d4" />
+    </linearGradient>
+    
+    <!-- Background Gradient for card -->
+    <linearGradient id="parchment" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#f5efe6" />
+    </linearGradient>
+
+    <!-- Drop shadows -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="6" stdDeviation="6" flood-color="#4a3e3d" flood-opacity="0.15" />
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Parchment Card Background -->
+  <rect width="600" height="500" rx="16" fill="url(#parchment)" stroke="#e4dcd0" stroke-width="1.5" />
+  
+  <!-- Subtle decorative grid background for medical manuscript feel -->
+  <g stroke="#eae3d5" stroke-width="0.5" opacity="0.6">
+    <line x1="50" y1="0" x2="50" y2="500" />
+    <line x1="550" y1="0" x2="550" y2="500" />
+    <line x1="0" y1="50" x2="600" y2="50" />
+    <line x1="0" y1="450" x2="600" y2="450" />
+    <circle cx="300" cy="220" r="165" fill="none" stroke-dasharray="3 3" />
+  </g>
+
+  <!-- Main Yin-Yang Circle Group -->
+  <g filter="url(#shadow)">
+    <!-- Base Yin Circle (Left/Cool Side) -->
+    <circle cx="300" cy="220" r="140" fill="url(#yinGrad)" />
+
+    <!-- Yang Path (Right/Warm Side Fish) -->
+    <!-- Center (300, 220), Radius 140. Top node: (300, 80), Bottom node: (300, 360). Inner radii: 70 -->
+    <path d="M 300 80 
+             A 140 140 0 0 1 300 360 
+             A 70 70 0 0 1 300 220 
+             A 70 70 0 0 0 300 80 Z" 
+          fill="url(#yangGrad)" />
+
+    <!-- Yin Eye inside Yang Fish (Top Lobe) -->
+    <circle cx="300" cy="150" r="22" fill="url(#yinGrad)" />
+    <!-- Small moon symbol inside the Yin eye for decorative depth -->
+    <path d="M 305 142 A 10 10 0 1 0 305 158 A 7 7 0 1 1 305 142 Z" fill="#4ea8de" opacity="0.8" />
+
+    <!-- Yang Eye inside Yin Fish (Bottom Lobe) -->
+    <circle cx="300" cy="290" r="22" fill="url(#yangGrad)" />
+    <!-- Small sun rays symbol inside the Yang eye -->
+    <circle cx="300" cy="290" r="8" fill="#fff" opacity="0.9" />
+    <path d="M 300 276 L 300 280 M 300 300 L 300 304 M 286 290 L 290 290 M 310 290 L 314 290" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Botanical Accents wrapping around the circle -->
+  <!-- Left vine (Yin side - night willow leaves) -->
+  <path d="M 140 220 C 130 150 180 90 230 75" fill="none" stroke="#2d5a27" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.5" />
+  <path d="M 145 180 Q 130 170 120 175 Q 135 185 145 180 Z" fill="#2d5a27" opacity="0.4" />
+  <path d="M 170 130 Q 155 115 145 125 Q 160 135 170 130 Z" fill="#2d5a27" opacity="0.4" />
+  
+  <!-- Right vine (Yang side - blooming summer flowers) -->
+  <path d="M 460 220 C 470 290 420 350 370 365" fill="none" stroke="#8c2f39" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.5" />
+  <path d="M 455 260 Q 470 270 480 265 Q 465 255 455 260 Z" fill="#8c2f39" opacity="0.4" />
+  <path d="M 430 310 Q 445 325 455 315 Q 440 305 430 310 Z" fill="#8c2f39" opacity="0.4" />
+
+  <!-- Outer gold boundary ring -->
+  <circle cx="300" cy="220" r="141" fill="none" stroke="#bfa37a" stroke-width="2" />
+
+  <!-- Labels & Explanations -->
+
+  <!-- Top Title -->
+  <text x="300" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#2c1e18" text-anchor="middle" letter-spacing="1.5">
+    SƠ ĐỒ ÂM DƯƠNG ĐỐI LẬP HỖ CĂN
+  </text>
+  <line x1="220" y1="48" x2="380" y2="48" stroke="#bfa37a" stroke-width="1" />
+
+  <!-- Left Side: YIN (ÂM) Labels -->
+  <g transform="translate(10, 0)">
+    <!-- Header -->
+    <rect x="25" y="105" width="90" height="28" rx="6" fill="#172a45" opacity="0.1" />
+    <text x="70" y="124" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#0052d4" text-anchor="middle">
+      ÂM (YIN)
+    </text>
+    
+    <!-- Pointer Line -->
+    <path d="M 120 120 L 170 150" fill="none" stroke="#0052d4" stroke-width="1" stroke-dasharray="3 3" />
+    <circle cx="170" cy="150" r="3" fill="#0052d4" />
+    
+    <!-- Details -->
+    <text x="25" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4a5568">Tính chất: Tĩnh, Trầm, Thu</text>
+    <text x="25" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4a5568"> Vật chất hữu hình (Huyết)</text>
+    <text x="25" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4a5568"> Hàn lạnh (Ức chế)</text>
+    <text x="25" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4a5568"> Xu hướng: Đi xuống, vào trong</text>
+    <text x="25" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#2d5a27" font-style="italic">Thảo dược tiêu biểu:</text>
+    <text x="25" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#2d5a27">Thục địa, Bạch thược</text>
+  </g>
+
+  <!-- Right Side: YANG (DƯƠNG) Labels -->
+  <g transform="translate(460, 0)">
+    <!-- Header -->
+    <rect x="25" y="105" width="90" height="28" rx="6" fill="#ff7b00" opacity="0.1" />
+    <text x="70" y="124" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#ff3c00" text-anchor="middle">
+      DƯƠNG (YANG)
+    </text>
+    
+    <!-- Pointer Line -->
+    <path d="M 20 120 L -30 150" fill="none" stroke="#ff3c00" stroke-width="1" stroke-dasharray="3 3" />
+    <circle cx="-30" cy="150" r="3" fill="#ff3c00" />
+    
+    <!-- Details -->
+    <text x="115" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4a5568" text-anchor="end">Tính chất: Động, Thăng, Tán</text>
+    <text x="115" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4a5568" text-anchor="end">Năng lượng vô hình (Khí)</text>
+    <text x="115" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4a5568" text-anchor="end">Ấm nóng (Hưng phấn)</text>
+    <text x="115" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4a5568" text-anchor="end">Xu hướng: Đi lên, ra ngoài</text>
+    <text x="115" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8c2f39" font-style="italic" text-anchor="end">Thảo dược tiêu biểu:</text>
+    <text x="115" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#8c2f39" text-anchor="end">Phụ tử chế, Quế chi</text>
+  </g>
+
+  <!-- Bottom Core Principle Banner -->
+  <g transform="translate(100, 390)" filter="url(#glow)">
+    <rect width="400" height="80" rx="8" fill="#ffffff" fill-opacity="0.9" stroke="#bfa37a" stroke-width="1" />
+    <text x="200" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#2c1e18" text-anchor="middle">
+      QUY LUẬT SINH HỌC CỐT LÕI
+    </text>
+    <text x="200" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4a5568" text-anchor="middle">
+      "Dương cực sinh Âm, Âm cực sinh Dương"
+    </text>
+    <text x="200" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#718096" text-anchor="middle" font-style="italic">
+      Trạng thái cân bằng động là nền tảng tối cao của Sinh mệnh.
+    </text>
+  </g>
+</svg>

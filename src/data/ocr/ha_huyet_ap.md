@@ -15,3 +15,12 @@ Trong tác phẩm *Nam Dược Thần Hiệu*, Tuệ Tĩnh đã mô tả hơn 50
 
 ## 3. Ý nghĩa thời đại
 Học thuyết Nam dược của Tuệ Tĩnh khuyến khích y học tự lực, tự cường, giảm sự phụ thuộc vào các loại thuốc nhập khẩu phương xa đắt đỏ. Khai thác thảo dược địa phương kết hợp phương pháp phòng bệnh qua lối sống lành mạnh, ăn uống cân bằng âm dương.
+
+### Minh họa Nam Dược Tiêu Biểu
+Một số loài thảo dược bản địa dễ tìm kiếm ở nước Nam nhưng có công hiệu vượt trội trong phòng và trị bệnh:
+
+*   **Đinh lăng (Nam sâm)**: Loài cây vô cùng phổ biến trong vườn nhà người Việt, rễ của nó được mệnh danh là "sâm của người nghèo" nhờ tác dụng bồi bổ sinh lực, tăng sức dẻo dai và bồi bổ tỳ vị khí hư.
+    ![Đinh lăng - Nam dược tăng lực bổ tỳ vị](/images/dinh-lang.png)
+*   **Ý dĩ (Thẩm thấp chỉ tả)**: Hạt ý dĩ rất gần gũi với nền nông nghiệp lúa nước, là vị thuốc hàng đầu trong việc lợi niệu, tiêu thũng, trừ thấp nhiệt khớp và bổ tỳ trị tiêu lỏng phân.
+    ![Ý dĩ - Vị thuốc lợi thấp kiện tỳ quanh ta](/images/y-di.png)
+

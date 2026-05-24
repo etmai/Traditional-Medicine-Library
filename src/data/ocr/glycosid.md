@@ -30,3 +30,16 @@ Phân tích bài thuốc **Tứ Quân Tử Thang** (Bổ khí):
 - **Bạch truật (Thần)**: Thúc đẩy chức năng vận hóa tỳ vị, táo thấp trợ sâm.
 - **Phục linh (Tá)**: Thẩm thấp thông lợi, kiện tỳ tịnh tâm, ngăn ngừa thấp tích tụ làm nặng tỳ.
 - **Cam thảo (Sứ)**: Ôn trung điều hòa tính vị các vị thuốc, dẫn thuốc vào kinh tỳ vị.
+
+### Minh họa Phối ngũ qua Tứ Quân Tử Thang
+Hình ảnh các vị thảo dược phối hợp theo nguyên lý Quân - Thần - Tá - Sứ giúp bồi bổ khí lực toàn diện:
+
+*   **Nhân sâm (Quân dược)**: Vị thuốc chủ chốt đóng vai trò đại bổ nguyên khí, kiện tỳ dưỡng vị.
+    ![Nhân sâm - Quân dược bổ khí tối thượng](/images/nhan-sam.png)
+*   **Bạch truật (Thần dược)**: Đóng vai trò phụ tá đắc lực giúp kiện tỳ vị, táo thấp hóa đàm tăng cường sinh khí.
+    ![Bạch truật - Thần dược táo thấp kiện tỳ](/images/bach-truat.png)
+*   **Phục linh (Tá dược)**: Thấm thấp lợi tiểu để tỳ vị khô ráo, ninh tâm định thần hỗ trợ cơ thể.
+    ![Phục linh - Tá dược thẩm thấp kiện tỳ](/images/phuc-linh.png)
+*   **Cam thảo (Sứ dược)**: Điều hòa tính vị của ba vị thuốc trên, dẫn khí thuốc thấm nhuần khắp các kinh mạch.
+    ![Cam thảo - Sứ dược điều hòa phương thang](/images/cam-thao.png)
+
