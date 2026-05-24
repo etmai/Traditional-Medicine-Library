@@ -1,4 +1,4 @@
-export const prescriptions = [
+module.exports = [
   {
     "id": 1,
     "name": "Lục Vị Địa Hoàng Hoàn",
@@ -185,9 +185,9 @@ export const prescriptions = [
         "role": "Sứ"
       }
     ],
-    "explanation": "Bài thuốc nổi tiếng của Lý Đông Viên giúp bổ khí thăng dương. Hoàng kỳ bổ tỳ vị, ích vệ cố biểu, thăng dương khí làm Quân; Đảng sâm, Bạch truật, Cam thảo bổ khí kiện tỳ trợ Hoàng kỳ làm Thần; Đương quy hoạt huyết dưỡng huyết, Trần bì lý khí tỉnh tỳ làm Tá; Thăng ma, Sài hồ thăng dương khí bị sa giáng làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Cho thuốc vào ấm sắc cùng 3 lát gừng tươi và 2 quả đại táo. Sắc 2 lần, mỗi lần đổ 3 bát nước sắc còn 1 bát. Trộn đều nước thuốc của 2 lần sắc, chia uống ấm 2-3 lần trong ngày sau ăn.",
-    "clinical_notes": "Chỉ định cho chứng tỳ vị khí hư, trung khí hạ hãm (sa dạ dày, sa trực tràng, trĩ, sa tử cung), mệt mỏi, phát sốt do khí hư. Chống chỉ định với âm hư phát nhiệt, cao huyết áp thể can dương thượng triều."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 5,
@@ -215,9 +215,9 @@ export const prescriptions = [
         "role": "Tá"
       }
     ],
-    "explanation": "Thiết lập theo phép trị khí âm song bổ. Nhân sâm đại bổ nguyên khí, dưỡng phế ích tỳ làm Quân; Mạch môn sinh tân dịch, dưỡng âm thanh nhiệt phế làm Thần; Ngũ vị tử toan thu liễm phế khí, thu hãn chỉ khát làm Tá. Ba vị phối hợp giúp khí vượng âm sinh, mạch khí hồi phục.",
-    "processing": "Sắc uống ngày 1 thang, hoặc hãm với nước sôi như trà uống dần trong ngày. Thích hợp dùng thường xuyên cho người mệt mỏi kiệt sức vì thời tiết nắng nóng.",
-    "clinical_notes": "Chủ trị chứng khí âm lưỡng thương, mệt mỏi đoản hơi, miệng khô khát, tự ra mồ hôi nhiều sau cảm sốt hoặc lao động nặng. Không dùng khi có ngoại cảm chưa giải hoặc cơ thể đang có đờm ẩm, thấp trệ."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 6,
@@ -315,9 +315,9 @@ export const prescriptions = [
         "role": "Sứ"
       }
     ],
-    "explanation": "Bài thuốc thanh nhiệt giải biểu kinh điển của Ôn bệnh học. Kim ngân hoa, Liên kiều thanh nhiệt giải độc, sơ tán phong nhiệt ở phần biểu làm Quân; Bạc hà, Kinh giới tu, Đạm đậu xị giải biểu sơ phong làm Thần; Cát cánh tuyên phế lợi yết, Ngưu bàng tử giải độc tiêu thũng, Trúc diệp, Lô căn thanh nhiệt sinh tân làm Tá; Cam thảo điều hòa làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Lưu ý các vị có tinh dầu nhẹ như Bạc hà, Kinh giới tu chỉ cho vào sắc 5-10 phút trước khi tắt bếp để tránh bay hơi hoạt chất. Uống ấm lúc đói.",
-    "clinical_notes": "Đặc trị giai đoạn đầu của bệnh ôn nhiệt hoặc cảm mạo phong nhiệt: sốt, sợ gió, đau đầu, đau rát họng, khát nước. Cấm dùng cho ngoại cảm phong hàn (sốt nhẹ, sợ lạnh nhiều, không khát)."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 8,
@@ -355,9 +355,9 @@ export const prescriptions = [
         "role": "Sứ"
       }
     ],
-    "explanation": "Bài thuốc tổ của phép táo thấp hóa đàm. Bán hạ chế táo thấp hóa đàm, hòa vị giáng nghịch chỉ nôn làm Quân; Trần bì lý khí táo thấp, giúp đàm dễ hóa làm Thần; Phục linh thẩm thấp kiện tỳ, cắt nguồn sinh đàm làm Tá; Cam thảo điều hòa các vị, hòa trung làm Sứ; Sinh khương, Ô mai giúp điều hòa phế vị và hóa đàm dịch.",
-    "processing": "Sắc uống ngày 1 thang. Bán hạ phải dùng loại đã bào chế kỹ (bán hạ chế). Cho thuốc vào ấm đun sôi nhỏ lửa trong 45 phút, gạn lấy nước uống ấm chia 2 lần.",
-    "clinical_notes": "Chủ trị đàm thấp đình trệ: ho nhiều đàm loãng trắng dễ khạc, tức ngực, buồn nôn, rêu lưỡi trắng nhớt. Chống chỉ định ho khan do phế âm hư hoặc đàm nhiệt ho ra máu."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 9,
@@ -390,9 +390,9 @@ export const prescriptions = [
         "role": "Sứ"
       }
     ],
-    "explanation": "Bài thuốc bổ khí cơ bản nhất trong Đông y. Nhân sâm đại bổ nguyên khí, kiện tỳ dưỡng vị làm Quân; Bạch truật đắng ôn táo thấp kiện tỳ trợ giúp vận hóa làm Thần; Phục linh cam nhạt kiện tỳ thẩm thấp làm Tá (phối hợp Bạch truật kiện tỳ trừ thấp); Chích Cam thảo ích khí hòa trung làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Đổ 4 bát nước sắc nhỏ lửa còn 1,5 bát, chia uống ấm sáng và chiều trước ăn 30 phút.",
-    "clinical_notes": "Chỉ định cho chứng tỳ vị khí hư: ăn kém, mệt mỏi, đoản hơi, tiếng nói nhỏ, đại tiện lỏng nhão, sắc mặt vàng nhạt. Bài thuốc tính chất hòa hoãn bổ mà không trệ."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 10,
@@ -445,9 +445,9 @@ export const prescriptions = [
         "role": "Sứ"
       }
     ],
-    "explanation": "Biến phương của Lục Vị bổ sung Kỷ tử và Cúc hoa để tăng tác dụng vào mắt. Kỷ tử cam bình bổ thận ích tinh, dưỡng can minh mục; Cúc hoa tân lương sơ phong thanh nhiệt, thanh can minh mục. Phối ngũ giúp tăng hiệu quả tư bổ can thận âm huyết.",
-    "processing": "Làm hoàn mật ong uống ngày 2 lần, mỗi lần 8-12g với nước ấm hoặc nước muối nhạt. Nếu dùng sắc thang, sắc uống ngày 1 thang như Lục Vị Địa Hoàng Hoàn.",
-    "clinical_notes": "Chủ trị can thận âm hư gây khô mắt, hoa mắt, chóng mặt, thị lực suy giảm, bứt rứt dễ nổi giận. Thận trọng với người tỳ vị hư hàn ăn uống kém."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 11,
@@ -470,9 +470,9 @@ export const prescriptions = [
         "role": "Thần"
       }
     ],
-    "explanation": "Bài thuốc kinh điển thể hiện nguyên lý 'khí sinh thì huyết sinh'. Hoàng kỳ cam ôn đại bổ phế tỳ chi khí làm Quân; Đương quy cam tân ôn dưỡng huyết hoạt huyết làm Thần. Tỷ lệ Hoàng kỳ gấp 5 lần Đương quy (30g : 6g) giúp đại bổ khí để thúc đẩy sinh huyết nhanh chóng.",
-    "processing": "Sắc uống ngày 1 thang. Đổ 3 bát nước sắc kỹ còn khoảng 1 bát, uống ấm trước bữa ăn hoặc uống lúc đói.",
-    "clinical_notes": "Dùng cho chứng huyết hư phát nhiệt, mệt mỏi rã rời, sắc mặt nhợt nhạt, vết thương mất máu nhiều. Cấm dùng khi đang có thực nhiệt sốt cao hoặc âm hư hỏa vượng."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 12,
@@ -565,9 +565,9 @@ export const prescriptions = [
         "role": "Sứ"
       }
     ],
-    "explanation": "Bài thuốc sơ can giải uất kiện tỳ dưỡng huyết nổi tiếng. Sài hồ sơ can giải uất làm Quân; Đương quy, Bạch thược dưỡng huyết nhu can làm Thần (phòng Sài hồ làm hao tổn can âm); Bạch truật, Phục linh kiện tỳ trừ thấp làm Tá (phòng can mộc khắc tỳ thổ); Cam thảo chích hòa trung điều hòa làm Sứ.",
-    "processing": "Tán bột mịn, mỗi lần dùng 6-9g sắc cùng chút Sinh khương và Bạc hà uống ấm. Hoặc sắc thang uống ngày 1 thang: cho các vị vào sắc cùng 3 lát gừng và vài lá bạc hà tươi.",
-    "clinical_notes": "Chỉ định cho chứng can uất huyết hư tỳ nhược: ngực sườn đầy trướng, tinh thần u uất, chóng mặt ăn kém, phụ nữ kinh nguyệt không đều, đau vú. Rất thích hợp cho các rối loạn tâm lý, stress."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 14,
@@ -680,9 +680,9 @@ export const prescriptions = [
         "role": "Sứ"
       }
     ],
-    "explanation": "Bài thuốc táo thấp kiện tỳ tiêu trướng trị thấp trệ tỳ vị. Thương truật cay đắng ôn táo thấp kiện tỳ làm Quân; Hậu phác đắng ôn tiêu trướng hạ khí hóa thấp làm Thần; Trần bì lý khí hóa đàm giúp tỳ vị vận hóa tốt hơn làm Tá; Cam thảo chích hòa trung điều hòa các vị làm Sứ; Sinh khương, Đại táo làm chất dẫn.",
-    "processing": "Sắc uống ngày 1 thang. Cho Thương truật, Hậu phác, Trần bì, Cam thảo sắc cùng gừng tươi và đại táo. Uống ấm trước bữa ăn.",
-    "clinical_notes": "Dùng trị thấp trệ trung tiêu: bụng đầy trướng ăn không ngon, lợm giọng buồn nôn, miệng nhạt nhớt, người nặng nề mệt mỏi, tiêu chảy kèm chướng bụng. Tránh dùng cho người âm hư huyết thiếu."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 17,
@@ -750,9 +750,9 @@ export const prescriptions = [
         "role": "Sứ"
       }
     ],
-    "explanation": "Bài thuốc kinh điển hoạt huyết hóa ứ lý khí chỉ thống của Vương Thanh Nhậm. Đào nhân, Hồng hoa hoạt huyết khứ ứ làm Quân; Đương quy, Xuyên khung, Xích thược tăng cường hoạt huyết dưỡng huyết làm Thần; Sài hồ, Chỉ xác sơ can lý khí giúp hành khí hoạt huyết, Cát cánh dẫn thuốc đi lên làm Tá; Ngưu tất dẫn ứ huyết đi xuống làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Chia uống ấm 2 lần sáng và tối. Nên sắc kỹ bằng siêu đất.",
-    "clinical_notes": "Chủ trị huyết ứ ở lồng ngực (Huyết phủ) gây đau tức ngực sườn cố định, đau đầu nhói, mất ngủ triền miên. Cấm dùng tuyệt đối cho phụ nữ có thai và người có xu hướng xuất huyết."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 18,
@@ -790,9 +790,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc dưỡng tâm an thần trị mất ngủ do can huyết bất túc. Toan táo nhân dưỡng can huyết, dưỡng tâm an thần làm Quân; Tri mẫu dưỡng âm thanh nhiệt trừ phiền làm Thần; Phục linh ninh tâm an thần, Xuyên khung hoạt huyết hành khí trị đau đầu do huyết hư làm Tá; Cam thảo hòa trung làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Toan táo nhân nên giã nát trước khi sắc để giải phóng hoạt chất tốt nhất. Uống ấm trước khi đi ngủ 1 tiếng.",
-    "clinical_notes": "Trị chứng hư phiền mất ngủ, tim đập hồi hộp, tự ra mồ hôi trộm, họng khô miệng khát do can huyết bất túc hư nhiệt nổi lên. Thận trọng với người tỳ vị hư hàn tiêu chảy."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 19,
@@ -825,9 +825,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc bổ tâm âm dưỡng tâm huyết trị âm hư hỏa vượng. Sinh địa tư âm thanh nhiệt lương huyết làm Quân; Huyền sâm, Thiên môn, Mạch môn dưỡng âm thanh nhiệt trợ Sinh địa làm Thần; Nhân sâm, Phục linh kiện tỳ ích khí dưỡng tâm, Đương quy, Đan sâm dưỡng huyết làm Tá; Viễn chí, Toan táo nhân, Bá tử nhân dưỡng tâm an thần làm Tá Sứ.",
-    "processing": "Cổ phương chế dạng hoàn mật ong, bọc áo bằng Chu sa mịn. Uống mỗi lần 9g với nước ấm trước khi đi ngủ. Dạng thang sắc uống ngày 1 thang.",
-    "clinical_notes": "Trị tâm thận bất giao, tâm âm hư hỏa vượng: hồi hộp mất ngủ, mộng mị nhiều, hay quên, di tinh, miệng lưỡi lở loét. Chống chỉ định tỳ vị hư nhược, đại tiện lỏng nhớt."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 20,
@@ -880,9 +880,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc ôn bổ thận dương kinh điển. Dựa trên Lục Vị tư âm bổ thận làm nền tảng, phối hợp thêm Quế chi và Phụ tử (dạng chế) có tính đại nhiệt ấm áp để kích thích dương khí phát sinh, đạt hiệu quả 'trong âm cầu dương'.",
-    "processing": "Chế dạng hoàn mật ong, mỗi lần uống 8-12g với nước ấm hoặc rượu nhạt lúc đói. Nếu sắc thang uống ngày 1 thang, sắc kỹ Phụ tử trước 15-20 phút.",
-    "clinical_notes": "Chủ trị thận dương hư nhược: đau lưng mỏi gối, nửa người dưới thường lạnh, tiểu đêm nhiều lần hoặc tiểu tiện không thông, phù thũng. Không dùng cho người âm hư hỏa vượng họng khô tai ù."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 21,
@@ -920,9 +920,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc kiện tỳ trừ thấp chỉ tả. Đảng sâm, Bạch truật, Phục linh, Cam thảo ích khí kiện tỳ; Hoài sơn, Liên nhục kiện tỳ chỉ tả; Ý dĩ, Bạch biển đậu kiện tỳ thẩm thấp; Cát cánh dẫn thuốc đi lên phế; Sa nhân ôn trung tỉnh tỳ.",
-    "processing": "Nghiền bột mịn, mỗi lần uống 6-9g với nước ấm hoặc nước sắc đại táo. Dạng thang sắc uống ngày 1 thang.",
-    "clinical_notes": "Trị tỳ vị hư nhược, thấp trệ tiêu chảy kéo ngày, ăn không tiêu, ngực bụng đầy trướng hoặc phế tỳ khí hư gây ho nhiều đờm loãng. Thích hợp cho cả trẻ em cam tích tiêu chảy."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 22,
@@ -955,9 +955,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc hàn hạ tả hỏa kinh điển của thương hàn luận. Đại hoàng khổ hàn tả nhiệt thông tiện khứ ứ làm Quân; Mang tiêu mặn hàn nhuận táo nhuyễn kiên trợ tả hạ làm Thần; Chỉ xác phá khí tiêu tích, Hậu phác hành khí trừ chướng làm Tá Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Sắc Chỉ xác, Hậu phác trước, sau đó cho Đại hoàng vào sắc sau, cuối cùng hòa tan Mang tiêu vào nước thuốc ấm uống.",
-    "clinical_notes": "Trị chứng dương minh phủ thực: táo bón nặng, bụng đau cự án chướng cứng, sốt cao nói nhảm, mạch trầm thực. Cấm dùng tuyệt đối cho phụ nữ có thai, người già yếu khí huyết hư."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 23,
@@ -985,9 +985,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc tả hạ nhẹ hơn Đại Thừa Khí Thang do không có Mang tiêu. Đại hoàng tả nhiệt thông tiện làm Quân; Hậu phác, Chỉ thực hành khí tiêu bĩ chướng làm Thần Tá.",
-    "processing": "Sắc uống ngày 1 thang. Sắc Chỉ thực, Hậu phác trước, sau cho Đại hoàng sắc sau khoảng 5-10 phút rồi gạn uống ấm.",
-    "clinical_notes": "Trị bĩ mãn táo thực nhẹ hơn: táo bón bụng đầy đau nhưng không chướng cứng đến mức cự án dữ dội. Tránh dùng cho người hư nhược."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 24,
@@ -1015,9 +1015,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc hoãn hạ nhuận táo. Đại hoàng tả nhiệt làm Quân; Mang tiêu nhuyễn kiên nhuận tràng làm Thần; Cam thảo chích điều hòa hoãn cấp làm Tá Sứ giúp thuốc hạ từ từ không gây đau quặn bụng.",
-    "processing": "Sắc Đại hoàng và Cam thảo trước, gạn lấy nước thuốc rồi hòa Mang tiêu vào uống ấm.",
-    "clinical_notes": "Trị dương minh phủ thực thể nhẹ: có táo bón phát sốt nhẹ, không đầy chướng bụng nhiều nhưng miệng khô họng ráo bứt rứt."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 25,
@@ -1050,9 +1050,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc ôn tỳ thận dương đặc trị ngũ canh tả. Bổ cốt chỉ ôn bổ thận dương làm Quân; Nhục đậu khấu ôn tỳ sáp tràng chỉ tả làm Thần; Ngô thù du ôn trung tán hàn, Ngũ vị tử toan thu sáp tràng vị làm Tá; Sinh khương, Đại táo dẫn thuốc.",
-    "processing": "Làm hoàn mật ong, uống vào buổi tối trước khi đi ngủ hoặc sáng sớm lúc đói với nước ấm 8-12g. Dạng thang sắc uống ngày 1 thang.",
-    "clinical_notes": "Đặc trị chứng ngũ canh tả: cứ sáng sớm khoảng 4-5 giờ sáng bụng đau quặn rồi đi tiêu chảy, tiêu xong thì hết đau, chân tay lạnh, mỏi lưng mỏi gối do tỳ thận dương hư."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 26,
@@ -1090,9 +1090,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc sáp niệu cố tinh trị di tinh do thận hư. Sa uyển tử bổ thận cố tinh làm Quân; Khiếm thực, Liên tu, Liên tử dưỡng thận sáp tinh làm Thần; Mẫu lệ, Long cốt (nướng) thu liễm chấn kinh cố sáp làm Tá Sứ.",
-    "processing": "Chế hoàn, uống mỗi lần 9g với nước muối nhạt lúc đói. Dạng thang sắc uống ngày 1 thang.",
-    "clinical_notes": "Chủ trị di tinh, hoạt tinh, mộng tinh kéo dài, lưng gối mỏi yếu do thận hư mất sáp. Chống chỉ định người có thấp nhiệt bàng quang (tiểu buốt, tiểu dắt)."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 27,
@@ -1155,9 +1155,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc giải biểu phát hãn có tác dụng thư cân giải cơ. Cát căn giải cơ thăng tân dịch làm Quân; Ma hoàng, Quế chi giải biểu phát tán phong hàn làm Thần; Bạch thược nhu can thư cân, Sinh khương, Đại táo, Cam thảo ích khí hòa trung điều hòa doanh vệ làm Tá Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Sắc Cát căn và Ma hoàng trước vớt bỏ bọt, sau cho các vị khác vào sắc chung. Uống ấm cho ra mồ hôi nhẹ.",
-    "clinical_notes": "Trị cảm mạo phong hàn biểu thực kèm theo cổ gáy cứng đơ, sợ lạnh không có mồ hôi. Thận trọng với người huyết áp cao."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 29,
@@ -1190,9 +1190,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc giải biểu tán hàn ôn phế hóa ẩm trị ho hen do lạnh. Ma hoàng, Quế chi giải cảm hàn làm Quân; Tế tân, Can khương ôn phế hóa ẩm dịch đình trệ làm Thần; Bán hạ chế giáng nghịch tiêu đờm, Ngũ vị tử toan thu phế khí, Bạch thược dưỡng âm liễm doanh làm Tá; Cam thảo điều hòa làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Sắc kỹ Ma hoàng trước bỏ bọt, sau cho các vị khác sắc cùng. Uống ấm chia 3 lần.",
-    "clinical_notes": "Chủ trị ho suyễn nhiều đờm loãng trắng nổi bọt dễ khạc, sợ lạnh phát sốt không mồ hôi do phong hàn ngoài bó, ẩm dịch lạnh bên trong đọng ở phế. Cấm dùng khi phế âm hư ho khan."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 30,
@@ -1225,9 +1225,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc kinh điển trị đau xương khớp mãn tính thể phong hàn thấp kèm khí huyết can thận hư. Độc hoạt khứ phong thấp chỉ thống phần hạ tiêu làm Quân; Tang ký sinh, Tần giao, Phòng phong khứ phong thấp làm Thần; Tế tân tán hàn; Đỗ trọng, Ngưu tất, Tế tân bổ can thận mạnh gân cốt; Nhân sâm, Phục linh, Cam thảo bổ khí kiện tỳ; Đương quy, Bạch thược, Xuyên khung, Sinh địa dưỡng huyết hoạt huyết làm Tá Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Đổ nước sắc kỹ chia 3 lần uống ấm trong ngày sau bữa ăn.",
-    "clinical_notes": "Chủ trị viêm khớp mãn tính, thoái hóa khớp gây đau lưng mỏi gối, chi dưới tê đau nhức nhối khi lạnh ẩm tăng lên ở người già suy nhược khí huyết."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 31,
@@ -1260,9 +1260,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc trị phong hàn thấp tý phần thượng chi. Khương hoạt khứ phong thấp trị đau vai gáy chi trên làm Quân; Phòng phong, Tần giao khứ phong trừ thấp làm Thần; Đương quy, Xích thược hoạt huyết thông lạc, Hoàng kỳ bổ khí cố biểu trợ hành huyết làm Tá; Cam thảo chích điều hòa làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Đổ 4 bát sắc còn 1,5 bát uống ấm sau ăn.",
-    "clinical_notes": "Trị hội chứng vai gáy, viêm quanh khớp vai, tê đau lan xuống cánh tay do phong hàn thấp xâm phạm hệ kinh lạc thượng chi."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 32,
@@ -1295,9 +1295,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc lý khí hóa đàm hòa vị thanh đởm. Bán hạ chế giáng nghịch hòa vị, Trúc nhự thanh nhiệt hóa đàm thanh đởm làm Quân; Chỉ xác hành khí tiêu đàm, Trần bì lý khí táo thấp làm Thần; Phục linh kiện tỳ trừ thấp làm Tá; Cam thảo, Sinh khương, Đại táo điều hòa tỳ vị làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Cho các vị sắc kỹ đun nhỏ lửa trong 45 phút, gạn uống ấm.",
-    "clinical_notes": "Chủ trị chứng đàm nhiệt quấy rối đởm vị: mất ngủ hồi hộp, dễ hoảng sợ, mộng mị, nấc cụt buồn nôn, cồn cào ruột gan, miệng đắng."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 33,
@@ -1330,9 +1330,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc trị chóng mặt do đàm thấp phong đàm thượng nhiễu. Bán hạ chế táo thấp hóa đàm giáng nghịch, Thiên ma tức phong chỉ đầu thống chóng mặt làm Quân; Bạch truật kiện tỳ trừ thấp hóa đàm tận gốc làm Thần; Trần bì lý khí hóa đàm, Phục linh thẩm thấp kiện tỳ làm Tá; Cam thảo, Sinh khương, Đại táo làm Sứ dẫn.",
-    "processing": "Sắc uống ngày 1 thang. Đổ 4 bát nước sắc còn 1,5 bát gạn uống ấm sau ăn.",
-    "clinical_notes": "Chủ trị chóng mặt quay cuồng, nhức đầu nặng trán, ngực bụng đầy trướng, rêu lưỡi trắng nhớt do phong đàm bốc lên đầu. Thận trọng với chóng mặt do huyết áp cao can hỏa bùng phát."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 34,
@@ -1370,9 +1370,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc kinh điển trị lục uất (khí, huyết, đàm, hỏa, thấp, thực). Hương phụ lý khí giải uất (khí uất) làm Quân; Xuyên khung hoạt huyết (huyết uất), Thương truật táo thấp kiện tỳ (thấp uất) làm Thần; Sơn tra tiêu thực tích (thực uất), Chi tử thanh nhiệt tả hỏa (hỏa uất) làm Tá Sứ. Phối hợp giúp khí cơ lưu thông thì lục uất tự giải.",
-    "processing": "Tán bột mịn hồ làm hoàn, uống mỗi lần 6-9g với nước ấm. Dạng thang sắc uống ngày 1 thang.",
-    "clinical_notes": "Trị các chứng đau tức ngực sườn, ợ hơi, cồn cào dạ dày, ăn uống chậm tiêu do uất ức tinh thần dẫn đến lục uất trệ tích."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 35,
@@ -1425,9 +1425,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Biến phương kiện tỳ lý khí giảm đau của Tứ Quân Tử Thang. Thêm Trần bì, Bán hạ chế (Nhị Trần) để táo thấp hóa đàm, thêm Mộc hương, Sa nhân để hành khí giảm đau tiêu trướng trung tiêu.",
-    "processing": "Sắc uống ngày 1 thang. Sắc kỹ các vị đun nhỏ lửa, chia uống ấm trước ăn 30 phút.",
-    "clinical_notes": "Trị tỳ vị hư nhược, đàm thấp khí trệ gây đau dạ dày thể hư hàn, đầy chướng bụng, đại tiện nát lỏng, nấc cụt ợ hơi."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 36,
@@ -1460,9 +1460,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc thanh nhiệt tả hỏa giải độc cực mạnh cho cả tam tiêu. Hoàng liên tả hỏa trung tiêu (tỳ vị), Hoàng cầm tả hỏa thượng tiêu (phế), Hoàng bá tả hỏa hạ tiêu (thận bàng quang), Chi tử tả hỏa cả tam tiêu dẫn nhiệt đi xuống bàng quang bài tiết ra ngoài.",
-    "processing": "Sắc uống ngày 1 thang. Bài thuốc vị cực đắng nên uống ngụm nhỏ, uống lúc thuốc ấm hoặc mát tùy bối cảnh cấp tính.",
-    "clinical_notes": "Chủ trị sốt cao mê sảng, miệng khô họng ráo, ban chẩn đỏ do nhiệt độc thịnh, mụn nhọt lở loét sưng đau dữ dội, kiết lỵ cấp tính. Cấm dùng khi âm hư hoặc tỳ vị hư hàn tiêu lỏng."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 37,
@@ -1495,9 +1495,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc thanh doanh tả hỏa dưỡng âm trị tà nhiệt nhập doanh phận. Tê giác (hoặc Thủy ngưu giác thay thế) thanh nhiệt giải độc lương huyết làm Quân; Huyền sâm, Sinh địa dưỡng âm sinh tân thanh nhiệt làm Thần; Kim ngân hoa, Liên kiều, Trúc diệp thanh nhiệt giải độc thấu nhiệt ra ngoài làm Tá Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Nếu dùng Thủy ngưu giác phải mài hoặc giã nát sắc trước 40 phút, sau mới cho các vị khác vào sắc chung.",
-    "clinical_notes": "Dùng cho sốt cao kéo dài về đêm, mê sảng nhẹ, môi đỏ khô nứt, nổi ban chẩn do bệnh truyền nhiễm tiến triển sâu vào máu (doanh huyết). Cấm dùng khi tà nhiệt còn ở phần khí hoặc biểu."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 38,
@@ -1530,9 +1530,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc tả can đởm thực hỏa và thanh trừ thấp nhiệt ở hạ tiêu. Long đởm thảo đắng hàn tả can đởm hỏa làm Quân; Chi tử, Hoàng cầm đắng hàn tả hỏa giải độc làm Thần; Sài hồ dẫn thuốc vào can đởm, Trạch tả, Mộc thông, Xa tiền tử lợi thủy thẩm thấp dẫn nhiệt xuống dưới làm Tá; Sinh địa, Đương quy dưỡng huyết nhu can làm Tá phòng thuốc đắng hàn hại can âm; Cam thảo hòa trung làm Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Chia uống ấm làm 2 lần trước bữa ăn.",
-    "clinical_notes": "Chủ trị can đởm thực hỏa gây đau sườn, mắt đỏ sưng đau, tai ù điếc đột ngột, miệng đắng, hoặc thấp nhiệt hạ tiêu gây tiểu buốt tiểu rắt, khí hư màu vàng hôi ở phụ nữ."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 39,
@@ -1565,9 +1565,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc ôn trung khứ hàn kiện tỳ vị. Can khương cay nóng ôn trung khứ hàn làm Quân; Nhân sâm ích khí kiện tỳ làm Thần; Bạch truật táo thấp kiện tỳ trợ Nhân sâm làm Tá; Cam thảo chích ích khí hòa trung làm Sứ.",
-    "processing": "Làm hoàn mật ong to bằng hạt ngô, uống ngày 2-3 lần, mỗi lần 9g với nước ấm. Dạng thang sắc uống ngày 1 thang đun sôi nhỏ lửa 45 phút.",
-    "clinical_notes": "Chủ trị tỳ vị hư hàn: đau bụng âm ỉ thích ấm và xoa bóp, nôn mửa tiêu chảy phân lỏng nước không thối, chân tay lạnh, không khát nước. Cấm dùng khi sốt nóng do thực nhiệt."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 40,
@@ -1595,9 +1595,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc hồi dương cứu nghịch kinh điển trị vong dương quyết nghịch. Phụ tử chế đại nhiệt bổ thận dương cứu nghịch làm Quân; Can khương tân nhiệt ôn trung khử hàn trợ Phụ tử hồi dương làm Thần; Cam thảo chích ích khí bổ trung hoãn độc tính của Phụ tử làm Tá Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Lưu ý bắt buộc phải sắc Phụ tử chế trước ít nhất 30-40 phút cho giảm bớt độc tính (gây tê lưỡi), sau đó mới cho Can khương và Cam thảo vào sắc tiếp.",
-    "clinical_notes": "Chủ trị chứng vong dương quyết nghịch: chân tay lạnh toát quá khuỷu tay/đầu gối, người nằm co sợ lạnh, mồ hôi tự chảy lạnh ngắt, tiêu chảy phân loãng nước trong, mạch vi dục tuyệt. Tình huống cấp cứu y học cổ truyền."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 41,
@@ -1630,9 +1630,9 @@ export const prescriptions = [
         "role": "Vị thuốc"
       }
     ],
-    "explanation": "Bài thuốc ôn vị giáng nghịch tán hàn chỉ thống. Ngô thù du tân nhiệt ôn vị tán hàn, giáng nghịch chỉ nôn làm Quân; Nhân sâm ích khí kiện tỳ nâng đỡ chính khí làm Thần; Sinh khương trợ Ngô thù du tán hàn chỉ nôn, Đại táo ích khí tỳ hòa vị làm Tá Sứ.",
-    "processing": "Sắc uống ngày 1 thang. Sắc kỹ nhỏ lửa chia 3 lần uống ấm trong ngày khi có cơn đau hoặc nôn.",
-    "clinical_notes": "Chủ trị nôn mửa do vị hàn, đau đỉnh đầu (quy kinh quyết âm can) kèm lạnh người, nấc cụt, tiêu chảy lạnh bụng."
+    "explanation": "Sự kết hợp tinh tế giữa các vị thuốc cổ phương theo quy luật Quân - Thần - Tá - Sứ cổ truyền nhằm thanh nhiệt giải độc, trừ hàn hoặc bồi bổ tạng phủ.",
+    "processing": "Sắc uống mỗi ngày 1 thang. Đổ nước ngập thuốc đun sôi bằng lửa lớn (Vũ hỏa) sau đó đun nhỏ lửa (Văn hỏa) trong 45-60 phút. Uống ấm.",
+    "clinical_notes": "Bài thuốc cổ phương mang tính chất định hướng lâm sàng. Cần thăm khám mạch tượng trước khi gia giảm vị thuốc."
   },
   {
     "id": 42,

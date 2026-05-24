@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import './App.css';
 import HerbList from './components/HerbList';
 import HerbDetail from './components/HerbDetail';
@@ -325,6 +325,17 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {isScrolled && (
+        <button
+          className="scroll-to-top-btn"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="Cuộn lên đầu trang"
+          type="button"
+        >
+          ↑
+        </button>
+      )}
     </div>
   );
 }
