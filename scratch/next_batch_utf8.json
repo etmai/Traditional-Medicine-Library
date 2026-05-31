@@ -1,25 +1,5 @@
 [
   {
-    "slug": "ca-dai-hoa-trang",
-    "name": "Cà dại hoa trắng",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Solanum torvum Sw. (Cà dại hoa trắng), depicting its Rễ, Toàn cây and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ca-dai-hoa-tim",
-    "name": "Cà dại hoa tím",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Solanum violaceum Ortega (Cà dại hoa tím), depicting its Rễ, Toàn cây and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ca-rot",
-    "name": "Cà rốt",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Daucus carota L. var. sativa DC. (Cà rốt), depicting its Rễ củ and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
-    "slug": "ca-chua",
-    "name": "Cà chua",
-    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Lycopersicon esculentum Mill. (Cà chua), depicting its berries and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
-  },
-  {
     "slug": "ca-dao",
     "name": "Cá đao",
     "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Xiphia gladius (Cá đao), depicting its Thịt, Gan and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
@@ -98,5 +78,25 @@
     "slug": "canh-kien-do",
     "name": "Cánh kiến đỏ",
     "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Laccifer lacca Kerr. (Cánh kiến đỏ), depicting its Nhựa do rệp cánh kiến tiết ra and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "canh-thien",
+    "name": "Cảnh thiên",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Sedum erythrostictum Miq. (Cảnh thiên), depicting its whole plant and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "rieng",
+    "name": "Cao lương khương",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Alpinia officinarum Hance (Cao lương khương), depicting its Thân rễ (Củ riềng) and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "cao-ban",
+    "name": "Cảo bản",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Ligusticum sinense Oliv. (Cảo bản), depicting its Thân rễ và rễ phơi khô and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
+  },
+  {
+    "slug": "cat-canh",
+    "name": "Cát cánh",
+    "prompt": "A highly detailed, scientifically accurate botanical watercolor illustration of Platycodon grandiflorus (Jacq.) A. DC. (Cát cánh), depicting its Rễ phơi khô and leaves. Vibrant yet muted traditional colors, rich textures, elegant thin ink brush strokes, delicate watercolor washes, soft shading, isolated on clean off-white parchment paper texture background, botanical plate style, East Asian medicine aesthetic."
   }
 ]
