@@ -1,4 +1,4 @@
-﻿export const chapters = [
+export const chapters = [
   {
     id: "phan_chung",
     title: "Chương I: Học thuyết Âm Dương",
@@ -64,5 +64,11 @@
     title: "Chương XI: Nguyên tắc Gia Giảm Thang Thuốc",
     description: "Phương pháp điều chỉnh vị thuốc, lượng thuốc để tối ưu hóa hiệu quả điều trị từng thể trạng.",
     page_range: "Chẩn trị lâm sàng"
+  },
+  {
+    id: "phuong_te_bo",
+    title: "Chương XII: Lý luận các phép Bổ trong Phương tễ học",
+    description: "Nguyên tắc chẩn trị và cơ chế phối ngũ các nhóm bài thuốc bổ ích: Bổ Khí, Bổ Huyết, Bổ Âm, Bổ Dương.",
+    page_range: "Lý luận Phương tễ"
   }
 ];

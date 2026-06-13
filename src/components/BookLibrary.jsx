@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { chapters } from '../data/chapters';
 import './BookLibrary.css';
@@ -15,6 +15,7 @@ import alcaloid from '../data/ocr/alcaloid.md?raw';
 import saponin from '../data/ocr/saponin.md?raw';
 import haHuyetAp from '../data/ocr/ha_huyet_ap.md?raw';
 import docTinh from '../data/ocr/doc_tinh.md?raw';
+import phuongTeBo from '../data/ocr/phuong_te_bo.md?raw';
 
 const markdownMap = {
   'phan_chung': phanChung,
@@ -28,6 +29,7 @@ const markdownMap = {
   'saponin': saponin,
   'ha-huyet-ap': haHuyetAp,
   'doc-tinh': docTinh,
+  'phuong_te_bo': phuongTeBo,
 };
 
 const BookLibrary = ({ initialChapter }) => {
