@@ -1,4 +1,4 @@
-export const interactions = [
+module.exports = [
   {
     herb1: "Cam thảo",
     herb2: "Đại kích",
@@ -1496,27 +1496,6 @@ export const interactions = [
     type: "Tương tu",
     severity: "positive",
     note: "Sự kết hợp tẩy xổ mạnh mẽ nhất để điều trị các chứng tắc ruột và táo bón cấp tính."
-  },
-  {
-    herb1: "Chỉ Xác",
-    herb2: "Cát cánh",
-    type: "Tương sử",
-    severity: "positive",
-    note: "Phối hợp Chỉ xác (giáng khí tiêu trướng) và Cát cánh (tuyên phế thăng khí) tạo thành cặp thăng giáng kinh điển để khai thông phế khí, hành khí tiêu trướng ở ngực sườn và bụng."
-  },
-  {
-    herb1: "Chỉ Xác",
-    herb2: "Sài hồ",
-    type: "Tương tu",
-    severity: "positive",
-    note: "Sơ can lý khí, giảm đau tức ngực sườn và chướng bụng khó tiêu (phối ngũ kinh điển trong Sài Hồ Sơ Can Tán)."
-  },
-  {
-    herb1: "Mộc Thông",
-    herb2: "Sinh địa",
-    type: "Tương sử",
-    severity: "positive",
-    note: "Thanh nhiệt tả hỏa, dẫn hỏa ở phế/tâm đi xuống qua đường tiểu, đặc biệt hiệu quả cho chứng nhiệt di xuống tiểu trường gây miệng lưỡi lở loét và nước tiểu đỏ sẫm."
   }
 ];
 
