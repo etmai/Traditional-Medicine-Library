@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { getUseCaseLabel, safetyMeta, safetyOptions, useCaseOptions } from '../data/taxonomy';
 
 function HerbList({ herbs = [], initialUseCase = 'all', onSelectHerb }) {
@@ -8,10 +8,16 @@ function HerbList({ herbs = [], initialUseCase = 'all', onSelectHerb }) {
   const [filterPart, setFilterPart] = useState('all');
   const [filterSafety, setFilterSafety] = useState('all');
   const [viewMode, setViewMode] = useState('grid');
+  const [visibleCount, setVisibleCount] = useState(24);
 
   useEffect(() => {
     setFilterUseCase(initialUseCase || 'all');
+    setVisibleCount(24);
   }, [initialUseCase]);
+
+  useEffect(() => {
+    setVisibleCount(24);
+  }, [searchTerm, filterProp, filterUseCase, filterPart, filterSafety]);
 
   const properties = useMemo(() => ['all', ...new Set(herbs.map((herb) => herb.properties))], [herbs]);
   const parts = useMemo(() => ['all', ...new Set(herbs.map((herb) => herb.part_used))], [herbs]);
@@ -42,6 +48,10 @@ function HerbList({ herbs = [], initialUseCase = 'all', onSelectHerb }) {
 
     return matchesSearch && matchesFilter && matchesUseCase && matchesPart && matchesSafety;
   }), [filterPart, filterProp, filterSafety, filterUseCase, herbs, searchTerm]);
+
+  const displayedHerbs = useMemo(() => {
+    return filteredHerbs.slice(0, visibleCount);
+  }, [filteredHerbs, visibleCount]);
 
   const resetFilters = () => {
     setSearchTerm('');
@@ -137,7 +147,7 @@ function HerbList({ herbs = [], initialUseCase = 'all', onSelectHerb }) {
       </div>
 
       <section className={viewMode === 'grid' ? 'herb-grid' : 'herb-list-view'}>
-        {filteredHerbs.map((herb) => (
+        {displayedHerbs.map((herb) => (
           <button
             key={herb.id}
             className={viewMode === 'grid' ? 'herb-card' : 'herb-list-item'}
@@ -167,6 +177,18 @@ function HerbList({ herbs = [], initialUseCase = 'all', onSelectHerb }) {
           </button>
         ))}
       </section>
+
+      {filteredHerbs.length > visibleCount && (
+        <div className="load-more-container">
+          <button
+            className="load-more-btn"
+            onClick={() => setVisibleCount((prev) => prev + 24)}
+            type="button"
+          >
+            Xem thêm (còn {filteredHerbs.length - visibleCount} vị)
+          </button>
+        </div>
+      )}
 
       {filteredHerbs.length === 0 && (
         <div className="empty-state">
