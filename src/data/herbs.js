@@ -8371,7 +8371,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn không nên dùng nhiều đường uống.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-hue.png",
+    "image": "/images/cay-hue.jpg",
     "tags": [
       "nhuận phế",
       "trị ho",
@@ -8412,7 +8412,7 @@ export const herbs = [
     "warnings": "Người âm hư không có phong thấp cấm dùng. Tránh dùng nồi sắt để sắc.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-hy-thiem.png",
+    "image": "/images/cay-hy-thiem.jpg",
     "tags": [
       "trị đau khớp",
       "tê bại",
@@ -8459,7 +8459,7 @@ export const herbs = [
     "warnings": "PHỤ NỮ CÓ THAI CẤM DÙNG (Gây sảy thai). Người huyết hư không ứ trệ cẩn thận khi dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/cay-ich-mau.png",
+    "image": "/images/cay-ich-mau.jpg",
     "tags": [
       "điều kinh",
       "phụ nữ",
@@ -8506,7 +8506,7 @@ export const herbs = [
     "warnings": "Người bị tắc mật hoàn toàn cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-ke-sua.png",
+    "image": "/images/cay-ke-sua.jpg",
     "tags": [
       "bảo vệ gan",
       "Silymarin",
@@ -8547,7 +8547,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC NHẸ. Không nên dùng quá liều.",
     "safety_level": "caution",
     "is_toxic": true,
-    "image": "/images/cay-kim-suong.png",
+    "image": "/images/cay-kim-suong.jpg",
     "tags": [
       "trị đau khớp",
       "tán hàn",
@@ -8588,7 +8588,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, tự ra mồ hôi nhiều cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-kinh-gioi.png",
+    "image": "/images/cay-kinh-gioi.jpg",
     "tags": [
       "giải cảm",
       "trị dị ứng",
@@ -8635,7 +8635,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cẩn thận khi dùng đường uống.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-la-bong.png",
+    "image": "/images/cay-la-bong.jpg",
     "tags": [
       "trị bỏng",
       "cầm máu",
@@ -8676,7 +8676,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn không nên dùng quá nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-la-gan.png",
+    "image": "/images/cay-la-gan.jpg",
     "tags": [
       "giải độc gan",
       "lợi mật",
@@ -8717,7 +8717,7 @@ export const herbs = [
     "warnings": "Không nên lạm dụng liều cao vì có thể gây tổn thương dây thanh quản.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-luoc-vang.png",
+    "image": "/images/cay-luoc-vang.jpg",
     "tags": [
       "viêm họng",
       "đau dạ dày",
@@ -8758,7 +8758,7 @@ export const herbs = [
     "warnings": "Người huyết hư không có ứ trệ cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-man-tuoi.png",
+    "image": "/images/cay-man-tuoi.jpg",
     "tags": [
       "điều kinh",
       "hoạt huyết",
@@ -8799,7 +8799,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-mat-gau.png",
+    "image": "/images/cay-mat-gau.jpg",
     "tags": [
       "giải độc gan",
       "đau khớp",
@@ -8840,7 +8840,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai không nên dùng đường uống liều cao.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-muong-trau.png",
+    "image": "/images/cay-muong-trau.jpg",
     "tags": [
       "trị hắc lào",
       "nhuận tràng",
@@ -8877,7 +8877,7 @@ export const herbs = [
     "warnings": "Người táo bón cấm dùng (do tính chát thu liễm mạnh).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-n.png",
+    "image": "/images/cy-n.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -8914,7 +8914,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, tiêu chảy cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-nho-noi.png",
+    "image": "/images/cay-nho-noi.jpg",
     "tags": [
       "cầm máu",
       "đen tóc",
@@ -8961,7 +8961,7 @@ export const herbs = [
     "warnings": "QUẢ XANH CỰC ĐỘC (Chứa Lantanin gây liệt cơ, bỏng rát đường ruột). Trẻ em tuyệt đối không được ăn.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/tram-oi.png",
+    "image": "/images/tram-oi.jpg",
     "tags": [
       "trâm ổi",
       "quả độc",
