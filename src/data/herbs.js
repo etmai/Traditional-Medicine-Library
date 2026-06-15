@@ -9002,7 +9002,7 @@ export const herbs = [
     "warnings": "Phụ nữ mang thai không nên uống quá nhiều. Tránh dùng cùng Cam thảo lâu ngày.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/nhan-tran.png",
+    "image": "/images/nhan-tran.jpg",
     "tags": [
       "trị vàng da",
       "viêm gan",
@@ -9049,7 +9049,7 @@ export const herbs = [
     "warnings": "Người đang bị sốt cao, táo bón không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-nhot.png",
+    "image": "/images/cay-nhot.jpg",
     "tags": [
       "trị ho",
       "hen suyễn",
@@ -9090,7 +9090,7 @@ export const herbs = [
     "warnings": "Người bị táo bón nặng không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-oi.png",
+    "image": "/images/cay-oi.jpg",
     "tags": [
       "trị tiêu chảy",
       "thu liễm",
@@ -9131,7 +9131,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC NHẸ. Không dùng liều cao lâu ngày đường uống.",
     "safety_level": "caution",
     "is_toxic": true,
-    "image": "/images/cay-phen-den.png",
+    "image": "/images/cay-phen-den.jpg",
     "tags": [
       "giải độc",
       "trị mụn nhọt",
@@ -9172,7 +9172,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/thai-lai-trang.png",
+    "image": "/images/thai-lai-trang.jpg",
     "tags": [
       "thanh nhiệt",
       "trị viêm họng",
@@ -9213,7 +9213,7 @@ export const herbs = [
     "warnings": "Người cơ thể nhiệt, ra mồ hôi nhiều nên hạn chế dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-sa.png",
+    "image": "/images/cay-sa.jpg",
     "tags": [
       "giải cảm",
       "tiêu hóa",
@@ -9254,7 +9254,7 @@ export const herbs = [
     "warnings": "Người bị táo bón cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-sim.png",
+    "image": "/images/cay-sim.jpg",
     "tags": [
       "bổ huyết",
       "trị tiêu chảy",
@@ -9295,7 +9295,7 @@ export const herbs = [
     "warnings": "Ăn quá nhiều có thể gây nấc, nôn mửa. Không uống cùng nước trà nóng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/su-quan-tu.png",
+    "image": "/images/su-quan-tu.jpg",
     "tags": [
       "trị giun",
       "trẻ em",
@@ -9342,7 +9342,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, phụ nữ có thai cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-sung.png",
+    "image": "/images/cay-sung.jpg",
     "tags": [
       "trị đau khớp",
       "đau răng",
@@ -9379,7 +9379,7 @@ export const herbs = [
     "warnings": "Người tỳ hư tiêu chảy cấm dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-sung.png",
+    "image": "/images/cy-sung.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -9416,7 +9416,7 @@ export const herbs = [
     "warnings": "PHỤ NỮ CÓ THAI CẤM DÙNG. Người đang chảy máu cấp do nhiệt thịnh nên thận trọng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/tam-that.png",
+    "image": "/images/tam-that.jpg",
     "tags": [
       "cầm máu",
       "bổ máu",
@@ -9457,7 +9457,7 @@ export const herbs = [
     "warnings": "Không nên dùng quá nhiều cho người tỳ vị hư hàn.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cay-thuoc-thuong.png",
+    "image": "/images/cay-thuoc-thuong.jpg",
     "tags": [
       "hoàn ngọc",
       "trị đau bụng",
@@ -9498,7 +9498,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC CAO (Chứa Phytolaccatoxin). Phụ nữ mang thai và người già yếu tuyệt đối cấm dùng.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/thuong-luc.png",
+    "image": "/images/thuong-luc.jpg",
     "tags": [
       "trục thủy mạnh",
       "phù thũng",
@@ -9539,7 +9539,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, phụ nữ có thai cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/diep-ha-chau.png",
+    "image": "/images/diep-ha-chau.jpg",
     "tags": [
       "bảo vệ gan",
       "viêm gan B",
@@ -9580,7 +9580,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC NHẸ (Chứa Mimosin). Không dùng liều quá cao lâu ngày.",
     "safety_level": "caution",
     "is_toxic": true,
-    "image": "/images/cay-xau-ho.png",
+    "image": "/images/cay-xau-ho.jpg",
     "tags": [
       "an thần",
       "dễ ngủ",
@@ -9620,7 +9620,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC CAO (Chứa Margosine). Không dùng cho người suy gan, thận, tim. Cấm dùng liều cao.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cay-xoan.png",
+    "image": "/images/cay-xoan.jpg",
     "tags": [
       "trị giun mạnh",
       "có độc cao",
@@ -16002,7 +16002,7 @@ export const herbs = [
     "warnings": "TUYỆT ĐỐI KHÔNG uống chung với trà nóng (gây tiêu chảy dữ dội). Dùng quá liều gây nấc cục.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/su-quan-tu.png",
+    "image": "/images/su-quan-tu.jpg",
     "tags": [
       "tẩy giun trẻ em",
       "biếng ăn",
