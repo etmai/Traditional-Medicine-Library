@@ -51,6 +51,22 @@ const BookLibrary = ({ initialChapter }) => {
       </header>
 
       <div className="book-layout">
+        <div className="book-sidebar-mobile-wrapper">
+          <label htmlFor="chapter-select-mobile" className="sidebar-title" style={{ display: 'block', marginBottom: '8px' }}>Chọn Chương Sách:</label>
+          <select
+            id="chapter-select-mobile"
+            className="chapter-select-mobile"
+            value={selectedChapter}
+            onChange={(e) => handleChapterSelect(e.target.value)}
+          >
+            {chapters.map((chapter) => (
+              <option key={chapter.id} value={chapter.id}>
+                {chapter.title} ({chapter.page_range})
+              </option>
+            ))}
+          </select>
+        </div>
+
         <aside className="book-sidebar">
           <h3 className="sidebar-title">Mục Lục Kiến Thức</h3>
           <ul className="chapter-list">
