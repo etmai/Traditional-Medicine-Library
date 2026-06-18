@@ -10351,7 +10351,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng (có tài liệu ghi gây co thắt tử cung).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-o.png",
+    "image": "/images/cc-o.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -10388,7 +10388,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cuc-chi.png",
+    "image": "/images/cuc-chi.jpg",
     "tags": [
       "giải độc",
       "trị mụn nhọt",
@@ -10429,7 +10429,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, tiêu chảy cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/chi-tu.png",
+    "image": "/images/chi-tu.jpg",
     "tags": [
       "tả hỏa",
       "trị vàng da",
@@ -10476,7 +10476,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn tiêu chảy không nên dùng nhiều quả dâu.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dau-tam.png",
+    "image": "/images/dau-tam.jpg",
     "tags": [
       "toàn năng",
       "bổ can thận",
@@ -10522,7 +10522,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/day-dau-xuong.png",
+    "image": "/images/day-dau-xuong.jpg",
     "tags": [
       "trị đau khớp",
       "tê bại",
@@ -10563,7 +10563,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/day-don-ganh.png",
+    "image": "/images/day-don-ganh.jpg",
     "tags": [
       "trị chấn thương",
       "hoạt huyết",
@@ -10604,7 +10604,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/day-gam.png",
+    "image": "/images/day-gam.jpg",
     "tags": [
       "trị bệnh Gout",
       "đau khớp",
@@ -10645,7 +10645,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/day-goi.png",
+    "image": "/images/day-goi.jpg",
     "tags": [
       "đau khớp",
       "bổ thần kinh",
@@ -10686,7 +10686,7 @@ export const herbs = [
     "warnings": "Dùng liều cao có thể gây nhức đầu. Người tỳ vị hư hàn cấm dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/day-ky-ninh.png",
+    "image": "/images/day-ky-ninh.jpg",
     "tags": [
       "trị sốt rét",
       "đắng",
@@ -10727,7 +10727,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/day-ly.png",
+    "image": "/images/day-ly.jpg",
     "tags": [
       "đau khớp",
       "hoạt huyết",
@@ -10767,7 +10767,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC (Chứa Rotenon). Không được uống liều cao. Rất độc với cá và động vật máu lạnh.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/day-mat.png",
+    "image": "/images/day-mat.jpg",
     "tags": [
       "diệt côn trùng",
       "trị ghẻ",
@@ -10808,7 +10808,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn không nên dùng quá nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/day-chieu.png",
+    "image": "/images/day-chieu.jpg",
     "tags": [
       "đau khớp",
       "thanh nhiệt",
@@ -10848,7 +10848,7 @@ export const herbs = [
     "warnings": "NHỰA CÓ ĐỘC (Gây kích ứng da và tim mạch nếu uống). Không được tự ý uống.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/day-cao-su.png",
+    "image": "/images/day-cao-su.jpg",
     "tags": [
       "trị mụn nhọt",
       "nhựa độc",
@@ -10889,7 +10889,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn tiêu chảy không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/day-bat.png",
+    "image": "/images/day-bat.jpg",
     "tags": [
       "thanh nhiệt",
       "giải độc sắn",
@@ -10930,7 +10930,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/day-chia-voi.png",
+    "image": "/images/day-chia-voi.jpg",
     "tags": [
       "thoát vị đĩa đệm",
       "đau lưng",
@@ -10977,7 +10977,7 @@ export const herbs = [
     "warnings": "Cẩn thận cho người tỳ vị quá hư yếu.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/day-cong.png",
+    "image": "/images/day-cong.jpg",
     "tags": [
       "đau khớp",
       "phong thấp",
@@ -11018,7 +11018,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, táo bón cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/tho-ty-tu.png",
+    "image": "/images/tho-ty-tu.jpg",
     "tags": [
       "bổ thận tinh",
       "sáng mắt",
@@ -16429,7 +16429,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, táo bón cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/tho-ty-tu.png",
+    "image": "/images/tho-ty-tu.jpg",
     "tags": [
       "bổ thận ích tinh",
       "sáng mắt",
