@@ -11276,7 +11276,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng không nên dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/do-trong.png",
+    "image": "/images/do-trong.jpg",
     "tags": [
       "đau lưng",
       "bổ thận",
@@ -11532,7 +11532,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn không nên dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dai-ke.png",
+    "image": "/images/dai-ke.jpg",
     "tags": [
       "mát máu",
       "cầm máu",
@@ -11573,7 +11573,7 @@ export const herbs = [
     "warnings": "PHẢN Lê lô. Phụ nữ có thai cẩn thận. Không dùng cùng thuốc chống đông máu tây y.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/dan-sam.png",
+    "image": "/images/dan-sam.jpg",
     "tags": [
       "bổ tim",
       "hoạt huyết",
@@ -11614,7 +11614,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai CẤM DÙNG (Gây sảy thai mạnh).",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/dao-nhan.png",
+    "image": "/images/dao-nhan.jpg",
     "tags": [
       "phá huyết ứ",
       "trị táo bón",
@@ -11660,7 +11660,7 @@ export const herbs = [
     "warnings": "Cần đảm bảo đất sạch, không nhiễm tạp chất.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dat-do.png",
+    "image": "/images/dat-do.jpg",
     "tags": [
       "cầm máu",
       "đất đỏ",
@@ -11701,7 +11701,7 @@ export const herbs = [
     "warnings": "Không dùng liều cao kéo dài vì gây táo bón.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dat-set.png",
+    "image": "/images/dat-set.jpg",
     "tags": [
       "giải độc",
       "hấp phụ",
@@ -11742,7 +11742,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn không nên dùng quá nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dau-do.png",
+    "image": "/images/dau-do.jpg",
     "tags": [
       "lợi tiểu",
       "trị phù thũng",
@@ -11783,7 +11783,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn tiêu chảy không nên dùng quá nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dau-den.png",
+    "image": "/images/dau-den.jpg",
     "tags": [
       "bổ thận",
       "giải độc",
@@ -11830,7 +11830,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cấm dùng liều cao kéo dài. TRÁNH dùng khi đang uống thuốc bắc (làm mất tác dụng thuốc).",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/dau-xanh.png",
+    "image": "/images/dau-xanh.jpg",
     "tags": [
       "giải độc",
       "thanh nhiệt",
@@ -11877,7 +11877,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai KHÔNG NÊN ăn nhiều (gây co bóp tử cung).",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/dia.png",
+    "image": "/images/dia.jpg",
     "tags": [
       "sạch sản dịch",
       "trị tưa lưỡi",
