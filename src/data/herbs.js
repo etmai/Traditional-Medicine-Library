@@ -11918,7 +11918,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dia-bi.png",
+    "image": "/images/dia-bi.jpg",
     "tags": [
       "sáng mắt",
       "trị bỏng",
@@ -11959,7 +11959,7 @@ export const herbs = [
     "warnings": "Không dùng cho vết bỏng quá sâu và rộng trên diện tích lớn mà không có chỉ định y tế.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dia-du.png",
+    "image": "/images/dia-du.jpg",
     "tags": [
       "cầm máu trĩ",
       "trị bỏng",
@@ -12000,7 +12000,7 @@ export const herbs = [
     "warnings": "Người không có thực nhiệt cấm dùng. Phụ nữ có thai cẩn thận.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/dia-long.png",
+    "image": "/images/dia-long.jpg",
     "tags": [
       "trị tai biến",
       "hạ huyết áp",
@@ -12047,7 +12047,7 @@ export const herbs = [
     "warnings": "Người ngoại cảm phong hàn gây sốt cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dia-cot-bi.png",
+    "image": "/images/dia-cot-bi.jpg",
     "tags": [
       "nóng trong xương",
       "thanh phế",
@@ -12088,7 +12088,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng cấm dùng. ÚY Uất kim (Thập cửu úy).",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/dinh-huong.png",
+    "image": "/images/dinh-huong.jpg",
     "tags": [
       "trị nấc cụt",
       "ấm thận",
@@ -12128,7 +12128,7 @@ export const herbs = [
     "warnings": "Người cơ thể hư nhược, ho khan cấm dùng. PHẢN Cam thảo (một số tài liệu).",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/dinh-lich-tu.png",
+    "image": "/images/dinh-lich-tu.jpg",
     "tags": [
       "trị ho hen",
       "lợi thủy",
@@ -12168,7 +12168,7 @@ export const herbs = [
     "warnings": "Người âm hư huyết táo không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/doc-hoat.png",
+    "image": "/images/doc-hoat.jpg",
     "tags": [
       "trị đau khớp",
       "đau lưng",
@@ -12215,7 +12215,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, phụ nữ có thai cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/co-duoi-chuot.png",
+    "image": "/images/co-duoi-chuot.jpg",
     "tags": [
       "thanh nhiệt",
       "trị mụn nhọt",
@@ -12256,7 +12256,7 @@ export const herbs = [
     "warnings": "Không dùng liều quá cao cho trẻ nhỏ.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/duoi-chon.png",
+    "image": "/images/duoi-chon.jpg",
     "tags": [
       "trị ho",
       "sát trùng",
@@ -12297,7 +12297,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/duoi-phung.png",
+    "image": "/images/duoi-phung.jpg",
     "tags": [
       "trị lỵ",
       "cầm máu",
@@ -12338,7 +12338,7 @@ export const herbs = [
     "warnings": "Dùng theo chỉ dẫn, không lạm dụng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/duoi-soc.png",
+    "image": "/images/duoi-soc.jpg",
     "tags": [
       "thanh nhiệt",
       "đuôi sóc"
@@ -12378,7 +12378,7 @@ export const herbs = [
     "warnings": "CẨN THẬN: Một số loài vòi voi chứa Alkaloid gây độc cho gan nếu dùng kéo dài. Không dùng cho phụ nữ có thai.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/duoi-voi.png",
+    "image": "/images/duoi-voi.jpg",
     "tags": [
       "đau khớp",
       "viêm da",
@@ -12419,7 +12419,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, nhiệt thịnh cấm dùng. Không ăn gừng đã nảy mầm hoặc thối hỏng (CÓ ĐỘC).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/gung.png",
+    "image": "/images/gung.jpg",
     "tags": [
       "giải cảm",
       "cầm nôn",
@@ -12466,7 +12466,7 @@ export const herbs = [
     "warnings": "Hạt gấc (Mộc miết tử) CÓ ĐỘC nhẹ, dùng đường uống phải hết sức cẩn thận. Ưu tiên dùng ngoài.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/gac.png",
+    "image": "/images/gac.jpg",
     "tags": [
       "sáng mắt",
       "trị sưng tấy",
@@ -12506,7 +12506,7 @@ export const herbs = [
     "warnings": "Ăn quá nhiều đồ nếp có thể gây đầy bụng, nóng trong.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/gao.png",
+    "image": "/images/gao.jpg",
     "tags": [
       "bổ dưỡng",
       "kiện tỳ",
@@ -12547,7 +12547,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn không nên dùng kéo dài.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/tru-ma-can.png",
+    "image": "/images/tru-ma-can.jpg",
     "tags": [
       "an thai",
       "cầm máu",
@@ -12588,7 +12588,7 @@ export const herbs = [
     "warnings": "Không nên dùng liều quá cao gây buồn nôn.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/gang.png",
+    "image": "/images/gang.jpg",
     "tags": [
       "trị tiêu chảy",
       "gội đầu",
@@ -12628,7 +12628,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/goi-hac.png",
+    "image": "/images/goi-hac.jpg",
     "tags": [
       "đau khớp",
       "hoạt huyết",
