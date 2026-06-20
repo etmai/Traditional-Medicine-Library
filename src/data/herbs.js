@@ -11106,7 +11106,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, tiêu chảy, đờm thấp trệ cấm dùng Thục địa.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dia-hoang.png",
+    "image": "/images/dia-hoang.jpg",
     "tags": [
       "bổ huyết",
       "bổ âm",
@@ -11153,7 +11153,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, thiếu máu không nên dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dia-lien.png",
+    "image": "/images/dia-lien.jpg",
     "tags": [
       "ấm bụng",
       "giảm đau",
@@ -11235,7 +11235,7 @@ export const herbs = [
     "warnings": "QUẢ XANH CÓ THỂ GÂY SẢY THAI (do nhựa làm co thắt tử cung). Phụ nữ có thai tuyệt đối không ăn đu đủ xanh.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/du-du.png",
+    "image": "/images/du-du.jpg",
     "tags": [
       "tiêu hóa",
       "lợi sữa",
@@ -11322,7 +11322,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/don-rang-cua.png",
+    "image": "/images/don-rang-cua.jpg",
     "tags": [
       "trị mụn nhọt",
       "giải độc",
@@ -11362,7 +11362,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn tiêu chảy không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/don-tuong-quan.png",
+    "image": "/images/don-tuong-quan.jpg",
     "tags": [
       "trị dị ứng",
       "mày đay",
@@ -11403,7 +11403,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn tiêu chảy cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dai-bai.png",
+    "image": "/images/dai-bai.jpg",
     "tags": [
       "trị sốt rét",
       "thanh nhiệt",
@@ -11444,7 +11444,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dai-bi.png",
+    "image": "/images/dai-bi.jpg",
     "tags": [
       "giải cảm",
       "trị ho",
@@ -11485,7 +11485,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai, đang hành kinh, bà mẹ cho con bú CẤM DÙNG. Người tỳ vị hư hàn cấm dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/dai-hoang.png",
+    "image": "/images/dai-hoang.jpg",
     "tags": [
       "thuốc tẩy xổ",
       "tướng quân",
