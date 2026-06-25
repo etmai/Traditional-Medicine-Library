@@ -13390,7 +13390,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/hoang-dang.png",
+    "image": "/images/hoang-dang.jpg",
     "tags": [
       "đau mắt đỏ",
       "kiết lỵ",
@@ -13431,7 +13431,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/hop-hoan-bi.png",
+    "image": "/images/hop-hoan-bi.jpg",
     "tags": [
       "an thần",
       "trị trầm cảm",
@@ -13472,7 +13472,7 @@ export const herbs = [
     "warnings": "Dùng liều vừa phải, không lạm dụng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/hung-chanh.png",
+    "image": "/images/hung-chanh.jpg",
     "tags": [
       "trị ho trẻ em",
       "viêm họng",
@@ -13513,7 +13513,7 @@ export const herbs = [
     "warnings": "Người nhiều mồ hôi không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/huong-nhu.png",
+    "image": "/images/huong-nhu.jpg",
     "tags": [
       "giải cảm nắng",
       "hương nhu",
@@ -13554,7 +13554,7 @@ export const herbs = [
     "warnings": "Người âm hư huyết nhiệt không nên dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/huong-phu.png",
+    "image": "/images/huong-phu.jpg",
     "tags": [
       "thần dược phụ nữ",
       "điều kinh",
@@ -13601,7 +13601,7 @@ export const herbs = [
     "warnings": "PHẢN Lê lô. Người tỳ vị hư hàn tiêu chảy cấm dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/huyen-sam.png",
+    "image": "/images/huyen-sam.jpg",
     "tags": [
       "mát máu",
       "trị u bướu",
@@ -13647,7 +13647,7 @@ export const herbs = [
     "warnings": "Phụ nữ sau sinh khi chưa sạch sản dịch không nên dùng sớm.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/huyet-du.png",
+    "image": "/images/huyet-du.jpg",
     "tags": [
       "cầm máu",
       "huyết dụ"
@@ -13686,7 +13686,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/huyet-giac.png",
+    "image": "/images/huyet-giac.jpg",
     "tags": [
       "tan máu bầm",
       "chấn thương",
@@ -13727,7 +13727,7 @@ export const herbs = [
     "warnings": "Người huyết hư hữu nhiệt không nên dùng quá nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/ke-huyet-dang.png",
+    "image": "/images/ke-huyet-dang.jpg",
     "tags": [
       "bổ máu",
       "đau khớp",
@@ -13768,7 +13768,7 @@ export const herbs = [
     "warnings": "Người âm hư huyết thiếu không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/hy-thiem.png",
+    "image": "/images/hy-thiem.jpg",
     "tags": [
       "đau khớp",
       "hạ huyết áp",
@@ -13815,7 +13815,7 @@ export const herbs = [
     "warnings": "Phụ nữ đang có thai CẤM DÙNG (gây sảy thai).",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/ich-mau.png",
+    "image": "/images/ich-mau.jpg",
     "tags": [
       "điều kinh",
       "phụ khoa",
@@ -13862,7 +13862,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, tiểu tiện đỏ sẻn không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/ich-tri-nhan.png",
+    "image": "/images/ich-tri-nhan.jpg",
     "tags": [
       "trị tiểu đêm",
       "bổ thận",
@@ -13903,7 +13903,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC nhẹ nếu dùng sống. Không dùng cho người huyết hư đau đầu. Không ăn thịt lợn khi đang dùng thuốc.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/ke-dau-ngua.png",
+    "image": "/images/ke-dau-ngua.jpg",
     "tags": [
       "trị viêm xoang",
       "dị ứng",
@@ -13950,7 +13950,7 @@ export const herbs = [
     "warnings": "Người không có tích trệ đồ ăn cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/ke-noi-kim.png",
+    "image": "/images/ke-noi-kim.jpg",
     "tags": [
       "tiêu hóa tốt",
       "tan sỏi",
@@ -13991,7 +13991,7 @@ export const herbs = [
     "warnings": "Người mới bị cảm mạo, ho có đờm thực nhiệt không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/kha-tu.png",
+    "image": "/images/kha-tu.jpg",
     "tags": [
       "trị khản tiếng",
       "cầm tiêu chảy",
@@ -14032,7 +14032,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn cấm dùng. PHẢN Lê lô.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/kho-sam.png",
+    "image": "/images/kho-sam.jpg",
     "tags": [
       "trị ngứa",
       "viêm đường tiết niệu",
@@ -14073,7 +14073,7 @@ export const herbs = [
     "warnings": "Người huyết hư đau đầu, phong thấp do huyết hư cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/khuong-hoat.png",
+    "image": "/images/khuong-hoat.jpg",
     "tags": [
       "đau vai gáy",
       "đau đầu",
