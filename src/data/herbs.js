@@ -14869,7 +14869,7 @@ export const herbs = [
     "warnings": "Phụ nữ đang cho con bú CẤM DÙNG (gây mất sữa).",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/mach-nha.png",
+    "image": "/images/mach-nha.jpg",
     "tags": [
       "tiêu hóa tinh bột",
       "cai sữa",
@@ -14910,7 +14910,7 @@ export const herbs = [
     "warnings": "Người có thực nhiệt ở bàng quang không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/mam-xoi.png",
+    "image": "/images/mam-xoi.jpg",
     "tags": [
       "bổ thận",
       "sáng mắt",
@@ -14951,7 +14951,7 @@ export const herbs = [
     "warnings": "Người huyết hư không có ứ trệ, phụ nữ có thai cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/man-tuoi.png",
+    "image": "/images/man-tuoi.jpg",
     "tags": [
       "hoạt huyết sau sinh",
       "điều kinh",
@@ -14992,7 +14992,7 @@ export const herbs = [
     "warnings": "Trẻ em dưới 1 tuổi CẤM DÙNG (nguy cơ ngộ độc Botulism). Người tiêu chảy, đầy bụng không nên dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/mat-ong.png",
+    "image": "/images/mat-ong.jpg",
     "tags": [
       "nhuận phổi",
       "bổ dưỡng",
@@ -15033,7 +15033,7 @@ export const herbs = [
     "warnings": "Người huyết hư hữu hàn, phụ nữ kinh nguyệt quá nhiều cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/mau-don-bi.png",
+    "image": "/images/mau-don-bi.jpg",
     "tags": [
       "mát máu",
       "hoạt huyết",
@@ -15074,7 +15074,7 @@ export const herbs = [
     "warnings": "Người hư hàn, không có nhiệt thịnh không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/mau-le.png",
+    "image": "/images/mau-le.jpg",
     "tags": [
       "giảm acid dạ dày",
       "mồ hôi trộm",
@@ -15115,7 +15115,7 @@ export const herbs = [
     "warnings": "DÙNG SỐNG CÓ ĐỘC MẠNH. Phụ nữ có thai cấm dùng.",
     "safety_level": "danger",
     "is_toxic": true,
-    "image": "/images/nam-tinh.png",
+    "image": "/images/nam-tinh.jpg",
     "tags": [
       "trị co giật",
       "hóa đờm",
@@ -15156,7 +15156,7 @@ export const herbs = [
     "warnings": "Người nhiệt thịnh, âm hư huyết nhiệt cẩn thận khi dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/ngai-cuu.png",
+    "image": "/images/ngai-cuu.jpg",
     "tags": [
       "ấm tử cung",
       "an thai",
@@ -15203,7 +15203,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, phụ nữ có thai cấm dùng nhiều.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/ngo-thu-du.png",
+    "image": "/images/ngo-thu-du.jpg",
     "tags": [
       "ấm bụng",
       "trị nôn",
@@ -15250,7 +15250,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn tiêu chảy, đờm thấp thịnh cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/ngoc-truc.png",
+    "image": "/images/ngoc-truc.jpg",
     "tags": [
       "bổ âm",
       "nhuận phổi",
@@ -15291,7 +15291,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/ngu-gia-bi.png",
+    "image": "/images/ngu-gia-bi.jpg",
     "tags": [
       "mạnh xương khớp",
       "ngũ gia bì"
@@ -15331,7 +15331,7 @@ export const herbs = [
     "warnings": "Người mới bị cảm mạo ho hen do thực tà cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/ngu-vi-tu.png",
+    "image": "/images/ngu-vi-tu.jpg",
     "tags": [
       "bổ phổi thận",
       "an thần",
@@ -15424,7 +15424,7 @@ export const herbs = [
     "warnings": "Người có nhiệt thịnh, tiêu chảy do thấp nhiệt cấm dùng. Dùng quá liều gây say.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/nhuc-dau-khau.png",
+    "image": "/images/nhuc-dau-khau.jpg",
     "tags": [
       "ấm bụng",
       "trị tiêu chảy",
@@ -15465,7 +15465,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, tiêu chảy cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/nhuc-thung-dung.png",
+    "image": "/images/nhuc-thung-dung.jpg",
     "tags": [
       "bổ thận dương",
       "nhuận tràng",
@@ -15506,7 +15506,7 @@ export const herbs = [
     "warnings": "Người khí hư có nhiệt không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/o-duoc.png",
+    "image": "/images/o-duoc.jpg",
     "tags": [
       "giảm đau bụng",
       "tiểu đêm",
@@ -15547,7 +15547,7 @@ export const herbs = [
     "warnings": "Người có thực nhiệt, mới bị cảm mạo ho hen không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/o-mai.png",
+    "image": "/images/o-mai.jpg",
     "tags": [
       "nhuận phổi",
       "trị ho",
@@ -15588,7 +15588,7 @@ export const herbs = [
     "warnings": "Người âm hư nhiệt thịnh cẩn thận khi dùng lâu ngày.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/o-tac-cot.png",
+    "image": "/images/o-tac-cot.jpg",
     "tags": [
       "đau dạ dày",
       "cầm máu",
