@@ -278,18 +278,6 @@ function App() {
               Thư Viện Kiến Thức
             </a>
           </li>
-          <li>
-            <a
-              href="#"
-              className={`nav-link ${currentPage === 'admin' ? 'active' : ''}`}
-              onClick={(e) => {
-                e.preventDefault();
-                setCurrentPage('admin');
-              }}
-            >
-              Admin
-            </a>
-          </li>
         </ul>
       </nav>
 
@@ -321,7 +309,7 @@ function App() {
               và điều trị y tế. Vui lòng tham khảo ý kiến bác sĩ hoặc thầy thuốc có chuyên môn trước khi sử dụng
               bất kỳ vị thuốc nào.
             </p>
-            <p>© 2026 Bách Thảo Kính. All rights reserved.</p>
+            <p>© 2026 Bách Thảo Kính. All rights reserved<a href="#admin" onClick={(e) => { e.preventDefault(); setCurrentPage('admin'); }} style={{ color: 'inherit', textDecoration: 'none', cursor: 'default' }}>.</a></p>
           </div>
         </div>
       </footer>
