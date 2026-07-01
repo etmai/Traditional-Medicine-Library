@@ -17184,7 +17184,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn tiêu chảy, phụ nữ có thai cấm dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/quy-ban.png",
+    "image": "/images/quy-ban.jpg",
     "tags": [
       "bổ thận âm",
       "yếm rùa",
@@ -17224,7 +17224,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn tiêu chảy cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/thanh-hao.png",
+    "image": "/images/thanh-hao.jpg",
     "tags": [
       "trị sốt rét",
       "thanh hư nhiệt",
@@ -17265,7 +17265,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/to-moc.png",
+    "image": "/images/to-moc.jpg",
     "tags": [
       "hoạt huyết",
       "tan máu bầm",
@@ -17305,7 +17305,7 @@ export const herbs = [
     "warnings": "CỰC ĐỘC (Danger). Ngộ độc gây nôn mửa, tiêu chảy, loạn nhịp tim và tử vong. Không tự ý dùng.",
     "safety_level": "danger",
     "is_toxic": true,
-    "image": "/images/truc-dao.png",
+    "image": "/images/truc-dao.jpg",
     "tags": [
       "độc tính cao",
       "trợ tim",
@@ -17346,7 +17346,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn không có nhiệt độc cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/ban-lam-can.png",
+    "image": "/images/ban-lam-can.jpg",
     "tags": [
       "trị viêm họng",
       "giải độc",
@@ -17387,7 +17387,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng. Người không có nhiệt độc cấm dùng.",
     "safety_level": "caution",
     "is_toxic": false,
-    "image": "/images/ta-huu.png",
+    "image": "/images/ta-huu.jpg",
     "tags": [
       "trị rắn cắn",
       "ung thư",
@@ -17428,7 +17428,7 @@ export const herbs = [
     "warnings": "Người cơ thể hư nhược, ra nhiều mồ hôi (tự hãn) cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/phu-binh.png",
+    "image": "/images/phu-binh.jpg",
     "tags": [
       "trị mẩn ngứa",
       "ra mồ hôi",
@@ -17510,7 +17510,7 @@ export const herbs = [
     "warnings": "CỰC ĐỘC (Danger). Ngộ độc gây co giật kiểu uốn ván và tử vong. Chỉ dùng theo đơn của bác sĩ chuyên khoa.",
     "safety_level": "danger",
     "is_toxic": true,
-    "image": "/images/hoang-nan.png",
+    "image": "/images/hoang-nan.jpg",
     "tags": [
       "cực độc",
       "phong thấp ác tính",
@@ -17551,7 +17551,7 @@ export const herbs = [
     "warnings": "Người cao huyết áp, sốt cao, đau bụng tiêu chảy không nên dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/hong-sam.png",
+    "image": "/images/hong-sam.jpg",
     "tags": [
       "đại bổ khí huyết",
       "hồng sâm",
@@ -17588,7 +17588,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn (hay lạnh bụng) cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-kim-cang.png",
+    "image": "/images/c-kim-cang.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -17663,7 +17663,7 @@ export const herbs = [
     "warnings": "Táo bón, lỵ ra máu do湿热(thực nhiệt) cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-nu.png",
+    "image": "/images/c-nu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -17742,7 +17742,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, đại tiện lỏng cấm dùng.",
     "safety_level": "safe",
     "is_toxic": false,
-    "image": "/images/cu-sung.png",
+    "image": "/images/cu-sung.jpg",
     "tags": [
       "mất ngủ",
       "an thần",
@@ -17784,7 +17784,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng (gây co thắt tử cung).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cuc-ao.png",
+    "image": "/images/cuc-ao.jpg",
     "tags": [
       "đau răng",
       "viêm họng",
@@ -17825,7 +17825,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, khí huyết hư nhược cấm dùng.",
     "safety_level": "safe",
     "is_toxic": false,
-    "image": "/images/cuc-hoa-vang.png",
+    "image": "/images/cuc-hoa-vang.jpg",
     "tags": [
       "giải độc",
       "mụn nhọt",
@@ -17866,7 +17866,7 @@ export const herbs = [
     "warnings": "Phong hàn cảm mạo (sợ lạnh, không đổ mồ hôi) cấm dùng.",
     "safety_level": "safe",
     "is_toxic": false,
-    "image": "/images/cuc-hoa-trang.png",
+    "image": "/images/cuc-hoa-trang.jpg",
     "tags": [
       "đau đầu",
       "sáng mắt",
@@ -17908,7 +17908,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, ho do phong hàn (lạnh) cấm dùng.",
     "safety_level": "safe",
     "is_toxic": false,
-    "image": "/images/cuc-moc.png",
+    "image": "/images/cuc-moc.jpg",
     "tags": [
       "ho gà",
       "hóa đờm",
@@ -17986,7 +17986,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cc-tr-su.png",
+    "image": "/images/cc-tr-su.jpg",
     "tags": [],
     "source_refs": [
       {
