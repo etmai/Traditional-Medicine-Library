@@ -18022,7 +18022,7 @@ export const herbs = [
     "warnings": "La bạc tử CHỐNG với Nhân Sâm. Tỳ vị hư hàn cấm dùng hạt.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/la-bac-tu.png",
+    "image": "/images/la-bac-tu.jpg",
     "tags": [
       "đầy bụng",
       "ăn không tiêu",
@@ -18059,7 +18059,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai tuyệt đối cấm dùng (tác dụng co bóp tử cung mạnh). Khí hư huyết hư cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-khc-khc.png",
+    "image": "/images/c-khc-khc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18092,7 +18092,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-nn.png",
+    "image": "/images/c-nn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18125,7 +18125,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-ning.png",
+    "image": "/images/c-ning.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18158,7 +18158,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC. Chế không kỹ gây sưng lưỡi nôn mửa. Phụ nữ có thai cấm.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/c-na.png",
+    "image": "/images/c-na.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18191,7 +18191,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-cy-cm-np.png",
+    "image": "/images/c-cy-cm-np.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18224,7 +18224,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-bch-nht.png",
+    "image": "/images/cc-bch-nht.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18257,7 +18257,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-gip.png",
+    "image": "/images/cc-gip.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18290,7 +18290,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, khí huyết hư nhược cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-hoa-vng.png",
+    "image": "/images/cc-hoa-vng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18323,7 +18323,7 @@ export const herbs = [
     "warnings": "Phong hàn cảm mạo (sợ lạnh, không đổ mồ hôi) cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-hoa-trng.png",
+    "image": "/images/cc-hoa-trng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18356,7 +18356,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-lin-chi-di.png",
+    "image": "/images/cc-lin-chi-di.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18389,7 +18389,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, tiêu chảy cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-mn.png",
+    "image": "/images/cc-mn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18422,7 +18422,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, ho do phong hàn (lạnh) cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-mc.png",
+    "image": "/images/cc-mc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18455,7 +18455,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng nội phục.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-nhp.png",
+    "image": "/images/cc-nhp.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18488,7 +18488,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cc-nc.png",
+    "image": "/images/cc-nc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18521,7 +18521,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-dn.png",
+    "image": "/images/c-dn.jpg",
     "tags": [],
     "source_refs": [
       {
