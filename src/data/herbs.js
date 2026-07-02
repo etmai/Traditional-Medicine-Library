@@ -18554,7 +18554,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai tuyệt đối cấm dùng (co bóp tử cung mạnh). Khí huyết hư nhược cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-lc.png",
+    "image": "/images/c-lc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18587,7 +18587,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cm-cm.png",
+    "image": "/images/cm-cm.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18620,7 +18620,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cun-ch.png",
+    "image": "/images/cun-ch.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18653,7 +18653,7 @@ export const herbs = [
     "warnings": "Sắn sống chứa HCN gây độc chết người. Bắt buộc phải gọt vỏ, ngâm nước và luộc chín kỹ.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-sn.png",
+    "image": "/images/c-sn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18686,7 +18686,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng, trẻ em cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-bo-cu-bo.png",
+    "image": "/images/cu-bo-cu-bo.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18719,7 +18719,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏng vượng, đang cảm mạo phát sốt, bệnh ngoài da (eczema, mụn nhọt) cấm ăn. Khuyến cáo không nên ăn chó vì lý do bảo vệ động vật và phòng ngừa bệnh dại.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-nhc.png",
+    "image": "/images/cu-nhc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18752,7 +18752,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, phụ nữ có thai cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-kt-cu-kt.png",
+    "image": "/images/cu-kt-cu-kt.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18785,7 +18785,7 @@ export const herbs = [
     "warnings": "Nhựa cây mủ trắng có độc tính kích ứng da nhẹ.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu.png",
+    "image": "/images/cu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18818,7 +18818,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-thn-cu-thn.png",
+    "image": "/images/cu-thn-cu-thn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18851,7 +18851,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-tn-mao-cu-v-tho.png",
+    "image": "/images/cu-tn-mao-cu-v-tho.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18884,7 +18884,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng, tiểu tiện bí ít cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-tch-cu-tch.png",
+    "image": "/images/cu-tch-cu-tch.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18917,7 +18917,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-t-tho-cu-v-tho.png",
+    "image": "/images/cu-t-tho-cu-v-tho.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18950,7 +18950,7 @@ export const herbs = [
     "warnings": "Dương hư (sợ lạnh), tỳ vị hư hàn, phụ nữ có thai cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-v-trng-cu-v-trng.png",
+    "image": "/images/cu-v-trng-cu-v-trng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -18983,7 +18983,7 @@ export const herbs = [
     "warnings": "Chỉ dùng ngoài da hoặc xịt mũi, không uống.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-sao-mao-cu-v-mao.png",
+    "image": "/images/cu-sao-mao-cu-v-mao.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19016,7 +19016,7 @@ export const herbs = [
     "warnings": "Bệnh gan mật, huyết áp cao, đang uống thuốc tây (kháng sinh, an thần) cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/c-thng-t-n-thng-t.png",
+    "image": "/images/c-thng-t-n-thng-t.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19049,7 +19049,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cu-du-cu-tng.png",
+    "image": "/images/cu-du-cu-tng.jpg",
     "tags": [],
     "source_refs": [
       {
