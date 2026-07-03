@@ -19082,7 +19082,7 @@ export const herbs = [
     "warnings": "Thận dương hư, tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-khng.png",
+    "image": "/images/cu-khng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19115,7 +19115,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận. Không dùng liều cao quả tươi (có độc tính nhẹ).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-l-hng.png",
+    "image": "/images/cu-l-hng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19148,7 +19148,7 @@ export const herbs = [
     "warnings": "CỰC ĐỘC. Chứa Euphorbon gây kích ứng mạnh, nôn mửa, xuất huyết. Phụ nữ có thai tuyệt đối cấm. Thể hư nhược cấm. Chống với Cam thảo (Thập bát phản).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-ngu-dng-cu-ngu-to.png",
+    "image": "/images/cu-ngu-dng-cu-ngu-to.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19181,7 +19181,7 @@ export const herbs = [
     "warnings": "Âm hư huyết nhiệt, phong nhiệt tý cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-nhn-dc-hot.png",
+    "image": "/images/cu-nhn-dc-hot.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19214,7 +19214,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-tit-lin.png",
+    "image": "/images/cu-tit-lin.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19247,7 +19247,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai tuyệt đối cấm dùng (co bóp tử cung mạnh).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-tn-tho-cu-tn-tho.png",
+    "image": "/images/cu-tn-tho-cu-tn-tho.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19280,7 +19280,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-t.png",
+    "image": "/images/cu-t.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19313,7 +19313,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cu-t-th.png",
+    "image": "/images/cu-t-th.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19346,7 +19346,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, tiêu chảy cấm dùng do tính lương nhuận tràng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-actis.png",
+    "image": "/images/cy-actis.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19379,7 +19379,7 @@ export const herbs = [
     "warnings": "Giống Ba gạc VN. Hạ áp mạnh, gây khô miệng, buồn nôn. Huyết áp thấp, có thai cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-ba-gc.png",
+    "image": "/images/cy-ba-gc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19412,7 +19412,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-ba-kch.png",
+    "image": "/images/cy-ba-kch.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19445,7 +19445,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, đờm ẩm thấp tỳ cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-bch-b.png",
+    "image": "/images/cy-bch-b.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19478,7 +19478,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng, dương thịnh cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-ban.png",
+    "image": "/images/cy-ban.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19511,7 +19511,7 @@ export const herbs = [
     "warnings": "Quả xanh có vị chát, ăn nhiều gây táo bón. Người huyết áp thấp không dùng lá kéo dài.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-bnh-m.png",
+    "image": "/images/cy-bnh-m.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19544,7 +19544,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-b-d.png",
+    "image": "/images/cy-b-d.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19577,7 +19577,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận. Rễ bông có độc tính nhẹ (Gossypol), không dùng nội phục liều cao kéo dài.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-bng.png",
+    "image": "/images/cy-bng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19610,7 +19610,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-bng-phn.png",
+    "image": "/images/cy-bng-phn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19643,7 +19643,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-b-mm.png",
+    "image": "/images/cy-b-mm.jpg",
     "tags": [],
     "source_refs": [
       {
