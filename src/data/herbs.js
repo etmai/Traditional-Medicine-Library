@@ -19676,7 +19676,7 @@ export const herbs = [
     "warnings": "CỰC KỲ ĐỘC. Chứa Atropine, Scopolamine gây đồng tử giãn, ảo giác, hôn mê, liệt hô hấp tử vong. Phụ nữ có thai tuyệt đối cấm. Người glaucoma cấm. Chỉ dùng dưới giám sát BS YHCT chuyên khoa.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-c-dc-dc.png",
+    "image": "/images/cy-c-dc-dc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19709,7 +19709,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, tiêu chảy cấm dùng. Dùng liều cao gây nôn mửa, tăng huyết áp.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-cau.png",
+    "image": "/images/cy-cau.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19742,7 +19742,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC. Dùng quá liều gây miệng tê, tiết nước bọt nhiều, co giật, suy hô hấp. Phụ nữ có thai tuyệt đối cấm dùng. Rất hay nhầm lẫn với các loại dây leo khác, sai thuốc rất nguy hiểm.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-cau-dng.png",
+    "image": "/images/cy-cau-dng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19775,7 +19775,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-cht.png",
+    "image": "/images/cy-cht.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19808,7 +19808,7 @@ export const herbs = [
     "warnings": "Nhựa cây (mủ trắng) có độc tính kích ứng da, dính vào mắt gây nguy hiểm. Phụ nữ có thai cấm dùng nội phục.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-cha-nha.png",
+    "image": "/images/cy-cha-nha.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19841,7 +19841,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-chi-xu.png",
+    "image": "/images/cy-chi-xu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19874,7 +19874,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-chng-bu-cy-dng-bu.png",
+    "image": "/images/cy-chng-bu-cy-dng-bu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19907,7 +19907,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng phấn hoa (tính hoạt huyết).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-c-nn.png",
+    "image": "/images/cy-c-nn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19940,7 +19940,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC. Quả ké chứa Glycoside độc cho gan và cơ tim. Phải sao vàng chín kỹ. Phụ nữ có thai cấm dùng. Không dùng liều cao kéo dài.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-ct-kh.png",
+    "image": "/images/cy-ct-kh.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -19973,7 +19973,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận (tính hoạt huyết).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-ci-xay.png",
+    "image": "/images/cy-ci-xay.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20006,7 +20006,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-cm-np.png",
+    "image": "/images/cy-cm-np.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20039,7 +20039,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-cm-ru.png",
+    "image": "/images/cy-cm-ru.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20072,7 +20072,7 @@ export const herbs = [
     "warnings": "Hạt củ đậu CỰC ĐỘC (chứa Rotenone), tuyệt đối cấm dùng hạt uống trong. Củ ăn sống nhiều dễ đầy bụng sinh thấp.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-c-du.png",
+    "image": "/images/cy-c-du.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20105,7 +20105,7 @@ export const herbs = [
     "warnings": "Âm hư tân dịch hao tổn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-c-khi.png",
+    "image": "/images/cy-c-khi.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20138,7 +20138,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-cc-bch-nht.png",
+    "image": "/images/cy-cc-bch-nht.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20171,7 +20171,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-d-cm.png",
+    "image": "/images/cy-d-cm.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20204,7 +20204,7 @@ export const herbs = [
     "warnings": "Thực tích (đầy bụng, táo bón do ăn quá no) cấm ăn nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-d.png",
+    "image": "/images/cy-d.jpg",
     "tags": [],
     "source_refs": [
       {
