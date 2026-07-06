@@ -70,5 +70,11 @@ export const chapters = [
     title: "Chương XII: Lý luận các phép Bổ trong Phương tễ học",
     description: "Nguyên tắc chẩn trị và cơ chế phối ngũ các nhóm bài thuốc bổ ích: Bổ Khí, Bổ Huyết, Bổ Âm, Bổ Dương.",
     page_range: "Lý luận Phương tễ"
+  },
+  {
+    id: "tieu-hoc-thao-duoc",
+    title: "Chương XIII: Vườn Thảo Dược Nhí – Bé Học Dược Lý Nam Y",
+    description: "Bài học sinh động, dễ hiểu giới thiệu về cân bằng cơ thể và các cây thuốc nam quanh nhà dành cho học sinh tiểu học.",
+    page_range: "Nam y cho bé"
   }
 ];

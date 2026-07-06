@@ -16,6 +16,7 @@ import saponin from '../data/ocr/saponin.md?raw';
 import haHuyetAp from '../data/ocr/ha_huyet_ap.md?raw';
 import docTinh from '../data/ocr/doc_tinh.md?raw';
 import phuongTeBo from '../data/ocr/phuong_te_bo.md?raw';
+import tieuHocThaoDuoc from '../data/ocr/tieu_hoc_thao_duoc.md?raw';
 
 const markdownMap = {
   'phan_chung': phanChung,
@@ -30,6 +31,7 @@ const markdownMap = {
   'ha-huyet-ap': haHuyetAp,
   'doc-tinh': docTinh,
   'phuong_te_bo': phuongTeBo,
+  'tieu-hoc-thao-duoc': tieuHocThaoDuoc,
 };
 
 const BookLibrary = ({ initialChapter }) => {

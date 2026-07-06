@@ -20237,7 +20237,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-da-cn.png",
+    "image": "/images/cy-da-cn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20270,7 +20270,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-da-lng.png",
+    "image": "/images/cy-da-lng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20303,7 +20303,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng sắc uống dài ngày.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-di.png",
+    "image": "/images/cy-di.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20336,7 +20336,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-dnh-dnh.png",
+    "image": "/images/cy-dnh-dnh.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20369,7 +20369,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-dn-gnh.png",
+    "image": "/images/cy-dn-gnh.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20402,7 +20402,7 @@ export const herbs = [
     "warnings": "Ít dùng trong y học cổ truyền chính thống, chủ yếu kinh nghiệm dân gian.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-dui-cng.png",
+    "image": "/images/cy-dui-cng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20435,7 +20435,7 @@ export const herbs = [
     "warnings": "Chủ yếu dùng ngoài da. Hạn chế uống trong do chưa có nhiều nghiên cứu độc tính.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-dui-phng.png",
+    "image": "/images/cy-dui-phng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20468,7 +20468,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC CAO. Tinh dầu chứa Ascaridole gây tổn thương gan, hệ thần kinh, nôn mửa, co giật nếu dùng quá liều. Phụ nữ có thai tuyệt đối cấm. Trẻ em dưới 5 tuổi không dùng. Hiện nay y học hiện đại không khuyến khích dùng do có các loại thuốc tây trừ giun an toàn hơn.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-du-giun.png",
+    "image": "/images/cy-du-giun.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20501,7 +20501,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận (tính lương huyết hoạt lạc). Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-da-thm.png",
+    "image": "/images/cy-da-thm.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20534,7 +20534,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai tuyệt đối cấm dùng (do tính hoạt huyết thông lạc mạnh gây co bóp tử cung). Người huyết áp cao cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-gnh.png",
+    "image": "/images/cy-gnh.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20567,7 +20567,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-gai-cua.png",
+    "image": "/images/cy-gai-cua.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20600,7 +20600,7 @@ export const herbs = [
     "warnings": "Chứa chất Oxalate calcium (kim tiêm canxi), nếu ăn sống hoặc sắc chưa chín kỹ gây ngứa rát cổ họng, sưng lưỡi, nôn mửa. Phải nấu/sắc thật kỹ. Phụ nữ có thai tuyệt đối cấm dùng nội phục.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-hm-ch.png",
+    "image": "/images/cy-hm-ch.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20633,7 +20633,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-hoa-di.png",
+    "image": "/images/cy-hoa-di.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20666,7 +20666,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-hoa-he.png",
+    "image": "/images/cy-hoa-he.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20699,7 +20699,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-hoa-nhi.png",
+    "image": "/images/cy-hoa-nhi.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20732,7 +20732,7 @@ export const herbs = [
     "warnings": "Hạt mít sống có độc tính nhẹ, gây đầy bụng nôn mửa. Phải luộc/sấy chín kỹ mới được ăn.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-hoa-thy-tin.png",
+    "image": "/images/cy-hoa-thy-tin.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20765,7 +20765,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-huyt-d.png",
+    "image": "/images/cy-huyt-d.jpg",
     "tags": [],
     "source_refs": [
       {
