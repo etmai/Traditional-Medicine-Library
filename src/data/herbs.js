@@ -20798,7 +20798,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC. Phải sao vàng chín kỹ. Phụ nữ có thai cấm dùng.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-k-du-nga.png",
+    "image": "/images/cy-k-du-nga.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20831,7 +20831,7 @@ export const herbs = [
     "warnings": "Hạt sống cực độc (chứa chất Mimosine gây rụng tóc, suy gan, vô sinh). Bắt buộc phải sao thật vàng để phá hủy độc tố. Phụ nữ có thai tuyệt đối cấm dùng hạt.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-keo-giu.png",
+    "image": "/images/cy-keo-giu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20864,7 +20864,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-khim.png",
+    "image": "/images/cy-khim.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20897,7 +20897,7 @@ export const herbs = [
     "warnings": "Tính nhuận tràng mạnh, người tỳ vị hư hàn, tiêu chảy, phụ nữ có thai cấm dùng sắc uống.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-kim-vng.png",
+    "image": "/images/cy-kim-vng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20930,7 +20930,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng (dễ gây tiêu chảy).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-k-ninh.png",
+    "image": "/images/cy-k-ninh.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20963,7 +20963,7 @@ export const herbs = [
     "warnings": "An toàn, dùng làm thực phẩm/thức uống tùy ý.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-l-da.png",
+    "image": "/images/cy-l-da.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -20996,7 +20996,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-l-men.png",
+    "image": "/images/cy-l-men.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21029,7 +21029,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng nội phục (tính thông kinh hoạt huyết mạnh).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-l-mng-tay.png",
+    "image": "/images/cy-l-mng-tay.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21062,7 +21062,7 @@ export const herbs = [
     "warnings": "CỰC KỲ ĐỘC. Toàn cây đều độc, rễ và lá là độc nhất. Chứa Alkaloid (Gelsemine) gây ức chế hệ thần kinh trung ương, liệt cơ hô hấp, tử vong rất nhanh (chỉ cần nhai 1-2 lá non có thể chết người). Tuyệt đối cấm tự ý dùng nội phục. Phụ nữ có thai, trẻ em tuyệt đối cấm dùng cả trong lẫn ngoài.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-l-ngn.png",
+    "image": "/images/cy-l-ngn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21095,7 +21095,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-l-tit-d.png",
+    "image": "/images/cy-l-tit-d.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21128,7 +21128,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-la.png",
+    "image": "/images/cy-la.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21161,7 +21161,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-lai.png",
+    "image": "/images/cy-lai.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21194,7 +21194,7 @@ export const herbs = [
     "warnings": "Gỗ và vỏ lim có chứa Alkaloid (Erythrophleine) có độc tính tác động lên tim, có thể gây ngộ độc nếu sắc đặc uống. Không dùng uống kéo dài.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-lim.png",
+    "image": "/images/cy-lim.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21227,7 +21227,7 @@ export const herbs = [
     "warnings": "Có độc tính nhẹ (nhánh họ Ba đậu), hạn chế dùng nội phục liều cao. Phụ nữ có thai cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-lm.png",
+    "image": "/images/cy-lm.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21260,7 +21260,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-lng-khi.png",
+    "image": "/images/cy-lng-khi.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21293,7 +21293,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng (có tính kích thích co bóp tử cung).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-mc-c.png",
+    "image": "/images/cy-mc-c.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21326,7 +21326,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng (hoạt huyết thông kinh mạnh). Khí huyết hư nhược cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-m-tin-tho.png",
+    "image": "/images/cy-m-tin-tho.jpg",
     "tags": [],
     "source_refs": [
       {
