@@ -21359,7 +21359,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-mo-g-d.png",
+    "image": "/images/cy-mo-g-d.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21392,7 +21392,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, không có thực nhiệt cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-mo-g-trng.png",
+    "image": "/images/cy-mo-g-trng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21425,7 +21425,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-me-rng.png",
+    "image": "/images/cy-me-rng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21458,7 +21458,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC TÍNH TRÊN GAN. Chứa Pyrrolizidine alkaloids gây tổn thương gan, xơ gan nếu dùng nội phục liều cao hoặc kéo dài. Tuyệt đối không sắc nước uống thay trà dài ngày. Phụ nữ có thai cấm dùng.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-m-qu.png",
+    "image": "/images/cy-m-qu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21491,7 +21491,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-mt-l.png",
+    "image": "/images/cy-mt-l.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21524,7 +21524,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-mp-st.png",
+    "image": "/images/cy-mp-st.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21557,7 +21557,7 @@ export const herbs = [
     "warnings": "Táo bón, thực nhiệt chưa rõ cấm dùng (do tính chát thu liễm).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-ngu-tt.png",
+    "image": "/images/cy-ngu-tt.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21590,7 +21590,7 @@ export const herbs = [
     "warnings": "Người táo bón hạn chế ăn quả (có vị chát). Huyết áp thấp không dùng lá kéo dài.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-nht-ty.png",
+    "image": "/images/cy-nht-ty.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21623,7 +21623,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-np-m.png",
+    "image": "/images/cy-np-m.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21656,7 +21656,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng (tính nhuận tràng và hoạt huyết). Người huyết áp thấp cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-nhu.png",
+    "image": "/images/cy-nhu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21689,7 +21689,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-ong-bu.png",
+    "image": "/images/cy-ong-bu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21722,7 +21722,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-phng.png",
+    "image": "/images/cy-phng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21755,7 +21755,7 @@ export const herbs = [
     "warnings": "Đại nhiệt, động huyết. Âm hư hỏng vượng, người đang sốt, xuất huyết, phụ nữ có thai tuyệt đối cấm dùng. Chống với Xích thạch chi (Thập bát phản).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-qu.png",
+    "image": "/images/cy-qu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21788,7 +21788,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏng vượng, nhiệt táo cấm dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-rau-ci.png",
+    "image": "/images/cy-rau-ci.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21821,7 +21821,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn (hay lạnh bụng tiêu chảy) cấm dùng. Không dùng sắc nước thay trà uống dài ngày ở người huyết áp thấp.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-rau-m.png",
+    "image": "/images/cy-rau-m.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21854,7 +21854,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-rau-m-ng.png",
+    "image": "/images/cy-rau-m-ng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21887,7 +21887,7 @@ export const herbs = [
     "warnings": "TUYỆT ĐỐI KHÔNG UỐNG NƯỚC ÉP RAU NGÓT SỐNG LIỀU CAO/KÉO DÀI. Chứa Papaverine gây bệnh phổi kẽ (Bronchiolitis obliterans) khó chữa, ho suyễn khó thở kéo dài, suy giảm chức năng sinh dục. Rau ngót nấu chín thì an toàn.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-rau-ngt.png",
+    "image": "/images/cy-rau-ngt.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21920,7 +21920,7 @@ export const herbs = [
     "warnings": "Người huyết áp thấp không dùng kéo dài. Tỳ vị hư hàn cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-ru-mo.png",
+    "image": "/images/cy-ru-mo.jpg",
     "tags": [],
     "source_refs": [
       {
