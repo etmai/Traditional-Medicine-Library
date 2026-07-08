@@ -21953,7 +21953,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-rm-nao.png",
+    "image": "/images/cy-rm-nao.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -21986,7 +21986,7 @@ export const herbs = [
     "warnings": "Người táo bón cấm dùng (do vị chát thu liễm).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-sai.png",
+    "image": "/images/cy-sai.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22019,7 +22019,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-sang.png",
+    "image": "/images/cy-sang.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22052,7 +22052,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-si.png",
+    "image": "/images/cy-si.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22085,7 +22085,7 @@ export const herbs = [
     "warnings": "CÓ ĐỘC CAO. Hạt sơn chứa chất độc gây nôn mửa, tiêu chảy, suy nhược. Phụ nữ có thai tuyệt đối cấm. Dầu sơn gây kích ứng da dị ứng, dính vào mắt gây mù lòa. Chỉ dùng ngoại dụng hoặc nội phục liều rất nhỏ theo đơn bác sĩ.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-sn.png",
+    "image": "/images/cy-sn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22118,7 +22118,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cẩn thận.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-sa.png",
+    "image": "/images/cy-sa.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22151,7 +22151,7 @@ export const herbs = [
     "warnings": "CỰC ĐỘC. Hạt và dầu chứa Acid crotonic, causing severe vomiting, diarrhea, shock. Phụ nữ có thai tuyệt đối cấm. Dầu gây kích ứng da mạnh. Không tự ý dùng nội phục.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-sng-b.png",
+    "image": "/images/cy-sng-b.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22184,7 +22184,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-tha-l.png",
+    "image": "/images/cy-tha-l.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22217,7 +22217,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn, kinh nguyệt đang hành cấm dùng nhiều.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-thch-den.png",
+    "image": "/images/cy-thch-den.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22250,7 +22250,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-thch-lu.png",
+    "image": "/images/cy-thch-lu.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22283,7 +22283,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng, tiểu vàng táo bón cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-then.png",
+    "image": "/images/cy-then.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22316,7 +22316,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng sắc uống dài ngày.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-thng-thin.png",
+    "image": "/images/cy-thng-thin.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22349,7 +22349,7 @@ export const herbs = [
     "warnings": "Âm hư hỏng vượng cấm dùng.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-thi-rut.png",
+    "image": "/images/cy-thi-rut.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22382,7 +22382,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-t-mc.png",
+    "image": "/images/cy-t-mc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22415,7 +22415,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-t-hng.png",
+    "image": "/images/cy-t-hng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22448,7 +22448,7 @@ export const herbs = [
     "warnings": "Tỳ vị hàn, tiêu chảy, ho do phong hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-trc-bch-dip.png",
+    "image": "/images/cy-trc-bch-dip.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22481,7 +22481,7 @@ export const herbs = [
     "warnings": "Phụ nữ có thai cấm dùng (có tính kích thích co bóp tử cung).",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-trinh-n.png",
+    "image": "/images/cy-trinh-n.jpg",
     "tags": [],
     "source_refs": [
       {
