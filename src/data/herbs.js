@@ -22514,7 +22514,7 @@ export const herbs = [
     "warnings": "CỰC KỲ ĐỘC. Toàn cây, hoa, lá, hạt đều chứa Glycoside tim (Oleandrin). Ăn phải hoặc sắc uống nhầm liều cao gây nôn mửa, chậm nhịp tim, block cơ tim, ngộp thở, tử vong nhanh chóng. Chỉ dùng nội phục under strict medical supervision. Phụ nữ có thai tuyệt đối cấm. Dùng ngoài da trị nấm ngứa thì an toàn hơn nhưng vẫn phải cẩn thận không bôi vào vết thương hở.",
     "safety_level": "toxic",
     "is_toxic": true,
-    "image": "/images/cy-trc-do.png",
+    "image": "/images/cy-trc-do.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22547,7 +22547,7 @@ export const herbs = [
     "warnings": "Tỳ vị hư hàn cấm dùng.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-trng-ch.png",
+    "image": "/images/cy-trng-ch.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22580,7 +22580,7 @@ export const herbs = [
     "warnings": "",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/cy-vi-voi.png",
+    "image": "/images/cy-vi-voi.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22613,7 +22613,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn thận trọng. Không dùng quá liều kéo dài. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng.Liều dùng: Lá khô: 10-20g/ngày sắc uống. Lá tươi: 20-40g. Dùng ngoài: lượng tùy ý.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/da-voi.png",
+    "image": "/images/da-voi.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22646,7 +22646,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn nặng nên phối thêm Gừng, Nhục quế. Không dùng quá liều kéo dài. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng.Liều dùng: Khô: 20-40g/ngày sắc uống. Tươi: 50-100g. Dùng lâu dài cần theo dõi.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/d-cm.png",
+    "image": "/images/d-cm.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22679,7 +22679,7 @@ export const herbs = [
     "warnings": "Tính ôn, người âm hư hỏa vượng, có nhiệt không dùng quá liều. Phụ nữ có thai thận trọng. Không dùng hoa chưa nở hoặc đã héo.Liều dùng: Hoa khô: 3-10g/ngày hãm trà. Vỏ/lá: 6-12g sắc uống.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/d-hp.png",
+    "image": "/images/d-hp.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22712,7 +22712,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn thận trọng. Không ăn hoa quá nhiều gây lạnh bụng. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng rễ.Liều dùng: Hoa/lá khô: 10-20g/ngày. Rễ: 6-12g. Hoa tươi ăn: tùy ý.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/d-lai-hng.png",
+    "image": "/images/d-lai-hng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22745,7 +22745,7 @@ export const herbs = [
     "warnings": "Tính hàn, người tỳ vị hư hàn, tiêu chảy không dùng. Người khí hư, biểu hư tự hãn không dùng. Phụ nữ có thai thận trọng.Liều dùng: 6-12g/ngày dạng thuốc sắc hoặc hoàn tán.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/d-ngu-bang.png",
+    "image": "/images/d-ngu-bang.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22778,7 +22778,7 @@ export const herbs = [
     "warnings": "Người có thực nhiệt, táo bón không dùng. Không dùng chung với Ô đầu (theo thập bát phản). Phụ nữ có thai thận trọng.Liều dùng: Khô: 3-10g/ngày sắc uống hoặc tán bột. Dùng ngoài: lượng tùy ý.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/d-quan-mn.png",
+    "image": "/images/d-quan-mn.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22811,7 +22811,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, di tinh do hư hỏa không dùng. Không dùng quá liều gây nóng trong, chóng mặt. Phụ nữ có thai thận trọng.Liều dùng: Khô: 6-12g/ngày sắc uống hoặc ngâm rượu.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dm-dng-hoc.png",
+    "image": "/images/dm-dng-hoc.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22844,7 +22844,7 @@ export const herbs = [
     "warnings": "Tính mát, người tỳ vị hư hàn, tiêu chảy không dùng quá liều. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng rễ.Liều dùng: Hoa/lá khô: 10-20g/ngày. Rễ: 6-12g. Dùng ngoài: lượng tùy ý.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dm-bt.png",
+    "image": "/images/dm-bt.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22877,7 +22877,7 @@ export const herbs = [
     "warnings": "Không uống dấm nguyên chất, phải pha loãng. Người loét dạ dày, trào ngược, men răng yếu thận trọng. Không dùng quá liều gây kích ứng niêm mạc.Liều dùng: Nội phục: 10-30ml/ngày pha loãng với nước. Dùng ngoài: pha loãng 1:3-1:5 với nước.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dm-trng.png",
+    "image": "/images/dm-trng.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22910,7 +22910,7 @@ export const herbs = [
     "warnings": "Người tỳ vị hư hàn, tiêu chảy không dùng. Không dùng quá liều kéo dài gây tổn thương tỳ dương. Phụ nữ có thai thận trọng.Liều dùng: 6-12g/ngày dạng thuốc sắc. Dùng ngoài: tán bột rắc hoặc giã đắp.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dnh-dnh.png",
+    "image": "/images/dnh-dnh.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22943,7 +22943,7 @@ export const herbs = [
     "warnings": "Người âm hư hỏa vượng, không có phong thấp ứ trệ không dùng. Phụ nữ có thai thận trọng do có tác dụng hoạt huyết. Không dùng quá liều kéo dài.Liều dùng: Rễ/vỏ khô: 6-12g/ngày sắc uống. Lá tươi: 15-30g. Dùng ngoài: lượng tùy ý.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/dnh-xay.png",
+    "image": "/images/dnh-xay.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -22976,7 +22976,7 @@ export const herbs = [
     "warnings": "Tính mát, người tỳ vị hư hàn, tiêu chảy không ăn quá nhiều quả. Phụ nữ có thai tham vấn thầy thuốc trước khi dùng rễ.Liều dùng: Quả tươi: ăn tùy ý. Quả khô: 10-15g. Lá/rễ: 10-20g sắc uống.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/du.png",
+    "image": "/images/du.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -23009,7 +23009,7 @@ export const herbs = [
     "warnings": "⚠️⚠️ KHÔNG TỰ Ý SỬ DỤNG khi chưa xác định chính xác loài thực vật. Có nguy cơ nhầm lẫn với loài có độc tính. Luôn tham vấn chuyên gia có kinh nghiệm tại địa phương.Liều dùng: Chưa có khuyến cáo.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/du-cang.png",
+    "image": "/images/du-cang.jpg",
     "tags": [],
     "source_refs": [
       {
@@ -23042,7 +23042,7 @@ export const herbs = [
     "warnings": "⚠️⚠️ THÔNG TIN CHƯA ĐƯỢC XÁC MINH - Tuyệt đối không tự ý sử dụng nội phục. Có thể nhầm với Xoan (có độc). Luôn tham vấn thầy thuốc am hiểu thực vật địa phương.Liều dùng: Chưa có khuyến cáo chính thức.",
     "safety_level": "normal",
     "is_toxic": false,
-    "image": "/images/du-gia-xoan.png",
+    "image": "/images/du-gia-xoan.jpg",
     "tags": [],
     "source_refs": [
       {
