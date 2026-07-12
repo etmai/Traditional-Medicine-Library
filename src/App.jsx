@@ -206,7 +206,13 @@ function App() {
         return <CombinationSystem herbs={herbs} />;
       case 'prescription':
         if (isHerbDataLoading) return renderDataLoading();
-        return <PrescriptionLibrary herbs={herbs} onSelectHerb={handleSelectHerb} />;
+        return (
+          <PrescriptionLibrary
+            herbs={herbs}
+            onSelectHerb={handleSelectHerb}
+            onNavigateToMeridian={openMeridianLibrary}
+          />
+        );
       case 'book':
         return <BookLibrary initialChapter={targetChapter} />;
       case 'meridians':

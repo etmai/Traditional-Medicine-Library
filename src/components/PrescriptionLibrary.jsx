@@ -1,7 +1,7 @@
-﻿import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { prescriptions } from '../data/prescriptions';
 
-function PrescriptionLibrary({ herbs = [], onSelectHerb }) {
+function PrescriptionLibrary({ herbs = [], onSelectHerb, onNavigateToMeridian }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [category, setCategory] = useState('all');
   const [activeTab, setActiveTab] = useState('all'); // 'all', 'classical', 'nam_duoc', 'y_tong_tam_linh'
@@ -61,6 +61,36 @@ function PrescriptionLibrary({ herbs = [], onSelectHerb }) {
   );
 
   const findHerb = (name) => herbByName.get(name);
+
+  // Helper to calculate calculations stats for the prescription ingredients
+  const analyzePrescription = (ingredients) => {
+    const analysis = {
+      meridians: {},
+      properties: {},
+      totalHered: 0
+    };
+
+    ingredients.forEach(ing => {
+      const h = findHerb(ing.name);
+      if (h) {
+        analysis.totalHered++;
+        // Properties
+        if (h.properties) {
+          const prop = h.properties.trim();
+          analysis.properties[prop] = (analysis.properties[prop] || 0) + 1;
+        }
+        // Meridians
+        if (h.meridians) {
+          h.meridians.split(',').forEach(m => {
+            const cleanM = m.trim();
+            analysis.meridians[cleanM] = (analysis.meridians[cleanM] || 0) + 1;
+          });
+        }
+      }
+    });
+
+    return analysis;
+  };
 
   // Dynamic symptom suggestions based on active tab
   const symptomSuggestions = useMemo(() => {
@@ -252,6 +282,95 @@ function PrescriptionLibrary({ herbs = [], onSelectHerb }) {
 
             {expandedId === prescription.id && (
               <div className="prescription-details-panel">
+                {/* 📊 PHÂN TÍCH DƯỢC TÍNH & QUY KINH CỦA BÀI THUỐC */}
+                {prescription.ingredients && prescription.ingredients.length > 0 && (
+                  (() => {
+                    const analysis = analyzePrescription(prescription.ingredients);
+                    if (analysis.totalHered > 0) {
+                      return (
+                        <div className="detail-section formula-analysis-box" style={{ background: 'rgba(107, 68, 35, 0.04)', padding: '16px', borderRadius: '10px', marginBottom: '16px', border: '1px dashed rgba(107, 68, 35, 0.15)' }}>
+                          <strong className="detail-title" style={{ display: 'block', marginBottom: '10px', fontSize: '14.5px', color: 'var(--primary-color)' }}>
+                            📊 Thống kê Dược tính & Quy kinh bài thuốc
+                          </strong>
+                          
+                          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
+                            {/* Phân tích Tính chất */}
+                            <div>
+                              <span style={{ fontSize: '11px', fontWeight: 800, color: 'var(--text-muted)', display: 'block', marginBottom: '6px' }}>XU HƯỚNG TÍNH CHẤT (TÍNH):</span>
+                              <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
+                                {Object.entries(analysis.properties).map(([prop, count]) => (
+                                  <span key={prop} className="prop-tag" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)', margin: 0 }}>
+                                    {prop}: {count} vị
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+
+                            {/* Phân tích Quy Kinh */}
+                            <div>
+                              <span style={{ fontSize: '11px', fontWeight: 800, color: 'var(--text-muted)', display: 'block', marginBottom: '6px' }}>KINH MẠCH TÁC ĐỘNG (Bấm để xem kinh lạc):</span>
+                              <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
+                                {Object.entries(analysis.meridians)
+                                  .sort((a, b) => b[1] - a[1]) // Sort by count descending
+                                  .map(([mName, count]) => {
+                                    const getMeridianId = (n) => {
+                                      const normalized = n.toLowerCase();
+                                      if (normalized.includes("tâm bào")) return "pc";
+                                      if (normalized.includes("phế")) return "lu";
+                                      if (normalized.includes("đại trường") || normalized.includes("đại tràng")) return "li";
+                                      if (normalized.includes("vị") || normalized.includes("dạ dày")) return "st";
+                                      if (normalized.includes("tỳ") || normalized.includes("lá lách")) return "sp";
+                                      if (normalized.includes("tâm")) return "ht";
+                                      if (normalized.includes("tiểu trường") || normalized.includes("tiểu tràng")) return "si";
+                                      if (normalized.includes("bàng quang")) return "bl";
+                                      if (normalized.includes("thận")) return "ki";
+                                      if (normalized.includes("tam tiêu")) return "te";
+                                      if (normalized.includes("đởm") || normalized.includes("mật")) return "gb";
+                                      if (normalized.includes("can") || normalized.includes("gan")) return "lr";
+                                      if (normalized.includes("nhâm")) return "cv";
+                                      if (normalized.includes("đốc")) return "gv";
+                                      return null;
+                                    };
+                                    const mId = getMeridianId(mName);
+                                    if (mId && onNavigateToMeridian) {
+                                      return (
+                                        <button
+                                          key={mName}
+                                          className="meridian-link-btn"
+                                          onClick={() => onNavigateToMeridian(mId)}
+                                          type="button"
+                                          style={{
+                                            background: 'rgba(107, 68, 35, 0.08)',
+                                            border: 'none',
+                                            borderRadius: '6px',
+                                            padding: '2px 6px',
+                                            fontSize: '11px',
+                                            fontWeight: '700',
+                                            color: 'var(--primary-color)',
+                                            cursor: 'pointer',
+                                            transition: 'var(--transition)'
+                                          }}
+                                        >
+                                          {mName} ({count})
+                                        </button>
+                                      );
+                                    }
+                                    return (
+                                      <span key={mName} style={{ fontSize: '11px', padding: '2px 6px', background: '#f3f4f6', borderRadius: '6px' }}>
+                                        {mName} ({count})
+                                      </span>
+                                    );
+                                  })}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    }
+                    return null;
+                  })()
+                )}
+
                 <div className="detail-section">
                   <strong className="detail-title">
                     🌿 Phối ngũ & Cơ chế tác dụng
