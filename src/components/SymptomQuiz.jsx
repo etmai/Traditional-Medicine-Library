@@ -1,210 +1,390 @@
 import React, { useState, useMemo } from 'react';
 import './SymptomQuiz.css';
 
-// 6 interactive questions with weighted score options representing Chinese Medicine syndromes
+// 12 Comprehensive diagnostic questions mapping to detailed Chinese Medicine syndromes
 const quizQuestions = [
   {
     id: 1,
-    question: "1. Bạn thường có cảm giác thân nhiệt như thế nào?",
+    question: "1. Về thân nhiệt: Bạn thường có cảm giác sợ nóng hay lạnh nhiều hơn?",
     options: [
       {
-        text: "Sợ lạnh, tay chân thường xuyên lạnh buốt, thích đắp chăn ấm",
-        scores: { deficiencyCold: 3, qiDeficiency: 1 }
+        text: "Sợ lạnh, tay chân lạnh buốt, thích uống đồ ấm nóng, đắp chăn ấm",
+        scores: { deficiencyCold: 3, kidneyYang: 3 }
       },
       {
-        text: "Sợ nóng, người hay bứt rứt bốc hỏa, lòng bàn tay bàn chân nóng",
-        scores: { excessHeat: 3 }
+        text: "Sợ nóng, người hâm hấp bứt rứt, nóng bừng mặt chiều tối, lòng bàn tay chân nóng râm ran",
+        scores: { kidneyYin: 3 }
       },
       {
-        text: "Bình thường, thích nghi tốt với cả thời tiết nóng và lạnh",
+        text: "Lúc nóng lúc lạnh xen kẽ chập chờn, kèm theo ngực sườn đầy tức, hay thở dài bực dọc",
+        scores: { liverStagnation: 3 }
+      },
+      {
+        text: "Thân nhiệt ôn hòa, thích nghi tốt với thời tiết nóng lạnh bình thường",
         scores: { balanced: 2 }
       }
     ]
   },
   {
     id: 2,
-    question: "2. Thói quen ăn uống và cảm giác khát nước của bạn ra sao?",
+    question: "2. Về mồ hôi: Tình trạng tiết mồ hôi của bạn như thế nào?",
     options: [
       {
-        text: "Thích uống nước ấm, thích ăn đồ nóng, ăn đồ lạnh dễ đầy bụng, đi lỏng",
-        scores: { deficiencyCold: 2, spleenStomach: 2 }
+        text: "Tự đổ mồ hôi ban ngày dù không vận động nhiều, ra gió dễ gai lạnh hắt hơi",
+        scores: { lungQiWeakness: 3, qiDeficiency: 2 }
       },
       {
-        text: "Thường xuyên khát nước, thích uống nước đá/nước lạnh, mau đói",
-        scores: { excessHeat: 3, spleenStomach: 1 }
+        text: "Đổ mồ hôi trộm ban đêm khi ngủ say, lúc tỉnh dậy mồ hôi tự ngưng, người khô ráo dần",
+        scores: { kidneyYin: 3 }
       },
       {
-        text: "Ăn uống bình thường, không khát nước nhiều, tiêu hóa ổn định",
+        text: "Ra mồ hôi nhiều ở lòng bàn tay bàn chân kèm lòng cồn cào bứt rứt khó ngủ",
+        scores: { kidneyYin: 2, liverStagnation: 1 }
+      },
+      {
+        text: "Mồ hôi tiết ra bình thường khi vận động nóng, không tự đổ mồ hôi bất thường",
         scores: { balanced: 2 }
       }
     ]
   },
   {
     id: 3,
-    question: "3. Mức độ năng lượng, sức bền và hơi thở hàng ngày của bạn?",
+    question: "3. Về đầu và thân: Bạn thường gặp trạng thái hoa mắt chóng mặt hay đau nhức cơ thể ra sao?",
     options: [
       {
-        text: "Rất dễ mệt mỏi, hụt hơi khi nói nhiều, tự ra mồ hôi dù không vận động nặng",
-        scores: { qiDeficiency: 3, lungQi: 2 }
+        text: "Thường xuyên hoa mắt, chóng mặt khi đứng lên ngồi xuống mắt tối sầm, da dẻ nhợt nhạt",
+        scores: { heartSpleenDef: 3, qiDeficiency: 1 }
       },
       {
-        text: "Người nặng nề, uể oải, ngủ nhiều vẫn thấy thiếu tỉnh táo, ngực sườn đầy chướng",
-        scores: { spleenStomach: 1, lungQi: 1 }
+        text: "Đầu nặng trĩu như bị cuốn vải chặt, người nặng nề uể oải như đeo đá, bắp thịt mỏi mệt",
+        scores: { phlegmDamp: 3 }
       },
       {
-        text: "Tinh thần tỉnh táo, tràn đầy năng lượng, nhịp thở điều hòa",
-        scores: { balanced: 3 }
-      }
-    ]
-  },
-  {
-    id: 4,
-    question: "4. Tình trạng tiêu hóa và đại tiểu tiện của bạn gần đây?",
-    options: [
-      {
-        text: "Ăn uống chậm tiêu, bụng hay chướng ọc ạch, phân thường sống, lỏng nát",
-        scores: { spleenStomach: 3, deficiencyCold: 1 }
+        text: "Đầu đau căng giật từng cơn ở vùng đỉnh hoặc hai bên thái dương kèm miệng khô đắng",
+        scores: { liverStagnation: 2, kidneyYin: 1 }
       },
       {
-        text: "Dễ bị táo bón, phân khô kết cứng, tiểu tiện nước vàng đậm hoặc đỏ sẻn",
-        scores: { excessHeat: 3, spleenStomach: 1 }
-      },
-      {
-        text: "Đại tiện đều đặn phân thành khuôn, nước tiểu trong vàng nhạt",
+        text: "Đầu óc thanh thản minh mẫn, cơ thể nhẹ nhàng sảng khoái",
         scores: { balanced: 2 }
       }
     ]
   },
   {
-    id: 5,
-    question: "5. Chất lượng giấc ngủ và tâm trạng của bạn thế nào?",
+    id: 4,
+    question: "4. Về ăn uống: Bạn cảm thấy khẩu vị và sự thèm ăn thế nào?",
     options: [
       {
-        text: "Khó vào giấc, ngủ hay mơ, dễ giật mình hồi hộp lo âu, trí nhớ giảm sút",
-        scores: { qiDeficiency: 2, balanced: -1 }
+        text: "Ăn không ngon miệng, miệng nhạt nhẽo, ăn xong bụng chướng ọc ạch rất lâu tiêu, phân sống nát",
+        scores: { spleenStomachCold: 3, qiDeficiency: 2 }
       },
       {
-        text: "Ngủ chập chờn, bứt rứt, hay tỉnh giấc giữa đêm, dễ nổi giận cáu gắt",
-        scores: { excessHeat: 2, qiDeficiency: 1 }
+        text: "Họng khô miệng ráo, thích uống nước mát từng ngụm nhỏ liên tục, hay cồn cào xót ruột",
+        scores: { kidneyYin: 2, spleenStomachCold: -1 }
       },
       {
-        text: "Ngủ ngon giấc 6-8 tiếng, tinh thần sảng khoái và thư thái khi thức dậy",
+        text: "Miệng đắng chát khi thức dậy, ăn kém hoặc thường xuyên ợ hơi ợ chua đầy tức vùng thượng vị",
+        scores: { liverStagnation: 3 }
+      },
+      {
+        text: "Ăn uống ngon miệng, tiêu hóa nhanh, miệng không khô đắng hay có mùi bất thường",
+        scores: { balanced: 3 }
+      }
+    ]
+  },
+  {
+    id: 5,
+    question: "5. Về tiêu hóa & đại tiện: Trạng thái phân của bạn phản ánh tiêu hóa như thế nào?",
+    options: [
+      {
+        text: "Phân lỏng nát, thường đi ngoài phân sống ngay sau khi ăn hoặc đi lỏng lúc sáng sớm thức dậy",
+        scores: { spleenStomachCold: 3, kidneyYang: 3 }
+      },
+      {
+        text: "Phân khô kết cứng, đại tiện khó khăn táo bón dai dẳng, nước tiểu vàng sẫm màu",
+        scores: { kidneyYin: 2 }
+      },
+      {
+        text: "Phân nát dính dẻo, đi ngoài có cảm giác không sạch hết phân, dính bồn cầu khó dội sạch",
+        scores: { phlegmDamp: 3, spleenStomachCold: 1 }
+      },
+      {
+        text: "Đại tiện đều đặn phân thành khuôn mềm màu vàng, không táo hay nát dính",
         scores: { balanced: 3 }
       }
     ]
   },
   {
     id: 6,
-    question: "6. Tình trạng đau nhức hoặc cảm giác khó chịu khác trên cơ thể?",
+    question: "6. Về tiểu tiện: Tần suất và màu sắc nước tiểu của bạn?",
     options: [
       {
-        text: "Hay bị đau mỏi ê ẩm cơ khớp lưng gối, đau tăng khi thời tiết chuyển lạnh ẩm",
-        scores: { deficiencyCold: 2 }
+        text: "Đi tiểu nhiều lần trong ngày, nước tiểu trong dài, thường xuyên phải thức giấc tiểu đêm",
+        scores: { kidneyYang: 3, deficiencyCold: 2 }
       },
       {
-        text: "Đau nhức nhối cố định ở một vị trí cụ thể, da dẻ khô xạm, môi sắc tím",
+        text: "Nước tiểu ít, màu vàng đậm hoặc đỏ sẻn, tiểu nóng rát nhẹ hoặc tiểu khó dắt",
+        scores: { kidneyYin: 2 }
+      },
+      {
+        text: "Tiểu tiện bình thường, màu vàng nhạt trong suốt, không đau rát hay đi đêm",
+        scores: { balanced: 2 }
+      }
+    ]
+  },
+  {
+    id: 7,
+    question: "7. Về giấc ngủ: Chất lượng giấc ngủ hàng đêm của bạn ra sao?",
+    options: [
+      {
+        text: "Khó vào giấc ngủ, ngủ chập chờn hay mơ, dễ giật mình hồi hộp trống ngực, hay quên",
+        scores: { heartSpleenDef: 3, qiDeficiency: 1 }
+      },
+      {
+        text: "Mất ngủ, khó ngủ kèm bứt rứt trong lòng, hay thức giấc lúc nửa đêm (1h - 3h sáng) rồi trằn trọc",
+        scores: { liverStagnation: 3 }
+      },
+      {
+        text: "Rất thèm ngủ, người uể oải buồn ngủ cả ngày, ngủ dậy đầu óc vẫn mông lung mệt mỏi",
+        scores: { phlegmDamp: 3, spleenStomachCold: 1 }
+      },
+      {
+        text: "Dễ ngủ, ngủ sâu giấc từ 6-8 tiếng, tinh thần sảng khoái sau khi tỉnh dậy",
+        scores: { balanced: 3 }
+      }
+    ]
+  },
+  {
+    id: 8,
+    question: "8. Về lồng ngực & vùng bụng: Bạn có cảm giác khó chịu hay đầy tức ở khu vực này không?",
+    options: [
+      {
+        text: "Hay bị đau tức mạng sườn, đầy chướng bụng trên, thường xuyên ợ hơi hoặc thở dài mới thấy dễ chịu",
+        scores: { liverStagnation: 3 }
+      },
+      {
+        text: "Vùng bụng dưới rốn thường lạnh buốt, đau âm ỉ liên tục, thích chườm nóng ấm vào bụng",
+        scores: { kidneyYang: 3, deficiencyCold: 2 }
+      },
+      {
+        text: "Lồng ngực đầy chướng nghẹt thở, hay có cảm giác hồi hộp trống ngực đập liên hồi",
+        scores: { heartSpleenDef: 2, lungQiWeakness: 1 }
+      },
+      {
+        text: "Vùng ngực bụng thư thái, không có cảm giác đau tức hay chướng đầy ấm lạnh bất thường",
+        scores: { balanced: 3 }
+      }
+    ]
+  },
+  {
+    id: 9,
+    question: "9. Về tinh thần & cảm xúc: Trạng thái tâm lý thường gặp của bạn?",
+    options: [
+      {
+        text: "Dễ nổi cáu giận dữ vô cớ, tinh thần u uất lo nghĩ tức giận dồn nén trong lòng",
+        scores: { liverStagnation: 3 }
+      },
+      {
+        text: "Hay lo sợ vẩn vơ, nhút nhát nhạy cảm, dễ hốt hoảng hồi hộp, tinh thần mệt mỏi thụ động",
+        scores: { heartSpleenDef: 3, qiDeficiency: 1 }
+      },
+      {
+        text: "Tinh thần vui vẻ ổn định, lạc quan, khả năng kiềm chế điều hòa cảm xúc tốt",
+        scores: { balanced: 3 }
+      }
+    ]
+  },
+  {
+    id: 10,
+    question: "10. Về cơ khớp & đau nhức: Tính chất của các cơn đau nhức mỏi trên cơ thể bạn?",
+    options: [
+      {
+        text: "Đau mỏi ê ẩm âm ỉ vùng thắt lưng và đầu gối, đau tăng khi đứng lâu hoặc khi làm việc mệt mỏi",
+        scores: { kidneyYang: 3, kidneyYin: 2 }
+      },
+      {
+        text: "Đau buốt nhói như kim châm cố định một điểm cụ thể, sắc da tối sạm, môi thâm, lưỡi có điểm ứ huyết",
         scores: { bloodStasis: 3 }
       },
       {
-        text: "Không có cảm giác đau nhức hay mệt mỏi đặc biệt nào ở cơ khớp",
-        scores: { balanced: 3 }
+        text: "Đau nhức di chuyển từ khớp này sang khớp khác hoặc khớp tê bì nặng nề khi trời mưa ẩm",
+        scores: { phlegmDamp: 2, deficiencyCold: 1 }
+      },
+      {
+        text: "Khớp xương dẻo dai khỏe mạnh, cơ bắp săn chắc không đau mỏi bì cứng",
+        scores: { balanced: 2 }
+      }
+    ]
+  },
+  {
+    id: 11,
+    question: "11. Về hô hấp: Tình trạng phổi và đường thở của bạn ra sao?",
+    options: [
+      {
+        text: "Ho nhiều đờm trắng loãng hoặc dính nhớt, tiếng ho yếu, hay ngạt mũi chảy nước mũi trong",
+        scores: { lungQiWeakness: 3, phlegmDamp: 2 }
+      },
+      {
+        text: "Ho khan không có đờm hoặc đờm rất ít dính quánh khó khạc, khô họng khản tiếng",
+        scores: { kidneyYin: 2, lungQiWeakness: 1 }
+      },
+      {
+        text: "Giọng nói vang khỏe, hơi thở sâu đều đặn, ít khi bị cảm mạo hay ho hắt hơi",
+        scores: { balanced: 2 }
+      }
+    ]
+  },
+  {
+    id: 12,
+    question: "12. Về ngũ quan (Tai & Mắt): Bạn có biểu hiện ù tai hay khô mỏi mắt không?",
+    options: [
+      {
+        text: "Tai ù như ve kêu bên trong hoặc thính lực giảm sút rõ rệt, kèm theo thắt lưng đau gối mỏi",
+        scores: { kidneyYang: 2, kidneyYin: 3 }
+      },
+      {
+        text: "Mắt khô rát nhức mỏi, nhìn vật mờ nhòe, hay bị chảy nước mắt sống khi đi ra gió",
+        scores: { kidneyYin: 3, liverStagnation: 1 }
+      },
+      {
+        text: "Tai nghe rõ ràng tinh nhạy, mắt sáng tinh tường nhìn rõ, không khô nhức",
+        scores: { balanced: 2 }
       }
     ]
   }
 ];
 
-// Detailed diagnosis profiles with associated herbs, formulas, and acupressure guides
+// Comprehensive diagnostic syndrome profiles
 const diagnosisProfiles = {
-  deficiencyCold: {
-    title: "Thể Trạng Hư Hàn (Yang Deficiency / Cold)",
-    description: "Cơ thể bạn đang có xu hướng thiếu hụt dương khí (dương hư), dẫn đến khả năng sinh nhiệt kém, mạch máu co thắt gây sợ lạnh, chân tay lạnh, chức năng vận hóa tỳ vị suy giảm.",
-    advice: "Nên giữ ấm cơ thể, hạn chế ăn đồ sống lạnh (kem, nước đá, rau sống). Tăng cường các vị ấm nóng như gừng, tỏi, quế trong chế độ ăn hàng ngày.",
-    herbs: ["Nhân sâm", "Bạch truật", "Cam thảo", "Đương quy"],
-    prescriptions: ["Tứ Quân Tử Thang"],
-    meridians: ["ki", "sp"],
-    acupoints: [
-      { code: "CV4", name: "Quan Nguyên", desc: "Nằm dưới rốn 3 thốn (khoảng 4 ngón tay nằm ngang). Cứu ấm hoặc day ấm nhẹ nhàng để bổ nguyên dương khí." },
-      { code: "CV6", name: "Khí Hải", desc: "Nằm dưới rốn 1.5 thốn. Nơi hội tụ của sinh khí, giúp ôn ấm hạ tiêu." },
-      { code: "GV4", name: "Mệnh Môn", desc: "Nằm ở cột sống thắt lưng, đối diện rốn ra sau lưng. Giúp bổ thận tráng dương." }
-    ]
-  },
-  excessHeat: {
-    title: "Thể Trạng Thực Nhiệt (Excess Heat / Inflammatory)",
-    description: "Cơ thể bạn có xu hướng tích nhiệt mạnh, dễ bốc hỏa, viêm nhiệt, khát nước, tân dịch hao tổn dẫn đến táo bón, tiểu đỏ sẻn, tinh thần bứt rứt.",
-    advice: "Hạn chế đồ ăn cay nóng, chiên xào nhiều dầu mỡ, rượu bia. Bổ sung các loại nước thanh nhiệt như trà cúc hoa, nước rau má, nước đậu đen nấu ấm.",
-    herbs: ["Bạch cúc hoa", "Bạc hà"],
-    prescriptions: ["Tang Cúc Ẩm"],
-    meridians: ["lu", "st"],
-    acupoints: [
-      { code: "LI4", name: "Hợp Cốc", desc: "Nằm ở hổ khẩu giữa ngón cái và ngón trỏ. Day bấm tả pháp (bấm mạnh) để thanh nhiệt, sơ phong giải biểu." },
-      { code: "LI11", name: "Khúc Trì", desc: "Nằm ở đầu ngoài nếp gấp khuỷu tay khi co cánh tay lại. Là huyệt đặc hiệu hạ sốt, thanh nhiệt cơ thể." }
-    ]
-  },
-  qiDeficiency: {
-    title: "Thể Trạng Khí Hư (Qi Deficiency / Fatigue)",
-    description: "Năng lượng sinh học (khí) trong cơ thể bạn bị suy giảm nghiêm trọng, làm giảm khả năng bảo vệ của tỳ phế, gây đoản hơi, mệt mỏi mạn tính, tự ra mồ hôi.",
-    advice: "Tránh làm việc quá sức, ngủ đủ giấc, tập các bài dưỡng sinh hoặc yoga nhẹ nhàng. Ăn uống đầy đủ dinh dưỡng, ưu tiên thức ăn chín mềm, dễ tiêu.",
+  spleenStomachCold: {
+    title: "Tỳ Vị Hư Hàn (Spleen-Stomach Qi & Yang Deficiency)",
+    mechanism: "Dương khí ở trung tiêu (dạ dày và ruột) suy yếu làm mất đi khả năng giữ ấm và vận hóa thức ăn. Thức ăn đình trệ không tiêu hóa được gây trướng bụng đầy hơi, hàn thấp chảy xuống đại tràng gây phân lỏng nát.",
+    therapeutic: "Ôn trung tán hàn, kiện tỳ kiện vị, trừ thấp tiêu trệ.",
+    dietary: "Nên dùng thức ăn ấm nóng, dễ tiêu. Sử dụng gừng, riềng, quế chi, trần bì làm gia vị. Tránh đồ ăn sống lạnh (kem, nước đá, rau sống), mướp đắng, dưa hấu và đồ ngọt béo gây nê trệ.",
     herbs: ["Nhân sâm", "Bạch truật", "Cam thảo"],
-    prescriptions: ["Tứ Quân Tử Thang"],
-    meridians: ["sp", "lu"],
-    acupoints: [
-      { code: "ST36", name: "Túc Tam Lý", desc: "Nằm dưới hõm ngoài xương bánh chè 3 thốn. Huyệt cường tráng cơ thể chủ chốt, bổ tỳ ích vị, nâng cao chính khí." },
-      { code: "CV12", name: "Trung Quản", desc: "Nằm trên rốn 4 thốn. Huyệt hội của lục phủ, điều hòa vị khí, kiện tỳ hóa thấp." }
-    ]
-  },
-  bloodStasis: {
-    title: "Thể Trạng Huyết Ứ (Blood Stasis / Poor Circulation)",
-    description: "Tuần hoàn khí huyết trong kinh mạch của bạn đang bị cản trở hoặc ứ trệ, biểu hiện qua các cơn đau nhói cố định, sắc môi tím hoặc da dẻ xạm tối.",
-    advice: "Hạn chế ngồi lâu một chỗ, tăng cường đi bộ nhẹ nhàng để hành khí hoạt huyết. Giữ ấm cơ thể để tránh lạnh gây co thắt mạch máu.",
-    herbs: ["Đương quy"],
-    prescriptions: ["Tứ Quân Tử Thang"], // Default fallback or active ones
-    meridians: ["lr", "ht"],
-    acupoints: [
-      { code: "SP6", name: "Tam Âm Giao", desc: "Nằm trên đỉnh mắt cá chân trong 3 thốn. Huyệt hội của 3 kinh âm ở chân, hoạt huyết, thông kinh hoạt lạc." },
-      { code: "SI3", name: "Hậu Khê", desc: "Nằm ở đầu nếp gấp ngang bàn tay phía ngón út khi nắm hờ tay. Giúp thông đốc mạch, tán ứ chỉ thống." }
-    ]
-  },
-  spleenStomach: {
-    title: "Mất Cân Bằng Tỳ Vị (Spleen-Stomach Imbalance)",
-    description: "Chức năng tiêu hóa (vận hóa) của Tỳ và Vị của bạn suy yếu, dẫn đến thức ăn đình trệ gây chướng bụng, phân sống nát, ăn không ngon miệng.",
-    advice: "Ăn uống đúng giờ, nhai kỹ, không ăn quá no vào buổi tối. Tránh đồ ăn nhiều dầu mỡ khó tiêu, đồ ngọt béo sinh đàm thấp.",
-    herbs: ["Bạch truật", "Cam thảo", "Nhân sâm"],
     prescriptions: ["Tứ Quân Tử Thang"],
     meridians: ["sp", "st"],
     acupoints: [
-      { code: "ST36", name: "Túc Tam Lý", desc: "Day bấm hàng ngày từ 3-5 phút để tăng cường nhu động ruột và nâng cao hiệu suất tiêu hóa." },
-      { code: "ST25", name: "Thiên Khu", desc: "Nằm từ rốn đo ngang ra 2 thốn. Giúp điều hòa đại tràng, chỉ tả (trị tiêu chảy) và trị táo bón." }
+      { code: "ST36", name: "Túc Tam Lý", desc: "Dưới hõm ngoài xương bánh chè 3 thốn (khoảng 4 ngón tay nằm ngang). Day bấm tả pháp hoặc cứu ngải ấm 3-5 phút để tăng nhu động ruột, điều hòa khí cơ vị quản." },
+      { code: "CV12", name: "Trung Quản", desc: "Nằm ở đường giữa bụng, trên rốn 4 thốn. Huyệt hội của phủ, điều hòa vị khí, trị bụng chướng đầy ợ chua." },
+      { code: "SP6", name: "Tam Âm Giao", desc: "Nằm trên đỉnh mắt cá chân trong 3 thốn. Kiện tỳ hóa thấp, trợ vận hóa ngũ cốc." }
     ]
   },
-  lungQi: {
-    title: "Thể Trạng Phế Khí Kém (Lung Qi Weakness / Respiratory)",
-    description: "Vệ khí của Phế suy giảm khiến đường hô hấp của bạn dễ bị kích ứng bởi thời tiết, dễ ho hắt hơi, ngực đầy tức, nhạy cảm với khí lạnh.",
-    advice: "Giữ ấm vùng cổ họng và ngực, đeo khẩu trang khi ra đường lạnh. Có thể xông mũi bằng gừng sả hoặc bạc hà để thông phế khí.",
-    herbs: ["Nhân sâm", "Bạc hà"],
-    prescriptions: ["Tang Cúc Ẩm"],
-    meridians: ["lu"],
+  kidneyYang: {
+    title: "Thận Dương Hư (Kidney Yang Deficiency / Mệnh Môn Hỏa Suy)",
+    mechanism: "Thận dương (chân hỏa của cơ thể) bị suy giảm nặng, không thể ôn ấm cho các tạng phủ khác và hạ tiêu. Nguồn nhiệt suy giảm gây tay chân lạnh buốt, thắt lưng lạnh đau, tiểu đêm nhiều lần và phân sống nát lúc sáng sớm (Ngũ canh tả).",
+    therapeutic: "Ôn bổ Thận dương, tráng Mệnh môn hỏa, ôn ấm hạ tiêu trừ thủy dịch.",
+    dietary: "Ăn canh hầm ấm nóng, các loại hạt (óc chó, hạt sen). Có thể dùng các loại thịt tính ấm như thịt dê, thịt bò hầm hành gừng kỷ tử. Hạn chế bia lạnh, rau cải cúc, mướp, cà pháo.",
+    herbs: ["Ba kích", "Nhân sâm", "Cam thảo"],
+    prescriptions: ["Tứ Quân Tử Thang"], // default fallback
+    meridians: ["ki", "bl"],
     acupoints: [
-      { code: "LU7", name: "Liệt Khuyết", desc: "Đan chéo hai ngón tay cái và trỏ của hai tay vào nhau, huyệt nằm ở chỗ lõm dưới đầu ngón tay trỏ. Tuyên phế, sơ phong giải biểu." },
-      { code: "LU9", name: "Thái Uyên", desc: "Trên lằn chỉ cổ tay, ở chỗ lõm phía ngoài động mạch quay. Huyệt nguyên của kinh Phế, bổ ích phế khí." },
-      { code: "GB20", name: "Phong Trì", desc: "Ở chỗ lõm phía sau tai, dưới xương chẩm. Huyệt đặc trị ngoại phong xâm nhập đầu mặt phế khí." }
+      { code: "GV4", name: "Mệnh Môn", desc: "Nằm ở cột sống thắt lưng, đối diện rốn ra sau lưng. Cứu ấm hoặc dán cao ấm để đánh thức nguồn hỏa chân nguyên tráng mệnh môn." },
+      { code: "CV4", name: "Quan Nguyên", desc: "Nằm dưới rốn 3 thốn trên đường trắng bụng. Huyệt chủ chốt giúp ôn ấm hạ nguyên khí, bổ ích hạ tiêu dương khí." },
+      { code: "KI3", name: "Thái Khê", desc: "Tại trung điểm giữa đỉnh mắt cá trong và gân gót. Bổ ích thận nguyên khí âm dương." }
+    ]
+  },
+  kidneyYin: {
+    title: "Can Thận Âm Hư (Liver-Kidney Yin Deficiency)",
+    mechanism: "Phần âm dịch và huyết trong cơ thể bị tiêu hao làm mất khả năng nhu dưỡng Can Thận. Âm hư dẫn đến dương thịnh giả tạo tạo ra hư nhiệt âm ỉ bên trong gây nóng bừng mặt, lòng bàn tay chân nóng rát, triều nhiệt, khô rát mắt, ù tai.",
+    therapeutic: "Tư bổ Can Thận âm, tư âm giáng hỏa lương huyết.",
+    dietary: "Ăn các món canh bổ mát dưỡng âm (canh bách hợp hạt sen, canh mộc nhĩ). Uống nước kỷ tử, táo đỏ, trà hoa cúc nhẹ. Tránh hoàn toàn đồ cay nóng (ớt, tiêu, tỏi), rượu mạnh và thức đêm muộn.",
+    herbs: ["Bạch cúc hoa", "Mạch môn", "Đương quy"],
+    prescriptions: ["Tang Cúc Ẩm"],
+    meridians: ["ki", "lr"],
+    acupoints: [
+      { code: "KI3", name: "Thái Khê", desc: "Nơi tụ hội nguyên khí kinh Thận. Day bấm tả pháp nhẹ nhàng bổ ích chân âm, kéo hỏa quy nguyên hạ tiêu." },
+      { code: "SP6", name: "Tam Âm Giao", desc: "Huyệt giao hội của 3 kinh âm ở chân (Tỳ, Can, Thận), bổ can thận âm huyết cực kỳ hiệu quả." },
+      { code: "GB20", name: "Phong Trì", desc: "Nằm dưới xương chẩm sau tai. Day bấm để giảm căng thẳng đầu óc, hạ hư hỏa thượng viêm gây nhức đầu mắt khô mỏi." }
+    ]
+  },
+  liverStagnation: {
+    title: "Can Khí Uất Kết (Liver Qi Stagnation / Stress & Tension)",
+    mechanism: "Trạng thái tình chí căng thẳng lo nghĩ làm chức năng sơ tiết điều đạt khí huyết của tạng Can bị uất trệ. Khí cơ không thông vùng ngực sườn gây đau tức mạng sườn, thở dài, dễ kích động tức giận vô cớ hoặc đau đầu căng thái dương.",
+    therapeutic: "Sơ can lý khí, giải uất hành trệ, hòa vị chỉ thống.",
+    dietary: "Nên dùng trà thảo mộc (trà hoa hồng, trà hoa nhài), vỏ quýt (trần bì), phật thủ, bạc hà để hành khí. Giữ tâm trạng vui vẻ, kết hợp tập luyện thể dục đều đặn. Hạn chế đồ ăn quá béo ngấy sinh uất nhiệt.",
+    herbs: ["Bạc hà", "Bạch cúc hoa", "Đương quy"],
+    prescriptions: ["Tang Cúc Ẩm"],
+    meridians: ["lr", "gb"],
+    acupoints: [
+      { code: "LR3", name: "Thái Xung", desc: "Tại kẽ ngón chân cái và ngón thứ 2 đo lên 1.5 thốn. Huyệt Nguyên của kinh Can, day bấm tả pháp mạnh để bình can giải uất tiêu giận dữ tức ngực." },
+      { code: "PC6", name: "Nội Quan", desc: "Trên lằn chỉ cổ tay trong đo lên 2 thốn giữa 2 gân cơ. Khoan hung lý khí, sơ thông uất kết ngực bụng, trị ợ chua buồn nôn." },
+      { code: "GB20", name: "Phong Trì", desc: "Day bấm tả pháp giúp thanh thông đầu óc, thư giãn cơ vai cổ gáy do uất ức căng thẳng." }
+    ]
+  },
+  heartSpleenDef: {
+    title: "Tâm Tỳ Lưỡng Hư (Heart & Spleen Qi-Blood Deficiency)",
+    mechanism: "Lao tâm suy nghĩ nhiều làm hao tổn Tỳ khí và Tâm huyết. Tỳ khí hư vị vận hóa kém không sinh ra đủ huyết dưỡng Tâm, dẫn đến tâm thần thất dưỡng gây mất ngủ, hồi hộp lo âu trống ngực, ngủ hay giật mình, mau quên.",
+    therapeutic: "Bổ ích Tâm Tỳ, kiện khí dưỡng huyết an thần định chí.",
+    dietary: "Dùng các món cháo ích trí như cháo long nhãn hạt sen táo đỏ, cháo tim heo phục linh. Uống nước ấm mật ong. Tránh xa cà phê, trà đậm đặc, hạn chế làm việc trí óc muộn sát giờ ngủ.",
+    herbs: ["Nhân sâm", "Bạch truật", "Cam thảo", "Đương quy"],
+    prescriptions: ["Tứ Quân Tử Thang"],
+    meridians: ["sp", "ht"],
+    acupoints: [
+      { code: "HT7", name: "Thần Môn", desc: "Tại chỗ lõm bờ ngoài gân cơ trụ tay trên nếp gấp cổ tay trong. Huyệt Nguyên của kinh Tâm, đặc trị hồi hộp mất ngủ, an định tâm thần." },
+      { code: "ST36", name: "Túc Tam Lý", desc: "Bồi bổ tỳ vị bổ khí sinh huyết nuôi dưỡng tâm mạch từ gốc." },
+      { code: "SP6", name: "Tam Âm Giao", desc: "Điều huyết dưỡng âm an thần, làm dịu hệ thần kinh giao cảm kích thích giấc ngủ sâu." }
+    ]
+  },
+  phlegmDamp: {
+    title: "Thể Trạng Đàm Thấp Đình Trệ (Phlegm-Dampness Stagnation)",
+    mechanism: "Tỳ vị hư suy không vận hóa hết nước gây tích tụ thành đàm ẩm và thấp khí tại cơ khớp, tạng phủ. Biểu hiện qua cảm giác nặng nề toàn thân, đầu nặng căng như quấn vải, thèm ngủ, phân nát dính dẻo khó đi.",
+    therapeutic: "Kiện tỳ trừ thấp, hóa đàm tiêu trệ, thông lợi quan tiết.",
+    dietary: "Ăn uống thanh đạm, tăng rau xanh khô ráo như cải bẹ, bí đao, uống nước đậu đỏ ý dĩ rang ấm. Tránh tuyệt đối đồ ăn ngọt béo ngấy (phô mai, sữa, mỡ động vật) dễ tạo thêm đàm thấp.",
+    herbs: ["Bạch truật", "Phục linh", "Cam thảo"],
+    prescriptions: ["Tứ Quân Tử Thang"],
+    meridians: ["sp", "st"],
+    acupoints: [
+      { code: "SP9", name: "Âm Lăng Tuyền", desc: "Chỗ lõm dưới ngành ngang xương chày mắt trong đầu gối. Huyệt chuyên thanh nhiệt lợi thấp tống khứ thủy thấp trì trệ của kinh Tỳ." },
+      { code: "ST36", name: "Túc Tam Lý", desc: "Kiện vận tỳ vị tiêu trừ thủy thấp ứ trệ từ trung tiêu." },
+      { code: "CV12", name: "Trung Quản", desc: "Huyệt trung ương điều khí hòa trung hóa đàm trệ bụng ngực." }
+    ]
+  },
+  lungQiWeakness: {
+    title: "Phế Khí & Vệ Khí Suy Yếu (Lung Qi & Defensive Qi Deficiency)",
+    mechanism: "Phế quản khí lực bất túc làm suy giảm khả năng bảo vệ bề mặt cơ thể (vệ khí), ngoại tà dễ xâm nhập gây ho khan đờm loãng, ngạt mũi hắt hơi chảy nước mũi trong, dễ bị cảm lạnh khi nhiệt độ chuyển mùa.",
+    therapeutic: "Bổ phế ích khí, củng cố vệ biểu, chỉ khái hóa đờm.",
+    dietary: "Nên dùng canh củ cải trắng hầm hành gừng, cháo củ mài bách hợp. Uống trà gừng ấm mật ong buổi sáng. Tránh đồ uống lạnh đá, đồ ăn chua chát ngưng phế khí.",
+    herbs: ["Nhân sâm", "Bạch truật", "Cam thảo", "Bạc hà"],
+    prescriptions: ["Tang Cúc Ẩm"],
+    meridians: ["lu", "li"],
+    acupoints: [
+      { code: "LU9", name: "Thái Uyên", desc: "Chỗ lõm trên nếp gấp cổ tay ngoài cạnh động mạch quay. Huyệt Nguyên của kinh Phế, bổ sung nguyên khí phế kinh từ gốc." },
+      { code: "LU7", name: "Liệt Khuyết", desc: "Giao chéo hai ngón cái trỏ, huyệt nằm chỗ lõm dưới đầu ngón trỏ. Tuyên thông phế khí trị ho, nghẹt mũi chảy nước mũi." },
+      { code: "GB20", name: "Phong Trì", desc: "Huyệt ngăn chặn ngoại phong tà xâm nhập cơ thể qua vùng gáy." }
+    ]
+  },
+  bloodStasis: {
+    title: "Huyết Ứ Kinh Lạc (Blood Stasis / Poor Microcirculation)",
+    mechanism: "Dòng chảy huyết dịch trong kinh mạch bị cản trở (do khí trệ hoặc lạnh co mạch), tích tụ lại gây đau nhức nhối cố định cự án, sắc môi thâm sẫm, da dẻ xù xì xạm sẫm.",
+    therapeutic: "Hoạt huyết hóa ứ, hành khí chỉ thống, sơ thông kinh lạc trệ.",
+    dietary: "Ăn mộc nhĩ đen nấm hương gừng hành tăm thúc đẩy huyết hành. Uống nước ấm mật ong quế chi mức nhẹ. Tránh đồ ăn sống lạnh ngưng trệ huyết mạch.",
+    herbs: ["Đương quy"],
+    prescriptions: ["Tứ Quân Tử Thang"], // default
+    meridians: ["lr", "ht"],
+    acupoints: [
+      { code: "SP6", name: "Tam Âm Giao", desc: "Huyệt hội 3 kinh âm ở chân, thông thông huyết mạch hạ tiêu tiêu trừ huyết ứ." },
+      { code: "SI3", name: "Hậu Khê", desc: "Day bấm mạnh để thông lạc chỉ thống toàn thân." },
+      { code: "LR3", name: "Thái Xung", desc: "Hành khí thúc đẩy huyết dịch vận hành thông suốt (khí hành huyết hành)." }
     ]
   },
   balanced: {
-    title: "Thể Trạng Bình Hòa (Balanced & Healthy)",
-    description: "Chúc mừng! Khí huyết và âm dương của cơ thể bạn đang ở trạng thái cân bằng tương đối tốt. Tinh thần thoải mái, chức năng tạng phủ vận hành trơn tru.",
-    advice: "Hãy tiếp tục duy trì chế độ ăn uống khoa học, rèn luyện thể thao đều đặn và giữ vững tinh thần thoải mái để duy trì trạng thái lý tưởng này.",
+    title: "Thể Trạng Bình Hòa (Balanced Health / Cân Bằng Âm Dương)",
+    mechanism: "Khí huyết và âm dương trong cơ thể bạn đang ở trạng thái cân bằng động rất tốt. Tạng phủ vận hành trơn tru bền bỉ, sức đề kháng tự nhiên (chính khí) dồi dào bảo vệ tốt cơ thể.",
+    therapeutic: "Duy trì sức khỏe dưỡng sinh phòng ngừa bệnh tật tích cực.",
+    dietary: "Duy trì chế độ ăn đa dạng đầy đủ dinh dưỡng, ưu tiên thực phẩm tươi sống sạch, ăn nhiều rau quả mùa. Tập thể dục điều độ dưỡng sinh.",
     herbs: ["Nhân sâm", "Cam thảo"],
     prescriptions: ["Tứ Quân Tử Thang", "Tang Cúc Ẩm"],
-    meridians: ["lu", "ki", "sp", "st"],
+    meridians: ["ki", "sp", "lu", "st"],
     acupoints: [
-      { code: "ST36", name: "Túc Tam Lý", desc: "Day bấm thường xuyên để dưỡng sinh trường thọ, phòng bệnh tật." },
-      { code: "SP6", name: "Tam Âm Giao", desc: "Day bấm bổ ích can tỳ thận âm, điều hòa huyết mạch cơ thể." }
+      { code: "ST36", name: "Túc Tam Lý", desc: "Huyệt trường thọ dưỡng sinh phòng bách bệnh bấm 2-3 phút mỗi buổi sáng." },
+      { code: "SP6", name: "Tam Âm Giao", desc: "Dưỡng tỳ can thận âm huyết điều hòa sinh lý cơ thể." },
+      { code: "KI3", name: "Thái Khê", desc: "Nạp khí bổ thận dưỡng chân âm gốc sinh lực." }
     ]
   }
 };
 
 function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigateToPrescription }) {
-  const [currentStep, setCurrentStep] = useState(0); // 0: Intro, 1-6: Questions, 7: Result
+  const [currentStep, setCurrentStep] = useState(0); // 0: Intro, 1-12: Questions, 13: Result
   const [answers, setAnswers] = useState([]);
   const [activeDiagnosis, setActiveDiagnosis] = useState(null);
 
@@ -221,7 +401,6 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
     if (currentStep < quizQuestions.length) {
       setCurrentStep(currentStep + 1);
     } else {
-      // End of quiz, compile results
       calculateDiagnosis(newAnswers);
       setCurrentStep(quizQuestions.length + 1);
     }
@@ -229,12 +408,14 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
 
   const calculateDiagnosis = (compiledAnswers) => {
     const tallies = {
-      deficiencyCold: 0,
-      excessHeat: 0,
-      qiDeficiency: 0,
+      spleenStomachCold: 0,
+      kidneyYang: 0,
+      kidneyYin: 0,
+      liverStagnation: 0,
+      heartSpleenDef: 0,
+      phlegmDamp: 0,
+      lungQiWeakness: 0,
       bloodStasis: 0,
-      spleenStomach: 0,
-      lungQi: 0,
       balanced: 0
     };
 
@@ -246,20 +427,18 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
       });
     });
 
-    // Determine the syndrome with highest score
     let highestSyndrome = 'balanced';
     let highestScore = 0;
 
     Object.entries(tallies).forEach(([syndrome, score]) => {
-      // Balanced score needs to beat other syndromes or if all other scores are low
       if (syndrome !== 'balanced' && score > highestScore) {
         highestScore = score;
         highestSyndrome = syndrome;
       }
     });
 
-    // If no distinct imbalance is higher than 2 points, default to balanced
-    if (highestScore <= 2) {
+    // If highest imbalance is low, default to balanced
+    if (highestScore <= 3) {
       highestSyndrome = 'balanced';
     }
 
@@ -287,9 +466,9 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
     <main className="content-page container fade-in">
       <header className="page-header">
         <span className="eyebrow">Interactive Assessment</span>
-        <h1>Trắc Nghiệm Triệu Chứng Tự Chẩn Đoán</h1>
+        <h1>Trắc Nghiệm Triệu Chúng Tự Chẩn Đoán</h1>
         <p>
-          Dựa trên lý luận biện chứng luận trị Đông y để phân tích trạng thái âm dương khí huyết và gợi ý phương pháp dưỡng sinh phù hợp.
+          Bản trắc nghiệm chuyên sâu dựa trên phương pháp Vấn Chẩn (Thập Vấn) của y học cổ truyền giúp nhận diện sâu rộng thể trạng tạng phủ của bạn.
         </p>
       </header>
 
@@ -312,29 +491,30 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
         {currentStep === 0 && (
           <div className="quiz-step-intro fade-in">
             <div className="intro-icon">📋</div>
-            <h2>Biện Chứng Luận Trị Trực Tuyến</h2>
+            <h2>Biện Chứng Vấn Chẩn Chuyên Sâu</h2>
             <p>
-              Bài trắc nghiệm gồm 6 câu hỏi khảo sát các triệu chứng sinh lý đặc trưng như cảm giác nóng lạnh, thói quen ăn uống, tiêu hóa, giấc ngủ và đau nhức. Hệ thống sẽ tính toán các chỉ số mất cân bằng năng lượng và đề xuất:
+              Khảo sát toàn diện 12 dấu hiệu lâm sàng tương ứng với các kinh mạch và tạng phủ chính. Hệ thống phân tích logic Đông y sẽ đối chiếu và xây dựng biểu đồ hội chứng của bạn để đề xuất giải pháp chăm sóc dưỡng sinh toàn diện.
             </p>
             <ul className="intro-benefits">
-              <li>🍀 Các vị thuốc Đông y phù hợp nhất với thể trạng.</li>
-              <li>🍲 Các bài thuốc cổ phương khuyên dùng làm nền tảng gia giảm.</li>
-              <li>📍 Lộ trình kinh lạc & các huyệt vị quan trọng cần tự day bấm kích hoạt.</li>
+              <li>🍀 Lọc các vị thuốc thanh bổ phù hợp quy trực tiếp vào kinh bệnh.</li>
+              <li>🍲 Gợi ý bài thuốc cổ phương kinh điển gia giảm.</li>
+              <li>📍 Hướng dẫn định vị & thao tác day bấm 3 huyệt vị dưỡng sinh đặc trị.</li>
+              <li>🍲 Chế độ ăn uống Dược thiện khuyên dùng và cần kiêng kỵ.</li>
             </ul>
             <div className="alert-panel caution" style={{ marginTop: '20px', marginBottom: '25px' }}>
               <strong>⚠️ KHUYẾN CÁO AN TOÀN</strong>
-              <p>Kết quả từ bộ trắc nghiệm mang tính chất tham khảo dưỡng sinh học và hỗ trợ tra cứu học tập. Tuyệt đối không thay thế cho chỉ định điều trị y khoa chuyên nghiệp của thầy thuốc.</p>
+              <p>Kết quả mang tính chất tham khảo nghiên cứu và hỗ trợ định hướng dưỡng sinh. Hãy luôn thăm khám trực tiếp với bác sĩ y học cổ truyền để được chẩn đoán mạch chẩn và kê toa điều trị chuyên môn.</p>
             </div>
             <button className="quiz-start-btn" onClick={startQuiz} type="button">
-              Bắt đầu Trắc nghiệm tự chẩn đoán
+              Bắt đầu Vấn chẩn tự chẩn đoán
             </button>
           </div>
         )}
 
-        {/* STEPS 1-6: QUESTIONS */}
+        {/* STEPS 1-12: QUESTIONS */}
         {currentStep > 0 && currentStep <= quizQuestions.length && (
           <div className="quiz-step-question fade-in" key={currentStep}>
-            <span className="question-counter">CÂU HỎI {currentStep}</span>
+            <span className="question-counter">CÂU HỎI {currentStep} / {quizQuestions.length}</span>
             <h2 className="question-title">{quizQuestions[currentStep - 1].question}</h2>
             
             <div className="options-list">
@@ -353,42 +533,52 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
           </div>
         )}
 
-        {/* STEP 7: RESULTS */}
+        {/* STEP 13: RESULTS */}
         {currentStep > quizQuestions.length && activeDiagnosis && (
           <div className="quiz-step-results fade-in">
             <div className="result-header">
-              <span className="result-badge">Kết quả phân tích thể trạng</span>
+              <span className="result-badge">Hồ sơ biện chứng thể trạng</span>
               <h2>{activeDiagnosis.profile.title}</h2>
-              <p className="result-description">{activeDiagnosis.profile.description}</p>
+              <p className="result-description" style={{ fontStyle: 'italic', color: 'var(--primary-color)', fontWeight: '700' }}>
+                Cơ chế bệnh sinh Đông y: {activeDiagnosis.profile.mechanism}
+              </p>
             </div>
 
             {/* SYNDROMES CHART METERS */}
             <div className="scores-visualization-panel">
-              <h3>Biểu đồ mất cân bằng âm dương & khí huyết</h3>
+              <h3>Độ tương thích các hội chứng tạng phủ & khí huyết</h3>
               <div className="scores-grid">
                 {Object.entries(activeDiagnosis.scores)
                   .filter(([syn]) => syn !== 'balanced')
+                  .sort((a, b) => b[1] - a[1]) // Sort scores descending
                   .map(([syndrome, score]) => {
                     const labelMap = {
-                      deficiencyCold: "Hư Hàn (Lạnh)",
-                      excessHeat: "Thực Nhiệt (Nóng)",
-                      qiDeficiency: "Khí Hư (Mệt mỏi)",
-                      bloodStasis: "Huyết Ứ (Tuần hoàn)",
-                      spleenStomach: "Tỳ Vị Hư (Tiêu hóa)",
-                      lungQi: "Phế Khí Kém (Hô hấp)"
+                      spleenStomachCold: "Tỳ Vị Hư Hàn (Tiêu hóa kém)",
+                      kidneyYang: "Thận Dương Hư (Lạnh/Suy nhược)",
+                      kidneyYin: "Can Thận Âm Hư (Khô rát/Hư hỏa)",
+                      liverStagnation: "Can Khí Uất Kết (Stress/Khí uất)",
+                      heartSpleenDef: "Tâm Tỳ Lưỡng Hư (Mất ngủ/Lo âu)",
+                      phlegmDamp: "Đàm Thấp Đình Trệ (Nặng nề/Uể oải)",
+                      lungQiWeakness: "Phế Khí Suy Yếu (Ho/Hô hấp kém)",
+                      bloodStasis: "Huyết Ứ Kinh Lạc (Đau nhói/Tuần hoàn kém)"
                     };
-                    const maxPossibleScore = 8;
+                    const maxPossibleScore = 15;
                     const pct = Math.min(Math.round((score / maxPossibleScore) * 100), 100);
                     return (
                       <div key={syndrome} className="score-meter-row">
                         <div className="score-meta">
-                          <span className="score-label">{labelMap[syndrome]}</span>
-                          <span className="score-num">{score}đ / 8đ ({pct}%)</span>
+                          <span className="score-label" style={{ fontWeight: syndrome === activeDiagnosis.syndrome ? '800' : '500' }}>
+                            {labelMap[syndrome]} {syndrome === activeDiagnosis.syndrome ? '★' : ''}
+                          </span>
+                          <span className="score-num">{score} điểm ({pct}%)</span>
                         </div>
                         <div className="score-bar-bg">
                           <div
                             className={`score-bar-fill ${syndrome === activeDiagnosis.syndrome ? 'primary' : ''}`}
-                            style={{ width: `${pct}%`, background: syndrome === activeDiagnosis.syndrome ? 'var(--primary-color)' : 'rgba(107, 68, 35, 0.2)' }}
+                            style={{ 
+                              width: `${Math.max(pct, 5)}%`, 
+                              background: syndrome === activeDiagnosis.syndrome ? 'var(--primary-color)' : 'rgba(107, 68, 35, 0.15)' 
+                            }}
                           />
                         </div>
                       </div>
@@ -397,10 +587,16 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
               </div>
             </div>
 
-            {/* ADVICE */}
-            <div className="alert-panel info" style={{ background: 'rgba(107, 68, 35, 0.04)', border: '1px solid rgba(107, 68, 35, 0.15)', color: 'var(--text-main)' }}>
-              <strong>💡 Lời khuyên dưỡng sinh:</strong>
-              <p>{activeDiagnosis.profile.advice}</p>
+            {/* PHÁP TRỊ */}
+            <div className="alert-panel info" style={{ background: 'rgba(107, 68, 35, 0.03)', border: '1px solid rgba(107, 68, 35, 0.15)', color: 'var(--text-main)' }}>
+              <strong>📋 Nguyên tắc trị liệu (Pháp trị):</strong>
+              <p style={{ margin: '4px 0 0 0', fontWeight: '700' }}>{activeDiagnosis.profile.therapeutic}</p>
+            </div>
+
+            {/* DƯỢC THIỆN */}
+            <div className="alert-panel info" style={{ background: 'rgba(16, 185, 129, 0.03)', border: '1px solid rgba(16, 185, 129, 0.15)', color: 'var(--text-main)' }}>
+              <strong>🍲 Thực đơn Dược thiện dinh dưỡng khuyên dùng:</strong>
+              <p style={{ margin: '4px 0 0 0' }}>{activeDiagnosis.profile.dietary}</p>
             </div>
 
             {/* RECOMMENDATIONS SECTION */}
@@ -409,8 +605,8 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
 
               {/* RECOMMENDED HERBS */}
               <div className="rec-section">
-                <h4>🌿 Thảo dược phù hợp:</h4>
-                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginTop: '6px' }}>
+                <h4>🌿 Thảo dược quy kinh bổ trợ phù hợp:</h4>
+                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginTop: '8px' }}>
                   {activeDiagnosis.profile.herbs.map((hName) => {
                     const herbObj = getMatchedHerbObject(hName);
                     if (herbObj && onSelectHerb) {
@@ -432,8 +628,8 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
 
               {/* RECOMMENDED FORMULAS */}
               <div className="rec-section" style={{ marginTop: '16px' }}>
-                <h4>🍲 Bài thuốc cổ phương khuyên dùng:</h4>
-                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginTop: '6px' }}>
+                <h4>🍲 Bài thuốc cổ phương kinh điển đối chứng:</h4>
+                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginTop: '8px' }}>
                   {activeDiagnosis.profile.prescriptions.map((pName) => (
                     <button
                       key={pName}
@@ -449,8 +645,8 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
 
               {/* RECOMMENDED ACUPOINTS */}
               <div className="rec-section" style={{ marginTop: '20px' }}>
-                <h4>📍 Huyệt vị tự day bấm phòng trị bệnh:</h4>
-                <div className="rec-acupoints-list" style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '8px' }}>
+                <h4>📍 Day bấm 3 huyệt vị dưỡng sinh đặc trị:</h4>
+                <div className="rec-acupoints-list" style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '10px' }}>
                   {activeDiagnosis.profile.acupoints.map((ap) => {
                     const cleanCode = ap.code.toLowerCase();
                     const getMeridianId = (code) => {
@@ -473,9 +669,9 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
                     const mId = getMeridianId(cleanCode);
 
                     return (
-                      <div key={ap.code} style={{ background: '#fff', border: '1.5px solid var(--border-color)', borderRadius: '8px', padding: '12px' }}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
-                          <strong style={{ color: 'var(--secondary-color)', fontSize: '14.5px' }}>
+                      <div key={ap.code} style={{ background: '#fff', border: '1.5px solid var(--border-color)', borderRadius: '10px', padding: '15px', boxShadow: 'inset 0 1px 3px rgba(0,0,0,0.01)' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px', flexWrap: 'wrap', gap: '8px' }}>
+                          <strong style={{ color: 'var(--secondary-color)', fontSize: '15px' }}>
                             Huyệt {ap.name} ({ap.code})
                           </strong>
                           {mId && onNavigateToMeridian && (
@@ -483,21 +679,22 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
                               onClick={() => onNavigateToMeridian(mId)}
                               type="button"
                               style={{
-                                background: 'transparent',
+                                background: 'rgba(107, 68, 35, 0.06)',
                                 border: 'none',
-                                padding: 0,
+                                padding: '4px 10px',
                                 color: 'var(--primary-color)',
                                 fontWeight: 800,
                                 cursor: 'pointer',
-                                fontSize: '11.5px',
+                                fontSize: '11px',
+                                borderRadius: '6px',
                                 textDecoration: 'underline'
                               }}
                             >
-                              Xem kinh lạc tương ứng
+                              Xem đường kinh lạc tương ứng
                             </button>
                           )}
                         </div>
-                        <p style={{ margin: 0, fontSize: '13px', color: 'var(--text-main)', lineHeight: '1.4' }}>
+                        <p style={{ margin: 0, fontSize: '13.5px', color: 'var(--text-main)', lineHeight: '1.5' }}>
                           {ap.desc}
                         </p>
                       </div>
@@ -509,7 +706,7 @@ function SymptomQuiz({ herbs = [], onSelectHerb, onNavigateToMeridian, onNavigat
 
             <div style={{ display: 'flex', justifyContent: 'center', marginTop: '30px', borderTop: '1.5px solid var(--border-color)', paddingTop: '20px' }}>
               <button className="quiz-start-btn restart" onClick={startQuiz} type="button">
-                Thực hiện lại Trắc nghiệm tự chẩn đoán
+                Thực hiện lại trắc nghiệm vấn chẩn
               </button>
             </div>
           </div>
