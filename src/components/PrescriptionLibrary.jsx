@@ -288,31 +288,52 @@ function PrescriptionLibrary({ herbs = [], onSelectHerb, onNavigateToMeridian })
                     const analysis = analyzePrescription(prescription.ingredients);
                     if (analysis.totalHered > 0) {
                       return (
-                        <div className="detail-section formula-analysis-box" style={{ background: 'rgba(107, 68, 35, 0.04)', padding: '16px', borderRadius: '10px', marginBottom: '16px', border: '1px dashed rgba(107, 68, 35, 0.15)' }}>
-                          <strong className="detail-title" style={{ display: 'block', marginBottom: '10px', fontSize: '14.5px', color: 'var(--primary-color)' }}>
-                            📊 Thống kê Dược tính & Quy kinh bài thuốc
+                        <div className="detail-section formula-analysis-box" style={{ background: 'rgba(107, 68, 35, 0.04)', padding: '20px', borderRadius: '12px', marginBottom: '20px', border: '1px dashed rgba(107, 68, 35, 0.15)' }}>
+                          <strong className="detail-title" style={{ display: 'block', marginBottom: '14px', fontSize: '15px', color: 'var(--primary-color)', fontFamily: 'var(--font-serif)', borderBottom: '1px solid rgba(107, 68, 35, 0.1)', paddingBottom: '6px' }}>
+                            📊 Phân Tích Tính Vị & Quy Kinh Phương Thang
                           </strong>
                           
-                          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
-                            {/* Phân tích Tính chất */}
+                          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '20px' }}>
+                            {/* Phân tích Tính chất (Progress Bar Chart) */}
                             <div>
-                              <span style={{ fontSize: '11px', fontWeight: 800, color: 'var(--text-muted)', display: 'block', marginBottom: '6px' }}>XU HƯỚNG TÍNH CHẤT (TÍNH):</span>
-                              <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-                                {Object.entries(analysis.properties).map(([prop, count]) => (
-                                  <span key={prop} className="prop-tag" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)', margin: 0 }}>
-                                    {prop}: {count} vị
-                                  </span>
-                                ))}
+                              <span style={{ fontSize: '11px', fontWeight: 800, color: 'var(--text-muted)', display: 'block', marginBottom: '10px', letterSpacing: '0.05em' }}>XU HƯỚNG DƯỢC TÍNH (TÍNH CHẤT):</span>
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                {Object.entries(analysis.properties).map(([prop, count]) => {
+                                  const percentage = Math.round((count / analysis.totalHered) * 100);
+                                  const getPropertyColor = (p) => {
+                                    const n = p.toLowerCase();
+                                    if (n.includes("hàn")) return "#3b82f6"; // Blue
+                                    if (n.includes("nhiệt")) return "#ef4444"; // Red
+                                    if (n.includes("ôn")) return "#f97316"; // Orange
+                                    if (n.includes("lương")) return "#06b6d4"; // Cyan
+                                    return "#10b981"; // Green for Bình
+                                  };
+                                  return (
+                                    <div key={prop} style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', fontWeight: 700 }}>
+                                        <span>Tính {prop}</span>
+                                        <span style={{ color: 'var(--text-muted)' }}>{count} vị ({percentage}%)</span>
+                                      </div>
+                                      <div style={{ width: '100%', height: '6px', background: 'rgba(0,0,0,0.05)', borderRadius: '99px', overflow: 'hidden' }}>
+                                        <div style={{ width: `${percentage}%`, height: '100%', background: getPropertyColor(prop), borderRadius: '99px' }} />
+                                      </div>
+                                    </div>
+                                  );
+                                })}
                               </div>
                             </div>
 
-                            {/* Phân tích Quy Kinh */}
+                            {/* Phân tích Quy Kinh (Progress Bar Chart) */}
                             <div>
-                              <span style={{ fontSize: '11px', fontWeight: 800, color: 'var(--text-muted)', display: 'block', marginBottom: '6px' }}>KINH MẠCH TÁC ĐỘNG (Bấm để xem kinh lạc):</span>
-                              <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
+                              <span style={{ fontSize: '11px', fontWeight: 800, color: 'var(--text-muted)', display: 'block', marginBottom: '10px', letterSpacing: '0.05em' }}>TÁC ĐỘNG KINH MẠCH (Bấm để xem kinh lạc):</span>
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                                 {Object.entries(analysis.meridians)
-                                  .sort((a, b) => b[1] - a[1]) // Sort by count descending
+                                  .sort((a, b) => b[1] - a[1]) // Sort descending
+                                  .slice(0, 5) // Display top 5 target meridians to avoid cluttering
                                   .map(([mName, count]) => {
+                                    const totalHits = Object.values(analysis.meridians).reduce((sum, val) => sum + val, 0);
+                                    const percentage = Math.round((count / totalHits) * 100);
+                                    
                                     const getMeridianId = (n) => {
                                       const normalized = n.toLowerCase();
                                       if (normalized.includes("tâm bào")) return "pc";
@@ -332,33 +353,50 @@ function PrescriptionLibrary({ herbs = [], onSelectHerb, onNavigateToMeridian })
                                       return null;
                                     };
                                     const mId = getMeridianId(mName);
-                                    if (mId && onNavigateToMeridian) {
-                                      return (
-                                        <button
-                                          key={mName}
-                                          className="meridian-link-btn"
-                                          onClick={() => onNavigateToMeridian(mId)}
-                                          type="button"
-                                          style={{
-                                            background: 'rgba(107, 68, 35, 0.08)',
-                                            border: 'none',
-                                            borderRadius: '6px',
-                                            padding: '2px 6px',
-                                            fontSize: '11px',
-                                            fontWeight: '700',
-                                            color: 'var(--primary-color)',
-                                            cursor: 'pointer',
-                                            transition: 'var(--transition)'
-                                          }}
-                                        >
-                                          {mName} ({count})
-                                        </button>
-                                      );
-                                    }
+                                    
+                                    const getMeridianColor = (id) => {
+                                      const colorMap = {
+                                        lu: "#9ca3af", li: "#4b5563",
+                                        st: "#d97706", sp: "#f59e0b",
+                                        ht: "#ef4444", si: "#dc2626",
+                                        bl: "#3b82f6", ki: "#2563eb",
+                                        pc: "#b91c1c", te: "#991b1b",
+                                        gb: "#10b981", lr: "#059669",
+                                        cv: "#8b5cf6", gv: "#7c3aed"
+                                      };
+                                      return colorMap[id] || "var(--primary-color)";
+                                    };
+
                                     return (
-                                      <span key={mName} style={{ fontSize: '11px', padding: '2px 6px', background: '#f3f4f6', borderRadius: '6px' }}>
-                                        {mName} ({count})
-                                      </span>
+                                      <div key={mName} style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', fontWeight: 700 }}>
+                                          {mId && onNavigateToMeridian ? (
+                                            <button
+                                              onClick={() => onNavigateToMeridian(mId)}
+                                              type="button"
+                                              style={{
+                                                background: 'transparent',
+                                                border: 'none',
+                                                padding: 0,
+                                                color: 'var(--primary-color)',
+                                                fontWeight: 800,
+                                                cursor: 'pointer',
+                                                fontSize: '12px',
+                                                textDecoration: 'underline',
+                                                textAlign: 'left'
+                                              }}
+                                            >
+                                              Kinh {mName}
+                                            </button>
+                                          ) : (
+                                            <span>Kinh {mName}</span>
+                                          )}
+                                          <span style={{ color: 'var(--text-muted)' }}>{count} vị ({percentage}%)</span>
+                                        </div>
+                                        <div style={{ width: '100%', height: '6px', background: 'rgba(0,0,0,0.05)', borderRadius: '99px', overflow: 'hidden' }}>
+                                          <div style={{ width: `${percentage}%`, height: '100%', background: getMeridianColor(mId), borderRadius: '99px' }} />
+                                        </div>
+                                      </div>
                                     );
                                   })}
                               </div>
