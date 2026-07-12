@@ -7,6 +7,7 @@ import PrescriptionLibrary from './components/PrescriptionLibrary';
 import BookLibrary from './components/BookLibrary';
 import AdminDashboard from './components/AdminDashboard';
 import MeridianLibrary from './components/MeridianLibrary';
+import SymptomQuiz from "./components/SymptomQuiz";
 import { getUseCaseShortLabel, useCaseOptions } from './data/taxonomy';
 
 function App() {
@@ -224,6 +225,16 @@ function App() {
             onSelectHerb={handleSelectHerb}
           />
         );
+      case 'quiz':
+        if (isHerbDataLoading) return renderDataLoading();
+        return (
+          <SymptomQuiz
+            herbs={herbs}
+            onSelectHerb={handleSelectHerb}
+            onNavigateToMeridian={openMeridianLibrary}
+            onNavigateToPrescription={() => setCurrentPage('prescription')}
+          />
+        );
       case 'admin':
         if (isHerbDataLoading) return renderDataLoading();
         return <AdminDashboard herbs={herbs} />;
@@ -318,6 +329,18 @@ function App() {
               }}
             >
               Kinh Lạc
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className={`nav-link ${currentPage === 'quiz' ? 'active' : ''}`}
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentPage('quiz');
+              }}
+            >
+              Tự chẩn đoán
             </a>
           </li>
         </ul>
