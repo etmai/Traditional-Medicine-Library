@@ -1,9 +1,9 @@
-﻿import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { getPrescriptionsForHerb } from '../data/prescriptions';
 import { getUseCaseShortLabel, safetyMeta } from '../data/taxonomy';
 import { SearchEngine } from '../utils/searchEngine';
 
-function HerbDetail({ herb, onBack, onNavigateToBook }) {
+function HerbDetail({ herb, onBack, onNavigateToBook, onNavigateToMeridian }) {
   const [activeTab, setActiveTab] = useState('overview');
   const relatedPrescriptions = useMemo(() => (herb ? getPrescriptionsForHerb(herb.name_vn) : []), [herb]);
   const mentionedChapters = useMemo(() => (herb ? SearchEngine.findMentionedChapters(herb.name_vn) : []), [herb]);
@@ -62,7 +62,58 @@ function HerbDetail({ herb, onBack, onNavigateToBook }) {
             </div>
             <div>
               <strong>Quy kinh</strong>
-              <span>{herb.meridians}</span>
+              <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap', marginTop: '4px' }}>
+                {herb.meridians ? (
+                  herb.meridians.split(',').map((name, i) => {
+                    const cleanName = name.trim();
+                    const getMeridianId = (n) => {
+                      const normalized = n.toLowerCase();
+                      if (normalized.includes("tâm bào")) return "pc";
+                      if (normalized.includes("phế")) return "lu";
+                      if (normalized.includes("đại trường") || normalized.includes("đại tràng")) return "li";
+                      if (normalized.includes("vị") || normalized.includes("dạ dày")) return "st";
+                      if (normalized.includes("tỳ") || normalized.includes("lá lách")) return "sp";
+                      if (normalized.includes("tâm")) return "ht";
+                      if (normalized.includes("tiểu trường") || normalized.includes("tiểu tràng")) return "si";
+                      if (normalized.includes("bàng quang")) return "bl";
+                      if (normalized.includes("thận")) return "ki";
+                      if (normalized.includes("tam tiêu")) return "te";
+                      if (normalized.includes("đởm") || normalized.includes("mật")) return "gb";
+                      if (normalized.includes("can") || normalized.includes("gan")) return "lr";
+                      if (normalized.includes("nhâm")) return "cv";
+                      if (normalized.includes("đốc")) return "gv";
+                      return null;
+                    };
+                    const mId = getMeridianId(cleanName);
+                    if (mId && onNavigateToMeridian) {
+                      return (
+                        <button
+                          key={i}
+                          className="meridian-link-btn"
+                          onClick={() => onNavigateToMeridian(mId)}
+                          type="button"
+                          style={{
+                            background: 'rgba(107, 68, 35, 0.08)',
+                            border: 'none',
+                            borderRadius: '6px',
+                            padding: '3px 8px',
+                            color: 'var(--primary-color)',
+                            fontWeight: '700',
+                            cursor: 'pointer',
+                            fontSize: '12px',
+                            transition: 'var(--transition)'
+                          }}
+                        >
+                          {cleanName}
+                        </button>
+                      );
+                    }
+                    return <span key={i} className="prop-tag">{cleanName}</span>;
+                  })
+                ) : (
+                  <span>Chưa xác định</span>
+                )}
+              </div>
             </div>
             <div>
               <strong>Nhu cầu</strong>

@@ -1,0 +1,538 @@
+/* Meridian Library Component Layout & Styling */
+
+.meridian-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+/* Sidebar Styling */
+.meridian-sidebar {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 100px;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
+.sidebar-title {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 10px;
+}
+
+.meridian-nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.group-label {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  margin-top: 5px;
+}
+
+.meridian-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.meridian-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  text-align: left;
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--text-main);
+}
+
+.meridian-btn:hover {
+  background: var(--bg-color-alt);
+  border-color: var(--border-color);
+  transform: translateX(3px);
+}
+
+.meridian-btn.active {
+  background: var(--bg-color-alt);
+  border-color: var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.meridian-abbr-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 12px;
+  margin-right: 12px;
+  flex-shrink: 0;
+  background: #f3f4f6;
+  border: 1.5px solid #d1d5db;
+}
+
+.meridian-btn-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+}
+
+.meridian-btn-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meridian-btn-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* Color Coding for Meridians based on Elements */
+
+/* Kim - Metal */
+.meridian-btn.el-metal.active .meridian-abbr-badge {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+  color: #374151;
+}
+.meridian-btn.el-metal.active {
+  border-left: 4px solid #9ca3af;
+}
+
+/* Mộc - Wood */
+.meridian-btn.el-wood.active .meridian-abbr-badge {
+  background: #ecfdf5;
+  border-color: #10b981;
+  color: #065f46;
+}
+.meridian-btn.el-wood.active {
+  border-left: 4px solid #10b981;
+}
+
+/* Thủy - Water */
+.meridian-btn.el-water.active .meridian-abbr-badge {
+  background: #eff6ff;
+  border-color: #3b82f6;
+  color: #1e40af;
+}
+.meridian-btn.el-water.active {
+  border-left: 4px solid #3b82f6;
+}
+
+/* Hỏa - Fire */
+.meridian-btn.el-fire.active .meridian-abbr-badge {
+  background: #fef2f2;
+  border-color: #ef4444;
+  color: #991b1b;
+}
+.meridian-btn.el-fire.active {
+  border-left: 4px solid #ef4444;
+}
+
+/* Thổ - Earth */
+.meridian-btn.el-earth.active .meridian-abbr-badge {
+  background: #fffbeb;
+  border-color: #f59e0b;
+  color: #92400e;
+}
+.meridian-btn.el-earth.active {
+  border-left: 4px solid #f59e0b;
+}
+
+/* Extra - Extraordinary (Ren/Du) */
+.meridian-btn.el-extra.active .meridian-abbr-badge {
+  background: #faf5ff;
+  border-color: #8b5cf6;
+  color: #5b21b6;
+}
+.meridian-btn.el-extra.active {
+  border-left: 4px solid #8b5cf6;
+}
+
+
+/* Right Panel Content Styling */
+.meridian-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Header Card */
+.meridian-header-card {
+  padding: 30px;
+  border-radius: var(--radius-lg);
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.meridian-header-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+}
+
+.meridian-header-card.el-metal::before { background: #9ca3af; }
+.meridian-header-card.el-wood::before { background: #10b981; }
+.meridian-header-card.el-water::before { background: #3b82f6; }
+.meridian-header-card.el-fire::before { background: #ef4444; }
+.meridian-header-card.el-earth::before { background: #f59e0b; }
+.meridian-header-card.el-extra::before { background: #8b5cf6; }
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.meridian-abbr-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  font-weight: 900;
+  font-size: 22px;
+  background: var(--bg-color-alt);
+  border: 2px solid var(--border-color);
+  color: var(--primary-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.header-title-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.zh-name {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+}
+
+.vn-name {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-top: 2px;
+}
+
+.meridian-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-label {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.stat-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+/* Detail Section Cards */
+.details-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-title-underlined {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  position: relative;
+  padding-bottom: 6px;
+}
+
+.section-title-underlined::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2.5px;
+  background: var(--primary-color);
+  border-radius: 99px;
+}
+
+.pathway-text,
+.indications-text {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-main);
+}
+
+/* Acupoints Accordions */
+.acupoints-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-title-main {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+}
+
+.acupoint-accordion-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.acupoint-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.acupoint-card:hover {
+  border-color: var(--accent-color);
+}
+
+.acupoint-toggle-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: transparent;
+  border: 0;
+  text-align: left;
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--text-main);
+}
+
+.acupoint-toggle-header:hover {
+  background: var(--bg-color-alt);
+}
+
+.acupoint-header-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.acupoint-code {
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 2px 8px;
+  background: rgba(var(--primary-color-rgb, 107, 68, 35), 0.1);
+  color: var(--primary-color);
+  border-radius: 6px;
+}
+
+.acupoint-name {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+.acupoint-zh {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.toggle-indicator {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.acupoint-detail-body {
+  padding: 20px;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-color-alt);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.acupoint-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.acupoint-field strong {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--secondary-color);
+}
+
+.acupoint-field p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.empty-acupoints {
+  padding: 30px;
+  text-align: center;
+  background: var(--card-bg);
+  border: 1px dashed var(--border-color);
+  border-radius: 12px;
+  color: var(--text-muted);
+}
+
+/* Related Herbs Section */
+.related-herbs-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.related-herbs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.related-herb-chip {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: left;
+  color: var(--text-main);
+}
+
+.related-herb-chip:hover {
+  border-color: var(--accent-color);
+  background: var(--bg-color-alt);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.herb-chip-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-color: #f3f4f6;
+  margin-right: 12px;
+  flex-shrink: 0;
+  border: 1px solid var(--border-color);
+}
+
+.herb-chip-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+}
+
+.herb-chip-name {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--secondary-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.herb-chip-taste {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.empty-state-herbs {
+  padding: 30px;
+  text-align: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  color: var(--text-muted);
+}
+
+/* Responsiveness */
+@media (max-width: 900px) {
+  .meridian-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .meridian-sidebar {
+    position: static;
+    max-height: 250px;
+  }
+}

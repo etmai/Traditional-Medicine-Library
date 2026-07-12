@@ -6,6 +6,7 @@ import CombinationSystem from './components/CombinationSystem';
 import PrescriptionLibrary from './components/PrescriptionLibrary';
 import BookLibrary from './components/BookLibrary';
 import AdminDashboard from './components/AdminDashboard';
+import MeridianLibrary from './components/MeridianLibrary';
 import { getUseCaseShortLabel, useCaseOptions } from './data/taxonomy';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   const [selectedHerb, setSelectedHerb] = useState(null);
   const [selectedUseCase, setSelectedUseCase] = useState('all');
   const [targetChapter, setTargetChapter] = useState(null);
+  const [targetMeridian, setTargetMeridian] = useState(null);
   const [herbs, setHerbs] = useState([]);
   const [isHerbDataLoading, setIsHerbDataLoading] = useState(true);
 
@@ -86,6 +88,12 @@ function App() {
   const navigateToBook = (chapterId) => {
     setTargetChapter(chapterId);
     setCurrentPage('book');
+  };
+
+  const openMeridianLibrary = (meridianId = 'lu') => {
+    setTargetMeridian(meridianId);
+    setCurrentPage('meridians');
+    window.scrollTo(0, 0);
   };
 
   const renderHome = () => (
@@ -185,7 +193,14 @@ function App() {
           />
         );
       case 'detail':
-        return <HerbDetail herb={selectedHerb} onBack={() => openHerbLibrary(selectedUseCase)} onNavigateToBook={navigateToBook} />;
+        return (
+          <HerbDetail
+            herb={selectedHerb}
+            onBack={() => openHerbLibrary(selectedUseCase)}
+            onNavigateToBook={navigateToBook}
+            onNavigateToMeridian={openMeridianLibrary}
+          />
+        );
       case 'combination':
         if (isHerbDataLoading) return renderDataLoading();
         return <CombinationSystem herbs={herbs} />;
@@ -194,6 +209,15 @@ function App() {
         return <PrescriptionLibrary herbs={herbs} onSelectHerb={handleSelectHerb} />;
       case 'book':
         return <BookLibrary initialChapter={targetChapter} />;
+      case 'meridians':
+        if (isHerbDataLoading) return renderDataLoading();
+        return (
+          <MeridianLibrary
+            initialMeridianId={targetMeridian}
+            herbs={herbs}
+            onSelectHerb={handleSelectHerb}
+          />
+        );
       case 'admin':
         if (isHerbDataLoading) return renderDataLoading();
         return <AdminDashboard herbs={herbs} />;
@@ -276,6 +300,18 @@ function App() {
               }}
             >
               Thư Viện Kiến Thức
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className={`nav-link ${currentPage === 'meridians' ? 'active' : ''}`}
+              onClick={(e) => {
+                e.preventDefault();
+                openMeridianLibrary('lu');
+              }}
+            >
+              Kinh Lạc
             </a>
           </li>
         </ul>
